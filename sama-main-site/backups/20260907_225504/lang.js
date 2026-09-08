@@ -1,0 +1,80 @@
+(() => {
+  'use strict';
+  const I18N = {
+    tr: {
+      nav_home:'Ana Sayfa',nav_services:'Hizmetler',nav_network:'Operasyon Ağı',nav_about:'Hakkımızda',nav_contact:'İletişim',nav_track:'SAMA TRACK',
+      hero_eyebrow:'GÜVENİLİR LOJİSTİK ÇÖZÜMLERİ',hero_title:'Yükünüzü sınırlar boyunca güvenle taşıyoruz.',hero_text:'Karayolu taşımacılığından liman operasyonlarına, SAMA Transportations yükünüzü planlı, şeffaf ve takip edilebilir bir operasyonla hedefe ulaştırır.',hero_contact:'Bizimle İletişime Geçin',hero_track:"SAMA TRACK'E GİR",
+      trust_1_title:'Planlı',trust_1_text:'Operasyon yönetimi',trust_2_title:'Şeffaf',trust_2_text:'Sevkiyat takibi',trust_3_title:'Güvenilir',trust_3_text:'Saha koordinasyonu',
+      visual_live:'CANLI OPERASYON AĞI',visual_active:'AKTİF',visual_port:'Liman',visual_hub:'Operasyon Merkezi',visual_destination:'Teslimat',visual_transport:'YOLDA',visual_system:'Dijital takip',visual_scope:'Operasyon',visual_scope_value:'IRAK · KÖRFEZ',
+      gulf_kicker:'BÖLGESEL BAĞLANTI',gulf_title:'Körfez ağı',saudi:'Suudi Arabistan',uae:'BAE',qatar:'Katar',kuwait:'Kuveyt',bahrain:'Bahreyn',oman:'Umman',
+      services_kicker:'HİZMETLERİMİZ',services_title:'Lojistiğin her adımında güçlü operasyon.',services_intro:'Sahadaki taşıma operasyonunu dijital takip, koordinasyon ve planlama ile tek bir yapıda birleştiriyoruz.',
+      service1_title:'Karayolu Taşımacılığı',service1_text:'Planlı sevkiyat, saha koordinasyonu ve güvenilir teslimat süreçleri.',service2_title:'Liman & Yük Operasyonları',service2_text:'Liman çıkışından teslimat noktasına kadar operasyonun uçtan uca yönetimi.',service3_title:'Sevkiyat Takibi',service3_text:'SAMA TRACK ile operasyon kayıtlarını ve sevkiyat sürecini tek merkezden takip edin.',service4_title:'Operasyon Desteği',service4_text:'Sürücü, araç, rota ve saha süreçlerini düzenli ve ölçülebilir şekilde yönetin.',
+      network_kicker:'OPERASYON AĞI',network_title:'Limanlardan iç bölgelere, tek operasyon disiplini.',network_text:'Taşımanın her aşamasını rota, araç ve sürücü koordinasyonuyla izliyor; operasyon bilgisini sahadan dijital sisteme taşıyoruz.',network_track:'SAMA TRACK sistemine geç',network_1:'Liman / yükleme noktası',network_2:'Araç ve sürücü ataması',network_3:'Rota ve sevkiyat takibi',network_4:'Teslimat ve operasyon kaydı',
+      about_kicker:'SAMA TRANSPORTATIONS',about_title:'Güven, hız ve şeffaflık üzerine kurulu lojistik.',about_text:'Modern lojistik yaklaşımımız, saha deneyimimiz ve dijital operasyon altyapımızla müşterilerimize düzenli, takip edilebilir ve sürdürülebilir taşıma hizmetleri sunuyoruz.',about_point_1:'Operasyon odaklı planlama',about_point_2:'Şeffaf sevkiyat takibi',about_point_3:'Saha ile merkez arasında koordinasyon',
+      track_kicker:'SAMA TRACK',track_title:'Operasyonunuzu canlı sistemden takip edin.',track_text:'Yetkili kullanıcılar sevkiyat, araç ve operasyon kayıtlarına güvenli SAMA TRACK panelinden erişebilir.',track_button:"SAMA TRACK'E GİT",
+      contact_kicker:'İLETİŞİM',contact_title:'Bir sonraki taşımanızı birlikte planlayalım.',contact_text:'Taşımacılık ve lojistik ihtiyaçlarınız için SAMA Transportations ekibiyle iletişime geçin.',contact_button:'E-posta Gönder',contact_note:'Kurumsal iletişim bilgileri bu alanda güncellenebilir.',footer_text:'© 2026 SAMA Transportations. Tüm hakları saklıdır.'
+    },
+    en: {
+      nav_home:'Home',nav_services:'Services',nav_network:'Operations Network',nav_about:'About Us',nav_contact:'Contact',nav_track:'SAMA TRACK',
+      hero_eyebrow:'RELIABLE LOGISTICS SOLUTIONS',hero_title:'We move your cargo safely across borders.',hero_text:'From road transportation to port operations, SAMA Transportations moves your cargo through a planned, transparent and traceable operation.',hero_contact:'Contact Our Team',hero_track:'ENTER SAMA TRACK',
+      trust_1_title:'Planned',trust_1_text:'Operations management',trust_2_title:'Transparent',trust_2_text:'Shipment visibility',trust_3_title:'Reliable',trust_3_text:'Field coordination',
+      visual_live:'LIVE OPERATIONS NETWORK',visual_active:'ACTIVE',visual_port:'Port',visual_hub:'Operations Hub',visual_destination:'Delivery',visual_transport:'IN TRANSIT',visual_system:'Digital tracking',visual_scope:'Operations',visual_scope_value:'IRAQ · GULF',
+      gulf_kicker:'REGIONAL CONNECTION',gulf_title:'Gulf network',saudi:'Saudi Arabia',uae:'UAE',qatar:'Qatar',kuwait:'Kuwait',bahrain:'Bahrain',oman:'Oman',
+      services_kicker:'OUR SERVICES',services_title:'Strong operations at every step of logistics.',services_intro:'We combine field transportation with digital tracking, coordination and planning in one operational structure.',
+      service1_title:'Road Transportation',service1_text:'Planned shipments, field coordination and reliable delivery processes.',service2_title:'Port & Cargo Operations',service2_text:'End-to-end operational management from port exit to the delivery point.',service3_title:'Shipment Tracking',service3_text:'Monitor operational records and shipment progress from one center with SAMA TRACK.',service4_title:'Operations Support',service4_text:'Manage driver, vehicle, route and field processes in an organized and measurable way.',
+      network_kicker:'OPERATIONS NETWORK',network_title:'From ports to inland destinations, one operational discipline.',network_text:'We monitor each transportation stage through route, vehicle and driver coordination, moving field information into our digital system.',network_track:'Open SAMA TRACK',network_1:'Port / loading point',network_2:'Vehicle and driver assignment',network_3:'Route and shipment tracking',network_4:'Delivery and operation record',
+      about_kicker:'SAMA TRANSPORTATIONS',about_title:'Logistics built on trust, speed and transparency.',about_text:'With a modern logistics approach, field experience and digital operations infrastructure, we provide organized, traceable and sustainable transportation services.',about_point_1:'Operations-focused planning',about_point_2:'Transparent shipment tracking',about_point_3:'Coordination between field and headquarters',
+      track_kicker:'SAMA TRACK',track_title:'Follow your operation through the live system.',track_text:'Authorized users can securely access shipment, vehicle and operations records through the SAMA TRACK panel.',track_button:'OPEN SAMA TRACK',
+      contact_kicker:'CONTACT',contact_title:'Let us plan your next shipment together.',contact_text:'Contact the SAMA Transportations team for transportation and logistics requirements.',contact_button:'Send Email',contact_note:'Corporate contact details can be updated in this area.',footer_text:'© 2026 SAMA Transportations. All rights reserved.'
+    },
+    ar: {
+      nav_home:'الرئيسية',nav_services:'الخدمات',nav_network:'شبكة العمليات',nav_about:'من نحن',nav_contact:'اتصل بنا',nav_track:'SAMA TRACK',
+      hero_eyebrow:'حلول لوجستية موثوقة',hero_title:'ننقل شحناتكم بأمان عبر الحدود.',hero_text:'من النقل البري إلى عمليات الموانئ، تنقل SAMA Transportations شحناتكم من خلال عمليات منظمة وشفافة وقابلة للتتبع.',hero_contact:'تواصل معنا',hero_track:'الدخول إلى SAMA TRACK',
+      trust_1_title:'منظم',trust_1_text:'إدارة العمليات',trust_2_title:'شفاف',trust_2_text:'متابعة الشحنات',trust_3_title:'موثوق',trust_3_text:'تنسيق ميداني',
+      visual_live:'شبكة عمليات مباشرة',visual_active:'نشط',visual_port:'الميناء',visual_hub:'مركز العمليات',visual_destination:'التسليم',visual_transport:'في الطريق',visual_system:'تتبع رقمي',visual_scope:'العمليات',visual_scope_value:'العراق · الخليج',
+      gulf_kicker:'ترابط إقليمي',gulf_title:'شبكة الخليج',saudi:'السعودية',uae:'الإمارات',qatar:'قطر',kuwait:'الكويت',bahrain:'البحرين',oman:'عُمان',
+      services_kicker:'خدماتنا',services_title:'عمليات قوية في كل مرحلة من مراحل الخدمات اللوجستية.',services_intro:'نربط عمليات النقل الميدانية بالتتبع الرقمي والتنسيق والتخطيط ضمن منظومة تشغيلية واحدة.',
+      service1_title:'النقل البري',service1_text:'شحنات مخططة وتنسيق ميداني وعمليات تسليم موثوقة.',service2_title:'عمليات الموانئ والشحن',service2_text:'إدارة تشغيلية متكاملة من بوابة الميناء حتى نقطة التسليم.',service3_title:'تتبع الشحنات',service3_text:'تابع سجلات العمليات وحركة الشحنات من مركز واحد عبر SAMA TRACK.',service4_title:'دعم العمليات',service4_text:'إدارة السائقين والمركبات والمسارات والعمليات الميدانية بصورة منظمة وقابلة للقياس.',
+      network_kicker:'شبكة العمليات',network_title:'من الموانئ إلى المناطق الداخلية بمنهج تشغيلي واحد.',network_text:'نتابع كل مرحلة من مراحل النقل عبر تنسيق المسار والمركبة والسائق، وننقل بيانات الميدان إلى النظام الرقمي.',network_track:'فتح نظام SAMA TRACK',network_1:'الميناء / نقطة التحميل',network_2:'تعيين المركبة والسائق',network_3:'متابعة المسار والشحنة',network_4:'التسليم وتسجيل العملية',
+      about_kicker:'SAMA TRANSPORTATIONS',about_title:'خدمات لوجستية مبنية على الثقة والسرعة والشفافية.',about_text:'من خلال منهج لوجستي حديث وخبرة ميدانية وبنية تشغيل رقمية، نقدم خدمات نقل منظمة وقابلة للتتبع ومستدامة.',about_point_1:'تخطيط يركز على العمليات',about_point_2:'متابعة شفافة للشحنات',about_point_3:'تنسيق بين الميدان ومركز العمليات',
+      track_kicker:'SAMA TRACK',track_title:'تابع عملياتك من خلال النظام المباشر.',track_text:'يمكن للمستخدمين المخولين الوصول بأمان إلى سجلات الشحنات والمركبات والعمليات عبر لوحة SAMA TRACK.',track_button:'الذهاب إلى SAMA TRACK',
+      contact_kicker:'اتصل بنا',contact_title:'لنخطط شحنتك القادمة معاً.',contact_text:'تواصل مع فريق SAMA Transportations لتلبية احتياجات النقل والخدمات اللوجستية.',contact_button:'إرسال بريد إلكتروني',contact_note:'يمكن تحديث معلومات الاتصال الرسمية في هذا القسم.',footer_text:'© 2026 SAMA Transportations. جميع الحقوق محفوظة.'
+    }
+  };
+
+  const buttons = [...document.querySelectorAll('[data-lang]')];
+  const menuToggle = document.getElementById('menuToggle');
+  const header = document.querySelector('.site-header');
+  const mainNav = document.getElementById('mainNav');
+
+  function applyLanguage(lang){
+    const chosen = I18N[lang] ? lang : 'en';
+    const d = I18N[chosen];
+    document.documentElement.lang = chosen;
+    document.documentElement.dir = chosen === 'ar' ? 'rtl' : 'ltr';
+    document.body.setAttribute('dir', chosen === 'ar' ? 'rtl' : 'ltr');
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+      const key = el.dataset.i18n;
+      if(Object.prototype.hasOwnProperty.call(d,key)) el.textContent = d[key];
+    });
+    buttons.forEach(btn => btn.classList.toggle('active', btn.dataset.lang === chosen));
+    localStorage.setItem('sama_main_lang', chosen);
+  }
+
+  buttons.forEach(btn => btn.addEventListener('click', () => applyLanguage(btn.dataset.lang)));
+  if(menuToggle && header){
+    menuToggle.addEventListener('click', () => {
+      const open = header.classList.toggle('menu-open');
+      menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  }
+  if(mainNav && header && menuToggle){
+    mainNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      header.classList.remove('menu-open');
+      menuToggle.setAttribute('aria-expanded','false');
+    }));
+  }
+  const browserLang = (navigator.language || 'tr').slice(0,2).toLowerCase();
+  const saved = localStorage.getItem('sama_main_lang');
+  applyLanguage(saved || (I18N[browserLang] ? browserLang : 'en'));
+})();

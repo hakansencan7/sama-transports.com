@@ -1,0 +1,7 @@
+Options +ExecCGI
+AddHandler cgi-script .cgi
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteRule ^cgi-bin/ - [L]
+RewriteRule ^(.*)$ cgi-bin/sama_test.cgi/$1 [L,QSA]

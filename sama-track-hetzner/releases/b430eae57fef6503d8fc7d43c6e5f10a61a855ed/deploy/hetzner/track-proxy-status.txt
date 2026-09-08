@@ -1,0 +1,8 @@
+setup_commit=f13ad6eb234dec6667d2272776bfe1295098f0ea
+setup_run=34042947927
+backend_expected=http://127.0.0.1:18080
+public_host=track.sama-transports.com
+public_root_http_code=200
+public_health_http_code=200
+public_root_body_prefix= <!DOCTYPE html> <html lang="tr"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width
+security_headers=enabled

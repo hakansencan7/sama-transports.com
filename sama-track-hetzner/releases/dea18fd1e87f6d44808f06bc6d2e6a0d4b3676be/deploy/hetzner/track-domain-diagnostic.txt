@@ -1,0 +1,229 @@
+=== static_route_audit ===
+route_count=204
+flagged_count=17
+AUTHZ_REVIEW | POST | /api/export-import-errors | app.py | export_import_errors | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/bulk-fix | app.py | bulk_fix | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/compare-excel-db | app.py | compare_excel_db | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/repair-remain-from-excel | app.py | repair_remain_from_excel | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/repair-freight-from-excel | app.py | repair_freight_from_excel | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/check-entry-dates-from-excel | app.py | check_entry_dates_from_excel | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/repair-entry-dates-from-excel | app.py | repair_entry_dates_from_excel | local_guard=no | main_map=no
+AUTHZ_REVIEW | DELETE | /api/fuel/{id} | app.py | fuel_delete | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/driver/my-trips | app.py | driver_create_trip | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/driver/my-trips/{scna}/fuel | app.py | driver_add_fuel | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/advances/driver-create | app.py | advances_driver_create | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/driver-bulk/preview | driver_bulk.py | driver_bulk_preview | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/driver-bulk/apply | driver_bulk.py | driver_bulk_apply | local_guard=no | main_map=no
+PUBLIC_WRITE_REVIEW | POST | /driver-status/{token}/submit | driver_qr_status_patch.py | driver_status_submit | local_guard=no | main_map=no
+AUTHZ_REVIEW | DELETE | /api/fleet/vehicle-delete/{plate} | fleet_delete_patch.py | fleet_vehicle_delete | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/kolaybi/accounting-audit/check | kolaybi_bulk_accounting_audit_patch.py | kb_accounting_audit_check | local_guard=no | main_map=no
+AUTHZ_REVIEW | POST | /api/entry-expense-labels/{scna} | layout_patch.py | save_entry_expense_label | local_guard=no | main_map=no
+=== all_mutating_api_routes ===
+POST | /api/import-excel | app.py | import_excel | local_guard=no | main_map=yes
+POST | /api/auth/setup | app.py | auth_setup | local_guard=yes | main_map=yes
+POST | /api/auth/login | app.py | auth_login | local_guard=yes | main_map=yes
+POST | /api/auth/logout | app.py | auth_logout | local_guard=no | main_map=yes
+POST | /api/auth/change-password | app.py | auth_change_password | local_guard=yes | main_map=yes
+POST | /api/auth/users | app.py | auth_create_user | local_guard=yes | main_map=yes
+PATCH | /api/auth/users/{user_id} | app.py | auth_update_user | local_guard=yes | main_map=yes
+POST | /api/auth/users/{user_id}/reset-password | app.py | auth_reset_password | local_guard=yes | main_map=yes
+PUT | /api/auth/users/{user_id}/permissions | app.py | auth_set_permissions | local_guard=yes | main_map=yes
+POST | /api/driver-session/select-vehicle | app.py | driver_select_vehicle | local_guard=yes | main_map=no
+POST | /api/resolve/customer | app.py | resolve_customer | local_guard=no | main_map=yes
+POST | /api/resolve/driver | app.py | resolve_driver | local_guard=no | main_map=yes
+POST | /api/route-standards | app.py | save_route_standard | local_guard=no | main_map=yes
+POST | /api/maintenance | app.py | maintenance_save | local_guard=no | main_map=yes
+POST | /api/trips/{scna}/validate | app.py | validate_trip | local_guard=no | main_map=yes
+PUT | /api/trips/{scna} | app.py | update_trip | local_guard=no | main_map=yes
+POST | /api/trips/{scna}/manual-lock | app.py | set_manual_lock | local_guard=no | main_map=yes
+POST | /api/trips/{scna}/manual-unlock | app.py | clear_manual_lock | local_guard=no | main_map=yes
+POST | /api/trips/{scna}/undo-entry | app.py | undo_entry | local_guard=no | main_map=yes
+POST | /api/trips/{scna}/undo-exit | app.py | undo_exit | local_guard=no | main_map=yes
+POST | /api/export-import-errors | app.py | export_import_errors | local_guard=no | main_map=no
+DELETE | /api/trips/{scna} | app.py | soft_delete_trip | local_guard=yes | main_map=yes
+POST | /api/trips/{scna}/restore | app.py | restore_deleted_trip | local_guard=yes | main_map=yes
+POST | /api/bulk-fix | app.py | bulk_fix | local_guard=no | main_map=no
+POST | /api/compare-excel-db | app.py | compare_excel_db | local_guard=no | main_map=no
+POST | /api/repair-remain-from-excel | app.py | repair_remain_from_excel | local_guard=no | main_map=no
+POST | /api/repair-freight-from-excel | app.py | repair_freight_from_excel | local_guard=no | main_map=no
+POST | /api/check-entry-dates-from-excel | app.py | check_entry_dates_from_excel | local_guard=no | main_map=no
+POST | /api/repair-entry-dates-from-excel | app.py | repair_entry_dates_from_excel | local_guard=no | main_map=no
+POST | /api/public-onedrive/preview | app.py | public_onedrive_preview | local_guard=no | main_map=yes
+POST | /api/public-onedrive/file | app.py | public_onedrive_file | local_guard=no | main_map=yes
+POST | /api/fleet/vehicles | app.py | save_fleet_vehicle | local_guard=no | main_map=yes
+PATCH | /api/fleet/vehicles/{plate}/active | app.py | set_fleet_vehicle_active | local_guard=no | main_map=yes
+POST | /api/fleet/drivers | app.py | save_fleet_driver | local_guard=no | main_map=yes
+PATCH | /api/fleet/drivers/{driver_id}/active | app.py | set_fleet_driver_active | local_guard=no | main_map=yes
+POST | /api/fleet-operations | app.py | save_fleet_operation | local_guard=no | main_map=yes
+POST | /api/vessel-operations | app.py | save_vessel_operation | local_guard=no | main_map=yes
+POST | /api/fleet/gps-state | app.py | set_fleet_gps_state | local_guard=yes | main_map=no
+POST | /api/fleet-operations/resequence | app.py | resequence_fleet_operations | local_guard=no | main_map=yes
+PATCH | /api/cash-control/expense/{expense_id} | app.py | edit_cash_control_expense | local_guard=yes | main_map=yes
+PATCH | /api/trips/{scna}/status | app.py | set_trip_status | local_guard=no | main_map=yes
+POST | /api/trips | app.py | create_trip | local_guard=no | main_map=yes
+PATCH | /api/trips/{scna}/exit | app.py | exit_trip | local_guard=no | main_map=yes
+PATCH | /api/trips/{scna}/entry | app.py | entry_trip | local_guard=no | main_map=yes
+POST | /api/trips/{scna}/fuel | app.py | fuel_add | local_guard=no | main_map=yes
+DELETE | /api/fuel/{id} | app.py | fuel_delete | local_guard=no | main_map=no
+POST | /api/driver/my-trips | app.py | driver_create_trip | local_guard=no | main_map=no
+POST | /api/driver/my-trips/{scna}/fuel | app.py | driver_add_fuel | local_guard=no | main_map=no
+POST | /api/maintenance-operations/start | app.py | maintenance_operations_start | local_guard=yes | main_map=yes
+POST | /api/maintenance-operations/{op_id}/update | app.py | maintenance_operations_update | local_guard=no | main_map=yes
+POST | /api/maintenance-operations/{op_id}/finish | app.py | maintenance_operations_finish | local_guard=yes | main_map=yes
+POST | /api/advances/driver-create | app.py | advances_driver_create | local_guard=no | main_map=no
+POST | /api/advances/person-account/settlement | app.py | advances_person_account_settlement | local_guard=yes | main_map=no
+POST | /api/advances/person-account/reconcile | app.py | advances_person_account_reconcile | local_guard=yes | main_map=no
+POST | /api/advances/person-account/offset | app.py | advances_person_account_offset | local_guard=yes | main_map=no
+POST | /api/advances | app.py | advances_create | local_guard=yes | main_map=no
+POST | /api/advances/{advance_id}/settlement | app.py | advances_settlement | local_guard=yes | main_map=no
+POST | /api/advances/{advance_id}/update | app.py | advances_update | local_guard=yes | main_map=no
+PATCH | /api/advances/{advance_id}/settlements/{settlement_id} | app.py | advances_settlement_update | local_guard=yes | main_map=no
+POST | /api/trips/{scna}/entry-cash | app.py | set_entry_cash | local_guard=no | main_map=yes
+POST | /api/trips/{scna}/exit-cash | app.py | set_trip_exit_cash | local_guard=no | main_map=yes
+POST | /api/cash-control/expense | app.py | cash_control_expense | local_guard=yes | main_map=no
+POST | /api/cash-control/count | app.py | cash_control_count | local_guard=yes | main_map=no
+DELETE | /api/trips/{scna}/purge | deleted_trip_purge_patch.py | purge_deleted_trip | local_guard=yes | main_map=yes
+POST | /api/driver-bulk/preview | driver_bulk.py | driver_bulk_preview | local_guard=no | main_map=no
+POST | /api/driver-bulk/apply | driver_bulk.py | driver_bulk_apply | local_guard=no | main_map=no
+POST | /api/driver-status/reports/{report_id}/review | driver_qr_status_patch.py | driver_status_review | local_guard=yes | main_map=no
+POST | /api/trips/{scna}/entry-fixed-expenses | entry_fixed_expenses_patch.py | save_entry_fixed_expense | local_guard=no | main_map=yes
+POST | /api/trips/{scna}/entry-other-expenses | entry_other_and_print_items_patch.py | save_entry_other_expense | local_guard=no | main_map=yes
+DELETE | /api/fleet/vehicle-delete/{plate} | fleet_delete_patch.py | fleet_vehicle_delete | local_guard=no | main_map=no
+DELETE | /api/fleet/vehicles/{plate}/hard-delete | fleet_delete_safe_patch.py | fleet_vehicle_hard_delete | local_guard=no | main_map=yes
+POST | /api/kolaybi/auto-map-products | kolaybi_auto_mapping_patch.py | kb_auto_map_products | local_guard=yes | main_map=no
+POST | /api/kolaybi/accounting-audit/refresh | kolaybi_bulk_accounting_audit_patch.py | kb_accounting_audit_refresh | local_guard=yes | main_map=no
+POST | /api/kolaybi/accounting-audit/check | kolaybi_bulk_accounting_audit_patch.py | kb_accounting_audit_check | local_guard=no | main_map=no
+POST | /api/kolaybi/settings | kolaybi_connection_settings_patch.py | kb_save_settings | local_guard=yes | main_map=no
+POST | /api/kolaybi/test-connection | kolaybi_connection_settings_patch.py | kb_test_connection | local_guard=yes | main_map=no
+POST | /api/kolaybi/accounting-audit/office-token | kolaybi_general_expense_scope_fix_patch.py | kb_office_token_save | local_guard=yes | main_map=no
+DELETE | /api/kolaybi/accounting-audit/office-token | kolaybi_general_expense_scope_fix_patch.py | kb_office_token_delete | local_guard=yes | main_map=no
+POST | /api/kolaybi/accounting-audit/office-token/test | kolaybi_general_expense_scope_fix_patch.py | kb_office_token_test | local_guard=yes | main_map=no
+POST | /api/kolaybi/transaction/{scna}/metadata/{kind} | kolaybi_invoice_metadata_serial_patch.py | kb_invoice_metadata_save | local_guard=yes | main_map=no
+POST | /api/kolaybi/serial-cache/refresh | kolaybi_invoice_metadata_serial_patch.py | kb_invoice_serial_refresh | local_guard=yes | main_map=no
+POST | /api/kolaybi/sale-contact/{scna}/select | kolaybi_sale_cari_workflow_patch.py | kb_sale_contact_select | local_guard=yes | main_map=no
+POST | /api/kolaybi/sale-contact/{scna}/create | kolaybi_sale_cari_workflow_patch.py | kb_sale_contact_create | local_guard=yes | main_map=no
+POST | /api/kolaybi/sale-contact/{scna}/address | kolaybi_sale_cari_workflow_patch.py | kb_sale_contact_address | local_guard=yes | main_map=no
+DELETE | /api/kolaybi/sale-contact/{scna} | kolaybi_sale_cari_workflow_patch.py | kb_sale_contact_clear | local_guard=yes | main_map=no
+POST | /api/kolaybi/sale-product/{scna}/select | kolaybi_sale_product_workflow_patch.py | kb_sale_product_select | local_guard=yes | main_map=no
+POST | /api/kolaybi/sale-product/{scna}/create | kolaybi_sale_product_workflow_patch.py | kb_sale_product_create | local_guard=yes | main_map=no
+POST | /api/kolaybi/send/{scna} | kolaybi_send_patch.py | kb_send | local_guard=yes | main_map=no
+POST | /api/kolaybi/serial-cache/manual-refresh | kolaybi_serial_manual_cache_patch.py | kb_serial_cache_manual_refresh | local_guard=yes | main_map=no
+POST | /api/kolaybi/sync/{kind} | kolaybi_sync_patch.py | kb_sync | local_guard=yes | main_map=no
+POST | /api/kolaybi/sync-all | kolaybi_sync_patch.py | kb_sync_all | local_guard=yes | main_map=no
+POST | /api/kolaybi/master/tag/{tag_id}/default | kolaybi_sync_patch.py | kb_tag_default | local_guard=yes | main_map=no
+POST | /api/kolaybi/master/product | kolaybi_web_module_patch.py | kolaybi_master_product | local_guard=yes | main_map=no
+POST | /api/kolaybi/master/associate | kolaybi_web_module_patch.py | kolaybi_master_associate | local_guard=yes | main_map=no
+POST | /api/kolaybi/master/project | kolaybi_web_module_patch.py | kolaybi_master_project | local_guard=yes | main_map=no
+DELETE | /api/kolaybi/master/{kind}/{key} | kolaybi_web_module_patch.py | kolaybi_master_delete | local_guard=yes | main_map=no
+POST | /api/kolaybi/sale-alias | kolaybi_workflow_v2_patch.py | kb_sale_alias_save | local_guard=yes | main_map=no
+DELETE | /api/kolaybi/sale-alias/{alias} | kolaybi_workflow_v2_patch.py | kb_sale_alias_delete | local_guard=yes | main_map=no
+POST | /api/kolaybi/transaction/{scna}/purchase/send | kolaybi_workflow_v2_patch.py | kb_purchase_send_v2 | local_guard=yes | main_map=no
+POST | /api/kolaybi/transaction/{scna}/sale/send | kolaybi_workflow_v2_patch.py | kb_sale_send_v2 | local_guard=yes | main_map=no
+POST | /api/entry-expense-labels/{scna} | layout_patch.py | save_entry_expense_label | local_guard=no | main_map=no
+POST | /api/maintenance-operations/start | maintenance_ops.py | maintenance_start | local_guard=yes | main_map=yes
+POST | /api/maintenance-operations/{event_id}/finish | maintenance_ops.py | maintenance_finish | local_guard=yes | main_map=yes
+POST | /api/trips/{old_scna}/rename-scna | shipment_scna_rename_patch.py | rename_trip_scna | local_guard=no | main_map=yes
+=== runtime ===
+pid_present=yes
+ 6938       25:33 /usr/home/dka25y/sama-track-hetzner/venv/bin/python -m uvicorn security_runtime:app --app-dir /usr/home/dka25y/sama-track-hetzner/current --host 127.0.0.1 --port 18080
+listener_18080:
+LISTEN 0      2048                 127.0.0.1:18080      0.0.0.0:*   
+=== storage ===
+reset_marker=yes
+db_exists=yes
+db_mode=600 db_size=831488
+sqlite_quick_check=ok
+sqlite_journal_mode=delete
+sqlite_foreign_keys=0
+auth_users_count=6
+auth_sessions_count=3
+trips_count=2236
+disk_used=16% disk_available=2.7T
+=== local_backend ===
+=== backend_root ===
+code=200
+server: uvicorn
+content-type: text/html; charset=utf-8
+x-content-type-options: nosniff
+x-frame-options: DENY
+cache-control: no-store, max-age=0
+body= <!DOCTYPE html> <html lang="tr"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width,initial-scale=1"> <title>SAMA TRACK V82</title> <style> *{box-sizing:border-box} body{margin:0;font-family:Segoe UI,Arial;back
+=== backend_health ===
+code=200
+server: uvicorn
+content-type: application/json
+x-content-type-options: nosniff
+x-frame-options: DENY
+cache-control: no-store, max-age=0
+body={"ok":true,"service":"SAMA TRACK","db_file":"/usr/home/dka25y/sama-track-hetzner/data/sevkiyat.db","db_exists":true,"persistent_volume":true,"data_dir_exists":false,"railway_volume_env":"/usr/home/dka25y/sama-track-hetzner/data"}
+=== backend_docs ===
+code=404
+server: uvicorn
+content-type: application/json
+body={"detail":"Not Found"}
+=== backend_openapi ===
+code=404
+server: uvicorn
+content-type: application/json
+body={"detail":"Not Found"}
+=== backend_anon_trips ===
+code=401
+server: uvicorn
+content-type: application/json
+x-content-type-options: nosniff
+x-frame-options: DENY
+cache-control: no-store, max-age=0
+body={"detail":"Oturum gerekli."}
+=== public_https ===
+=== public_root ===
+code=200
+content-type: text/html; charset=utf-8
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-content-type-options: nosniff
+x-frame-options: DENY
+cache-control: no-store, max-age=0
+strict-transport-security: max-age=31536000
+server: HTTP Server
+body= <!DOCTYPE html> <html lang="tr"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width,initial-scale=1"> <title>SAMA TRACK V82</title> <style> *{box-sizing:border-box} body{margin:0;font-family:Segoe UI,Arial;back
+=== public_health ===
+code=200
+content-type: application/json
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-content-type-options: nosniff
+x-frame-options: DENY
+cache-control: no-store, max-age=0
+strict-transport-security: max-age=31536000
+server: HTTP Server
+body={"ok":true,"service":"SAMA TRACK","db_file":"/usr/home/dka25y/sama-track-hetzner/data/sevkiyat.db","db_exists":true,"persistent_volume":true,"data_dir_exists":false,"railway_volume_env":"/usr/home/dka25y/sama-track-hetzner/data"}
+=== public_docs ===
+code=404
+content-type: application/json
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: DENY
+server: HTTP Server
+body={"detail":"Not Found"}
+=== public_openapi ===
+code=404
+content-type: application/json
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: DENY
+server: HTTP Server
+body={"detail":"Not Found"}
+=== public_anon_trips ===
+code=401
+content-type: application/json
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: DENY
+x-content-type-options: nosniff
+x-frame-options: DENY
+cache-control: no-store, max-age=0
+strict-transport-security: max-age=31536000
+server: HTTP Server
+body={"detail":"Oturum gerekli."}

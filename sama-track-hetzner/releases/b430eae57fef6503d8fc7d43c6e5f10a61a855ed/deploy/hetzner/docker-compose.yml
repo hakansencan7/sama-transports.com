@@ -1,0 +1,18 @@
+services:
+  sama-track:
+    image: ghcr.io/shinioriihd-droid/sama-track:${SAMA_IMAGE_TAG:-latest}
+    container_name: sama-track
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      PORT: "8080"
+    volumes:
+      - /opt/sama/data:/data
+    ports:
+      - "127.0.0.1:8080:8080"
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    stop_grace_period: 30s

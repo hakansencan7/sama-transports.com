@@ -1,0 +1,1176 @@
+'+r.updated+' kayıt güncellendi.
+'Satır '+x.row+' | '+x.scna+' → '+money(x.remain)).join('
++ 10 Satır
++ Araç Ekle
++ Bakım Kaydı
++ Harcama Satırı
++ Kullanıcı Ekle
++ Mazot Alımı Ekle
++ Yeni Avans
++ Yeni Sevkiyat
++ YENİ SEVKİYAT
++ Şoför Ekle
+. Aşağıdaki kutular kullanıcıya özel son yetkilerdir.
+. satırda fiş/fatura numarası zorunlu.
+. satırda tutar zorunlu.
+0 İŞLEM
+100 KM Tüketim
+2.000 KM İçinde
+48 saati aşan yolda araç yok.
+7 gün içinde geri alınabilir.
+7 günlük geri alma süresi dolmuş.
+<b>Eksik giriş tarihleri kontrol ediliyor ve onarılıyor...</b>
+<b>FREIGHT değerleri Excel’den düzeltiliyor...</b>
+<b>Onaylanan kayıtlar aktarılıyor...</b>
+<b>OneDrive bağlantısı test ediliyor...</b>
+<b>REMAIN değerleri Excel’den yeniden okunuyor...</b>
+<br><br><b>Giriş Tarihi Son Kontrol:</b>
+<br><br><b>Onarılan kayıtlar:</b>
+<br><br><b>Örnek düzeltmeler:</b><br>
+<br><br><b>Örnek güncellenenler:</b><br>
+<th>NAVLUN</th><th>GİDER</th><th>NET KÂR</th><th>KÂR MARJI</th></tr></thead><tbody>
+<th>TOPLAM KM</th>
+></select><label>Müşteri</label><select id=
+><label>Açıklama</label><textarea id=
+><label>Bakım Nedeni</label><input id=
+><label>Bölge</label><select id=
+><label>İş / Avans Nedeni</label><input id=
+><label>Tahmini Bakım Süresi (Saat)</label><input id=
+><label>Toplam Tutar</label><input id=
+><label>Tutar</label><input id=
+><label>Çıkış Tarihi</label><input id=
+>Açık</option><option value=
+>Bakıma Yakın<b id=
+>Bakımda<b id=
+>Beklenen Kasa<b id=
+>Boş</option><option value=
+>Boş<b id=
+>Boşaltıldı Dönüyor<b id=
+>Boşta<b id=
+>BÖLGE <span id=
+>Diğer Kasa Girişi<b id=
+>Diğer</option></select><select id=
+>Fiili Kasa<b id=
+>Gecikmiş<b id=
+>Gemide Çalışan<b id=
+>GİRİŞ TARİHİ <span id=
+>Günlük Doğrudan Harcama<b id=
+>Kasa Farkı<b id=
+>Kısmi</option><option value=
+>SEFERİ KAYDET</button><div id=
+>Sevkiyat Çıkışı / Şoföre Verilen ↗<b id=
+>Sıra Bekliyor</option><option value=
+>Sıra Bekliyor<b id=
+>TİP <span id=
+>Toplam Araç<b id=
+>Toplam<b id=
+>Tüm Araçlar</option><option value=
+>Tüm Durumlar</option><option value=
+>Tüm Kişiler</option><option value=
+>Tüm Şoförler</option><option value=
+>Verilen Avans<b id=
+>YAKITI KAYDET</button><div id=
+>Yüklemede<b id=
+>×</button><h2>Araç Seç</h2><input id=
+>×</button><h2>Yakıt Ekle</h2><label>SCNA</label><select id=
+>ÇIKIŞ TARİHİ <span id=
+>ŞOFÖR <span id=
+>Şoför</option><option value=
+Ad Soyad / Kişi
+Ad Soyad / kişi adı zorunlu.
+Admin Oluştur
+Admin oluşturuldu. Şimdi giriş yap.
+Aktif Araç
+Aktif araç listesinde bu plaka bulunamadı.
+Aktif bakım kaydı bulunamadı.
+Aktif sevkiyat bulunamadı.
+Aktif Şoför
+Aktif Şoförler
+AKTİF
+AKTİF ARAÇ
+Akıllı Anormallik Merkezi
+Alıcı Tipi
+Alınan LT
+Alınan Mazot (LT)
+Ana ekranda normal uygulama gibi açılır.
+Ana Sayfa Gör
+Aracı Bakıma Al
+Arama
+Aramak için en az 3 karakter yazın
+Aranıyor...
+Araç
+Araç / Şoför Performans Karşılaştırması
+Araç bakıma alındı.
+Araç bulunamadı
+Araç bulunamadı.
+Araç Durumu
+Araç Düzenle
+Araç Ekle
+Araç Getir
+Araç Kartı
+Araç kaydı güncellendi
+Araç Operasyon Durumu -
+ARAÇ ORT.
+Araç Performansı
+Araç Seç
+Araç Tipi
+ARAÇ TİPİ
+Araç ve Şoför
+Araç Yönetimi
+Araçlar
+Arıza veya bakım hakkında detay...
+AVANS
+Avans
+Avans Alan
+Avans Açıklaması
+Avans Düzenle
+Avans Ekle
+Avans hareketi işlendi.
+Avans kaydedildi.
+Avans kaydı bulunamadı.
+Avans kaydı düzeltildi
+Avans kaydı güncellendi.
+Avans Takibi
+Avans Takip
+Avans Tarihi
+Avans Tutarı
+Avans Ver
+Aylık Özet
+Aynı SCNA / Değer Farklı
+Aynı SCNA Excel içinde birden fazla kez geçiyor; ikinci kayıt aktarılmadı
+AÇIK
+AÇIKLAMA
+Açık
+Açık Kayıt
+Açıklama
+Açıklama (opsiyonel)
+Açılış Bakiyesi
+BAGDAT TOPLAM
+BAKIM
+BAKIM BİTTİ
+BAKIM GİRİŞ
+BAKIM NEDENİ
+BAKIM YÖNETİMİ
+BAKIM ÇIKIŞ
+Bakım
+Bakım Açıklaması
+Bakım Başlangıç
+Bakım Bitiş
+Bakım Bitti
+Bakım Düzenle
+Bakım Geçmişi
+Bakım Girişi
+Bakım Gör
+Bakım Kaydı
+Bakım kaydı bulunamadı.
+Bakım kaydı düzeltildi.
+Bakım Kaydı Düzenle
+Bakım Kaydını Düzenle
+Bakım Nedeni
+Bakım nedeni zorunludur.
+Bakım Notu
+Bakım Süresi
+Bakım Takibi
+Bakım tamamlandı. Araç önceki operasyon akışına döndü.
+Bakım Çıkışı
+Bakım:
+Bakıma Yakın
+Bakımda
+Bakımda Olan Araçlar
+Bakımı Bitir
+Bakımı Geçmiş
+Bağdat
+BAĞDAT MAZOT
+Bağdat Mazot
+Bağdat Mazot LT
+Bağdat Mazot Toplam
+Bağdat Mazotu (LT)
+Bağdat Mazotu Toplam Tutar
+BAĞLANTI BAŞARILI.
+Bağlantı hatası
+Bağlantı kurulamadı:
+Bağlantıya sahip herkes görüntüleyebilir
+Bağlantıyı Test Et
+Başarılı
+Başlangıç
+Başlangıç Depo
+Başlangıç Depo Mazot
+Başlangıç LT
+Başlangıç Saati
+Başlangıç Tarihi
+Başlangıç Şifresi
+Başlat
+Başlatan
+Başlık satırı bulunamadı.
+Başlık satırı bulunamadı. SCNA/Plate gibi başlıklar gerekli.
+Beklenen Kasa
+BEKLENEN SAAT
+Beklenen Saat
+Beklenen Tüketim
+Bekleyen İşler
+BEKLİYOR
+Belge Açıklaması
+Belge Türü
+Belgelenen / İade
+BELGELENEN/İADE
+Belgelenen/İade:
+Bir hata oluştu
+Bitiş
+Bitiş LT
+Bitiş Saati
+Bitiş Tarihi
+BİRİM
+BİRİM FİYAT
+BOŞ
+Boş
+Boş Araç
+BOŞALTILDI
+BOŞALTILDI DÖNÜYOR
+Boşaltıldı Dönüyor
+Boşsa bugün
+BOŞTA
+Boşta
+Bu alan toplu düzeltmeye açık değil.
+Bu araç zaten bakımda.
+Bu filtrede bakım kaydı yok.
+Bu filtrede kayıt yok.
+Bu filtrede sorunlu kayıt yok.
+Bu harcama satırı düzeltilecek. Devam edilsin mi?
+Bu işlem Excel’den yalnızca SCNA, GİRİŞ TARİHİ ve eksikse GİRİŞ KM okuyacak.
+Bu işlem geri alınamaz
+Bu işlem için ADMIN veya OPERATOR yetkisi gerekli.
+Bu işlem için yetkiniz yok
+Bu işlem için yetkiniz yok.
+Bu kullanıcı adı zaten mevcut.
+Bu kullanıcı bir şoför kaydıyla eşleştirilmemiş.
+Bu kullanıcı bir şoför kaydıyla eşleştirilmemiş. Admin eşleştirmesi gerekiyor.
+Bu liste sevkiyat çıkışındaki exit_cash alanını salt okunur gösterir. SCNA kaydını değiştirmez.
+Bu SCNA zaten kayıtlı.
+Bu sefer size ait değil.
+Bu sevkiyatın çıkış işlemi tamamlanmamış.
+Bu Sütun Filtresini Temizle
+Bu sütunda ara...
+Bu Tablodaki Tüm Filtreleri Temizle
+Bu tarih ve para biriminde kasaya teslim edilmiş sevkiyat tahsilatı yok.
+Bu tarihte giriş/çıkış hareketi yok.
+Bu tarihte muhasebeye düşmeyen tamamlanmış dönüş yok.
+Bu tarihte sevkiyat cikisinda sofore verilen para yok.
+Bu Yıl
+Bugün
+Bugün Giriş
+Bugün Çıkış
+Buğday
+BÖLGE
+Bölge
+Bölge Ara
+Bölge ara
+Bölge boş
+Bölge boş.
+Bölge Eksik
+Bölgeye Göre
+Canlı Operasyon
+COLLECTION Eksik
+Collection Eksik
+DB Kaydını Aç
+Depo Başlangıç Mazot
+Depo Bitiş Mazot
+Depo litre değeri 2.000 LT üzerinde.
+Depo Mazot
+Depodaki Mazot
+Depodaki Mevcut Mazot (LT)
+Detay Göster
+Detayları Gör
+Değeri Farklı
+Değişen parçalar, onarım, kontrol, yağ, filtre vb...
+Diğer
+Diğer Giderler
+Diğer Giriş
+Diğer Kasa Girişi
+DIŞARIDA
+DİĞER
+Dolu Araç
+Dosya paylaşımını "Bağlantıya sahip herkes görüntüleyebilir" yapıp tekrar dene.
+Doğrudan Harcama
+Doğrudan kasadan ödenen fiş/faturaları girin. Avans karşılığı getirilen belgeleri buraya tekrar girmeyin; avans zaten kasadan çıkış sayılır.
+DURUM
+Durum
+DURUM / DEĞİŞTİR
+Durum Değiştir
+Durum Özeti
+DÖNÜYOR
+Dönüş Bilgileri
+Dönüş depo mazotu
+Dönüş Depoda Kalan LT
+Dönüş Harcamaları
+Dönüşte Depoda Kalan Mazot (LT)
+Dönüşte Kalan
+Dün
+Düzelt
+Düzeltilecek Alan
+Düzeltmeyi Kaydet
+DÜZENLE
+Düzenle
+Düzenlemek için SCNA gir.
+Dışa Aktar
+Efektif Çıkış Tarihi
+Ekle
+Eksik
+Eksik giriş tarihleri kontrol ediliyor ve onarılıyor...
+Eksik Tutar
+Eksik Veri
+Eksik Veri Merkezi
+EKSİK PARA
+EKSİK SAYISI
+En az 3 karakter yazın
+En az 3 karakter yazın...
+Eski kayıt uyarısı:
+Eski şifre hash
+ESKİ DEĞER
+ESKİ EXCEL HESABI
+Excel / OneDrive İçe Aktar
+Excel aktarım hatası
+Excel aktarımı başarısız:
+Excel aktarımı iptal edildi.
+Excel aktarımı için openpyxl gerekli. Komut: pip install openpyxl
+Excel aktarımı tamamlandı.
+Excel AU/FREIGHT değerleri mevcut SCNA kayıtlarının navlun birim fiyatını düzeltecek. Devam edilsin mi?
+Excel dosyası boş
+Excel dosyası bulunamadı. Tekrar seç.
+Excel Dışa Aktar
+Excel dışa aktarma için openpyxl gerekli. Komut: pip install openpyxl
+Excel güncelleme koruması açıldı
+Excel güncelleme koruması kaldırıldı
+Excel güncellemesi bu SCNA'nın üzerine yazamaz.
+EXCEL GÜNCELLEMESİNE AÇIK
+Excel İçe Aktar
+Excel kontrolü başarısız:
+Excel Korumasını Aç
+Excel Korumasını Kaldır
+Excel REMAIN değerleri aynı SCNA kayıtlarına toplu olarak yazılacak. Devam edilsin mi?
+Excel verisi boş.
+Excel yalnızca okundu. Kaynak dosya değiştirilmedi.
+Excel önizleme hatası
+Excel ↔ Veritabanı Karşılaştırma
+Excel'i Oku ve Önizle
+Excel’de giriş tarihi olan: <b>
+exit_cash 0 veya boş
+exit_done 1 değil
+Eşleşme bulunamadı
+Fark bulunmadı.
+FATURA
+Fatura
+Fatura / Fiş / İade
+FATURA / FİŞ / İADE
+Fatura No
+Fatura/Fiş No gerekli.
+Fatura/Fiş No*
+FAZLA
+Fazla
+FAZLA %
+FAZLA PARA
+Fazla Tutar
+Fiilen Saydığım Kasa
+Fiili Kasa
+Fiili Sayım
+Filo Düzenle
+Filo Gör
+Filo Yönetimi
+Filo Özeti
+Filtre
+Finans / Kârlılık
+Finansal hesapta AMOUNT/KG kullanılacak.
+Fiş
+Fiş No
+Fiş/Fatura No
+Fiş/Fatura No *
+Fiş/Fatura numarası zorunlu.
+FİLO
+FİLO & OPERASYON
+FİLO YÖNETİMİ
+FİŞ
+FREIGHT değerleri Excel’den düzeltiliyor...
+FREIGHT onarım hatası
+FREIGHT toplu onarım tamamlandı.
+Gecikmiş
+Gecikmiş Sefer
+GECİKMİŞ
+GECİKMİŞ SCNA
+GELİŞ
+Gemi
+Gemi / plaka / şoför ara
+Gemi Adı
+Gemi adı
+Gemi Atanmamış
+Gemi Operasyonu
+Gemi Operasyonu -
+Gemide Çalışan
+Gemide Çalışıyor
+GEMİ
+GEMİ ATANMADI
+GEMİDE
+GEMİDE ÇALIŞAN
+GEMİDE ÇALIŞIYOR
+GERÇEK
+GERÇEK KM
+Gerçek KM
+GERÇEK LT/100
+Geçerli bir OneDrive paylaşım linki gir.
+Geçersiz alıcı tipi.
+Geçersiz durum
+Geçersiz durum.
+Geçersiz gemi operasyon durumu.
+Geçersiz GPS durumu.
+Geçersiz kapatma türü.
+Geçersiz para birimi.
+Geçersiz rol.
+Geçersiz/boş SCNA; satır aktarılmadı
+GEÇMİŞ
+GEÇMİŞ SEFER
+Giren Araç
+Girilen Para Kontrolü
+Giriş
+Giriş / Muhasebe Tanı —
+Giriş / Yakıt Tüketim / Hesap -
+Giriş Bilgileri
+giriş işlemi geri alınacak. Emin misin?
+Giriş işlemi geri alındı
+Giriş işlemi tamamlanmamış (entry_done != 1)
+Giriş İşlemi
+Giriş İşlemini Geri Al
+Giriş İşlemleri
+Giriş kaydedilince otomatik oluşur
+Giriş Kaydı
+Giriş KM
+Giriş Notu
+Giriş Saati
+Giriş Tarihi
+Giriş Tarihi / Saati
+Giriş tarihi bulunamadı
+Giriş tarihi onarım hatası
+Giriş tarihi onarımı tamamlandı.
+Giriş Tarihi Son Kontrol:
+Giriş Tarihi Var / KM Yok
+Giriş tarihi var, giriş KM yok
+Giriş Tarihi/KM
+Giriş Tarihlerini Excel'den Onar
+Giriş Yap
+Giriş, kalan depo, ek gider ve para hesabı kaydedildi
+Girişi Düzenle
+Girişi Kaydet
+Girişi tamamlanmış ama “Şoförün Teslim Ettiği Para” 0/boş olan kayıtlar.
+Girişi Yapan
+Girişte
+GİDER
+GİREN
+GİRİŞ
+GİRİŞ KM
+GİRİŞ TARİHİ
+GİRİŞ YAP
+GİRİŞTE
+GÖRÜNEN GİDER TOPLAMI
+Görüntüle
+Gösterilecek Bilgiler
+Gübre
+Gün
+Gün Başı
+Gün Başı Kasa
+Gün Sonu
+Gün Sonu / Yönetici Özeti
+Gün Sonu Kasa
+GÜN SONU YÖNETİCİ ÖZETİ
+Gün Sonu Özeti
+Güncel Bakiye / Borç
+GÜNCEL KM
+Güncelle
+Güncelleme Tarihi
+Güncellendi
+GÜNCELLENECEK
+Güncellenen: <b>
+Güncelleyen
+Günlük Doğrudan Harcama
+Günlük Kasa
+Günlük Kasa Harcama Düzelt
+Günlük Kasa Harcaması Düzelt
+Günlük Kasa harcaması düzeltme yetkiniz yok.
+Günlük Kasa Kontrolü
+Günlük Ton
+Günlük Yönetici Özeti
+Günlük Özet
+Harcama kaydı bulunamadı.
+Harcama Satırlarını Kaydet
+Harcama satırı girin.
+Harcırah
+Hata
+Hata Excel dosyası oluşturulamadı.
+HATA NEDENİ
+HATA: Fazla para girdiniz.\n\nGider toplamı:
+HATA: Fazla para girdiniz.\n\nŞoföre verilmesi gereken:
+Hatalı kayıt yok.
+Hatalı SCNA Listesini Excel İndir
+Hatalı Veri
+Hayır
+Henüz sefer kaydı yok.
+Henüz yolda alınmış mazot kaydı yok.
+Her satıra bir SCNA yaz.
+Hesaplaşma
+Hesaplaşma Ekle
+Hesaplaşmalar
+Hâlâ giriş tarihi eksik kalan SCNA:
+IQD\n\nKayıt yapılmadı.
+için
+için Excel koruması kaldırılacak. Sonraki Excel Güncelle işleminde bu kayıt değişebilir. Emin misin?
+için şoföre verilen toplam nakit
+İleri
+İlk Admin Hesabını Oluştur
+İlk admin zaten oluşturulmuş.
+İlk girişte değiştirsin
+İlk girişte şifre değiştir
+İlk girişte şifrenizi değiştirmeniz gerekiyor.
+İlk manuel kayıtta otomatik korunacak.
+İPTAL
+İptal
+İsteğe bağlı
+İzleyici
+İçe Aktar
+İş / Avans Nedeni
+İŞ / NEDEN
+İŞLEM
+İşlem
+İşlem / detay / eski-yeni değer ara
+İşlem başarılı
+İşlem başarısız
+İşlem Geçmişi
+İşlem Geçmişi / Denetim
+İşlem Geçmişi Gör
+İşlem geçmişi yok.
+İşlem Sayısı
+İşlem Türü
+Kalan Avans
+Kalan Açık Bakiye
+KALAN GÜN
+Kalan Mazot
+Kaldır
+Kapandı
+Kapanış Bakiyesi
+Karşılaştırma hatası
+Karşılaştırılıyor...
+Kasa
+Kasa Bakiyesi
+Kasa Farkı
+Kasa Girişi
+Kasa Sayımı
+Kasa Teslim
+Kasa Tutarı / Gün Sonu Kontrolü
+Kasa Tutarı Gir / Hesapla
+Kasa Çıkışı
+Kasa Çıkışına Uygun
+Kaydedildi. Günlük Kasa otomatik güncellenecek.
+Kaydedilemeyen SCNA kayıtları:
+Kaydet
+Kaydetmeden önce program mantık kontrolleri yapacak.
+Kaydı Getir
+Kaynak OneDrive dosyasına yazma yapılmadı.
+Kaynak: ONEDRIVE PAYLAŞIM LİNKİ
+Kayıt
+Kayıt aktarılacak fakat KM/anormallik hesabına alınmayacak.
+Kayıt Ara
+Kayıt başarıyla güncellendi
+Kayıt başarıyla oluşturuldu
+Kayıt bulunamadı
+kayıt bulundu.
+Kayıt engellendi:
+Kayıt güncellendi ve Excel güncellemelerine karşı korumaya alındı.
+Kayıt Sayısı
+Kayıt silindi
+Kayıt silinmiş
+kayıt silinmiş
+Kayıt Tamamlandı olarak alınacak; KM bilgisi eksik kalacak.
+Kayıt Tarihi
+kayıt toplu olarak değiştirilecek. Emin misin?
+Kayıt yok.
+kayıt)
+Kayıtlar
+Kayıtlı şoför bulunamadı
+Kayıtlı şoförü seçin. 3 harften sonra arama başlar.
+Kendi hesabınızı pasife alamazsınız.
+Kişi
+Kişi / plaka / iş / SCNA ara
+Kişi Tipi
+KİŞİ
+KM ANORMALLİKLERİ
+KM değerleri negatif olamaz.
+KM Uyarısı
+Kontrol Et ve Kaydet
+Kullandığı Araçlar
+KULLANICI
+Kullanıcı
+Kullanıcı Adı
+Kullanıcı adı
+Kullanıcı adı en az 3, şifre en az 8 karakter olmalı.
+Kullanıcı adı veya şifre hatalı.
+Kullanıcı bulunamadı.
+Kullanıcı Düzenle
+Kullanıcı Düzenle -
+Kullanıcı Ekle
+Kullanıcı kendi şifresini değiştirdi
+Kullanıcı koruması
+Kullanıcılar
+Kullanıcılar & Yetkiler
+Kullanıcılar & Yetkiler Yönet
+Kâr Marjı
+Kısmi
+LASTİK
+Listeye Dön
+Lütfen bekleyin
+Lütfen bir seçim yapın
+Lütfen zorunlu alanları doldurun
+Mal cinsi boş
+Mal cinsi boş.
+Mal Cinsine Göre
+MAL CİNSİ
+Mal Eksik
+Manuel korumalıydı, yalnızca eksik giriş bilgisi dolduruldu
+Mazot
+Mazot + Harcırah + Prim + Dock + Port + SONAR + OTHER
+Mazot kaydı bulunamadı
+Mazot kaydı silindi
+MAZOT TAKIP
+MAZOT TOPLAM
+Mevcut Şifre
+Mevcut şifre hatalı.
+MUHASEBE & FİNANS
+Muhasebeye Düşmeyen Dönüşler —
+MUHASEBEYE GİRER
+MUHASEBEYE GİRMEZ
+MÜKERRER
+Mükerrer
+Mükerrer diye atla
+Mükerrer Kayıt
+Müşteri
+müşteri
+Müşteri Alacağı
+Müşteri Ara
+Müşteri autocomplete API:
+Müşteri boş
+Müşteri boş.
+Müşteri Eksik
+Müşteri Tahsilatı
+Müşteriden Alınan
+Müşteriden Alınan Para
+Müşteriden alınan para negatif olamaz.
+Müşteriden Kalan
+Müşteriden Kalan Alacak
+Müşteriye Göre
+MÜŞTERİ
+MÜŞTERİDEN KALAN
+MÜŞTERİDEN TAHSİL EDİLEN
+Mısır
+Nakit
+Nakit Giriş
+Nakit İade
+Nakit İade / Mahsup
+Nakit Çıkış
+NAKİT İADE
+Navlun Bazı
+Navlun birim fiyatı negatif olamaz.
+Navlun birimi KG veya TON olmalı
+Navlun var, COLLECTION boş/0
+Neden verildiğini yazın
+Oluşturan
+Oluşturulma Tarihi
+Onarılan kayıtlar:
+Onaylanan kayıtlar aktarılıyor...
+OneDrive bağlantısı test ediliyor...
+OneDrive okuma hatası:
+OneDrive Paylaşım Linkinden Canlı Okuma
+OneDrive paylaşım linkinden Excel dosyası doğrudan indirilemedi.
+Operasyon / Gemi / Yükleme Sırası Düzenle
+Operasyon / Gemi / Yükleme Sırası Gör
+Operasyon Açıklaması
+OPERASYON MERKEZİ
+Operasyon Uyarıları
+Operasyon Özeti
+OPERASYONDAN ÇIKTI
+Operasyondan Çıkan
+Operasyondan Çıktı
+Operatör
+ORT. GİDER
+ORT. SEFER SÜRESİ
+ORT. SÜRE (SAAT)
+Ortalama Tüketim
+OTHER Açıklaması
+OTHER tutarı girildiyse açıklama zorunludur.
+Para Eksiği
+Para Farkı
+Pasif / Ayrılmış
+Pasif / Çıkmış
+Pasif Şoförler
+PASİF
+PDF / Yazdır
+Performans Raporları
+Pirinç
+Plaka / neden / açıklama / yapılan işlem ara
+Plaka / şoför / SCNA / bölge
+Plaka / şoför ara
+Plaka boş
+Plaka seçin.
+PLAKA SEÇİLMEDİ
+PRİM
+Profilim / Şifre Değiştir
+Program hesaplanan farkı kullanacak.
+Programda giriş tarihi boş olan kayıtları onaracak. Diğer alanlara ve kaynak Excel’e dokunmayacak. Devam edilsin mi?
+Programın Hesapladığı Birim Fiyat
+Rapor
+Rapor / Excel Dışa Aktar
+Raporlar Gör
+REMAIN değerleri Excel’den yeniden okunuyor...
+REMAIN onarım hatası
+REMAIN toplu onarım tamamlandı.
+Resmi Mazot
+Resmi Mazot (LT)
+Resmi Mazot LT
+Resmi Mazot Toplam
+Resmi Mazot Toplam Tutar
+RESMI TOPLAM
+RESMİ MAZOT
+Rota geçmişi bulunamadı.
+ROTA ORT. SAAT
+Rota Performansı
+Rota Standardı
+Rota standardına göre yakıt uyarısı yok.
+Rota Standartları
+ROTA YAKIT UYARISI
+Rota Öğrenme
+Saat
+Sadece ADMIN görebilir.
+Sadece ADMIN sevkiyat silebilir.
+Sadece Gecikmiş
+Sadece Hatalı
+Sadece Manuel Korumalı
+Sadece Uyarı
+SAMA DRIVER'ı telefona kur
+SAMA sürücü ve sefer uygulaması
+Satır
+Satır '+x.row+'
+Satır '+x.row+' |
+SCNA / plaka / şoför / bölge
+SCNA / plaka / şoför / bölge ara
+SCNA / plaka / şoför ara
+SCNA / plaka / şoför ara...
+SCNA başlığı bulunamadı.
+SCNA boş bırakılamaz.
+SCNA bulunamadı
+SCNA bulunamadı.
+SCNA Düzenleme
+SCNA Düzenleme Merkezi
+SCNA eksik görünüyor. En az 5 hane olmalı.
+SCNA eksik görünüyor. En az 5 hane/karakter gir.
+SCNA eksik görünüyor. En az 5 karakter olmalı.
+SCNA Kasa Tanı
+SCNA Kasa Tanı —
+SCNA listesi boş.
+SCNA seçilmedi.
+SCNA Tanı
+Sefer bulunamadı.
+Sefer Kârı
+Sefer Sayısı
+Sefer Süresi (Saat)
+SEFERİ KAYDET
+SEVKIYAT
+Sevkiyat
+Sevkiyat / Yakıt Tüketim / Para Hesabı
+Sevkiyat / Çıkış / Giriş Düzenle
+Sevkiyat 7 gün geri alınabilir şekilde silindi
+Sevkiyat Bilgileri
+Sevkiyat bulunamadı
+Sevkiyat girişi tamamlanmamış.
+Sevkiyat Gör
+Sevkiyat oluşturuldu
+Sevkiyat Sil
+Sevkiyat Tarihi
+Sevkiyat Çıkışı / Şoföre Verilen
+Sevkiyat Çıkışı / Şoföre Verilen ↗
+sevkiyat.db
+sevkiyatı silinsin mi? 7 gün içinde geri alınabilir.
+SEVKİYAT
+SEVKİYAT SONUCU MÜŞTERİDEN ALINACAK KALAN PARA
+Seç
+Seçilen araç zaten başka bir aktif bakım kaydında.
+Seçim Yapın
+Seçin
+Seçiniz
+Sil
+Silinen sevkiyat bulunamadı.
+Silinen sevkiyat geri alındı
+Silinmiş
+SIRA BEKLİYOR
+SİLEN
+SİLİNME TARİHİ
+SİSTEM
+Sofore Verilen Avans
+Son / Aktif Sefer Şoförü
+SON BAKIM KM
+Son Bakım KM
+Son Durum
+Son Güncelleme
+Son İşlem
+Son İşlemler
+SON ŞOFÖR
+Son şoför bilgisi alınamadı:
+Sonraki Bakım
+Sonraki Bakım KM
+SONRAKİ BAKIM KM
+SONUÇ
+Sonuç
+Sonuçları Göster
+Sunucu hatası
+Süre
+Süre Doldu
+Sıra
+Sıra Bekliyor
+Sıra No
+Sırayı 1'den Düzenle
+Tahmini Bakım Süresi
+Tahmini Bakım Süresi (Saat)
+Tahmini Bitiş
+Tahmini Süre
+Tahmini Çıkış
+TAHMİNİ SÜRE
+TAHMİNİ ÇIKIŞ
+TAHSİLAT / KASAYA TESLİM
+Tamamlandı
+Tanımsız
+Tarih
+Tarih (boşsa bugün)
+Tarih Aralığı
+Tarih YYYY-MM-DD formatında olmalı.
+TARİH
+TARİH/SAAT
+Taşınan Mal Cinsi
+Tekrarlayan Şoför
+Tekrarlayan Şoför Para Eksiği
+Tekrarlayan şoför para eksiği bulunmadı.
+TEKRARLAYAN ŞOFÖR PARA EKSİĞİ
+TEMİZ
+Teslim edilen para 0’dan büyük olmalı.
+Teslim Zamanı
+Teslim/Giriş Tarihi
+Teslimat Bölgesi
+Ticari Mazot
+Ticari Mazot (LT)
+Ticari Mazot LT
+Ticari Mazot Toplam
+Ticari Mazot Toplam Tutar
+TICARI TOPLAM
+TİCARİ MAZOT
+TİP
+TOPLAM
+Toplam
+Toplam Alınan
+Toplam Araç
+Toplam Araç: 60
+Toplam Avans
+Toplam Bakım Kaydı
+Toplam Gider
+Toplam Harcama
+Toplam IQD
+Toplam Kalan
+Toplam Kayıt
+TOPLAM KM
+Toplam KM
+Toplam Kullanıcı
+Toplam Kullanılabilir Yakıt
+TOPLAM KÂR
+Toplam Kâr
+Toplam LT
+Toplam Masraf
+Toplam Mazot LT
+TOPLAM NAVLUN
+Toplam Navlun
+Toplam Navlun − (Yolda Mazot + Ekstra Giderler)
+Toplam Para Farkı
+Toplam Sefer
+Toplam Sevkiyat
+Toplam Sorunlu
+Toplam Ton
+Toplam Tutar
+Toplam Verilen
+Toplam Yakıt
+Toplam Yakıt Tutarı
+Toplam Şoför
+TOPLAM\nLITRE
+Toplu durum düzeltme
+Toplu Düzeltme
+Toplu düzeltme
+Toplu Düzeltmeyi Uygula
+Toplu Fiş/Fatura Girişi
+TUTAR
+Tutar
+Tutar *
+Tutar 0 dan büyük olmalı.
+Tutar 0’dan büyük olmalı.
+Tutar zorunlu ve 0 dan büyük olmalı.
+Tutar*
+Tüketilen Yakıt
+Tüketim
+TÜKETİLEN LT
+Tüm Aktifler
+Tüm Araçlar
+TÜM AVANS HESAPLARI
+Tüm Başlık Filtrelerini Temizle
+Tüm Bölgeler
+Tüm Durumlar
+Tüm Farklar
+Tüm İşlemler
+Tüm Kişiler
+Tüm Kullanıcılar
+Tüm Mallar
+Tüm Müşteriler
+Tüm Sorunlar
+Tüm Zamanlar
+Tüm Önizleme
+Tüm Şoförler
+Tümü
+Tümünü Excel'e Aktar
+TÜR
+Türkçe
+UYARI
+UYARI / HATA
+Uyarı
+Uyarı:
+Uyarılar
+Uyarılar kayıt aktarımını engellemez.
+Uyarılar:
+Uyarıya Rağmen Kaydet
+Uygun Değil
+Uygun plaka bulunamadı.
+Varsayılan kurallar:
+Veri bulunamadı
+Verilen Avans
+VERİLEN
+Web Excel önizleme hatası
+YA GERİ AL</button>`:
+YAKIT
+YAKIT ANORMALLİKLERİ
+YAKIT UYARISI SCNA
+YAKITI KAYDET
+Yakıt
+Yakıt Alımı
+Yakıt Anormalliği
+Yakıt anormalliği bulunmadı.
+Yakıt Birim Fiyatı
+Yakıt Ekle
+Yakıt Gideri
+Yakıt kaydedildi.
+Yakıt Litresi
+Yakıt Performansı
+Yakıt toplamı negatif olamaz.
+Yakıt Tutarı
+Yakıt Türü
+Yakıt Uyarısı
+Yakıt ve Masraflar
+Yalnızca gerçek hatalı satırlar durdurulur.
+Yalnızca girişi tamamlanmış sevkiyatlardaki “Şoförün Teslim Ettiği Para” okunur. Navlun, müşteriden alınan toplam ve müşteriden kalan tutar dahil değildir.
+YAPILAN İŞLEMLER
+Yapılacak İş
+Yapılan işlemler zorunludur.
+Yapılan İş
+Yapılan İşlem
+Yapılan İşlemler
+YAĞ
+Yağ Değişim KM
+Yeni Araç
+Yeni Avans
+Yeni Bakım Kaydı
+Yeni Değer
+Yeni Durum
+Yeni Geçici Şifre
+Yeni Giriş
+Yeni Kayıt
+Yeni Kullanıcı
+Yeni SCNA eklenecek, mevcut SCNA güncellenecek, manuel korumalı kayıtlar değiştirilmeyecek. Henüz kayıt yapılmıyor.
+Yeni Sevkiyat
+Yeni Sevkiyat Ekle
+Yeni tutar belgelenmiş/iadeli tutardan küçük olamaz.
+Yeni Çıkış
+Yeni Şifre
+Yeni şifre en az 8 karakter olmalı.
+Yeni şifre hash
+Yeni Şifre Tekrar
+Yeni şifreler aynı değil.
+Yeni Şoför
+YENİ DEĞER
+YENİ SEVKİYAT
+Yetki
+Yetki matrisi güncellendi
+Yola Çıkarken Toplam Yakıt
+Yolda Alınan Ek Mazot
+Yolda Alınan Mazot
+Yolda mazot kaydı yok.
+YOLDA MAZOT LT
+YOLDA SAAT
+Yoldaki kayıtlar varsayılan gelir.
+YUKLEME LİSTESİ
+YÖNETİM
+Yük Durumu
+Yük Tipi
+YÜKLEME & SEVKİYAT
+Yükleme Durumu
+YÜKLEME LİSTESİ
+Yükleme Sırası
+Yükleme Sırası / Araç Durumu
+Yükleme Sırasında
+YÜKLEMEDE
+Yüklemede
+Yüklendi
+Yükleniyor...
+Yüksek Risk
+| <b>Manuel korumalıydı, yalnızca eksik giriş bilgisi dolduruldu</b>
+| Başarıyla yazılan dönüş tarihi: <b>
+| Başlık satırı:
+| DB güncellenen: <b>
+| DB: BOŞ |
+| DB’de SCNA bulunamadı: <b>
+| DB’de zaten doğru: <b>
+| Eski mükerrer atlama: <b>
+| Excel dönüş tarihi: <b>
+| Excel içi mükerrer: <b>
+| Excel’de REMAIN boş: <b>
+| Geçersiz SCNA atlanan: <b>
+| Giriş KM
+| Giriş KM Excel’de boş
+| Güncellenen: <b>
+| Onarılan: <b>
+| REMAIN boş/yok: <b>
+| Uyarılı atlanan: <b>
+| Yöntem:
+| Zaten doğru: <b>
+ÇIKIŞ
+ÇIKIŞ KM
+ÇIKIŞ TARİHİ
+ÇIKIŞTA
+Çıkan Araç
+Çıkış
+çıkış + giriş + yolda mazot kayıtları geri alınacak. Emin misin?
+Çıkış / Yakıt -
+Çıkış bekleyen kayıtlar varsayılan gelir.
+Çıkış Bilgileri
+Çıkış depo mazotu
+Çıkış Diğer
+Çıkış İşlemi
+Çıkış İşlemini Geri Al
+Çıkış İşlemleri
+Çıkış kaydedilince otomatik oluşur
+Çıkış Kaydı
+Çıkış KM
+Çıkış KM Var / Tarih Yok
+Çıkış KM var, çıkış tarihi yok
+Çıkış Mazot Maliyeti
+Çıkış Notu
+Çıkış Parası
+Çıkış Parası Eksik
+Çıkış parası eksik kayıtlar yüklenemedi: '+e.message+'
+Çıkış Saati
+Çıkış Tarihi
+Çıkış Tarihi / Saati
+çıkış tarihi bulunamadı
+Çıkış ve buna bağlı giriş/yol mazotu işlemleri geri alındı
+Çıkış Yap
+Çıkış, depo ve mazot litre/tutar bilgileri kaydedildi
+Çıkışta
+Çıkışta Alınan Toplam
+Çıkışta Depo
+Çıkışta Depodaki Mevcut Mazot (LT)
+Çıkışta şoföre verilen toplam nakit 0 dan büyük olmalı.
+Çıkışı Düzenle
+Çıkışı Kaydet
+Çıkışı Yapan
+Ödenecek
+Ödenen
+Ödenen Toplam Tutar
+Önce aktif araç/plaka seçin.
+Önce raporu getir.
+Önce çıkış işlemi yapılmalı
+Önceki Durum
+ÖNCEKİ DURUM
+Örn: 22L29155 fren tamiri için parça ve işçilik
+Örn: 6
+Örn: 93540
+Örn: Yağ kaçağı / fren / lastik / periyodik bakım
+Örnek düzeltmeler:
+Örnek güncellenenler:
+Ürün
+Şifre
+Şifre değişimi zorunlu
+Şifre Değiştir
+Şifre değiştirildi.
+Şifre Sıfırla
+Şifre Sıfırla -
+Şifre sıfırlandı. Kullanıcının açık oturumları kapatıldı.
+Şifrenizi değiştirmeden diğer işlemleri kullanamazsınız.
+ŞİFRE DEĞİŞİMİ
+ŞOFÖR
+Şoför
+şoför
+Şoför / telefon / D.No ara
+Şoför Adı
+Şoför adı boş.
+Şoför adı en az 3 karakter olmalı.
+Şoför adı gerekli.
+Şoför adı yaz...
+Şoför adı zorunlu.
+Şoför Ara
+Şoför Bakiyesi
+Şoför boş
+Şoför bulunamadı
+Şoför değil
+Şoför Düzenle
+Şoför Ekle
+Şoför Eksik
+ŞOFÖR FARK
+Şoför Getir
+Şoför Hesabı
+Şoför Hesabı (opsiyonel)
+ŞOFÖR HESAP FARKI
+Şoför Hesap Farkı
+Şoför Kartı
+Şoför kaydı güncellendi
+Şoför kullanıcı adınız ve şifrenizle giriş yapın.
+Şoför No
+ŞOFÖR PARA EKSİKLERİ
+Şoför Para Farkı
+Şoför Performansı
+Şoför Yönetimi
+ŞOFÖR YÖNETİMİ
+Şoförde 3 harften sonra arar
+Şoförden Gelen
+Şoföre Verilen
+Şoföre Verilen Avans
+Şoföre Verilen Para
+Şoföre verilen toplam nakdi girin.
+Şoföre Verilmesi Gereken
+ŞOFÖRE VERİLEN TOPLAM NAKİT
+Şoförler
+Şoförler Düzenle
+Şoförler Gör
+Şoförün Getirdiği Nakit
+Şoförün Getirdiği Para
+Şoförün Teslim Ettiği
+Şoförün Teslim Ettiği Para
+Şoförün Teslim Ettiği Para 0 veya boş
+Şoförün teslim ettiği para 0’dan büyük olmalı.
+Şoförün Verdiği Para
+Şoförün Vermesi Gereken
+Şoförün Vermesi Gereken Para
+Şu An Bakımda
+Şu An Yolda
+← Önceki
+↩ YOLDA'YA GERİ AL
+▲ Artan Sırala
+▼ Azalan Sırala
+⚠ ÇIKIŞ PARASI EKSİK
+⚠ Şoför kayıtlarında bu isim seçilmedi veya bulunamadı.\n\nYeni şoför kaydı oluşturulacak:
+📋 GEÇMİŞ
+📋 ŞOFÖR LİSTESİNİ TOPLU GÜNCELLE
+🔧 Bakım Operasyonu
+🚛 ARAÇ

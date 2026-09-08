@@ -1,0 +1,5 @@
+OTOMATIK YEDEK BASARILI: /usr/home/dka25y/sama_backups/sevkiyat_auto_2026-09-06_03-00-01.db
+2026/09/07 03:00:01 CRITICAL: Failed to create file system for "google_drive:SAMA TRACK YEDEKLER": couldn't find root directory ID: Get "https://www.googleapis.com/drive/v3/files/root?alt=json&fields=id&prettyPrint=false&supportsAllDrives=true": couldn't fetch token: unauthorized_client: if you're using your own client id/secret, make sure they're properly set up following the docs
+GOOGLE DRIVE YEDEK HATASI
+2026/09/08 03:00:01 CRITICAL: Failed to create file system for "google_drive:SAMA TRACK YEDEKLER": couldn't find root directory ID: Get "https://www.googleapis.com/drive/v3/files/root?alt=json&fields=id&prettyPrint=false&supportsAllDrives=true": couldn't fetch token: unauthorized_client: if you're using your own client id/secret, make sure they're properly set up following the docs
+GOOGLE DRIVE YEDEK HATASI

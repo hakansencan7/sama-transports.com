@@ -1,0 +1,5 @@
+Options +ExecCGI
+AddHandler cgi-script .cgi
+RewriteEngine On
+RewriteRule ^cgi-bin/ - [L]
+RewriteRule ^(.*)$ cgi-bin/sama_test.cgi/$1 [L,QSA]

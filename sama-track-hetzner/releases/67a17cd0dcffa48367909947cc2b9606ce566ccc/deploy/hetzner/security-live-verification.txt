@@ -1,0 +1,8 @@
+current_release=cd8e0fd3793ab15fd1050cf7cb26c8a65a6196e0
+28363       01:32 /usr/home/dka25y/sama-track-hetzner/venv/bin/python -m uvicorn security_runtime:app --app-dir /usr/home/dka25y/sama-track-hetzner/current --host 127.0.0.1 --port 18080
+security_source_present=yes
+local_health={"ok":true,"service":"SAMA TRACK"}
+local_docs_http_code=404
+live_security_verification=yes
+public_health={"ok":true,"service":"SAMA TRACK"}
+public_health_sanitized=yes

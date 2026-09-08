@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# SAMA TRACK sistemine dokunma
+RewriteRule ^track(?:/|$) - [L]
+
+# ANA_SITE ana sayfasi
+RewriteRule ^$ ANA_SITE/index.html [L]
+
+# ANA_SITE dosyalari
+RewriteRule ^(style\.css|lang\.js)$ ANA_SITE/$1 [L]

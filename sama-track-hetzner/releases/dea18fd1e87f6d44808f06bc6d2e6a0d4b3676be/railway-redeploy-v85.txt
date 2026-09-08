@@ -1,0 +1,3 @@
+SAMA V85 redeploy trigger
+Operation cards + GPS return undo
+2026-08-25

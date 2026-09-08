@@ -1,0 +1,16 @@
+DirectoryIndex disabled
+RewriteEngine On
+
+# Redirect plain HTTP to HTTPS.
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^track\.sama-transports\.com$ [NC]
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=302,L]
+
+# Root must stay root. Some Apache directory handling otherwise turns
+# the empty path into an index request before the generic proxy rule.
+RewriteCond %{HTTP_HOST} ^track\.sama-transports\.com$ [NC]
+RewriteRule ^$ http://127.0.0.1:18080/ [P,L]
+
+# Proxy every API/static/application path unchanged to SAMA TRACK.
+RewriteCond %{HTTP_HOST} ^track\.sama-transports\.com$ [NC]
+RewriteRule ^(.+)$ http://127.0.0.1:18080/$1 [P,L,NE]

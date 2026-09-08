@@ -1,0 +1,7 @@
+Options +ExecCGI
+CGIPassAuth On
+AddHandler cgi-script .cgi
+RewriteEngine On
+RewriteRule ^ - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteRule ^cgi-bin/ - [L]
+RewriteRule ^(.*)$ cgi-bin/sama_test.cgi/$1 [L,QSA]

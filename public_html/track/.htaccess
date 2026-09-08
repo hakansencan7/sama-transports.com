@@ -1,0 +1,24 @@
+DirectoryIndex disabled
+RewriteEngine On
+
+# Force the public application through TLS.
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^track\.sama-transports\.com$ [NC]
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Root stays root; every other path is proxied unchanged.
+RewriteCond %{HTTP_HOST} ^track\.sama-transports\.com$ [NC]
+RewriteRule ^$ http://127.0.0.1:18080/ [P,L]
+
+RewriteCond %{HTTP_HOST} ^track\.sama-transports\.com$ [NC]
+RewriteRule ^(.+)$ http://127.0.0.1:18080/$1 [P,L,NE]
+
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "DENY"
+  Header always set Referrer-Policy "same-origin"
+  Header always set X-Permitted-Cross-Domain-Policies "none"
+  Header always set Permissions-Policy "geolocation=(self), camera=(), microphone=(), payment=(), usb=()"
+  Header always set Content-Security-Policy "frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+</IfModule>
