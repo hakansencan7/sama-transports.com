@@ -5,3 +5,5 @@ Bayraklardan biri seçildiğinde Arapça site dili açılır; ayrıca 20 dil se�
 
 SAMA TRACK: https://track.sama-transports.com
 SAMA TRACK sistemine, veritabanına ve Google Drive yedeklerine dokunulmaz.
+
+Harita bölümü: Irak - Umqasir, Türkiye - Mersin, Suriye - Tartus ve Ürdün - Akaba operasyon haritaları.
