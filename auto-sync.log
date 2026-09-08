@@ -4,3 +4,7 @@
 2026-09-08 14:28:31  ERROR: The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
 2026-09-08 14:29:01  ERROR: The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
 2026-09-08 14:34:12  SAMA TRANSPORTS automatic sync started.
+2026-09-08 14:35:16  Local changes committed.
+2026-09-08 14:35:16  error: cannot pull with rebase: You have unstaged changes.
+2026-09-08 14:35:16  error: Please commit or stash them.
+2026-09-08 14:35:19  Sync check completed.
