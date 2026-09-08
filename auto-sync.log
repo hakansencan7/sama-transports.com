@@ -12,3 +12,7 @@
 2026-09-08 14:35:51  error: cannot pull with rebase: You have unstaged changes.
 2026-09-08 14:35:51  error: Please commit or stash them.
 2026-09-08 14:35:54  Sync check completed.
+2026-09-08 14:36:26  Local changes committed.
+2026-09-08 14:36:26  error: cannot pull with rebase: You have unstaged changes.
+2026-09-08 14:36:26  error: Please commit or stash them.
+2026-09-08 14:36:29  Sync check completed.
