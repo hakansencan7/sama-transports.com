@@ -25,3 +25,8 @@
 /* Keep vehicle lightbox navigation buttons content-sized and balanced */
 .vt-lightbox-actions .vt-prev{justify-self:start;width:max-content}
 .vt-lightbox-actions .vt-next{justify-self:end;width:max-content}
+
+/* Vehicle Transportation hero: single, text-free port image */
+.vehicle-hero>img{object-position:66% center;transform:none}
+@media(max-width:860px){.vehicle-hero>img{object-position:72% center}}
+@media(max-width:540px){.vehicle-hero>img{object-position:78% center}}
