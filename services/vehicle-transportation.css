@@ -14,3 +14,10 @@
 @media(max-width:1120px){.vt-brand-list{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:860px){.vt-intro{padding-top:92px;padding-bottom:96px;gap:32px}.vt-services{padding-top:82px;padding-bottom:86px}.vt-services ul{grid-template-columns:repeat(2,minmax(0,1fr))}.vt-brands{padding-top:82px;padding-bottom:86px}}
 @media(max-width:540px){.vt-intro{padding-top:72px;padding-bottom:76px}.vt-copy{line-height:1.78}.vt-copy p{margin-bottom:22px}.vt-services{padding-top:66px;padding-bottom:72px}.vt-services ul{grid-template-columns:1fr;gap:12px;margin-top:30px}.vt-services li{min-height:70px;padding:17px 18px}.vt-brands{padding-top:66px;padding-bottom:72px}.vt-brand-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:28px}.vt-brand-list span{min-height:58px;padding:9px 7px;font-size:.7rem}}
+
+/* Compact vehicle gallery lightbox navigation */
+.vt-lightbox-dialog{padding:9px 9px 7px}
+.vt-lightbox-actions{min-height:34px;gap:8px;margin-top:6px;padding-top:6px;border-top:1px solid rgba(21,201,255,.2)}
+.vt-lightbox-actions button{min-height:28px;padding:5px 10px;font-size:.69rem;line-height:1.1}
+.vt-counter{font-size:.68rem;line-height:1;white-space:nowrap}
+@media(max-width:540px){.vt-lightbox-dialog{padding:7px 7px 5px}.vt-lightbox-actions{min-height:30px;gap:6px;margin-top:5px;padding-top:5px}.vt-lightbox-actions button{min-height:26px;padding:4px 8px;font-size:.64rem}.vt-counter{font-size:.63rem}}
