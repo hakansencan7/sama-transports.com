@@ -21,3 +21,7 @@
 .vt-lightbox-actions button{min-height:28px;padding:5px 10px;font-size:.69rem;line-height:1.1}
 .vt-counter{font-size:.68rem;line-height:1;white-space:nowrap}
 @media(max-width:540px){.vt-lightbox-dialog{padding:7px 7px 5px}.vt-lightbox-actions{min-height:30px;gap:6px;margin-top:5px;padding-top:5px}.vt-lightbox-actions button{min-height:26px;padding:4px 8px;font-size:.64rem}.vt-counter{font-size:.63rem}}
+
+/* Keep vehicle lightbox navigation buttons content-sized and balanced */
+.vt-lightbox-actions .vt-prev{justify-self:start;width:max-content}
+.vt-lightbox-actions .vt-next{justify-self:end;width:max-content}
