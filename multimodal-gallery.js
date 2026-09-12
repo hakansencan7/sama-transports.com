@@ -22,7 +22,6 @@
           <button type="button" class="mm-filter" data-category="Final Positioning">FINAL POSITIONING</button>
         </div>
         <div class="mm-grid"></div>
-        <div class="mm-more-wrap"><button type="button" class="mm-more">VIEW MORE</button></div>
       </div>
     </section>
     <div class="mm-lightbox" aria-hidden="true" role="dialog" aria-modal="true">
@@ -37,7 +36,6 @@
   if (!root) return;
 
   const grid = root.querySelector('.mm-grid');
-  const moreBtn = root.querySelector('.mm-more');
   const filters = [...root.querySelectorAll('.mm-filter')];
   const lb = document.querySelector('.mm-lightbox');
   const lbImg = lb.querySelector('img');
@@ -48,9 +46,6 @@
 
   let data = [];
   let filtered = [];
-  let visible = 12;
-  let initialLoad = 12;
-  let batchSize = 12;
   let current = 0;
 
   fetch('../assets/gallery/multimodal/gallery.json')
@@ -58,9 +53,6 @@
     .then(json => {
       data = json.images;
       filtered = data;
-      batchSize = json.loadMore || 12;
-      initialLoad = json.initialLoad || batchSize;
-      visible = initialLoad;
       render();
     });
 
@@ -76,21 +68,14 @@
 
   function render() {
     grid.innerHTML = '';
-    filtered.slice(0, visible).forEach((item, i) => grid.appendChild(card(item, i)));
-    moreBtn.style.display = visible >= filtered.length ? 'none' : 'inline-block';
+    filtered.forEach((item, i) => grid.appendChild(card(item, i)));
   }
-
-  moreBtn.addEventListener('click', () => {
-    visible += batchSize;
-    render();
-  });
 
   filters.forEach(btn => btn.addEventListener('click', () => {
     filters.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     const cat = btn.dataset.category;
     filtered = cat === 'All' ? data : data.filter(x => x.category === cat);
-    visible = initialLoad;
     render();
   }));
 
