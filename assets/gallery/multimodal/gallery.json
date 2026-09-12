@@ -1,0 +1,954 @@
+{
+  "project": "Mardin to Bamako Multimodal Transportation",
+  "route": "Mardin, Turkey → Taşucu Port, Turkey → Sea Transport → Côte d’Ivoire → Road Transport → Bamako, Mali",
+  "total": 105,
+  "initialLoad": 12,
+  "loadMore": 12,
+  "images": [
+    {
+      "id": 1,
+      "image": "assets/gallery/multimodal/images/multimodal-001.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-001.webp",
+      "category": "Mardin",
+      "caption": "MARDIN OPERATIONS",
+      "location": "Mardin, Turkey",
+      "alt": "Mardin Operations – Mardin, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 2,
+      "image": "assets/gallery/multimodal/images/multimodal-002.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-002.webp",
+      "category": "Mardin",
+      "caption": "MARDIN OPERATIONS",
+      "location": "Mardin, Turkey",
+      "alt": "Mardin Operations – Mardin, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 3,
+      "image": "assets/gallery/multimodal/images/multimodal-003.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-003.webp",
+      "category": "Mardin",
+      "caption": "MARDIN OPERATIONS",
+      "location": "Mardin, Turkey",
+      "alt": "Mardin Operations – Mardin, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 4,
+      "image": "assets/gallery/multimodal/images/multimodal-004.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-004.webp",
+      "category": "Mardin",
+      "caption": "MARDIN OPERATIONS",
+      "location": "Mardin, Turkey",
+      "alt": "Mardin Operations – Mardin, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 5,
+      "image": "assets/gallery/multimodal/images/multimodal-005.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-005.webp",
+      "category": "Mardin",
+      "caption": "MARDIN OPERATIONS",
+      "location": "Mardin, Turkey",
+      "alt": "Mardin Operations – Mardin, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 6,
+      "image": "assets/gallery/multimodal/images/multimodal-006.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-006.webp",
+      "category": "Mardin",
+      "caption": "MARDIN OPERATIONS",
+      "location": "Mardin, Turkey",
+      "alt": "Mardin Operations – Mardin, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 7,
+      "image": "assets/gallery/multimodal/images/multimodal-007.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-007.webp",
+      "category": "Mardin",
+      "caption": "MARDIN OPERATIONS",
+      "location": "Mardin, Turkey",
+      "alt": "Mardin Operations – Mardin, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 8,
+      "image": "assets/gallery/multimodal/images/multimodal-008.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-008.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 9,
+      "image": "assets/gallery/multimodal/images/multimodal-009.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-009.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 10,
+      "image": "assets/gallery/multimodal/images/multimodal-010.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-010.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 11,
+      "image": "assets/gallery/multimodal/images/multimodal-011.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-011.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 12,
+      "image": "assets/gallery/multimodal/images/multimodal-012.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-012.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 13,
+      "image": "assets/gallery/multimodal/images/multimodal-013.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-013.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 14,
+      "image": "assets/gallery/multimodal/images/multimodal-014.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-014.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 15,
+      "image": "assets/gallery/multimodal/images/multimodal-015.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-015.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 16,
+      "image": "assets/gallery/multimodal/images/multimodal-016.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-016.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 17,
+      "image": "assets/gallery/multimodal/images/multimodal-017.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-017.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 18,
+      "image": "assets/gallery/multimodal/images/multimodal-018.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-018.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 19,
+      "image": "assets/gallery/multimodal/images/multimodal-019.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-019.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 20,
+      "image": "assets/gallery/multimodal/images/multimodal-020.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-020.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 21,
+      "image": "assets/gallery/multimodal/images/multimodal-021.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-021.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 22,
+      "image": "assets/gallery/multimodal/images/multimodal-022.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-022.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 23,
+      "image": "assets/gallery/multimodal/images/multimodal-023.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-023.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 24,
+      "image": "assets/gallery/multimodal/images/multimodal-024.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-024.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 25,
+      "image": "assets/gallery/multimodal/images/multimodal-025.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-025.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 26,
+      "image": "assets/gallery/multimodal/images/multimodal-026.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-026.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 27,
+      "image": "assets/gallery/multimodal/images/multimodal-027.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-027.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 28,
+      "image": "assets/gallery/multimodal/images/multimodal-028.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-028.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 29,
+      "image": "assets/gallery/multimodal/images/multimodal-029.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-029.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 30,
+      "image": "assets/gallery/multimodal/images/multimodal-030.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-030.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 31,
+      "image": "assets/gallery/multimodal/images/multimodal-031.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-031.webp",
+      "category": "Tasucu",
+      "caption": "TAŞUCU PORT & SEA OPERATIONS",
+      "location": "Taşucu Port, Turkey",
+      "alt": "Taşucu Port & Sea Operations – Taşucu Port, Turkey – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 32,
+      "image": "assets/gallery/multimodal/images/multimodal-032.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-032.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 33,
+      "image": "assets/gallery/multimodal/images/multimodal-033.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-033.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 34,
+      "image": "assets/gallery/multimodal/images/multimodal-034.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-034.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 35,
+      "image": "assets/gallery/multimodal/images/multimodal-035.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-035.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 36,
+      "image": "assets/gallery/multimodal/images/multimodal-036.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-036.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 37,
+      "image": "assets/gallery/multimodal/images/multimodal-037.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-037.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 38,
+      "image": "assets/gallery/multimodal/images/multimodal-038.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-038.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 39,
+      "image": "assets/gallery/multimodal/images/multimodal-039.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-039.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 40,
+      "image": "assets/gallery/multimodal/images/multimodal-040.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-040.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 41,
+      "image": "assets/gallery/multimodal/images/multimodal-041.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-041.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 42,
+      "image": "assets/gallery/multimodal/images/multimodal-042.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-042.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 43,
+      "image": "assets/gallery/multimodal/images/multimodal-043.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-043.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 44,
+      "image": "assets/gallery/multimodal/images/multimodal-044.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-044.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 45,
+      "image": "assets/gallery/multimodal/images/multimodal-045.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-045.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 46,
+      "image": "assets/gallery/multimodal/images/multimodal-046.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-046.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 47,
+      "image": "assets/gallery/multimodal/images/multimodal-047.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-047.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 48,
+      "image": "assets/gallery/multimodal/images/multimodal-048.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-048.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 49,
+      "image": "assets/gallery/multimodal/images/multimodal-049.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-049.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 50,
+      "image": "assets/gallery/multimodal/images/multimodal-050.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-050.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 51,
+      "image": "assets/gallery/multimodal/images/multimodal-051.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-051.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 52,
+      "image": "assets/gallery/multimodal/images/multimodal-052.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-052.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 53,
+      "image": "assets/gallery/multimodal/images/multimodal-053.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-053.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 54,
+      "image": "assets/gallery/multimodal/images/multimodal-054.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-054.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 55,
+      "image": "assets/gallery/multimodal/images/multimodal-055.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-055.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 56,
+      "image": "assets/gallery/multimodal/images/multimodal-056.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-056.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 57,
+      "image": "assets/gallery/multimodal/images/multimodal-057.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-057.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 58,
+      "image": "assets/gallery/multimodal/images/multimodal-058.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-058.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 59,
+      "image": "assets/gallery/multimodal/images/multimodal-059.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-059.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 60,
+      "image": "assets/gallery/multimodal/images/multimodal-060.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-060.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 61,
+      "image": "assets/gallery/multimodal/images/multimodal-061.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-061.webp",
+      "category": "Bamako Arrival",
+      "caption": "ARRIVAL IN BAMAKO",
+      "location": "Bamako, Mali",
+      "alt": "Arrival In Bamako – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 62,
+      "image": "assets/gallery/multimodal/images/multimodal-062.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-062.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 63,
+      "image": "assets/gallery/multimodal/images/multimodal-063.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-063.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 64,
+      "image": "assets/gallery/multimodal/images/multimodal-064.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-064.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 65,
+      "image": "assets/gallery/multimodal/images/multimodal-065.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-065.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 66,
+      "image": "assets/gallery/multimodal/images/multimodal-066.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-066.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 67,
+      "image": "assets/gallery/multimodal/images/multimodal-067.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-067.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 68,
+      "image": "assets/gallery/multimodal/images/multimodal-068.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-068.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 69,
+      "image": "assets/gallery/multimodal/images/multimodal-069.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-069.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 70,
+      "image": "assets/gallery/multimodal/images/multimodal-070.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-070.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 71,
+      "image": "assets/gallery/multimodal/images/multimodal-071.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-071.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 72,
+      "image": "assets/gallery/multimodal/images/multimodal-072.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-072.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 73,
+      "image": "assets/gallery/multimodal/images/multimodal-073.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-073.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 74,
+      "image": "assets/gallery/multimodal/images/multimodal-074.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-074.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 75,
+      "image": "assets/gallery/multimodal/images/multimodal-075.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-075.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 76,
+      "image": "assets/gallery/multimodal/images/multimodal-076.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-076.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 77,
+      "image": "assets/gallery/multimodal/images/multimodal-077.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-077.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 78,
+      "image": "assets/gallery/multimodal/images/multimodal-078.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-078.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 79,
+      "image": "assets/gallery/multimodal/images/multimodal-079.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-079.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 80,
+      "image": "assets/gallery/multimodal/images/multimodal-080.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-080.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 81,
+      "image": "assets/gallery/multimodal/images/multimodal-081.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-081.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 82,
+      "image": "assets/gallery/multimodal/images/multimodal-082.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-082.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 83,
+      "image": "assets/gallery/multimodal/images/multimodal-083.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-083.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 84,
+      "image": "assets/gallery/multimodal/images/multimodal-084.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-084.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 85,
+      "image": "assets/gallery/multimodal/images/multimodal-085.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-085.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 86,
+      "image": "assets/gallery/multimodal/images/multimodal-086.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-086.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 87,
+      "image": "assets/gallery/multimodal/images/multimodal-087.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-087.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 88,
+      "image": "assets/gallery/multimodal/images/multimodal-088.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-088.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 89,
+      "image": "assets/gallery/multimodal/images/multimodal-089.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-089.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 90,
+      "image": "assets/gallery/multimodal/images/multimodal-090.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-090.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 91,
+      "image": "assets/gallery/multimodal/images/multimodal-091.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-091.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 92,
+      "image": "assets/gallery/multimodal/images/multimodal-092.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-092.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 93,
+      "image": "assets/gallery/multimodal/images/multimodal-093.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-093.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 94,
+      "image": "assets/gallery/multimodal/images/multimodal-094.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-094.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 95,
+      "image": "assets/gallery/multimodal/images/multimodal-095.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-095.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 96,
+      "image": "assets/gallery/multimodal/images/multimodal-096.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-096.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 97,
+      "image": "assets/gallery/multimodal/images/multimodal-097.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-097.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 98,
+      "image": "assets/gallery/multimodal/images/multimodal-098.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-098.webp",
+      "category": "Gantry",
+      "caption": "GANTRY CRANE UNLOADING",
+      "location": "Bamako, Mali",
+      "alt": "Gantry Crane Unloading – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 99,
+      "image": "assets/gallery/multimodal/images/multimodal-099.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-099.webp",
+      "category": "Final Positioning",
+      "caption": "FINAL POSITIONING",
+      "location": "Bamako, Mali",
+      "alt": "Final Positioning – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 100,
+      "image": "assets/gallery/multimodal/images/multimodal-100.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-100.webp",
+      "category": "Final Positioning",
+      "caption": "FINAL POSITIONING",
+      "location": "Bamako, Mali",
+      "alt": "Final Positioning – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 101,
+      "image": "assets/gallery/multimodal/images/multimodal-101.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-101.webp",
+      "category": "Final Positioning",
+      "caption": "FINAL POSITIONING",
+      "location": "Bamako, Mali",
+      "alt": "Final Positioning – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 102,
+      "image": "assets/gallery/multimodal/images/multimodal-102.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-102.webp",
+      "category": "Final Positioning",
+      "caption": "FINAL POSITIONING",
+      "location": "Bamako, Mali",
+      "alt": "Final Positioning – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 103,
+      "image": "assets/gallery/multimodal/images/multimodal-103.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-103.webp",
+      "category": "Final Positioning",
+      "caption": "FINAL POSITIONING",
+      "location": "Bamako, Mali",
+      "alt": "Final Positioning – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 104,
+      "image": "assets/gallery/multimodal/images/multimodal-104.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-104.webp",
+      "category": "Final Positioning",
+      "caption": "FINAL POSITIONING",
+      "location": "Bamako, Mali",
+      "alt": "Final Positioning – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    },
+    {
+      "id": 105,
+      "image": "assets/gallery/multimodal/images/multimodal-105.webp",
+      "thumb": "assets/gallery/multimodal/thumbs/multimodal-105.webp",
+      "category": "Final Positioning",
+      "caption": "FINAL POSITIONING",
+      "location": "Bamako, Mali",
+      "alt": "Final Positioning – Bamako, Mali – Mardin to Bamako multimodal transportation project"
+    }
+  ]
+}
