@@ -1,0 +1,525 @@
+body[data-service="pipe-transportation"] {
+  --pipe-panel: #061725;
+  --pipe-panel-soft: #082438;
+  --pipe-copy: #dceaf0;
+  --pipe-muted: #9db8c5;
+  --pipe-line: rgba(159, 224, 248, .24);
+}
+
+body[data-service="pipe-transportation"].pipe-gallery-modal-open {
+  overflow: hidden;
+}
+
+body[data-service="pipe-transportation"] .hero h1 {
+  max-width: 850px;
+}
+
+body[data-service="pipe-transportation"] .intro {
+  background: linear-gradient(118deg, #020d16 12%, #061b2a 100%);
+}
+
+body[data-service="pipe-transportation"] .intro-grid {
+  align-items: start;
+}
+
+body[data-service="pipe-transportation"] .intro h2,
+body[data-service="pipe-transportation"] .capabilities h2,
+body[data-service="pipe-transportation"] .projects h2,
+body[data-service="pipe-transportation"] .pipe-deep-section h2 {
+  max-width: 800px;
+  letter-spacing: -.045em;
+}
+
+body[data-service="pipe-transportation"] .intro p {
+  max-width: 680px;
+}
+
+body[data-service="pipe-transportation"] .pipe-intro-slogan {
+  margin-top: 25px;
+  color: var(--cyan);
+  font-size: .76rem;
+  font-weight: 900;
+  letter-spacing: .14em;
+  line-height: 1.55;
+}
+
+body[data-service="pipe-transportation"] .pipe-intro-copy p + p {
+  margin-top: 17px;
+}
+
+body[data-service="pipe-transportation"] .capabilities {
+  background: radial-gradient(circle at 88% 4%, rgba(21, 201, 255, .14), transparent 34%), #03111c;
+}
+
+body[data-service="pipe-transportation"] .cap-list {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+body[data-service="pipe-transportation"] .cap-list li {
+  min-height: 156px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-color: rgba(21, 201, 255, .28);
+  background: linear-gradient(145deg, rgba(9, 39, 57, .72), rgba(3, 18, 29, .76));
+  transition: border-color .2s ease, background-color .2s ease, transform .2s ease;
+}
+
+body[data-service="pipe-transportation"] .cap-list li:hover {
+  transform: translateY(-3px);
+  border-color: rgba(21, 201, 255, .75);
+  background: linear-gradient(145deg, rgba(9, 52, 76, .92), rgba(3, 18, 29, .88));
+}
+
+body[data-service="pipe-transportation"] .pipe-deep-section {
+  position: relative;
+  padding: clamp(76px, 8vw, 122px) 5.8%;
+  border-top: 1px solid var(--pipe-line);
+}
+
+body[data-service="pipe-transportation"] .pipe-section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(230px, .7fr);
+  gap: 7vw;
+  align-items: end;
+}
+
+body[data-service="pipe-transportation"] .pipe-section-heading p:not(.section-kicker) {
+  max-width: 430px;
+  margin: 0;
+  color: var(--pipe-muted);
+  font-size: .95rem;
+  line-height: 1.7;
+}
+
+body[data-service="pipe-transportation"] .pipe-flow-section {
+  background: radial-gradient(circle at 10% 0%, rgba(21, 201, 255, .1), transparent 23%), #03111c;
+}
+
+body[data-service="pipe-transportation"] .pipe-flow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin: 52px 0 0;
+  padding: 1px;
+  list-style: none;
+  background: var(--pipe-line);
+}
+
+body[data-service="pipe-transportation"] .pipe-flow-item {
+  min-height: 272px;
+  padding: 27px 24px 26px;
+  background: #04131e;
+}
+
+body[data-service="pipe-transportation"] .pipe-flow-index {
+  display: block;
+  width: fit-content;
+  margin-bottom: 46px;
+  color: var(--cyan);
+  font-size: .72rem;
+  font-weight: 900;
+  letter-spacing: .2em;
+}
+
+body[data-service="pipe-transportation"] .pipe-flow-item h3,
+body[data-service="pipe-transportation"] .pipe-term h3,
+body[data-service="pipe-transportation"] .pipe-safety-card h3 {
+  margin: 0;
+  color: #fff;
+  font-size: .98rem;
+  line-height: 1.22;
+  letter-spacing: -.01em;
+}
+
+body[data-service="pipe-transportation"] .pipe-flow-item p {
+  margin: 14px 0 0;
+  color: var(--pipe-muted);
+  font-size: .84rem;
+  line-height: 1.63;
+}
+
+body[data-service="pipe-transportation"] .pipe-terms-section {
+  background: #061725;
+}
+
+body[data-service="pipe-transportation"] .pipe-terms {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 50px;
+  padding: 1px;
+  background: var(--pipe-line);
+}
+
+body[data-service="pipe-transportation"] .pipe-term {
+  min-height: 218px;
+  padding: 26px 24px;
+  background: #04131e;
+}
+
+body[data-service="pipe-transportation"] .pipe-term h3 {
+  color: var(--cyan);
+  font-size: .86rem;
+  letter-spacing: .08em;
+}
+
+body[data-service="pipe-transportation"] .pipe-term p {
+  margin: 18px 0 0;
+  color: var(--pipe-copy);
+  font-size: .87rem;
+  line-height: 1.62;
+}
+
+body[data-service="pipe-transportation"] .pipe-cargo-section {
+  background: linear-gradient(115deg, #03111c 8%, #061725 100%);
+}
+
+body[data-service="pipe-transportation"] .pipe-cargo-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(260px, .85fr);
+  gap: 7vw;
+  align-items: start;
+}
+
+body[data-service="pipe-transportation"] .pipe-cargo-layout > p {
+  max-width: 430px;
+  margin: 0;
+  color: var(--pipe-muted);
+  font-size: .95rem;
+  line-height: 1.7;
+}
+
+body[data-service="pipe-transportation"] .pipe-cargo-grid,
+body[data-service="pipe-transportation"] .pipe-industry-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 48px;
+  padding: 1px;
+  background: var(--pipe-line);
+}
+
+body[data-service="pipe-transportation"] .pipe-cargo-grid span,
+body[data-service="pipe-transportation"] .pipe-industry-grid span {
+  display: flex;
+  min-height: 112px;
+  align-items: flex-end;
+  padding: 21px 18px;
+  background: #04131e;
+  color: #eef9fc;
+  font-size: .84rem;
+  font-weight: 850;
+  letter-spacing: .05em;
+  line-height: 1.35;
+  transition: background-color .2s ease, color .2s ease;
+}
+
+body[data-service="pipe-transportation"] .pipe-cargo-grid span:hover,
+body[data-service="pipe-transportation"] .pipe-industry-grid span:hover {
+  background: #0c2d42;
+  color: var(--cyan);
+}
+
+body[data-service="pipe-transportation"] .pipe-industry-section {
+  background: #020d16;
+}
+
+body[data-service="pipe-transportation"] .pipe-safety-section {
+  display: grid;
+  grid-template-columns: minmax(0, 1.02fr) minmax(330px, .98fr);
+  gap: clamp(44px, 8vw, 130px);
+  align-items: center;
+  background: radial-gradient(circle at 88% 50%, rgba(21, 201, 255, .16), transparent 34%), #04131e;
+}
+
+body[data-service="pipe-transportation"] .pipe-safety-copy > p:not(.section-kicker) {
+  max-width: 650px;
+  margin: 22px 0 0;
+  color: var(--pipe-copy);
+  font-size: .98rem;
+  line-height: 1.75;
+}
+
+body[data-service="pipe-transportation"] .pipe-safety-copy > p:nth-of-type(2) {
+  color: #fff;
+  font-size: 1.18rem;
+  font-weight: 760;
+  line-height: 1.52;
+}
+
+body[data-service="pipe-transportation"] .pipe-safety-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  padding: 1px;
+  background: var(--pipe-line);
+}
+
+body[data-service="pipe-transportation"] .pipe-safety-card {
+  min-height: 160px;
+  padding: 25px 22px;
+  background: rgba(2, 13, 22, .9);
+}
+
+body[data-service="pipe-transportation"] .pipe-safety-card span {
+  display: block;
+  margin-bottom: 36px;
+  color: var(--cyan);
+  font-size: .68rem;
+  font-weight: 900;
+  letter-spacing: .2em;
+}
+
+body[data-service="pipe-transportation"] .pipe-final-message {
+  overflow: hidden;
+  padding-top: clamp(95px, 11vw, 160px);
+  padding-bottom: clamp(95px, 11vw, 160px);
+  background: radial-gradient(circle at 88% 62%, rgba(21, 201, 255, .24), transparent 28%), linear-gradient(118deg, #041d2c, #020d16 69%);
+}
+
+body[data-service="pipe-transportation"] .pipe-final-message-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 980px;
+}
+
+body[data-service="pipe-transportation"] .pipe-final-message h2 {
+  margin: 17px 0 0;
+  color: #fff;
+  font-size: clamp(2.45rem, 5.4vw, 6.1rem);
+  font-weight: 920;
+  line-height: .91;
+  letter-spacing: -.06em;
+}
+
+body[data-service="pipe-transportation"] .pipe-final-message h2 strong {
+  color: var(--cyan);
+}
+
+body[data-service="pipe-transportation"] .pipe-final-message p:not(.section-kicker) {
+  max-width: 710px;
+  margin: 32px 0 0;
+  color: var(--pipe-copy);
+  font-size: 1.04rem;
+  line-height: 1.74;
+}
+
+body[data-service="pipe-transportation"] .pipe-cta-section {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(320px, 1fr);
+  gap: 9vw;
+  align-items: center;
+  background: #061725;
+}
+
+body[data-service="pipe-transportation"] .pipe-cta-section p:not(.section-kicker) {
+  max-width: 620px;
+  margin: 22px 0 0;
+  color: var(--pipe-copy);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+body[data-service="pipe-transportation"] .pipe-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+body[data-service="pipe-transportation"] .pipe-button {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 17px;
+  border: 1px solid var(--cyan);
+  color: #fff;
+  font-size: .71rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-align: center;
+  text-decoration: none;
+  transition: transform .2s ease, background-color .2s ease, color .2s ease;
+}
+
+body[data-service="pipe-transportation"] .pipe-button:hover {
+  transform: translateY(-2px);
+}
+
+body[data-service="pipe-transportation"] .pipe-button-primary {
+  background: var(--cyan);
+  color: #03111c;
+}
+
+body[data-service="pipe-transportation"] .pipe-button-secondary {
+  background: rgba(2, 13, 22, .3);
+}
+
+body[data-service="pipe-transportation"] .pipe-button-secondary:hover {
+  background: rgba(21, 201, 255, .15);
+}
+
+body[data-service="pipe-transportation"] .projects {
+  background: #020d16;
+}
+
+body[data-service="pipe-transportation"] .projects .project {
+  padding: clamp(20px, 3vw, 32px);
+  border-style: solid;
+  background: #04131e;
+}
+
+body[data-service="pipe-transportation"] .projects .project-meta {
+  margin-top: 2px;
+}
+
+body[data-service="pipe-transportation"] .projects .pipe-gallery {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+body[data-service="pipe-transportation"] .projects .pipe-gallery button {
+  display: flex;
+  min-width: 0;
+  min-height: 0;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgba(21, 201, 255, .33);
+  background: #020d16;
+}
+
+body[data-service="pipe-transportation"] .projects .pipe-gallery img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  opacity: 1;
+  transform: none;
+  transition: opacity .2s ease;
+}
+
+body[data-service="pipe-transportation"] .projects .pipe-gallery button:hover img {
+  opacity: .96;
+}
+
+body[data-service="pipe-transportation"] .lightbox-box {
+  width: min(1160px, 100%);
+  max-width: none;
+  padding: 14px;
+}
+
+body[data-service="pipe-transportation"] .lightbox img {
+  max-height: 72vh;
+}
+
+body[data-service="pipe-transportation"] .lightbox-controls {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+body[data-service="pipe-transportation"] .lightbox-controls .next {
+  justify-self: end;
+}
+
+body[data-service="pipe-transportation"] .pipe-lightbox-count {
+  color: var(--pipe-muted);
+  font-size: .67rem;
+  font-weight: 900;
+  letter-spacing: .13em;
+}
+
+@media (max-width: 1100px) {
+  body[data-service="pipe-transportation"] .cap-list,
+  body[data-service="pipe-transportation"] .pipe-flow {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  body[data-service="pipe-transportation"] .pipe-terms {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 860px) {
+  body[data-service="pipe-transportation"] .pipe-section-heading,
+  body[data-service="pipe-transportation"] .pipe-cargo-layout,
+  body[data-service="pipe-transportation"] .pipe-safety-section,
+  body[data-service="pipe-transportation"] .pipe-cta-section {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  body[data-service="pipe-transportation"] .cap-list,
+  body[data-service="pipe-transportation"] .pipe-flow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body[data-service="pipe-transportation"] .pipe-cargo-grid,
+  body[data-service="pipe-transportation"] .pipe-industry-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  body[data-service="pipe-transportation"] .projects .pipe-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 540px) {
+  body[data-service="pipe-transportation"] .pipe-deep-section {
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+
+  body[data-service="pipe-transportation"] .pipe-section-heading p:not(.section-kicker),
+  body[data-service="pipe-transportation"] .pipe-cargo-layout > p {
+    font-size: .9rem;
+  }
+
+  body[data-service="pipe-transportation"] .cap-list,
+  body[data-service="pipe-transportation"] .pipe-flow,
+  body[data-service="pipe-transportation"] .pipe-terms,
+  body[data-service="pipe-transportation"] .pipe-cargo-grid,
+  body[data-service="pipe-transportation"] .pipe-industry-grid,
+  body[data-service="pipe-transportation"] .pipe-safety-grid,
+  body[data-service="pipe-transportation"] .projects .pipe-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  body[data-service="pipe-transportation"] .pipe-flow-item,
+  body[data-service="pipe-transportation"] .pipe-term {
+    min-height: 0;
+  }
+
+  body[data-service="pipe-transportation"] .pipe-final-message h2 {
+    font-size: clamp(2.4rem, 12vw, 4rem);
+  }
+
+  body[data-service="pipe-transportation"] .pipe-actions,
+  body[data-service="pipe-transportation"] .pipe-button {
+    width: 100%;
+  }
+
+  body[data-service="pipe-transportation"] .lightbox {
+    padding: 58px 14px 18px;
+  }
+
+  body[data-service="pipe-transportation"] .lightbox-box {
+    padding: 8px;
+  }
+
+  body[data-service="pipe-transportation"] .lightbox-controls {
+    gap: 8px;
+  }
+
+  body[data-service="pipe-transportation"] .lightbox-controls button {
+    padding: 10px 8px;
+    font-size: .58rem;
+  }
+
+  body[data-service="pipe-transportation"] .pipe-lightbox-count {
+    font-size: .56rem;
+  }
+}
