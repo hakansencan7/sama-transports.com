@@ -28,6 +28,7 @@ const SERVICES = {
   "rail-freight": {
     n: "08",
     title: "RAIL FREIGHT",
+    image: "hero-rail-freight.png",
     intro: "Our rail freight service integrates rail into a broader cargo plan with clear terminal, transfer and onward-delivery coordination. We prepare each movement around cargo readiness, schedule requirements and intermodal handovers, helping customers connect rail capacity with practical road, port or final-destination logistics support.",
     caps: ["Rail movement planning", "Terminal coordination", "Intermodal transfers", "Cargo preparation", "Schedule coordination", "Onward delivery support"]
   },
@@ -46,6 +47,7 @@ const SERVICES = {
   "multimodal-transportation": {
     n: "11",
     title: "MULTIMODAL TRANSPORTATION",
+    image: "hero-multimodal-transportation.png",
     intro: "SAMA Transportations combines road, sea, rail and terminal activity into one integrated cargo plan. We coordinate transfers, schedules and documentation between each mode, helping complex project movements retain continuity from origin through ports, inland routes and final-site delivery without unnecessary operational gaps.",
     caps: ["Modal planning", "Road and sea coordination", "Rail integration", "Transfer management", "Cargo visibility", "End-to-end planning"],
     gallery: true
