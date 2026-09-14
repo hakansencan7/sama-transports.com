@@ -1,0 +1,36 @@
+/* Shared gallery navigation: fixed actions with a genuinely centred image count. */
+.gallery-lightbox-controls {
+  display: grid !important;
+  grid-template-columns: 110px minmax(0, 1fr) 110px !important;
+  align-items: center;
+}
+
+.gallery-lightbox-controls .gallery-lightbox-nav {
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 110px;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  min-width: 110px;
+  max-width: 110px;
+  height: 42px;
+  min-height: 42px;
+  max-height: 42px;
+  padding: 0 !important;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.gallery-lightbox-controls .gallery-lightbox-nav--previous {
+  justify-self: start;
+}
+
+.gallery-lightbox-controls .gallery-lightbox-nav--next {
+  justify-self: end;
+}
+
+.gallery-lightbox-controls .gallery-lightbox-count {
+  justify-self: center;
+  text-align: center;
+}

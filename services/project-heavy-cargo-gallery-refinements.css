@@ -1,0 +1,8 @@
+/* Full, uncropped project-gallery artwork in the shared 3 / 2 / 1 layout. */
+.pc-gallery{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.pc-gallery button{display:grid;place-items:center;aspect-ratio:4 / 3}
+.pc-gallery img{width:100%;height:100%;aspect-ratio:auto;object-fit:contain;opacity:1;transform:none}
+.pc-gallery button:before,.pc-gallery button:after{display:none}
+.pc-gallery button:hover img{opacity:1;transform:none}
+@media(max-width:860px){.pc-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){.pc-gallery{grid-template-columns:1fr}}

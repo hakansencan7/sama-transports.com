@@ -30,3 +30,16 @@
 .vehicle-hero>img{object-position:66% center;transform:none}
 @media(max-width:860px){.vehicle-hero>img{object-position:72% center}}
 @media(max-width:540px){.vehicle-hero>img{object-position:78% center}}
+
+body.vt-lightbox-open{overflow:hidden}
+
+/* Preserve each approved gallery poster inside an equal, uncropped card. */
+.vt-gallery-item{display:grid;place-items:center;aspect-ratio:4 / 3}
+.vt-gallery-item img{width:100%;height:100%;object-fit:contain}
+.vt-gallery-item:hover img,.vt-gallery-item:focus-visible img{transform:none;opacity:1}
+
+.vt-cta{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:54px 5.8%;border-top:1px solid var(--line);background:linear-gradient(115deg,#04131e,#062d45)}
+.vt-cta h2{margin:12px 0 0;font-size:clamp(1.7rem,3vw,3.1rem);line-height:1}
+.vt-cta-link{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 20px;border:1px solid var(--cyan);color:var(--cyan);font-size:.76rem;font-weight:900;letter-spacing:.08em;text-decoration:none;white-space:nowrap}
+.vt-cta-link:hover{background:var(--cyan);color:#020d16}
+@media(max-width:540px){.vt-cta{flex-direction:column;align-items:flex-start;padding:42px 22px}}

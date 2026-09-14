@@ -6,13 +6,7 @@
   projects.innerHTML = `
     <section class="mm-gallery-section" data-multimodal-gallery>
       <div class="mm-gallery-wrap">
-        <div class="mm-gallery-head">
-          <div>
-            <div class="mm-gallery-kicker">Project Gallery</div>
-            <h2 class="mm-gallery-title">MARDIN → BAMAKO<br>MULTIMODAL PROJECT</h2>
-          </div>
-          <p class="mm-gallery-sub">Heavy project cargo transported through an integrated road, port, sea and final-site delivery operation from Mardin, Turkey to Bamako, Mali.</p>
-        </div>
+        <div class="mm-gallery-head"><h2 class="mm-gallery-title">MULTIMODAL TRANSPORTATION GALLERY</h2></div>
         <div class="mm-filters">
           <button type="button" class="mm-filter active" data-category="All">ALL</button>
           <button type="button" class="mm-filter" data-category="Mardin">MARDIN</button>
@@ -47,6 +41,7 @@
   let data = [];
   let filtered = [];
   let current = 0;
+  let lastTrigger = null;
 
   fetch('../assets/gallery/multimodal/gallery.json')
     .then(r => r.json())
@@ -61,8 +56,8 @@
     el.className = 'mm-card';
     el.innerHTML = `
       <img src="../${item.thumb}" data-full="../${item.image}" alt="${escapeHtml(item.alt)}" loading="lazy" decoding="async">
-      <div class="mm-meta"><strong>${escapeHtml(item.caption)}</strong><span>${escapeHtml(item.location)}</span></div>`;
-    el.addEventListener('click', () => openLightbox(index));
+      `;
+    el.addEventListener('click', () => openLightbox(index, el));
     return el;
   }
 
@@ -79,11 +74,14 @@
     render();
   }));
 
-  function openLightbox(i) {
+  function openLightbox(i, trigger) {
     current = i;
+    lastTrigger = trigger || null;
     updateLightbox();
     lb.classList.add('open');
+    lb.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
+    close.focus();
   }
 
   function updateLightbox() {
@@ -120,8 +118,10 @@
 
   function shut(){
     lb.classList.remove('open');
+    lb.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = '';
     lbImg.src = '';
+    if (lastTrigger) lastTrigger.focus();
   }
   function escapeHtml(s){
     return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));

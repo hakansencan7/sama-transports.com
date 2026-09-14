@@ -15,12 +15,7 @@
           <p class="pipe-intro-slogan">FROM FACTORY FLOOR TO PORT, VESSEL AND FINAL PROJECT SITE.</p>
         </div>
         <div class="pipe-intro-copy">
-          <p>Pipe transportation requires much more than moving cargo from one point to another.</p>
-          <p>The length, diameter, weight, coating, lifting points and final destination of each pipe shipment must be considered when planning loading, transportation, port operations, vessel handling, securing and final delivery.</p>
-          <p>SAMA Transportations provides integrated pipe logistics solutions covering the complete transportation chain from the manufacturing facility to ports, vessels, warehouses, project sites and final customer destinations.</p>
-          <p>Our operations can include factory loading, domestic and international road transportation, port receiving, temporary storage, vessel loading, stowage coordination, cargo securing and lashing, sea transportation coordination, vessel discharge, port handling, warehouse transportation, project-site delivery and final unloading.</p>
-          <p>Each stage is coordinated according to the technical characteristics of the cargo and the operational requirements of the project.</p>
-          <p>Whether the shipment consists of steel pipes, coated line pipes, casing, tubing, structural pipes or other long-length cargo, our objective is to maintain a safe and continuous logistics flow from origin to final delivery.</p>
+          <p>SAMA Transportations plans pipe movements around length, diameter, weight, coating and lifting requirements from origin through final delivery. Our teams coordinate safe loading, cargo support, road and port handling, securing and handovers so every shipment follows a practical, controlled logistics sequence.</p>
         </div>
       </div>`;
   }
@@ -198,44 +193,47 @@
         </div>
       </section>
 
-      <section class="pipe-deep-section pipe-cta-section" aria-labelledby="pipe-cta-title">
-        <div>
-          <div class="section-kicker">PROJECT ENQUIRIES</div>
-          <h2 id="pipe-cta-title">PLANNING A PIPE TRANSPORTATION PROJECT?</h2>
-        </div>
-        <div>
-          <p>Send us your pipe specifications, quantity, dimensions, weight, origin, port of loading and final destination. Our team will evaluate the handling and transportation requirements and develop the right logistics solution for your project.</p>
-          <div class="pipe-actions">
-            <a class="pipe-button pipe-button-primary" href="../index.html#contact">REQUEST A PIPE LOGISTICS QUOTE</a>
-            <a class="pipe-button pipe-button-secondary" href="../index.html#contact">DISCUSS YOUR PROJECT</a>
-          </div>
-        </div>
-      </section>`;
-    projects.before(deepContent);
+      `;
+    const details = app.querySelector(".service-details");
+    if (details) details.append(deepContent);
+    else projects.after(deepContent);
   }
 
   if (!projects) return;
 
-  const projectsKicker = projects.querySelector(".section-kicker");
   const projectsTitle = projects.querySelector("h2");
-  const projectsNote = projects.querySelector(".projects-note");
-  const projectNumber = projects.querySelector(".project-number");
-  const projectTitle = projects.querySelector(".project h3");
-  const projectMeta = projects.querySelector(".project-meta");
-  if (projectsKicker) projectsKicker.textContent = "PIPE OPERATIONS / GALLERY";
   if (projectsTitle) projectsTitle.textContent = "PIPE TRANSPORTATION GALLERY";
-  if (projectsNote) projectsNote.textContent = "Approved Pipe Transportation poster references. Select any image to view the full, uncropped artwork.";
-  if (projectNumber) projectNumber.textContent = "PIPE LOGISTICS / OPERATION REFERENCES";
-  if (projectTitle) projectTitle.textContent = "PIPE TRANSPORTATION GALLERY";
-  if (projectMeta) {
-    projectMeta.innerHTML = `
-      <div><b>OPERATIONS</b>Factory, road, port, vessel and final-site pipe logistics.</div>
-      <div><b>FORMAT</b>Approved poster artwork shown without additional overlays or cropping.</div>
-      <div><b>VIEWING</b>Select an image for full-size navigation across the complete gallery.</div>`;
-  }
 
   const gallery = projects.querySelector(".gallery");
-  const sourceImages = Array.from({ length: 33 }, (_, index) => `../assets/services/pipe-transportation/gallery/${String(index + 1).padStart(2, "0")}.png`);
+  const sourceImages = [
+    ...Array.from({ length: 33 }, (_, index) => ({
+      src: `../assets/services/pipe-transportation/gallery/${String(index + 1).padStart(2, "0")}.png`,
+      alt: `Pipe transportation operation poster ${index + 1}`
+    })),
+    { src: "../assets/services/pipe-transportation/gallery/34.png", alt: "Pipe transportation operation with cargo loaded at a port" },
+    { src: "../assets/services/pipe-transportation/gallery/35.png", alt: "Steel pipe handling operation at a logistics terminal" },
+    { src: "../assets/services/pipe-transportation/gallery/36.png", alt: "Heavy-duty truck transporting steel pipe cargo" },
+    { src: "../assets/services/pipe-transportation/gallery/37.png", alt: "Steel pipes prepared for port transportation" },
+    { src: "../assets/services/pipe-transportation/gallery/38.png", alt: "Pipe loading operation with crane handling" },
+    { src: "../assets/services/pipe-transportation/gallery/39.png", alt: "Pipe cargo staging at an industrial logistics yard" },
+    { src: "../assets/services/pipe-transportation/gallery/40.png", alt: "Steel pipe transport operation with secure cargo supports" },
+    { src: "../assets/services/pipe-transportation/gallery/41.png", alt: "Industrial pipe loading operation at port" },
+    { src: "../assets/services/pipe-transportation/gallery/42.png", alt: "Heavy-duty truck and pipe cargo at port" },
+    { src: "../assets/services/pipe-transportation/gallery/43.png", alt: "Pipe logistics operation with crane-assisted loading" },
+    { src: "../assets/services/pipe-transportation/gallery/44.png", alt: "Steel pipe cargo prepared for vessel loading" },
+    { src: "../assets/services/pipe-transportation/gallery/45.png", alt: "Heavy pipe transportation on a flatbed trailer" },
+    { src: "../assets/services/pipe-transportation/gallery/46.png", alt: "Pipe freight operation with cargo handling equipment" },
+    { src: "../assets/services/pipe-transportation/gallery/47.png", alt: "Steel pipe transport operation at an industrial terminal" },
+    { src: "../assets/services/pipe-transportation/gallery/48.png", alt: "Pipe loading and securing operation" },
+    { src: "../assets/services/pipe-transportation/gallery/49.png", alt: "Heavy-duty pipe transportation logistics" },
+    { src: "../assets/services/pipe-transportation/gallery/50.png", alt: "Steel pipe cargo at a port logistics yard" },
+    { src: "../assets/services/pipe-transportation/gallery/51.png", alt: "Pipe cargo handling with lifting equipment" },
+    { src: "../assets/services/pipe-transportation/gallery/52.png", alt: "Steel pipe shipment preparation at port" },
+    { src: "../assets/services/pipe-transportation/gallery/53.png", alt: "Pipe transport and loading operation" },
+    { src: "../assets/services/pipe-transportation/gallery/54.png", alt: "Cargo vessel pipe loading operation" },
+    { src: "../assets/services/pipe-transportation/gallery/55.png", alt: "Heavy pipe freight at an industrial terminal" },
+    { src: "../assets/services/pipe-transportation/gallery/56.png", alt: "Steel pipe logistics operation for project cargo" }
+  ];
   if (!gallery) return;
 
   gallery.classList.add("pipe-gallery");
@@ -251,7 +249,7 @@
     return { src: image.getAttribute("src") || image.src, alt: image.alt, card };
   });
 
-  sourceImages.forEach((src, sourceIndex) => {
+  sourceImages.forEach(({ src, alt }, sourceIndex) => {
     const index = photos.length;
     const card = document.createElement("button");
     const image = document.createElement("img");
@@ -259,7 +257,7 @@
     card.dataset.pipePhoto = String(index);
     card.setAttribute("aria-label", `Open Pipe Transportation poster ${sourceIndex + 1}`);
     image.src = src;
-    image.alt = `Pipe Transportation operation poster ${sourceIndex + 1}`;
+    image.alt = alt;
     image.loading = "lazy";
     image.decoding = "async";
     card.append(image);
@@ -274,10 +272,11 @@
   const lightboxImage = lightbox.querySelector("img");
   const controls = lightbox.querySelector(".lightbox-controls");
   const closeButton = lightbox.querySelector(".close");
+  controls.classList.add("gallery-lightbox-controls");
   controls.innerHTML = `
-    <button class="previous" type="button" aria-label="View previous gallery image">← PREVIOUS</button>
-    <span class="pipe-lightbox-count" aria-live="polite"></span>
-    <button class="next" type="button" aria-label="View next gallery image">NEXT →</button>`;
+    <button class="previous gallery-lightbox-nav gallery-lightbox-nav--previous" type="button" aria-label="View previous gallery image">← PREVIOUS</button>
+    <span class="pipe-lightbox-count gallery-lightbox-count" aria-live="polite"></span>
+    <button class="next gallery-lightbox-nav gallery-lightbox-nav--next" type="button" aria-label="View next gallery image">NEXT →</button>`;
   const previousButton = controls.querySelector(".previous");
   const nextButton = controls.querySelector(".next");
   const count = controls.querySelector(".pipe-lightbox-count");

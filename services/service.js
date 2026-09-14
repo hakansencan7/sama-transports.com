@@ -1,19 +1,169 @@
-const SERVICES={
-"turkey-warehousing":{n:"02",title:"TURKEY WAREHOUSING & CARGO HANDLING",intro:"SAMA Transportations supports cargo storage, handling and onward coordination in Turkey with a practical focus on safe movement, clear handovers and responsive operational planning.",caps:["Warehouse coordination","Loading and unloading","Cargo handling","Secure staging","Inventory-ready storage","Onward transport support"]},
-"syria-warehousing":{n:"03",title:"SYRIA WAREHOUSING & CARGO HANDLING",intro:"Our Syria warehousing and cargo handling service is structured to support controlled cargo flow, from operational receiving through safe storage and preparation for the next transport stage.",caps:["Warehouse coordination","Loading and unloading","Cargo handling","Secure stacking","Cargo staging","Heavy handling support"]},
-"jordan-warehousing":{n:"04",title:"JORDAN WAREHOUSING & CARGO HANDLING",intro:"SAMA Transportations provides warehousing and cargo handling support in Jordan designed around disciplined operations, cargo care and dependable coordination across the logistics chain.",caps:["Warehouse coordination","Cargo receiving","Loading and unloading","Secure storage","Cargo staging","Distribution support"]},
-"vehicle-transportation":{n:"05",title:"VEHICLE TRANSPORTATION",intro:"From individual units to fleet movements, SAMA Transportations coordinates vehicle transportation with careful planning, suitable equipment and visibility across each stage of the journey.",caps:["Vehicle logistics planning","Fleet transportation","Loading and securing","Route coordination","Cross-border support","Delivery coordination"]},
-"project-heavy-cargo":{n:"06",title:"PROJECT & HEAVY CARGO TRANSPORTATION",intro:"For huge, oversized and heavy cargo, our project logistics approach brings together route study, equipment planning, handling coordination and disciplined execution.",caps:["Oversized cargo planning","Heavy lift coordination","Route assessment","Special equipment support","Permit-ready coordination","Project delivery planning"]},
-"pipe-transportation":{n:"07",title:"PIPE TRANSPORTATION",intro:"SAMA Transportations supports pipe transportation with purpose-built planning for loading, securing, handling and delivery, helping protect cargo throughout the journey.",caps:["Pipe loading support","Cargo securing","Route planning","Handling coordination","Delivery scheduling","Cross-border logistics"]},
-"rail-freight":{n:"08",title:"RAIL FREIGHT",intro:"Our rail freight service integrates rail into a broader logistics plan, supporting dependable modal coordination, cargo readiness and efficient onward movement.",caps:["Rail movement planning","Terminal coordination","Intermodal transfers","Cargo preparation","Schedule coordination","Onward delivery support"]},
-"transit-transportation":{n:"09",title:"TRANSIT TRANSPORTATION",intro:"SAMA Transportations manages transit movements with attention to timing, documentation readiness and cross-border coordination so cargo can move through each gateway with confidence.",caps:["Transit route planning","Border coordination","Document readiness","Cargo monitoring","Schedule management","Onward transport support"]},
-"ship-chartering":{n:"10",title:"SHIP CHARTERING SERVICES",intro:"Our ship chartering service supports cargo owners with practical coordination across vessel requirements, port activity and the logistics surrounding each shipment.",caps:["Chartering coordination","Vessel requirement review","Port liaison","Cargo readiness","Schedule support","Shipment planning"]},
-"multimodal-transportation":{n:"11",title:"MULTIMODAL TRANSPORTATION",intro:"By coordinating road, sea, rail and other modes in one considered plan, SAMA Transportations helps build efficient cargo journeys from origin to destination.",caps:["Modal planning","Road and sea coordination","Rail integration","Transfer management","Cargo visibility","End-to-end planning"]},
-"living-container":{n:"12",title:"LIVING CONTAINER TRANSPORTATION",intro:"SAMA Transportations coordinates the careful movement of living containers with a focus on planning, secure handling and delivery readiness for each unit.",caps:["Container movement planning","Secure loading","Route coordination","Handling support","Delivery scheduling","Site readiness coordination"]},
-"steel-coil":{n:"13",title:"STEEL COIL TRANSPORTATION",intro:"Steel coil transportation requires careful preparation and secure handling. Our service is planned around cargo stability, appropriate equipment and controlled delivery.",caps:["Coil handling support","Secure loading","Cargo restraint planning","Route coordination","Equipment matching","Delivery management"]},
-"general-cargo":{n:"14",title:"GENERAL CARGO TRANSPORTATION",intro:"SAMA Transportations provides flexible general cargo transportation for businesses that need reliable planning, practical coordination and consistent operational support.",caps:["Road transport planning","Cargo coordination","Loading support","Route management","Cross-border support","Delivery coordination"]},
-"customs-clearance":{n:"15",title:"CUSTOMS CLEARANCE SERVICES",intro:"Our customs clearance support helps keep cargo movements organised through documentation readiness, border coordination and a clear view of the next operational step.",caps:["Document coordination","Customs process support","Border liaison","Cargo readiness","Transit support","Status communication"]},
-"heavy-equipment-transportation":{n:"16",title:"HEAVY EQUIPMENT TRANSPORTATION",tagline:"SPECIALIZED TRANSPORT SOLUTIONS FOR CONSTRUCTION & INDUSTRIAL EQUIPMENT",image:"cover.png",intro:"SAMA Transportations moves excavators, wheel loaders, bulldozers, cranes, forklifts, graders and other construction or industrial machinery with specialised lowbed equipment, disciplined handling and route-led planning.",caps:["Construction Machinery Transport","Lowbed Transportation","Oversized Equipment Transport","Route Planning","Loading & Securing","Port-to-Site Transportation","Cross-Border Transportation"]}
+const SERVICES = {
+  "turkey-warehousing": {
+    n: "02",
+    title: "TURKEY WAREHOUSING & CARGO HANDLING",
+    intro: "SAMA Transportations coordinates receiving, storage, handling and onward dispatch in Turkey for cargo that needs a controlled handover. Our team plans each movement around cargo condition, access requirements and delivery timing, keeping the next transport stage clear, traceable and ready to proceed.",
+    caps: ["Warehouse coordination", "Loading and unloading", "Cargo handling", "Secure staging", "Inventory-ready storage", "Onward transport support"]
+  },
+  "syria-warehousing": {
+    n: "03",
+    title: "SYRIA WAREHOUSING & CARGO HANDLING",
+    intro: "Our Syria warehousing and cargo handling service supports a controlled flow from operational receiving through storage and dispatch preparation. Each handover is planned around cargo care, safe stacking and transport readiness, helping shipments move to the next stage with documented coordination and practical local support.",
+    caps: ["Warehouse coordination", "Loading and unloading", "Cargo handling", "Secure stacking", "Cargo staging", "Heavy handling support"]
+  },
+  "jordan-warehousing": {
+    n: "04",
+    title: "JORDAN WAREHOUSING & CARGO HANDLING",
+    intro: "SAMA Transportations provides Jordan warehousing and cargo-handling support for shipments requiring careful receiving, storage and onward planning. We coordinate each step around cargo condition, secure staging and release timing, so handovers between warehouse, transport and delivery teams remain organised and ready for the next movement.",
+    caps: ["Warehouse coordination", "Cargo receiving", "Loading and unloading", "Secure storage", "Cargo staging", "Distribution support"]
+  },
+  "pipe-transportation": {
+    n: "07",
+    title: "PIPE TRANSPORTATION",
+    intro: "SAMA Transportations plans pipe movements around length, diameter, weight, coating and lifting requirements from origin through final delivery. Our teams coordinate safe loading, cargo support, road and port handling, securing and handovers so every shipment follows a practical, controlled logistics sequence.",
+    caps: ["Pipe loading support", "Cargo securing", "Route planning", "Handling coordination", "Delivery scheduling", "Cross-border logistics"],
+    gallery: true
+  },
+  "rail-freight": {
+    n: "08",
+    title: "RAIL FREIGHT",
+    intro: "Our rail freight service integrates rail into a broader cargo plan with clear terminal, transfer and onward-delivery coordination. We prepare each movement around cargo readiness, schedule requirements and intermodal handovers, helping customers connect rail capacity with practical road, port or final-destination logistics support.",
+    caps: ["Rail movement planning", "Terminal coordination", "Intermodal transfers", "Cargo preparation", "Schedule coordination", "Onward delivery support"]
+  },
+  "transit-transportation": {
+    n: "09",
+    title: "TRANSIT TRANSPORTATION",
+    intro: "SAMA Transportations coordinates transit cargo through each gateway with attention to documentation, timing and border readiness. We plan the route, cargo handovers and onward transportation together, giving every shipment a practical operational path from entry point to final destination across regional trade corridors.",
+    caps: ["Transit route planning", "Border coordination", "Document readiness", "Cargo monitoring", "Schedule management", "Onward transport support"]
+  },
+  "ship-chartering": {
+    n: "10",
+    title: "SHIP CHARTERING SERVICES",
+    intro: "Our ship chartering service supports cargo owners with coordinated vessel, port and shipment planning. We review the movement requirements alongside cargo readiness and schedule needs, then connect the necessary operational steps so each chartered shipment can progress with clear handovers and dependable logistics support.",
+    caps: ["Chartering coordination", "Vessel requirement review", "Port liaison", "Cargo readiness", "Schedule support", "Shipment planning"]
+  },
+  "multimodal-transportation": {
+    n: "11",
+    title: "MULTIMODAL TRANSPORTATION",
+    intro: "SAMA Transportations combines road, sea, rail and terminal activity into one integrated cargo plan. We coordinate transfers, schedules and documentation between each mode, helping complex project movements retain continuity from origin through ports, inland routes and final-site delivery without unnecessary operational gaps.",
+    caps: ["Modal planning", "Road and sea coordination", "Rail integration", "Transfer management", "Cargo visibility", "End-to-end planning"],
+    gallery: true
+  },
+  "living-container": {
+    n: "12",
+    title: "LIVING CONTAINER TRANSPORTATION",
+    intro: "SAMA Transportations coordinates living-container movements with careful planning for lifting, loading, route access and site readiness. Each unit is handled around its dimensions and delivery conditions, allowing collection, transport and placement to follow a controlled sequence from origin through final positioning.",
+    caps: ["Container movement planning", "Secure loading", "Route coordination", "Handling support", "Delivery scheduling", "Site readiness coordination"]
+  },
+  "steel-coil": {
+    n: "13",
+    title: "STEEL COIL TRANSPORTATION",
+    intro: "Steel coil transportation demands secure handling, matched equipment and controlled cargo restraint. SAMA Transportations plans loading, supports, routing and delivery around each coil’s dimensions and handling requirements, helping maintain stability and clear operational control from collection through final unloading.",
+    caps: ["Coil handling support", "Secure loading", "Cargo restraint planning", "Route coordination", "Equipment matching", "Delivery management"]
+  },
+  "general-cargo": {
+    n: "14",
+    title: "GENERAL CARGO TRANSPORTATION",
+    intro: "SAMA Transportations provides flexible general-cargo support for businesses that need a reliable movement plan from collection through delivery. We coordinate loading, routing, handovers and cross-border requirements around the shipment, giving routine and time-sensitive cargo a practical, consistently managed logistics path.",
+    caps: ["Road transport planning", "Cargo coordination", "Loading support", "Route management", "Cross-border support", "Delivery coordination"]
+  },
+  "customs-clearance": {
+    n: "15",
+    title: "CUSTOMS CLEARANCE SERVICES",
+    intro: "Our customs-clearance support helps cargo move through border processes with organised documentation, practical liaison and clear next-step coordination. We prepare the operational handover alongside the transport plan, helping customers maintain visibility from customs readiness through release, transit and final delivery.",
+    caps: ["Document coordination", "Customs process support", "Border liaison", "Cargo readiness", "Transit support", "Status communication"]
+  },
+  "heavy-equipment-transportation": {
+    n: "16",
+    title: "HEAVY EQUIPMENT TRANSPORTATION",
+    tagline: "SPECIALIZED TRANSPORT SOLUTIONS FOR CONSTRUCTION & INDUSTRIAL EQUIPMENT",
+    image: "cover.png",
+    intro: "SAMA Transportations moves excavators, wheel loaders, bulldozers, cranes and other industrial machinery with specialised lowbed equipment and route-led planning. We coordinate loading, securing, permits and handovers around the machine’s dimensions and destination, keeping each heavy-equipment movement safe and operationally controlled.",
+    caps: ["Construction machinery transport", "Lowbed transportation", "Oversized equipment transport", "Route planning", "Loading and securing", "Port-to-site transportation", "Cross-border transportation"],
+    gallery: true
+  }
 };
-const key=document.body.dataset.service,s=SERVICES[key];if(!s)throw new Error("Unknown service");const image=`../assets/services/${key}/${s.image||"cover.svg"}`;const nav=`<header class="site-header"><a class="brand" href="../index.html">S<b>A</b>MA<small>TRANSPORTATIONS</small></a><nav class="nav"><a href="../index.html">Home</a><a href="../index.html#about">About Us</a><a class="services-link" href="../index.html#services">Our Services</a><a href="../index.html#regions">Regions</a><a href="../index.html#fleet">Fleet</a><a href="../index.html#contact">Contact</a></nav><a class="track" href="https://track.sama-transports.com">SAMA TRACK ↗</a></header>`;const galleries=[0,1,2,3].map(i=>`<button type="button" data-photo="${i}" aria-label="Open project photo placeholder ${i+1}"><img src="${image}" alt="Project photo placeholder ${i+1}" loading="lazy"></button>`).join("");document.querySelector("#service-app").innerHTML=`${nav}<main><section class="hero"><img src="${image}" alt="${s.title}" fetchpriority="high"><div class="hero-copy"><div class="eyebrow">${s.n} / SERVICE</div><h1>${s.title.replace(" & "," &amp;<br>")}</h1>${s.tagline?`<p class="hero-tagline">${s.tagline}</p>`:""}</div></section><section class="intro"><div class="intro-grid"><div><div class="section-kicker">SERVICE OVERVIEW</div><h2>PLANNED FOR CONFIDENT CARGO MOVEMENT.</h2></div><p>${s.intro}</p></div></section><section class="capabilities"><div class="section-kicker">SERVICE CAPABILITIES</div><h2>READY FOR THE NEXT MOVE</h2><ul class="cap-list">${s.caps.map(x=>`<li>${x}</li>`).join("")}</ul></section><section class="projects" id="projects"><div class="projects-head"><div><div class="section-kicker">PROJECTS / REFERENCES</div><h2>PROJECT CAPABILITY GALLERY</h2></div><p class="projects-note">Project-specific references and imagery will be added when approved source material is available. This page intentionally makes no unverified customer or project claims.</p></div><article class="project"><div class="project-number">PROJECT 01 / REFERENCE SLOT</div><h3>Approved Project Reference</h3><div class="project-meta"><div><b>LOCATION</b>To be confirmed</div><div><b>CARGO / SERVICE</b>To be confirmed</div><div><b>DESCRIPTION</b>Reserved for verified scope, outcomes and approved project imagery.</div></div><div class="gallery">${galleries}</div></article></section></main><div class="lightbox" aria-modal="true" role="dialog"><div class="lightbox-box"><button class="close" aria-label="Close gallery">×</button><img src="${image}" alt="Project photo placeholder"><div class="lightbox-controls"><button class="previous">← PREVIOUS</button><button class="next">NEXT →</button></div></div></div>`;const lb=document.querySelector(".lightbox"),photo=lb.querySelector("img");let active=0;document.querySelectorAll("[data-photo]").forEach(b=>b.onclick=()=>{active=+b.dataset.photo;photo.alt=`Project photo placeholder ${active+1}`;lb.classList.add("open")});const close=()=>lb.classList.remove("open");lb.querySelector(".close").onclick=close;lb.onclick=e=>{if(e.target===lb)close()};lb.querySelector(".previous").onclick=()=>{active=(active+3)%4;photo.alt=`Project photo placeholder ${active+1}`};lb.querySelector(".next").onclick=()=>{active=(active+1)%4;photo.alt=`Project photo placeholder ${active+1}`};addEventListener("keydown",e=>{if(e.key==="Escape")close()});
 
+const key = document.body.dataset.service;
+const service = SERVICES[key];
+if (!service) throw new Error("Unknown service");
+
+const image = `../assets/services/${key}/${service.image || "cover.svg"}`;
+const nav = `<header class="site-header"><a class="brand" href="../index.html">S<b>A</b>MA<small>TRANSPORTATIONS</small></a><nav class="nav"><a href="../index.html">Home</a><a href="../index.html#about">About Us</a><a class="services-link" href="../index.html#services">Our Services</a><a href="../index.html#regions">Regions</a><a href="../index.html#fleet">Fleet</a><a href="../index.html#contact">Contact</a></nav><a class="track" href="https://track.sama-transports.com">SAMA TRACK ↗</a></header>`;
+const galleryTitle = `${service.title} GALLERY`;
+const galleryMarkup = service.gallery
+  ? `<div class="gallery" aria-live="polite"></div>`
+  : `<p class="gallery-empty">Approved gallery source files are not included in this site package for this service.</p>`;
+
+document.querySelector("#service-app").innerHTML = `${nav}
+  <main>
+    <section class="hero"><img src="${image}" alt="${service.title}" fetchpriority="high"><div class="hero-copy"><div class="eyebrow">${service.n} / SERVICE</div><h1>${service.title.replace(" & ", " &amp;<br>")}</h1>${service.tagline ? `<p class="hero-tagline">${service.tagline}</p>` : ""}</div></section>
+    <section class="intro"><div class="intro-grid"><div><div class="section-kicker">SERVICE OVERVIEW</div><h2>PLANNED FOR CONFIDENT CARGO MOVEMENT.</h2></div><p>${service.intro}</p></div></section>
+    <section class="projects" id="projects"><div class="projects-head"><h2>${galleryTitle}</h2></div>${galleryMarkup}</section>
+    <details class="service-details"><summary>READ MORE</summary><section class="capabilities"><div class="section-kicker">SERVICE CAPABILITIES</div><h2>READY FOR THE NEXT MOVE</h2><ul class="cap-list">${service.caps.map(capability => `<li>${capability}</li>`).join("")}</ul></section></details>
+    <section class="service-cta" aria-labelledby="service-cta-title"><div><div class="section-kicker">PROJECT ENQUIRIES</div><h2 id="service-cta-title">PLAN YOUR NEXT MOVE WITH SAMA</h2></div><a class="service-cta-link" href="../index.html#contact">REQUEST A QUOTE <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <div class="lightbox" aria-hidden="true" aria-modal="true" role="dialog" aria-label="Service gallery image viewer"><div class="lightbox-box"><button class="close" type="button" aria-label="Close gallery">×</button><img src="" alt=""><div class="lightbox-controls gallery-lightbox-controls"><button class="previous gallery-lightbox-nav gallery-lightbox-nav--previous" type="button">← PREVIOUS</button><span class="gallery-lightbox-count" aria-live="polite"></span><button class="next gallery-lightbox-nav gallery-lightbox-nav--next" type="button">NEXT →</button></div></div></div>`;
+
+const gallery = document.querySelector(".gallery");
+const lightbox = document.querySelector(".lightbox");
+const lightboxImage = lightbox.querySelector("img");
+const count = lightbox.querySelector(".gallery-lightbox-count");
+const closeButton = lightbox.querySelector(".close");
+const previousButton = lightbox.querySelector(".previous");
+const nextButton = lightbox.querySelector(".next");
+let active = 0;
+let lastTrigger = null;
+let touchStartX = null;
+
+const galleryItems = () => [...document.querySelectorAll(".gallery [data-photo]")];
+const show = index => {
+  const items = galleryItems();
+  if (!items.length) return;
+  active = (index + items.length) % items.length;
+  const item = items[active];
+  const imageElement = item.querySelector("img");
+  lightboxImage.src = item.dataset.full || imageElement.currentSrc || imageElement.src;
+  lightboxImage.alt = item.dataset.alt || imageElement.alt;
+  count.textContent = `${String(active + 1).padStart(2, "0")} / ${String(items.length).padStart(2, "0")}`;
+};
+const open = (index, trigger) => {
+  lastTrigger = trigger;
+  show(index);
+  lightbox.classList.add("open");
+  lightbox.setAttribute("aria-hidden", "false");
+  document.body.classList.add("gallery-modal-open");
+  closeButton.focus();
+};
+const close = () => {
+  lightbox.classList.remove("open");
+  lightbox.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("gallery-modal-open");
+  if (lastTrigger) lastTrigger.focus();
+};
+
+gallery?.addEventListener("click", event => {
+  const button = event.target.closest("[data-photo]");
+  if (!button) return;
+  const items = galleryItems();
+  open(items.indexOf(button), button);
+});
+closeButton.addEventListener("click", close);
+previousButton.addEventListener("click", () => show(active - 1));
+nextButton.addEventListener("click", () => show(active + 1));
+lightbox.addEventListener("click", event => { if (event.target === lightbox) close(); });
+document.addEventListener("keydown", event => {
+  if (!lightbox.classList.contains("open")) return;
+  if (event.key === "Escape") close();
+  if (event.key === "ArrowLeft") show(active - 1);
+  if (event.key === "ArrowRight") show(active + 1);
+});
+lightbox.addEventListener("touchstart", event => { touchStartX = event.changedTouches[0]?.clientX ?? null; }, { passive: true });
+lightbox.addEventListener("touchend", event => {
+  if (touchStartX === null) return;
+  const endX = event.changedTouches[0]?.clientX ?? touchStartX;
+  const delta = endX - touchStartX;
+  touchStartX = null;
+  if (Math.abs(delta) < 44) return;
+  show(delta > 0 ? active - 1 : active + 1);
+}, { passive: true });

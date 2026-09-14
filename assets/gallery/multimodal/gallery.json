@@ -2,8 +2,6 @@
   "project": "Mardin to Bamako Multimodal Transportation",
   "route": "Mardin, Turkey → Taşucu Port, Turkey → Sea Transport → Côte d’Ivoire → Road Transport → Bamako, Mali",
   "total": 105,
-  "initialLoad": 12,
-  "loadMore": 12,
   "images": [
     {
       "id": 1,

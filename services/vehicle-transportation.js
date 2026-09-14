@@ -1,1 +1,59 @@
-(()=>{const items=[...document.querySelectorAll(".vt-gallery-item")],lightbox=document.querySelector(".vt-lightbox"),image=document.querySelector(".vt-lightbox-image"),counter=document.querySelector(".vt-counter"),close=document.querySelector(".vt-close"),prev=document.querySelector(".vt-prev"),next=document.querySelector(".vt-next");let active=0,startX=0;const show=index=>{active=(index+items.length)%items.length;const thumb=items[active].querySelector("img");image.src=thumb.currentSrc||thumb.src;image.alt=thumb.alt;counter.textContent=`${active+1} / ${items.length}`;};const open=index=>{show(index);lightbox.classList.add("is-open");lightbox.setAttribute("aria-hidden","false");close.focus();};const dismiss=()=>{lightbox.classList.remove("is-open");lightbox.setAttribute("aria-hidden","true");items[active]?.focus();};items.forEach((item,index)=>item.addEventListener("click",()=>open(index)));close.addEventListener("click",dismiss);prev.addEventListener("click",()=>show(active-1));next.addEventListener("click",()=>show(active+1));lightbox.addEventListener("click",event=>{if(event.target===lightbox)dismiss()});document.addEventListener("keydown",event=>{if(!lightbox.classList.contains("is-open"))return;if(event.key==="Escape")dismiss();if(event.key==="ArrowLeft")show(active-1);if(event.key==="ArrowRight")show(active+1)});lightbox.addEventListener("touchstart",event=>{startX=event.changedTouches[0].screenX},{passive:true});lightbox.addEventListener("touchend",event=>{const delta=event.changedTouches[0].screenX-startX;if(Math.abs(delta)>48)show(active+(delta<0?1:-1))},{passive:true});})();
+(() => {
+  const items = [...document.querySelectorAll(".vt-gallery-item")];
+  const lightbox = document.querySelector(".vt-lightbox");
+  const image = document.querySelector(".vt-lightbox-image");
+  const counter = document.querySelector(".vt-counter");
+  const closeButton = document.querySelector(".vt-close");
+  const previousButton = document.querySelector(".vt-prev");
+  const nextButton = document.querySelector(".vt-next");
+  if (!items.length || !lightbox || !image || !counter || !closeButton || !previousButton || !nextButton) return;
+
+  let active = 0;
+  let touchStartX = null;
+  let lastTrigger = null;
+
+  const show = index => {
+    active = (index + items.length) % items.length;
+    const thumbnail = items[active].querySelector("img");
+    image.src = thumbnail.currentSrc || thumbnail.src;
+    image.alt = thumbnail.alt;
+    counter.textContent = `${String(active + 1).padStart(2, "0")} / ${String(items.length).padStart(2, "0")}`;
+  };
+  const open = (index, trigger) => {
+    lastTrigger = trigger;
+    show(index);
+    lightbox.classList.add("is-open");
+    lightbox.setAttribute("aria-hidden", "false");
+    document.body.classList.add("vt-lightbox-open");
+    closeButton.focus();
+  };
+  const dismiss = () => {
+    lightbox.classList.remove("is-open");
+    lightbox.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("vt-lightbox-open");
+    lastTrigger?.focus();
+  };
+
+  items.forEach((item, index) => item.addEventListener("click", () => open(index, item)));
+  closeButton.addEventListener("click", dismiss);
+  previousButton.addEventListener("click", () => show(active - 1));
+  nextButton.addEventListener("click", () => show(active + 1));
+  lightbox.addEventListener("click", event => { if (event.target === lightbox) dismiss(); });
+  document.addEventListener("keydown", event => {
+    if (!lightbox.classList.contains("is-open")) return;
+    if (event.key === "Escape") dismiss();
+    if (event.key === "ArrowLeft") show(active - 1);
+    if (event.key === "ArrowRight") show(active + 1);
+  });
+  lightbox.addEventListener("touchstart", event => {
+    touchStartX = event.changedTouches[0]?.clientX ?? null;
+  }, { passive: true });
+  lightbox.addEventListener("touchend", event => {
+    if (touchStartX === null) return;
+    const endX = event.changedTouches[0]?.clientX ?? touchStartX;
+    const delta = endX - touchStartX;
+    touchStartX = null;
+    if (Math.abs(delta) < 48) return;
+    show(delta > 0 ? active - 1 : active + 1);
+  }, { passive: true });
+})();

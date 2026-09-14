@@ -14,10 +14,11 @@
   const count = lightbox.querySelector(".pc-lightbox-count");
   let activeIndex = 0;
   let trigger = null;
+  let touchStartX = null;
 
   gallery.innerHTML = photos.map((photo, index) => (
     `<button type="button" data-project-photo="${index}" data-image-label="VIEW ${String(index + 1).padStart(2, "0")}" aria-label="Open ${photo.alt}">` +
-      `<img src="${photo.src}" alt="${photo.alt}" loading="lazy">` +
+      `<img src="${photo.src}" alt="${photo.alt}" loading="lazy" decoding="async">` +
     "</button>"
   )).join("");
 
@@ -60,4 +61,15 @@
     if (event.key === "ArrowLeft") show(activeIndex - 1);
     if (event.key === "ArrowRight") show(activeIndex + 1);
   });
+  lightbox.addEventListener("touchstart", (event) => {
+    touchStartX = event.changedTouches[0]?.clientX ?? null;
+  }, { passive: true });
+  lightbox.addEventListener("touchend", (event) => {
+    if (touchStartX === null) return;
+    const endX = event.changedTouches[0]?.clientX ?? touchStartX;
+    const delta = endX - touchStartX;
+    touchStartX = null;
+    if (Math.abs(delta) < 44) return;
+    show(delta > 0 ? activeIndex - 1 : activeIndex + 1);
+  }, { passive: true });
 })();
