@@ -20,6 +20,7 @@ const SERVICES = {
   "pipe-transportation": {
     n: "07",
     title: "PIPE TRANSPORTATION",
+    image: "hero-pipe-transportation.png",
     intro: "SAMA Transportations plans pipe movements around length, diameter, weight, coating and lifting requirements from origin through final delivery. Our teams coordinate safe loading, cargo support, road and port handling, securing and handovers so every shipment follows a practical, controlled logistics sequence.",
     caps: ["Pipe loading support", "Cargo securing", "Route planning", "Handling coordination", "Delivery scheduling", "Cross-border logistics"],
     gallery: true
