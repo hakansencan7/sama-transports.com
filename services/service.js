@@ -29,6 +29,7 @@ const SERVICES = {
     n: "08",
     title: "RAIL FREIGHT",
     image: "hero-rail-freight.png",
+    gallery: true,
     intro: "Our rail freight service integrates rail into a broader cargo plan with clear terminal, transfer and onward-delivery coordination. We prepare each movement around cargo readiness, schedule requirements and intermodal handovers, helping customers connect rail capacity with practical road, port or final-destination logistics support.",
     caps: ["Rail movement planning", "Terminal coordination", "Intermodal transfers", "Cargo preparation", "Schedule coordination", "Onward delivery support"]
   },
@@ -61,6 +62,7 @@ const SERVICES = {
   "steel-coil": {
     n: "13",
     title: "STEEL COIL TRANSPORTATION",
+    image: "hero-steel-coil.png",
     intro: "Steel coil transportation demands secure handling, matched equipment and controlled cargo restraint. SAMA Transportations plans loading, supports, routing and delivery around each coil’s dimensions and handling requirements, helping maintain stability and clear operational control from collection through final unloading.",
     caps: ["Coil handling support", "Secure loading", "Cargo restraint planning", "Route coordination", "Equipment matching", "Delivery management"]
   },
