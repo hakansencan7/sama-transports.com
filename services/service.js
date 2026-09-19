@@ -35,6 +35,7 @@ const SERVICES = {
     caps: ["Rail movement planning", "Terminal coordination", "Intermodal transfers", "Cargo preparation", "Schedule coordination", "Onward delivery support"]
   },
   "transit-transportation": {
+    gallery: true,
     n: "09",
     title: "TRANSIT TRANSPORTATION",
     intro: "SAMA Transportations coordinates transit cargo through each gateway with attention to documentation, timing and border readiness. We plan the route, cargo handovers and onward transportation together, giving every shipment a practical operational path from entry point to final destination across regional trade corridors.",
