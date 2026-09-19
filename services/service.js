@@ -1,5 +1,6 @@
 const SERVICES = {
   "turkey-warehousing": {
+    image: "turkey-warehousing-cargo-handling-hero.webp",
     n: "02",
     title: "TURKEY WAREHOUSING & CARGO HANDLING",
     intro: "SAMA Transportations coordinates receiving, storage, handling and onward dispatch in Turkey for cargo that needs a controlled handover. Our team plans each movement around cargo condition, access requirements and delivery timing, keeping the next transport stage clear, traceable and ready to proceed.",
@@ -60,6 +61,7 @@ const SERVICES = {
     caps: ["Container movement planning", "Secure loading", "Route coordination", "Handling support", "Delivery scheduling", "Site readiness coordination"]
   },
   "steel-coil": {
+    gallery: true,
     n: "13",
     title: "STEEL COIL TRANSPORTATION",
     image: "hero-steel-coil.png",
