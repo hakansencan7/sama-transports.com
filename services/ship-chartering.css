@@ -2,6 +2,5 @@
 [data-service="ship-chartering"] .hero-copy{max-width:1100px}
 [data-service="ship-chartering"] .ship-agency{background:#03111c}
 [data-service="ship-chartering"] .ship-regional p{max-width:780px;color:var(--muted);font-size:1.07rem;line-height:1.75}
-@media(max-width:860px){[data-service="ship-chartering"] .hero img{object-position:83% center}}
-@media(max-width:540px){[data-service="ship-chartering"] .hero{min-height:440px;padding-bottom:32px}[data-service="ship-chartering"] .hero img{object-position:83% center}[data-service="ship-chartering"] .hero h1{font-size:clamp(2rem,8vw,2.8rem)}}
-
+@media(max-width:860px){[data-service="ship-chartering"] .hero img{object-position:76% center}}
+@media(max-width:540px){[data-service="ship-chartering"] .hero{min-height:440px;padding-bottom:32px}[data-service="ship-chartering"] .hero img{object-position:76% center}[data-service="ship-chartering"] .hero h1{font-size:clamp(2rem,8vw,2.8rem)}}
