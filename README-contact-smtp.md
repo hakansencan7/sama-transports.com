@@ -11,8 +11,53 @@ Başlangıç commit'i: `d8e919b882c75db1e74e53b26664450521a3e79b`
 - Canlı `contact.html` yanıtında `server: GitHub.com` görüldü. GitHub Pages yalnızca statik ön yüzü yayınlar.
 - `public_html`, `sama-main-site/releases` ve `sama-track-hetzner` güncel formun kaynağı değildir; değiştirilmedi.
 
-Bu değişiklik hazırlanmış uygulama kodudur. **Canlıya alınmadı, DNS değiştirilmedi, gerçek SMTP hesabıyla mesaj gönderilmedi.**
-`forms.sama-transports.com` yeni servis için önerilen adrestir; mevcut ve hazır olduğu varsayılmamalıdır.
+22 Eylül 2026 dağıtım kontrolünde mevcut paketin Cloud VPS değil **Hetzner Webhosting L** olduğu doğrulandı.
+Python servisi bu pakete kuruldu ve bakım modunda çalışıyor. Natro DNS'inde `forms` A kaydı Hetzner'e eklendi;
+konsoleH içinde ayrı `forms` alt alan adı ve mevcut wildcard sertifikası bağlandı.
+**SMTP bağlantısı sağlayıcı tarafındaki uç nokta/sertifika sorununda bekliyor; kimlik doğrulaması ve gerçek gönderim yapılmadı. GitHub Pages değişiklikleri taslak PR'dadır.**
+
+Natro'da `operations@sama-transports.com` bir **gruptur**, SMTP oturumu açabilen posta kutusu değildir.
+Alıcı bu grup olarak sabit kalır; SMTP_USERNAME için gerçek bir `@sama-transports.com` posta kutusu gerekir.
+Natro'nun [XMail kurulum belgesi](https://www.natro.com/hemendestek/bilgibankasi/xmail-standart-veya-profesyonel-e-posta-hesabi-outlooka-nasil-kurulur)
+bu hesap türü için `mail.kurumsaleposta.com`, port `465`, SSL/TLS belirtir.
+
+Canlı Hetzner testi: `mail.kurumsaleposta.com:465` bağlantıyı reddetti. `:587` STARTTLS yanıtı verdi,
+ancak sertifika yalnızca `*.natrohost.com` / `natrohost.com` için geçerliydi; Python doğru biçimde
+hostname uyuşmazlığıyla bağlantıyı kesti. Sunucu banner'ındaki `vsp-in3.natrohost.com:587` adresi de
+farklı IP'ye çözümlenip bağlantıyı reddetti. Sertifika doğrulaması kapatılmadı ve hiçbir parola gönderilmedi.
+Sağlayıcıdan geçerli sertifikalı SMTP adresi/portu istenmelidir; hazırlanmış talep `contact-api/NATRO-SUPPORT-DRAFT.md` içindedir.
+
+`forms.sama-transports.com` HTTPS üzerinden beklenen bakım yanıtını (503) ve doğru Origin CORS başlığını verdi.
+`/healthz`, `/settings.json`, `/app.py` dışarıdan 404 döndü. ClamAV güncel imzayla EICAR testini reddetti.
+
+## Mevcut Webhosting L dağıtımı
+
+- Uygulama ve sanal ortam: `~/sama-contact/app`, `~/sama-contact/venv`.
+- Sunucu ayarları: `~/sama-contact/settings.json`, sadece sahibi okuyabilir/yazabilir (`0600`).
+- SQLite ve günlükler: `~/sama-contact/state`, `~/sama-contact/logs`; web kökü dışındadır.
+- Gunicorn yalnızca `127.0.0.1:18091` üzerinde çalışır. Apache, `public_html/forms/.htaccess` üzerinden yönlendirir.
+- `shared_wsgi.py`, ayar dosyasının sahibi/türünü/izinlerini kontrol eder. `enabled: false` durumunda form token'ı üretmez ve gönderim kabul etmez.
+- `shared_manage.py`, cron tarafından her dakika özel dosya kilidiyle çalıştırılır; mevcut süreç varsa ikinci sunucu açmaz.
+- Apache, istemciden gelen proxy başlıklarını temizler; mod_proxy'nin eklediği gerçek IP kullanılır. Kamuya açık `healthz` ve kod/ayar yolları kapalıdır.
+- Sunucuda Python 3.13, libmagic, sanal ortam desteği ve erişilebilir ClamAV soketi doğrulandı. Kurulum sırasında test paketi ve gerçek temiz içerik taraması geçti.
+- `deploy/install_shared_host.py` yalnızca yeni, boş kurulum için hazırlanmıştır. Mevcut dizini bulursa üzerine yazmaz.
+- Paket, `install_shared_host.py` içindeki FILES listesini içerir; `contact.html` form alanı uyumluluk testi için repo kökünden alınır.
+- `deploy/verify_shared_host.py`, parola kullanmadan Natro TLS/NOOP, HTTPS, CORS, kapalı dosya yolları, ClamAV sürümü ve EICAR reddini kontrol eder; mesaj göndermez.
+
+Gönderimi açma sırası:
+
+```bash
+~/sama-contact/venv/bin/python ~/sama-contact/app/shared_smtp.py prepare --username GERCEK_HESAP@sama-transports.com
+# smtp-password.txt dosyasına parolayı güvenli editörle girin; komut satırına yazmayın.
+~/sama-contact/venv/bin/python ~/sama-contact/app/shared_smtp.py check
+~/sama-contact/venv/bin/python ~/sama-contact/app/shared_smtp.py enable
+```
+
+Parola `~/sama-contact/smtp-password.txt` içinde (`0600`) tutulur. Sembolik bağlantı veya başkalarının okuyabildiği dosya reddedilir.
+`check`, sertifikalı TLS/giriş/NOOP ve ClamAV kontrolü yapar; e-posta göndermez. `enable` aynı kontrollerden sonra servisi açıp yeniden yükler.
+Ardından kontrollü gerçek gönderimi ve alıcı teslimini doğrulayın; son olarak taslak PR'ı yayınlayın.
+Wildcard sertifikası panelde 5 Aralık 2026'ya kadar geçerlidir; harici Natro DNS kullanıldığı için konsoleH otomatik yenilemesi ayrıca doğrulanmalıdır.
+Bu ortamda root, systemd veya ikinci Nginx kurulumu gerekmez. Aşağıdaki VPS talimatları alternatif dağıtım içindir.
 
 ## Değişiklikler
 
@@ -23,20 +68,20 @@ Bu değişiklik hazırlanmış uygulama kodudur. **Canlıya alınmadı, DNS değ
 | `contact-api/mailer.py` | Natro SMTP, zorunlu TLS, sabit alıcı, güvenli Reply-To |
 | `contact-api/attachments.py` | 5 MiB sınırı, uzantı + gerçek MIME, ClamAV, resimleri yeniden kodlama |
 | `contact-api/store.py` | SQLite ile süreçler arasında ortak hız sınırı ve tekrar gönderim engeli |
-| `contact-api/deploy/` | Ayrı systemd servisi ve mevcut Nginx'e eklenecek alt alan adı yapılandırması |
+| `contact-api/deploy/` | Webhosting L kurulum/Apache dosyaları; alternatif VPS için systemd/Nginx örnekleri |
 | `contact-api/.env.example` | Gerçek parola içermeyen sunucu ayar örneği |
 | `contact-api/check_smtp.py` | E-posta göndermeden TLS / giriş kontrolü |
 
-Akış: GitHub Pages formu → HTTPS form API'si → zorunlu STARTTLS → Natro → `operations@sama-transports.com`.
+Akış: GitHub Pages formu → HTTPS form API'si → doğrulanan SMTP TLS bağlantısı → Natro → `operations@sama-transports.com`.
 
 ## Güvenlik ve davranış
 
 - Alıcı kodda sabittir. Kullanıcı To, Cc, Bcc, From veya SMTP sunucusunu değiştiremez.
 - From, Natro'da oturum açılan `@sama-transports.com` hesabıdır. Müşteri adresi doğrulanıp yalnızca Reply-To yapılır.
-- SMTP parolası ve rastgele CONTACT_SECRET sadece `/etc/sama-contact.env` içindedir. Frontend'e, GitHub'a, loglara veya dosya paketine gerçek sır girilmez.
-- Varsayılan `587 + STARTTLS` zorunludur; sertifika/hostname kontrolü kapatılamaz. `465 + implicit TLS` alternatif olarak desteklenir. Düz metin SMTP'ye düşülmez.
+- SMTP parolası ve rastgele CONTACT_SECRET yalnızca özel sunucu ayarındadır: Webhosting L'de `~/sama-contact/settings.json` ve `smtp-password.txt`, VPS örneğinde `/etc/sama-contact.env`. Frontend'e, GitHub'a, loglara veya dosya paketine gerçek sır girilmez.
+- `587 + STARTTLS` ve `465 + implicit TLS` desteklenir; sertifika/hostname kontrolü kapatılamaz. Kullanılan port canlı bağlantı testiyle belirlenir. Düz metin SMTP'ye düşülmez.
 - HTTPS Origin allowlist'i yalnızca apex ve www adreslerini kapsar. Çerez kullanılmaz. İmzalı token IP'ye (IPv6'da /64) ve Origin'e bağlıdır; bir saat geçerlidir.
-- Origin/CORS ve token, botlara karşı kimlik doğrulama değildir. Honeypot, Nginx ve kalıcı uygulama hız sınırları birlikte kullanılır. Dağıtık saldırı sürerse CAPTCHA/WAF gerekir.
+- Origin/CORS ve token, botlara karşı kimlik doğrulama değildir. Honeypot ve kalıcı uygulama hız sınırları birlikte kullanılır; VPS örneğinde Nginx sınırı da vardır. Dağıtık saldırı sürerse CAPTCHA/WAF gerekir.
 - Uygulamada IP başına 10 dakikada 3, günde 10 SMTP denemesi; tüm servis için saatte 60 sınırı vardır. Doğrulama ve token uçları ayrıca sınırlandırılır. Natro kotasına göre düşürün.
 - Tek dosya: PDF / JPG / JPEG / PNG / UTF-8 TXT, en fazla **5 MiB (5.242.880 bayt)**. Toplam HTTP gövdesi 6 MiB. Form verisi ve parça sayısı da sınırlıdır.
 - Tarayıcının MIME beyanına güvenilmez; libmagic gerçek içerik türünü denetler. TXT UTF-8 ve kontrol karakteri; PDF başlık/son işaret; resimler Pillow ile ayrıştırma ve piksel sınırı kontrolünden geçer.
@@ -76,11 +121,11 @@ install -m 0600 -o root -g root /opt/sama-contact/.env.example /etc/sama-contact
 |---|---|
 | SMTP_HOST | **Natro panelinin bu hesaba verdiği, TLS sertifikasıyla eşleşen giden posta sunucusu** |
 | SMTP_PORT / SMTP_SECURITY | `587` / `starttls`; Natro'nun bu hesapta STARTTLS sunduğunu doğrulayın |
-| SMTP_USERNAME | `operations@sama-transports.com` veya yetkilendirilmiş başka aynı-domain hesap |
+| SMTP_USERNAME | Gerçek bir `@sama-transports.com` posta kutusu; `operations` grup hesabı kullanılamaz |
 | SMTP_PASSWORD | Yalnızca sunucuda girilecek hesap parolası |
 | CONTACT_SECRET | `python3 -c 'import secrets; print(secrets.token_hex(32))'` ile üretilen değer |
 
-Natro SMTP hostname'i mevcut kaynak kodundan doğrulanamadı; `mail.sama-transports.com` veya genel bir Natro hostname'i tahmin edilmedi. Parolayı sohbete, PR'a veya komut satırına yazmayın. systemd EnvironmentFile biçiminde gereken özel karakterleri tırnaklayın; bu dosyayı `source` ile çalıştırmayın.
+Natro hesabı için doğrulanan SMTP hostname'i `mail.kurumsaleposta.com` adresidir. Parolayı sohbete, PR'a veya komut satırına yazmayın. systemd EnvironmentFile biçiminde gereken özel karakterleri tırnaklayın; bu dosyayı `source` ile çalıştırmayın.
 
 Natro SMTP için SPF/DKIM/DMARC ve gönderici yetkisini panelde doğrulayın; var olan DNS kayıtlarını körlemesine değiştirmeyin. Hetzner Cloud varsayılan olarak 25/465'i engeller, 587'yi engellemez. Natro yalnızca 465 sunuyorsa önce Hetzner hesabında port erişimi açılmalı, ardından `ssl/465` seçilmelidir.
 

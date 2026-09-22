@@ -132,8 +132,8 @@ def create_app(overrides=None):
     check_settings(app.config)
     app.config.update(MAX_CONTENT_LENGTH=6 * 1024 * 1024, MAX_FORM_MEMORY_SIZE=64 * 1024,
                       MAX_FORM_PARTS=24)
-    # Exactly one trusted proxy. Gunicorn is reachable only at 127.0.0.1:8091.
-    # Nginx MUST overwrite X-Forwarded-For, not append an untrusted chain.
+    # Exactly one trusted proxy; Gunicorn listens only on loopback.
+    # The edge proxy MUST strip client-supplied forwarding headers and provide the real IP.
     app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=0, x_port=0, x_prefix=0)
     store = Store(app.config["STATE_PATH"])
     signer = URLSafeTimedSerializer(app.config["CONTACT_SECRET"], salt="sama-contact-v1")

@@ -9,3 +9,5 @@
 contact-api/state/
 contact-api/*.sqlite*
 contact-api/*.log
+contact-api/settings.json
+contact-api/smtp-password.txt
