@@ -26,12 +26,12 @@
   /* Service 07: preserve a clean, full-bleed cargo image while darkening only the lower-left copy area. */
   .service-card--pipe::after{background:radial-gradient(ellipse 92% 118% at 0% 100%,rgba(2,13,22,.88) 0%,rgba(2,13,22,.64) 33%,rgba(2,13,22,.24) 53%,rgba(2,13,22,0) 74%)}.service-card--pipe img{object-position:54% center}@media(max-width:650px){.service-card--pipe img{object-position:55% center}}
   </style>
-</head>
+<link rel="stylesheet" href="contact.css"></head>
 <body>
   <main class="hero" id="top">
     <div class="slides" aria-hidden="true"><div class="slide umm active"></div><div class="slide mersin"></div><div class="slide tartus"><span class="tartus-focus">TARTUS PORT</span></div><div class="slide aqaba"><span class="aqaba-glow"></span></div></div>
-    <header class="site-header"><a class="brand" href="#top">S<b>A</b>MA<small>TRANSPORTATIONS</small></a><nav class="nav"><a href="#top">Home</a><a href="#about">About Us</a><a href="#services">Our Services</a><a href="#regions">Regions</a><a href="#fleet">Fleet</a><a href="#contact">Contact</a></nav><a class="track" href="https://track.sama-transports.com">SAMA TRACK ↗</a></header>
-    <section class="copy"><div class="eyebrow">CONNECTING MARKETS</div><h1>BEYOND<br>BORDERS</h1><p>Reliable logistics solutions across Iraq and the region. We move your business forward.</p><div class="actions"><a class="button primary" href="#services">OUR SERVICES&nbsp; →</a><a class="button" href="#contact">CONTACT US</a></div></section>
+    <header class="site-header"><a class="brand" href="#top">S<b>A</b>MA<small>TRANSPORTATIONS</small></a><nav class="nav"><a href="#top">Home</a><a href="#about">About Us</a><a href="#services">Our Services</a><a href="#regions">Regions</a><a href="#fleet">Fleet</a><a href="contact.html">Contact</a></nav><a class="track" href="https://track.sama-transports.com">SAMA TRACK ↗</a></header>
+    <section class="copy"><div class="eyebrow">CONNECTING MARKETS</div><h1>BEYOND<br>BORDERS</h1><p>Reliable logistics solutions across Iraq and the region. We move your business forward.</p><div class="actions"><a class="button primary" href="#services">OUR SERVICES&nbsp; →</a><a class="button" href="contact.html">CONTACT US</a></div></section>
     <aside class="scene" aria-live="polite"><span>01 / 04</span><strong>IRAQ</strong><small>UMM QASR PORT</small></aside><aside class="side">LAND<br>SEA<br>AIR<br><b>TOGETHER<br>FURTHER</b></aside><div class="dots" aria-hidden="true"><i class="active"></i><i></i><i></i><i></i></div>
     <div class="services"><div><i>▣</i>ROAD TRANSPORT</div><div><i>⚓</i>SEA FREIGHT</div><div><i>✈</i>AIR FREIGHT</div><div><i>⌂</i>WAREHOUSING</div><div><i>⌑</i>CUSTOMS CLEARANCE</div><div><i>◈</i>PROJECT LOGISTICS</div></div>
   
@@ -69,5 +69,6 @@
     const scenes=[['IRAQ','UMM QASR PORT'],['TURKEY','MERSIN PORT'],['SYRIA','TARTUS PORT'],['JORDAN','AQABA PORT']];const slides=[...document.querySelectorAll('.slide')],dots=[...document.querySelectorAll('.dots i')],panel=document.querySelector('.scene');let current=0;
     function advance(){const next=(current+1)%scenes.length;panel.classList.add('fade');slides[current].classList.remove('active');slides[current].classList.add('outgoing');setTimeout(()=>{slides[current].classList.remove('outgoing');slides[next].classList.add('active');dots.forEach((dot,i)=>dot.classList.toggle('active',i===next));panel.querySelector('span').textContent=`0${next+1} / 04`;panel.querySelector('strong').textContent=scenes[next][0];panel.querySelector('small').textContent=scenes[next][1];panel.classList.remove('fade');current=next;setTimeout(advance,5000)},760)}setTimeout(advance,5000);
   </script>
+<footer class="contact-footer" aria-label="Contact information"><div><h2>CONTACT US</h2><p>Your Route. Our Responsibility.</p><a href="/contact.html">Contact &amp; Request a Quote →</a></div><address><strong>Mersin, Turkey</strong><a href="tel:+905057661149">+90 505 766 11 49</a></address><address><strong>Umm Qasr, Iraq</strong><a href="tel:+9647870972289">+964 787 097 22 89</a></address><address><strong>Email</strong><a href="mailto:operations@sama-transports.com">operations@sama-transports.com</a></address></footer>
 </body>
 </html>

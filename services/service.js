@@ -96,8 +96,10 @@ const key = document.body.dataset.service;
 const service = SERVICES[key];
 if (!service) throw new Error("Unknown service");
 
+const REQUEST_SERVICES = {"turkey-warehousing":"Warehousing & Cargo Handling","syria-warehousing":"Warehousing & Cargo Handling","jordan-warehousing":"Warehousing & Cargo Handling","pipe-transportation":"Pipe Transportation","rail-freight":"Rail Freight","transit-transportation":"Transit Transportation","ship-chartering":"Ship Chartering","multimodal-transportation":"Multimodal Transportation","living-container":"Other","steel-coil":"Steel Coil Transportation","general-cargo":"General Cargo Transportation","customs-clearance":"Customs Clearance","heavy-equipment-transportation":"Heavy Equipment Transportation"};
+const requestHref = "../contact.html?service=" + encodeURIComponent(REQUEST_SERVICES[key] || "Other");
 const image = `../assets/services/${key}/${service.image || "cover.svg"}`;
-const nav = `<header class="site-header"><a class="brand" href="../index.html">S<b>A</b>MA<small>TRANSPORTATIONS</small></a><nav class="nav"><a href="../index.html">Home</a><a href="../index.html#about">About Us</a><a class="services-link" href="../index.html#services">Our Services</a><a href="../index.html#regions">Regions</a><a href="../index.html#fleet">Fleet</a><a href="../index.html#contact">Contact</a></nav><a class="track" href="https://track.sama-transports.com">SAMA TRACK ↗</a></header>`;
+const nav = `<header class="site-header"><a class="brand" href="../index.html">S<b>A</b>MA<small>TRANSPORTATIONS</small></a><nav class="nav"><a href="../index.html">Home</a><a href="../index.html#about">About Us</a><a class="services-link" href="../index.html#services">Our Services</a><a href="../index.html#regions">Regions</a><a href="../index.html#fleet">Fleet</a><a href="../contact.html">Contact</a></nav><a class="track" href="https://track.sama-transports.com">SAMA TRACK ↗</a></header>`;
 const galleryTitle = `${service.title} GALLERY`;
 const galleryMarkup = service.gallery
   ? `<div class="gallery" aria-live="polite"></div>`
@@ -109,7 +111,7 @@ document.querySelector("#service-app").innerHTML = `${nav}
     <section class="intro"><div class="intro-grid"><div><div class="section-kicker">SERVICE OVERVIEW</div><h2>PLANNED FOR CONFIDENT CARGO MOVEMENT.</h2></div><p>${service.intro}</p></div></section>
     <section class="projects" id="projects"><div class="projects-head"><h2>${galleryTitle}</h2></div>${galleryMarkup}</section>
     <details class="service-details"><summary>READ MORE</summary><section class="capabilities"><div class="section-kicker">SERVICE CAPABILITIES</div><h2>READY FOR THE NEXT MOVE</h2><ul class="cap-list">${service.caps.map(capability => `<li>${capability}</li>`).join("")}</ul></section></details>
-    <section class="service-cta" aria-labelledby="service-cta-title"><div><div class="section-kicker">PROJECT ENQUIRIES</div><h2 id="service-cta-title">PLAN YOUR NEXT MOVE WITH SAMA</h2></div><a class="service-cta-link" href="../index.html#contact">REQUEST A QUOTE <span aria-hidden="true">↗</span></a></section>
+    <section class="service-cta" aria-labelledby="service-cta-title"><div><div class="section-kicker">PROJECT ENQUIRIES</div><h2 id="service-cta-title">PLAN YOUR NEXT MOVE WITH SAMA</h2></div><a class="service-cta-link" href="${requestHref}">REQUEST THIS SERVICE <span aria-hidden="true">↗</span></a></section>
   </main>
   <div class="lightbox" aria-hidden="true" aria-modal="true" role="dialog" aria-label="Service gallery image viewer"><div class="lightbox-box"><button class="close" type="button" aria-label="Close gallery">×</button><img src="" alt=""><div class="lightbox-controls gallery-lightbox-controls"><button class="previous gallery-lightbox-nav gallery-lightbox-nav--previous" type="button">← PREVIOUS</button><span class="gallery-lightbox-count" aria-live="polite"></span><button class="next gallery-lightbox-nav gallery-lightbox-nav--next" type="button">NEXT →</button></div></div></div>`;
 
