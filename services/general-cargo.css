@@ -1,0 +1,9 @@
+body[data-service="general-cargo"] .hero img {
+  object-fit: cover;
+  object-position: center 60%;
+}
+@media (max-width: 540px) {
+  body[data-service="general-cargo"] .hero img {
+    object-position: 75% center;
+  }
+}

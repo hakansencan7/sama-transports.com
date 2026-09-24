@@ -26,7 +26,7 @@
   /* Service 07: preserve a clean, full-bleed cargo image while darkening only the lower-left copy area. */
   .service-card--pipe::after{background:radial-gradient(ellipse 92% 118% at 0% 100%,rgba(2,13,22,.88) 0%,rgba(2,13,22,.64) 33%,rgba(2,13,22,.24) 53%,rgba(2,13,22,0) 74%)}.service-card--pipe img{object-position:54% center}@media(max-width:650px){.service-card--pipe img{object-position:55% center}}
   </style>
-<link rel="stylesheet" href="contact.css"></head>
+<link rel="stylesheet" href="contact.css"><link rel="stylesheet" href="home-contact.css"></head>
 <body>
   <main class="hero" id="top">
     <div class="slides" aria-hidden="true"><div class="slide umm active"></div><div class="slide mersin"></div><div class="slide tartus"><span class="tartus-focus">TARTUS PORT</span></div><div class="slide aqaba"><span class="aqaba-glow"></span></div></div>
@@ -69,7 +69,6 @@
     const scenes=[['IRAQ','UMM QASR PORT'],['TURKEY','MERSIN PORT'],['SYRIA','TARTUS PORT'],['JORDAN','AQABA PORT']];const slides=[...document.querySelectorAll('.slide')],dots=[...document.querySelectorAll('.dots i')],panel=document.querySelector('.scene');let current=0;
     function advance(){const next=(current+1)%scenes.length;panel.classList.add('fade');slides[current].classList.remove('active');slides[current].classList.add('outgoing');setTimeout(()=>{slides[current].classList.remove('outgoing');slides[next].classList.add('active');dots.forEach((dot,i)=>dot.classList.toggle('active',i===next));panel.querySelector('span').textContent=`0${next+1} / 04`;panel.querySelector('strong').textContent=scenes[next][0];panel.querySelector('small').textContent=scenes[next][1];panel.classList.remove('fade');current=next;setTimeout(advance,5000)},760)}setTimeout(advance,5000);
   </script>
-<footer class="contact-footer" aria-label="Contact information"><div><h2>CONTACT US</h2><p>Your Route. Our Responsibility.</p><a href="/contact.html">Contact &amp; Request a Quote →</a></div><address><strong>Mersin, Turkey</strong><a href="tel:+905057661149">+90 505 766 11 49</a></address><address><strong>Umm Qasr, Iraq</strong><a href="tel:+9647870972289">+964 787 097 22 89</a></address><address><strong>Email</strong><a href="mailto:operations@sama-transports.com">operations@sama-transports.com</a></address></footer>
+<footer class="home-contact-footer" aria-label="Contact information"><div class="home-contact-panel"><div class="home-contact-heading"><div><h2>CONTACT US</h2><p>Your Route. Our Responsibility.</p></div><a class="home-contact-link" href="/contact.html">Contact &amp; Request a Quote <span aria-hidden="true">→</span></a></div><div class="home-contact-details"><address><small>TURKEY</small><strong>Mersin, Turkey</strong><a href="tel:+905057661149">+90 505 766 11 49</a></address><address><small>IRAQ</small><strong>Umm Qasr, Iraq</strong><a href="tel:+9647870972289">+964 787 097 22 89</a></address><address><small>GET IN TOUCH</small><strong>Email</strong><a href="mailto:operations@sama-transports.com">operations@sama-transports.com</a></address></div></div></footer>
 </body>
 </html>
-

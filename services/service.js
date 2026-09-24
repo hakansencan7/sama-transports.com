@@ -71,6 +71,8 @@ const SERVICES = {
   },
   "general-cargo": {
     n: "14",
+    image: "general-cargo-hero.webp",
+    imageAlt: "SAMA Transportation General Cargo Handling and Transportation",
     title: "GENERAL CARGO TRANSPORTATION",
     intro: "SAMA Transportations provides flexible general-cargo support for businesses that need a reliable movement plan from collection through delivery. We coordinate loading, routing, handovers and cross-border requirements around the shipment, giving routine and time-sensitive cargo a practical, consistently managed logistics path.",
     caps: ["Road transport planning", "Cargo coordination", "Loading support", "Route management", "Cross-border support", "Delivery coordination"]
@@ -107,7 +109,7 @@ const galleryMarkup = service.gallery
 
 document.querySelector("#service-app").innerHTML = `${nav}
   <main>
-    <section class="hero"><img src="${image}" alt="${service.title}" fetchpriority="high"><div class="hero-copy"><div class="eyebrow">${service.n} / SERVICE</div><h1>${service.title.replace(" & ", " &amp;<br>")}</h1>${service.tagline ? `<p class="hero-tagline">${service.tagline}</p>` : ""}</div></section>
+    <section class="hero"><img src="${image}" alt="${service.imageAlt || service.title}" fetchpriority="high"><div class="hero-copy"><div class="eyebrow">${service.n} / SERVICE</div><h1>${service.title.replace(" & ", " &amp;<br>")}</h1>${service.tagline ? `<p class="hero-tagline">${service.tagline}</p>` : ""}</div></section>
     <section class="intro"><div class="intro-grid"><div><div class="section-kicker">SERVICE OVERVIEW</div><h2>PLANNED FOR CONFIDENT CARGO MOVEMENT.</h2></div><p>${service.intro}</p></div></section>
     <section class="projects" id="projects"><div class="projects-head"><h2>${galleryTitle}</h2></div>${galleryMarkup}</section>
     <details class="service-details"><summary>READ MORE</summary><section class="capabilities"><div class="section-kicker">SERVICE CAPABILITIES</div><h2>READY FOR THE NEXT MOVE</h2><ul class="cap-list">${service.caps.map(capability => `<li>${capability}</li>`).join("")}</ul></section></details>
