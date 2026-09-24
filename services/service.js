@@ -71,10 +71,11 @@ const SERVICES = {
   },
   "general-cargo": {
     n: "14",
+    gallery: true,
     image: "general-cargo-hero.webp",
     imageAlt: "SAMA Transportation General Cargo Handling and Transportation",
     title: "GENERAL CARGO TRANSPORTATION",
-    intro: "SAMA Transportations provides flexible general-cargo support for businesses that need a reliable movement plan from collection through delivery. We coordinate loading, routing, handovers and cross-border requirements around the shipment, giving routine and time-sensitive cargo a practical, consistently managed logistics path.",
+    intro: "SAMA Transportation offers flexible transport and handling solutions for packaged goods, machinery and industrial materials. From loading and unloading to port handling and cargo transfers, we coordinate your shipments with care, efficiency and a focus on safe, reliable delivery.",
     caps: ["Road transport planning", "Cargo coordination", "Loading support", "Route management", "Cross-border support", "Delivery coordination"]
   },
   "customs-clearance": {
