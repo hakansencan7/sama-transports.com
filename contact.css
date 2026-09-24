@@ -10,7 +10,9 @@
 /* Contact hero only: original, unlettered photo; shading remains in CSS. */
 .contact-page .request-heading{
   max-width:none;
-  aspect-ratio:1672/941;
+  aspect-ratio:auto;
+  min-height:360px;
+  margin-bottom:32px;
   padding:clamp(24px,3vw,48px);
   background-image:linear-gradient(90deg,rgba(2,13,22,.66),rgba(2,13,22,.20) 58%,rgba(2,13,22,.05)),url("assets/contact/blue-tipper-truck-hero.webp");
   background-size:cover;
@@ -20,5 +22,5 @@
 .contact-page .request-heading h1{margin:20px 0 24px;text-shadow:0 2px 14px rgba(0,0,0,.3)}
 .contact-page .request-heading p{max-width:660px;color:#f7fbfd;text-shadow:0 1px 8px rgba(0,0,0,.65)}
 .contact-page .request-heading .section-kicker{color:#15c9ff}
-@media(max-width:980px){.contact-page .request-heading{min-height:440px;background-position:60% center}}
-@media(max-width:540px){.contact-page .request-heading{aspect-ratio:auto;min-height:560px;padding:24px 20px;background-position:100% center;background-image:linear-gradient(180deg,rgba(2,13,22,.72),rgba(2,13,22,.28) 45%,rgba(2,13,22,.05) 75%),url("assets/contact/blue-tipper-truck-hero.webp")}}
+@media(max-width:980px){.contact-page .request-heading{min-height:340px;background-position:60% center}}
+@media(max-width:540px){.contact-page .request-heading{min-height:320px;padding:24px 20px;background-position:100% center;background-image:linear-gradient(180deg,rgba(2,13,22,.72),rgba(2,13,22,.28) 45%,rgba(2,13,22,.05) 75%),url("assets/contact/blue-tipper-truck-hero.webp")}}
