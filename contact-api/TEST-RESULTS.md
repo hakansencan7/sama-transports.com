@@ -48,6 +48,15 @@ The certificate chain was not accepted for a different hostname. No TLS verifica
 was disabled; no SMTP password, AUTH command or email was sent.
 `operations@sama-transports.com` is a group, so a real same-domain mailbox must authenticate.
 
+## Support follow-up — 24 September 2026
+
+Natro support ticket **#3233738** was submitted through the authenticated customer portal.
+The ticket detail page confirmed creation and status **Yeni** (New).
+The subsequent provider response and a fresh Hetzner check could not be completed after
+the work environment disconnected during the Hetzner sign-in step.
+No new SMTP authentication, test email, service activation or frontend release was performed.
+The deployment and test results above remain dated 22 September 2026.
+
 ## Remaining acceptance gates
 
 1. Natro must supply a reachable SMTP endpoint whose certificate matches its hostname.

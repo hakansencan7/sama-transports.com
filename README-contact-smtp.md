@@ -25,7 +25,7 @@ Canlı Hetzner testi: `mail.kurumsaleposta.com:465` bağlantıyı reddetti. `:58
 ancak sertifika yalnızca `*.natrohost.com` / `natrohost.com` için geçerliydi; Python doğru biçimde
 hostname uyuşmazlığıyla bağlantıyı kesti. Sunucu banner'ındaki `vsp-in3.natrohost.com:587` adresi de
 farklı IP'ye çözümlenip bağlantıyı reddetti. Sertifika doğrulaması kapatılmadı ve hiçbir parola gönderilmedi.
-Sağlayıcıdan geçerli sertifikalı SMTP adresi/portu istenmelidir; hazırlanmış talep `contact-api/NATRO-SUPPORT-DRAFT.md` içindedir.
+Geçerli sertifikalı SMTP adresi/portu için 24 Eylül 2026 tarihinde Natro'ya **#3233738** numaralı destek talebi gönderildi; panelde **Yeni** durumu doğrulandı. Talebin kaynak metni `contact-api/NATRO-SUPPORT-DRAFT.md` içindedir. Sonraki destek yanıtı henüz kontrol edilemedi.
 
 `forms.sama-transports.com` HTTPS üzerinden beklenen bakım yanıtını (503) ve doğru Origin CORS başlığını verdi.
 `/healthz`, `/settings.json`, `/app.py` dışarıdan 404 döndü. ClamAV güncel imzayla EICAR testini reddetti.
@@ -125,7 +125,7 @@ install -m 0600 -o root -g root /opt/sama-contact/.env.example /etc/sama-contact
 | SMTP_PASSWORD | Yalnızca sunucuda girilecek hesap parolası |
 | CONTACT_SECRET | `python3 -c 'import secrets; print(secrets.token_hex(32))'` ile üretilen değer |
 
-Natro hesabı için doğrulanan SMTP hostname'i `mail.kurumsaleposta.com` adresidir. Parolayı sohbete, PR'a veya komut satırına yazmayın. systemd EnvironmentFile biçiminde gereken özel karakterleri tırnaklayın; bu dosyayı `source` ile çalıştırmayın.
+Natro belgesindeki SMTP hostname'i `mail.kurumsaleposta.com` adresidir; bu hesabın canlı TLS doğrulamasını henüz geçmemiştir. Natro'nun teyit edeceği, sertifikasıyla eşleşen uç noktayı kullanın. Parolayı sohbete, PR'a veya komut satırına yazmayın. systemd EnvironmentFile biçiminde gereken özel karakterleri tırnaklayın; bu dosyayı `source` ile çalıştırmayın.
 
 Natro SMTP için SPF/DKIM/DMARC ve gönderici yetkisini panelde doğrulayın; var olan DNS kayıtlarını körlemesine değiştirmeyin. Hetzner Cloud varsayılan olarak 25/465'i engeller, 587'yi engellemez. Natro yalnızca 465 sunuyorsa önce Hetzner hesabında port erişimi açılmalı, ardından `ssl/465` seçilmelidir.
 

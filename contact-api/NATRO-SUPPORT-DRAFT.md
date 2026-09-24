@@ -1,4 +1,8 @@
-# Natro destek talebi taslağı — henüz gönderilmedi
+# Natro destek talebi — gönderildi
+
+24 Eylül 2026 tarihinde Natro müşteri panelinden **#3233738** numarasıyla gönderildi.
+Gönderim sonrasında panel durumu **Yeni** olarak doğrulandı. Sonraki destek yanıtı henüz kontrol edilemedi.
+Aşağıdaki metin, gönderilen talebin kaynak taslağıdır.
 
 **Konu:** sama-transports.com XMail SMTP için geçerli TLS uç noktası
 
