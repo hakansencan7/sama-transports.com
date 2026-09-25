@@ -4,3 +4,19 @@
 [data-service="ship-chartering"] .ship-regional p{max-width:780px;color:var(--muted);font-size:1.07rem;line-height:1.75}
 @media(max-width:860px){[data-service="ship-chartering"] .hero img{object-position:76% center}}
 @media(max-width:540px){[data-service="ship-chartering"] .hero{min-height:440px;padding-bottom:32px}[data-service="ship-chartering"] .hero img{object-position:76% center}[data-service="ship-chartering"] .hero h1{font-size:clamp(2rem,8vw,2.8rem)}}
+
+[data-service="ship-chartering"] .ship-gallery-intro{margin:0 0 28px;color:#dceaf0;font-size:1.07rem;line-height:1.75}
+.ship-chartering-gallery{display:grid;grid-template-columns:minmax(0,1fr);gap:0;margin:0;padding:0}
+.ship-chartering-gallery>a{display:block;min-width:0;margin:0;padding:0;border:0;line-height:0;cursor:zoom-in}
+.ship-chartering-gallery>a:focus-visible{outline:2px solid var(--cyan);outline-offset:-2px}
+.ship-chartering-gallery img{display:block;width:100%;height:auto;margin:0;padding:0;border:0;border-radius:0}
+.ship-gallery-lightbox{width:min(1440px,calc(100% - 32px));max-width:none;max-height:calc(100dvh - 32px);padding:16px;border:1px solid var(--cyan);background:#061725;color:var(--white)}
+.ship-gallery-lightbox::backdrop{background:rgba(1,7,12,.93)}
+.ship-gallery-lightbox[open]{display:grid;gap:12px}
+.ship-gallery-lightbox .ship-gallery-full{display:block;width:100%;height:auto;max-height:calc(100dvh - 180px);object-fit:contain}
+.ship-gallery-lightbox button{min-height:42px;padding:10px 14px;border:1px solid rgba(21,201,255,.6);background:#061725;color:#fff;font-family:inherit;font-size:.72rem;font-weight:700;cursor:pointer}
+.ship-gallery-lightbox .ship-gallery-close{justify-self:end}
+.ship-gallery-controls{display:grid;grid-template-columns:110px minmax(0,1fr) 110px;align-items:center;gap:8px}
+.ship-gallery-count{text-align:center;color:var(--muted);font-size:.75rem}
+body[data-service="ship-chartering"].ship-gallery-open{overflow:hidden}
+@media(max-width:540px){.ship-gallery-lightbox{width:calc(100% - 16px);max-height:calc(100dvh - 16px);padding:8px}.ship-gallery-controls{grid-template-columns:100px minmax(0,1fr) 100px}.ship-gallery-lightbox button{padding:8px;font-size:.65rem}}
