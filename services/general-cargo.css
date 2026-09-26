@@ -7,35 +7,3 @@ body[data-service="general-cargo"] .hero img {
     object-position: 75% center;
   }
 }
-
-/* Only this gallery is edge-to-edge; preserve each complete artwork. */
-body[data-service="general-cargo"] .gallery {
-  gap: 0;
-  margin: 0;
-  padding: 0;
-}
-body[data-service="general-cargo"] .gallery button {
-  display: block;
-  min-width: 0;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  line-height: 0;
-}
-body[data-service="general-cargo"] .gallery img,
-body[data-service="general-cargo"] .gallery button:hover img {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin: 0;
-  aspect-ratio: auto;
-  object-fit: contain;
-  opacity: 1;
-  transform: none;
-}
-body[data-service="general-cargo"] .gallery button:focus-visible {
-  outline: 2px solid var(--cyan);
-  outline-offset: -2px;
-}
