@@ -61,7 +61,7 @@
     image.alt = title + " — " + route + " — illustrative project reconstruction";
     image.width = 1536;
     image.height = 1024;
-    image.loading = "lazy";
+    image.loading = "eager";
     image.decoding = "async";
     button.append(image);
     gallery.append(button);
@@ -73,4 +73,3 @@
   overview.append(note);
   document.querySelector("#projects").before(overview);
 })();
-

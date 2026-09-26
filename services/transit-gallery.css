@@ -3,9 +3,4 @@ body[data-service="transit-transportation"] .transit-operation-overview h3{font-
 body[data-service="transit-transportation"] .transit-operation-overview p{line-height:1.75}
 body[data-service="transit-transportation"] .transit-operation-overview li{margin:24px 0}
 body[data-service="transit-transportation"] .transit-visual-note{font-size:.8rem;opacity:.7}
-/* Inherit the shared 3/2/1-column grid and section alignment. */
-body[data-service="transit-transportation"] #projects .gallery{display:grid;gap:0;margin:0;padding:0}
-body[data-service="transit-transportation"] #projects .gallery button{display:block;min-width:0;width:100%;height:auto;margin:0;padding:0;border:0;border-radius:0;line-height:0;background:transparent;aspect-ratio:auto}
-body[data-service="transit-transportation"] #projects .gallery img,
-body[data-service="transit-transportation"] #projects .gallery button:hover img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;margin:0;padding:0;opacity:1;transform:none}
-body[data-service="transit-transportation"] #projects .gallery button:focus-visible{outline:2px solid var(--cyan);outline-offset:-2px}
+/* Gallery cards and the image viewer use the shared styles in service.css. */

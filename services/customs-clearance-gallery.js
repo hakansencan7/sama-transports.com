@@ -20,7 +20,7 @@
     const image = document.createElement("img");
     image.src = src;
     image.alt = alt;
-    image.loading = "lazy";
+    image.loading = "eager";
     image.decoding = "async";
     image.width = 1536;
     image.height = 1024;

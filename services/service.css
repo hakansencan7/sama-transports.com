@@ -41,9 +41,3 @@ body[data-service="customs-clearance"] .hero h1{margin-top:14px;font-size:clamp(
 body[data-service="customs-clearance"] .hero-tagline{max-width:none;margin-top:16px;color:#fff}
 @media(max-width:860px){body[data-service="customs-clearance"] .hero-copy{margin-top:-24px}body[data-service="customs-clearance"] .hero-copy::before{height:48px}}
 @media(max-width:540px){body[data-service="customs-clearance"] .hero{padding-top:68px}body[data-service="customs-clearance"] .hero-copy{margin-top:0;padding:12px 22px 30px}body[data-service="customs-clearance"] .hero-copy::before{height:28px}body[data-service="customs-clearance"] .hero-tagline{font-size:.82rem;letter-spacing:.08em}}
-
-body[data-service="customs-clearance"] .gallery{gap:0}
-body[data-service="customs-clearance"] .gallery button{min-width:0;margin:0;padding:0;border:0;border-radius:0;line-height:0;background:transparent}
-body[data-service="customs-clearance"] .gallery button:focus-visible{outline:2px solid var(--cyan);outline-offset:-2px}
-body[data-service="customs-clearance"] .gallery img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;margin:0;padding:0;border:0;border-radius:0;opacity:1;transform:none;filter:none}
-body[data-service="customs-clearance"] .gallery button:hover img{transform:none}
