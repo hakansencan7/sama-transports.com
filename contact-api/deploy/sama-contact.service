@@ -1,0 +1,33 @@
+[Unit]
+Description=SAMA contact and quotation SMTP API
+After=network-online.target clamav-daemon.service
+Wants=network-online.target
+
+[Service]
+User=sama-contact
+Group=sama-contact
+SupplementaryGroups=clamav
+WorkingDirectory=/opt/sama-contact
+EnvironmentFile=/etc/sama-contact.env
+Environment=PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
+ExecStart=/opt/sama-contact/.venv/bin/gunicorn --bind 127.0.0.1:8091 --workers 2 --worker-class sync --timeout 120 --graceful-timeout 120 --limit-request-line 2048 --limit-request-field_size 2048 --error-logfile - 'app:create_app()'
+Restart=on-failure
+RestartSec=5
+UMask=0077
+StateDirectory=sama-contact
+StateDirectoryMode=0700
+PrivateTmp=true
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+ReadWritePaths=/var/lib/sama-contact
+MemoryMax=512M
+TasksMax=32
+
+[Install]
+WantedBy=multi-user.target
