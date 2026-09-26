@@ -58,6 +58,8 @@ const SERVICES = {
   "living-container": {
     n: "12",
     title: "LIVING CONTAINER TRANSPORTATION",
+    image: "living-container-hero.webp",
+    imageAlt: "Yellow truck loading a white living container outside an industrial facility",
     gallery: true,
     intro: "SAMA Transportations coordinates living-container movements with careful planning for lifting, loading, route access and site readiness. Each unit is handled around its dimensions and delivery conditions, allowing collection, transport and placement to follow a controlled sequence from origin through final positioning.",
     caps: ["Container movement planning", "Secure loading", "Route coordination", "Handling support", "Delivery scheduling", "Site readiness coordination"]
