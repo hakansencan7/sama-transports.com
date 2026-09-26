@@ -81,8 +81,12 @@ const SERVICES = {
   },
   "customs-clearance": {
     n: "15",
+    gallery: true,
     title: "CUSTOMS CLEARANCE SERVICES",
-    intro: "Our customs-clearance support helps cargo move through border processes with organised documentation, practical liaison and clear next-step coordination. We prepare the operational handover alongside the transport plan, helping customers maintain visibility from customs readiness through release, transit and final delivery.",
+    image: "customs-clearance-four-countries.webp",
+    imageAlt: "Customs emblems representing Iraq, Turkey, Syria and Jordan",
+    tagline: "CUSTOMS CLEARANCE IN IRAQ, TURKEY, SYRIA & JORDAN",
+    intro: "SAMA provides customs clearance services in Iraq, Turkey, Syria and Jordan. We coordinate documentation, border procedures and shipment follow-up, helping our customers manage their import, export and transit operations with clear communication and reliable support.",
     caps: ["Document coordination", "Customs process support", "Border liaison", "Cargo readiness", "Transit support", "Status communication"]
   },
   "heavy-equipment-transportation": {

@@ -25,6 +25,15 @@
 
   /* Service 07: preserve a clean, full-bleed cargo image while darkening only the lower-left copy area. */
   .service-card--pipe::after{background:radial-gradient(ellipse 92% 118% at 0% 100%,rgba(2,13,22,.88) 0%,rgba(2,13,22,.64) 33%,rgba(2,13,22,.24) 53%,rgba(2,13,22,0) 74%)}.service-card--pipe img{object-position:54% center}@media(max-width:650px){.service-card--pipe img{object-position:55% center}}
+  /* Service 15: keep all four emblems visible, with copy below the artwork. */
+  .service-card--customs{background:#fff}
+  .service-card--customs img{height:calc(100% - 90px);object-fit:contain;object-position:center top;opacity:1}
+  .service-card--customs:hover img{transform:none}
+  .service-card--customs::after{background:none}
+  .service-card--customs div{left:0;right:0;bottom:0;display:flex;flex-direction:column;align-items:flex-start;padding:10px 22px 12px;background:#020d16}
+  .service-card--customs div::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:10px;background:linear-gradient(0deg,#020d16,rgba(2,13,22,0));pointer-events:none}
+  .service-card--customs small,.service-card--customs span{line-height:1.25}
+  .service-card--customs h3{margin:6px 0 8px}
   </style>
 <link rel="stylesheet" href="contact.css"><link rel="stylesheet" href="home-contact.css?v=20260925"></head>
 <body>
@@ -56,7 +65,7 @@
     <a class="service-card" href="services/living-container-transportation.html"><img src="assets/services/living-container/cover.svg" alt="LIVING CONTAINER TRANSPORTATION" loading="lazy"><div><small>12 / SERVICE</small><h3>LIVING CONTAINER TRANSPORTATION</h3><span>EXPLORE&nbsp; →</span></div></a>
     <a class="service-card" href="services/steel-coil-transportation.html"><img src="assets/services/steel-coil/steel-coil-home.png" alt="STEEL COIL TRANSPORTATION" loading="lazy"><div><small>13 / SERVICE</small><h3>STEEL COIL TRANSPORTATION</h3><span>EXPLORE&nbsp; →</span></div></a>
     <a class="service-card" href="services/general-cargo.html"><img src="assets/services/general-cargo/general-cargo-transportation.webp" alt="Orange forklift loading metal cargo onto a white truck" loading="lazy" style="object-position:center center"><div><small>14 / SERVICE</small><h3>GENERAL CARGO TRANSPORTATION</h3><span>EXPLORE&nbsp; →</span></div></a>
-    <a class="service-card" href="services/customs-clearance.html"><img src="assets/services/customs-clearance/cover.svg" alt="CUSTOMS CLEARANCE SERVICES" loading="lazy"><div><small>15 / SERVICE</small><h3>CUSTOMS CLEARANCE SERVICES</h3><span>EXPLORE&nbsp; →</span></div></a>
+    <a class="service-card service-card--customs" href="services/customs-clearance.html"><img src="assets/services/customs-clearance/customs-clearance-four-countries.webp" alt="Customs emblems representing Iraq, Turkey, Syria and Jordan" loading="lazy" decoding="async" width="1774" height="887"><div><small>15 / SERVICE</small><h3>CUSTOMS CLEARANCE SERVICES</h3><span>EXPLORE&nbsp; →</span></div></a>
     <a class="service-card" href="services/heavy-equipment-transportation.html"><img src="assets/services/heavy-equipment-transportation/card-lowbed-harvester.png" alt="Heavy equipment transported by lowbed truck at port" loading="lazy" style="object-position:15% center"><div><small>16 / SERVICE</small><h3>HEAVY EQUIPMENT TRANSPORTATION</h3><span>EXPLORE&nbsp; →</span></div></a>
     <a class="service-card" href="services/air-freight.html"><img src="assets/services/air-freight/hero-air-freight.png" alt="Heavy industrial cargo being loaded through an open-nose cargo aircraft" loading="lazy" style="object-position:center 48%"><div><small>17 / SERVICE</small><h3>AIR FREIGHT</h3><span>EXPLORE&nbsp; →</span></div></a>
     </div>
