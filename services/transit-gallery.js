@@ -43,7 +43,7 @@
   intro.textContent = "Ankara → Derince Port → Mariupol Port → Bukhara, Uzbekistan → Dushanbe, Tajikistan → Foundation and final positioning. This project brings road, sea and rail transportation together with heavy cargo coordination, multimodal logistics and final positioning.";
   overview.append(intro);
   const list = document.createElement("ol");
-  for (const [file, title, route, description] of stages) {
+  for (const [, title, route, description] of stages) {
     const item = document.createElement("li");
     const label = document.createElement("h3");
     label.textContent = title + " — " + route;
@@ -51,25 +51,109 @@
     text.textContent = description;
     item.append(label, text);
     list.append(item);
+  }
+  overview.append(list);
+  document.querySelector("#projects").before(overview);
+  const photos = [
+  [
+    "transit-project-01.webp",
+    "ROAD TRANSPORTATION",
+    "FROM WAREHOUSE IN ANKARA TO DERINCE PORT",
+    "Ankara depot loading and road transportation"
+  ],
+  [
+    "transit-project-02.webp",
+    "SEA TRANSPORTATION",
+    "FROM DERINCE PORT TO MARIUPOL PORT",
+    "Port trailer, ship hold cargo, cargo with drums, ship at night"
+  ],
+  [
+    "transit-project-03.webp",
+    "RAIL TRANSPORTATION",
+    "FROM MARIUPOL PORT TO BUKHARA / UZBEKISTAN",
+    "Industrial transformer on rail wagons, close rail load, blue crane unloading, empty road trailer by the crane"
+  ],
+  [
+    "transit-project-04.webp",
+    "RAIL TRANSPORTATION",
+    "FROM MARIUPOL PORT TO BUKHARA / UZBEKISTAN",
+    "Cargo on road trailer under crane, cargo on red supports, close transformer side, load on trailer beside rail locomotive"
+  ],
+  [
+    "transit-project-05.webp",
+    "RAIL TRANSPORTATION",
+    "FROM MARIUPOL PORT TO BUKHARA / UZBEKISTAN",
+    "Cargo raised on red steel supports, yellow hydraulic jack closeup, support and jack closeup, load on trailer at dusk"
+  ],
+  [
+    "transit-project-06.webp",
+    "ROAD TRANSPORTATION",
+    "FROM BUKHARA / UZBEKISTAN TO DUSHANBE / TAJIKISTAN",
+    "Orange heavy truck and transformer load in yard from four different angles"
+  ],
+  [
+    "transit-project-07.webp",
+    "ROAD TRANSPORTATION",
+    "FROM BUKHARA / UZBEKISTAN TO DUSHANBE / TAJIKISTAN",
+    "Transformer convoy passing industrial gate, convoy on city street, orange truck driving hillside road, front view of orange truck"
+  ],
+  [
+    "transit-project-08.webp",
+    "ROAD TRANSPORTATION",
+    "FROM BUKHARA / UZBEKISTAN TO DUSHANBE / TAJIKISTAN",
+    "Transformer on long multi-axle trailer: side view, rough roadside, rear view on mountain road, distant convoy in mountain valley"
+  ],
+  [
+    "transit-project-09.webp",
+    "ROAD TRANSPORTATION",
+    "FROM BUKHARA / UZBEKISTAN TO DUSHANBE / TAJIKISTAN",
+    "Convoy rear with crew on mountain road, overhead clearance bar near village, unpaved approach road, site arrival with crew"
+  ],
+  [
+    "transit-project-10.webp",
+    "FOUNDATION",
+    "IN DUSHANBE / TAJIKISTAN",
+    "Crew with yellow lifting supports, hydraulic control station under load, rear wide site view, side view of transformer with yellow gantry equipment"
+  ],
+  [
+    "transit-project-11.webp",
+    "FOUNDATION",
+    "IN DUSHANBE / TAJIKISTAN",
+    "Transformer on supports with rails and crane, rear with hydraulic equipment and crew, hydraulic control console closeup, front view of supported transformer"
+  ],
+  [
+    "transit-project-12.webp",
+    "FOUNDATION",
+    "IN DUSHANBE / TAJIKISTAN",
+    "Four distinct views of transformer, red multi-axle trailer, yellow lifting gantry and site crew beside electrical substation"
+  ],
+  [
+    "transit-project-13.webp",
+    "FOUNDATION",
+    "IN DUSHANBE / TAJIKISTAN",
+    "Rear view with workers, side view with orange crane, close crew underneath load beside yellow supports, front view and substation"
+  ],
+  [
+    "transit-project-14.webp",
+    "FOUNDATION",
+    "IN DUSHANBE / TAJIKISTAN",
+    "Yellow skid base closeup, workers under side of transformer, load with yellow supports and crew, kneeling worker operating positioning equipment"
+  ]
+];
+  for (const [file, title, route, caption] of photos) {
     const button = document.createElement("button");
     button.type = "button";
     button.dataset.photo = file;
-    button.dataset.full = "../assets/gallery/transit-transportation/" + file + ".webp";
-    button.setAttribute("aria-label", "Open image: " + title + " — " + route);
+    button.dataset.full = "../assets/gallery/transit-transportation/" + file;
+    button.setAttribute("aria-label", "Open image: " + title + " — " + route + ": " + caption);
     const image = document.createElement("img");
     image.src = button.dataset.full;
-    image.alt = title + " — " + route + " — illustrative project reconstruction";
-    image.width = 1536;
-    image.height = 1024;
+    image.alt = title + " — " + route + ": " + caption;
+    image.width = 2172;
+    image.height = 724;
     image.loading = "eager";
     image.decoding = "async";
     button.append(image);
     gallery.append(button);
   }
-  overview.append(list);
-  const note = document.createElement("p");
-  note.className = "transit-visual-note";
-  note.textContent = "Project visuals are illustrative reconstructions of the transport stages.";
-  overview.append(note);
-  document.querySelector("#projects").before(overview);
 })();
