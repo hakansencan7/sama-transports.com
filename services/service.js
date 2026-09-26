@@ -85,7 +85,7 @@ const SERVICES = {
     n: "15",
     gallery: true,
     title: "CUSTOMS CLEARANCE SERVICES",
-    image: "customs-clearance-four-countries-dark.svg",
+    image: "customs-clearance-four-countries-dark-v2.svg",
     imageAlt: "Customs emblems representing Iraq, Turkey, Syria and Jordan",
     tagline: "CUSTOMS CLEARANCE IN IRAQ, TURKEY, SYRIA & JORDAN",
     intro: "SAMA provides customs clearance services in Iraq, Turkey, Syria and Jordan. We coordinate documentation, border procedures and shipment follow-up, helping our customers manage their import, export and transit operations with clear communication and reliable support.",
