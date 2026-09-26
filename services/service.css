@@ -32,7 +32,7 @@ body.gallery-modal-open{overflow:hidden}
 @media(max-width:540px){.hero{min-height:470px}.gallery{grid-template-columns:1fr}.service-details>summary{padding-left:22px;padding-right:22px}.service-cta{padding:42px 22px}.lightbox-controls.gallery-lightbox-controls{gap:6px}.lightbox-controls.gallery-lightbox-controls .gallery-lightbox-nav{font-size:.6rem}}
 
 /* Customs Clearance only: uncropped four-country artwork and lower title band. */
-body[data-service="customs-clearance"] .hero{display:block;min-height:0;padding:84px 0 0;background:#fff}
+body[data-service="customs-clearance"] .hero{display:block;min-height:0;padding:84px 0 0;background:linear-gradient(135deg,#071927,#0a2635)}
 body[data-service="customs-clearance"] .hero>img{position:relative;inset:auto;display:block;width:100%;height:auto;max-height:540px;object-fit:contain;object-position:center top}
 body[data-service="customs-clearance"] .hero::after{display:none}
 body[data-service="customs-clearance"] .hero-copy{max-width:none;margin-top:-36px;padding:12px 5.8% 36px;background:#020d16}
