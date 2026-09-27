@@ -8,10 +8,10 @@
 .iw-gallery-item:hover img,.iw-gallery-item:focus-visible img{transform:scale(1.035);filter:saturate(1.04) contrast(1.02)}
 .iw-gallery-label{position:absolute;z-index:2;right:11px;bottom:9px;color:#fff;font-size:.61rem;font-weight:900;letter-spacing:.14em;opacity:.82}
 .iw-gallery-item:focus-visible{outline:2px solid #15c9ff;outline-offset:3px}
-.iw-lightbox{position:fixed;z-index:9999;inset:0;display:none;place-items:center;padding:70px 24px 28px;background:rgba(1,7,12,.95);backdrop-filter:blur(6px)}
+.iw-lightbox{position:fixed;z-index:9999;inset:0;display:none;place-items:center;padding:48px 18px 18px;background:rgba(1,7,12,.95);backdrop-filter:blur(6px);overflow:auto}
 .iw-lightbox.is-open{display:grid}
-.iw-lightbox-box{position:relative;width:min(1340px,100%);padding:13px;border:1px solid rgba(21,201,255,.68);background:#061725;box-shadow:0 28px 90px rgba(0,0,0,.58)}
-.iw-lightbox-image{display:block;width:100%;max-height:78vh;object-fit:contain;background:#020d16}
+.iw-lightbox-box{position:relative;width:min(1420px,calc(100vw - 36px),calc((100vh - 138px)*1.5));padding:10px;border:1px solid rgba(21,201,255,.68);background:#061725;box-shadow:0 28px 90px rgba(0,0,0,.58)}
+.iw-lightbox-image{display:block;width:100%;height:auto;aspect-ratio:3/2;max-height:none;object-fit:cover;background:#020d16}
 .iw-lightbox-close{position:absolute;top:-46px;right:0;width:36px;height:36px;padding:0;border:1px solid rgba(21,201,255,.55);background:#061725;color:#fff;font-size:1.55rem;line-height:1;cursor:pointer}
 .iw-lightbox-close:hover,.iw-lightbox-close:focus-visible{border-color:#15c9ff;color:#15c9ff}
 .iw-lightbox-controls{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center;margin-top:13px}
@@ -21,4 +21,4 @@
 .iw-lightbox-count{color:#9db8c5;font-size:.68rem;font-weight:800;letter-spacing:.13em}
 @media(max-width:1100px){.iw-gallery{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:860px){.iw-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.iw-gallery-section .projects-head{align-items:start;flex-direction:column}}
-@media(max-width:540px){.iw-gallery{grid-template-columns:1fr;gap:12px;margin-top:28px}.iw-lightbox{padding:58px 12px 16px}.iw-lightbox-box{padding:7px}.iw-lightbox-controls{gap:7px}.iw-lightbox-controls button{min-width:0;padding:10px 8px;font-size:.56rem}.iw-lightbox-count{font-size:.58rem;letter-spacing:.08em}}
+@media(max-width:540px){.iw-gallery{grid-template-columns:1fr;gap:12px;margin-top:28px}.iw-lightbox{padding:52px 8px 12px}.iw-lightbox-box{width:calc(100vw - 16px);padding:6px}.iw-lightbox-controls{gap:7px}.iw-lightbox-controls button{min-width:0;padding:10px 8px;font-size:.56rem}.iw-lightbox-count{font-size:.58rem;letter-spacing:.08em}}
