@@ -10,3 +10,7 @@
 .home-contact-footer a:focus-visible{outline:2px solid #15c9ff;outline-offset:5px}
 @media(max-width:980px){.home-contact-heading{align-items:flex-start;flex-direction:column}.home-contact-details{grid-template-columns:1fr 1fr}.home-contact-details address:last-child{grid-column:1/-1;border-left:0;border-top:1px solid rgba(159,224,248,.2);padding:24px 0 0}}
 @media(max-width:540px){.home-contact-footer{padding:32px 20px}.home-contact-heading,.home-contact-details{padding:24px}.home-contact-details{grid-template-columns:1fr;gap:22px}.home-contact-details address+address{border-left:0;border-top:1px solid rgba(159,224,248,.2);padding:22px 0 0}.home-contact-link{width:100%;font-size:.75rem;padding:14px 12px}}
+
+.home-social-link{display:inline-flex;align-items:center;gap:9px;margin-top:12px;color:#f7fbfd!important;font-weight:800}
+.home-social-icon{width:20px;height:20px;flex:0 0 20px;fill:currentColor;filter:drop-shadow(0 0 7px rgba(21,201,255,.3))}
+.home-social-link:hover{color:#15c9ff!important}
