@@ -38,6 +38,8 @@ const SERVICES = {
     gallery: true,
     n: "09",
     title: "TRANSIT TRANSPORTATION",
+    image: "transit-transportation-hero.webp",
+    imageAlt: "Transit transportation truck at an international port gateway",
     intro: "SAMA Transportations coordinates transit cargo through each gateway with attention to documentation, timing and border readiness. We plan the route, cargo handovers and onward transportation together, giving every shipment a practical operational path from entry point to final destination across regional trade corridors.",
     caps: ["Transit route planning", "Border coordination", "Document readiness", "Cargo monitoring", "Schedule management", "Onward transport support"]
   },
