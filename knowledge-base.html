@@ -83,7 +83,7 @@
         <p class="kb-section-note">The gallery framework is ready. New logistics images, diagrams and information cards will be added here as the Knowledge Base grows.</p>
       </div>
       <div class="kb-gallery-grid">
-        <article class="kb-gallery-card"><span>IMAGE AREA</span><div><small>01 / PORT</small><h3>PORT OPERATIONS</h3></div></article>
+        <button class="kb-gallery-card kb-gallery-card--image" type="button" data-kb-image aria-label="Open Container Dimensions guide"><img src="data:image/avif;base64,__CONTAINER_DIMENSIONS_B64__" alt="Container Dimensions - Standard Shipping Container Guide" loading="lazy" decoding="async"><div><small>01 / CONTAINERS</small><h3>CONTAINER DIMENSIONS</h3></div></button>
         <article class="kb-gallery-card"><span>IMAGE AREA</span><div><small>02 / STORAGE</small><h3>WAREHOUSING &amp; HANDLING</h3></div></article>
         <article class="kb-gallery-card"><span>IMAGE AREA</span><div><small>03 / TRANSPORT</small><h3>ROAD LOGISTICS</h3></div></article>
         <article class="kb-gallery-card"><span>IMAGE AREA</span><div><small>04 / BULK</small><h3>BULK CARGO OPERATIONS</h3></div></article>
@@ -99,7 +99,16 @@
       </div>
       <a class="kb-button" href="contact.html">CONTACT SAMA →</a>
     </section>
-  </main>
+    <div class="kb-lightbox" id="kb-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Knowledge Base image viewer">
+    <div class="kb-lightbox-box">
+      <button class="kb-lightbox-close" type="button" aria-label="Close image">×</button>
+      <img class="kb-lightbox-image" alt="">
+    </div>
+  </div>
+</main>
+<script>
+(()=>{const card=document.querySelector('[data-kb-image]'),box=document.getElementById('kb-lightbox');if(!card||!box)return;const source=card.querySelector('img'),viewer=box.querySelector('.kb-lightbox-image'),close=box.querySelector('.kb-lightbox-close');const shut=()=>{box.classList.remove('is-open');box.setAttribute('aria-hidden','true');viewer.removeAttribute('src');document.body.style.overflow='';};card.addEventListener('click',()=>{viewer.src=source.src;viewer.alt=source.alt;box.classList.add('is-open');box.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';close.focus();});close.addEventListener('click',shut);box.addEventListener('click',e=>{if(e.target===box)shut();});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&box.classList.contains('is-open'))shut();});})();
+</script>
 
   <footer class="contact-footer" aria-label="Contact information">
     <div><h2>CONTACT US</h2><p>Your Route. Our Responsibility.</p><a href="/contact.html">Contact &amp; Request a Quote →</a></div>
