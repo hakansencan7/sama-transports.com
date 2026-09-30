@@ -14,7 +14,7 @@
     </section>
     <div class="mm-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Multimodal project photographs">
       <div class="mm-lightbox-head"><span class="mm-lightbox-count" aria-live="polite"></span><button type="button" class="mm-close" aria-label="Close gallery">×</button></div>
-      <div class="mm-lightbox-stage"><img alt=""></div>
+      <div class="mm-lightbox-stage"><div class="mm-lightbox-poster"></div></div>
       <div class="mm-lightbox-footer">
         <button type="button" class="mm-prev" aria-label="Previous image">← PREVIOUS</button>
         <div class="mm-lightbox-info"><div class="mm-lightbox-caption" aria-live="polite"></div><a class="mm-original" target="_blank" rel="noopener">Open original photo ↗</a></div>
@@ -26,7 +26,7 @@
   const status = root.querySelector('.mm-status');
   const filters = [...root.querySelectorAll('.mm-filter')];
   const lb = projects.querySelector('.mm-lightbox');
-  const lbImg = lb.querySelector('img');
+  const lbPoster = lb.querySelector('.mm-lightbox-poster');
   const lbCaption = lb.querySelector('.mm-lightbox-caption');
   const lbCount = lb.querySelector('.mm-lightbox-count');
   const original = lb.querySelector('.mm-original');
@@ -44,19 +44,42 @@
     })
     .catch(() => { status.textContent = 'The gallery could not be loaded. Please refresh the page to try again.'; });
 
+  const featureIcons = [
+    '<path d="M5 17V8h14v9M3 19h18M9 8V5h6v3M9 12v3m6-3v3"/>',
+    '<path d="M3 7h11v10H3zM14 10h4l3 4v3h-7M6 7V4h6M6 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm12 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>',
+    '<path d="m12 3 2.5 2 3.2-.2.8 3.1L21 10l-1.5 2.8.2 3.2-3.1.8L14 20l-2.8-1.5-3.2.2-.8-3.1L4 13l1.5-2.8-.2-3.2 3.1-.8L12 3Z"/><path d="m9 11 2 2 4-4"/>',
+    '<path d="M12 3 4 6v6c0 5 8 9 8 9s8-4 8-9V6z"/><path d="m8 12 3 3 5-6"/>'
+  ];
+  const features = [
+    ['HEAVY CARGO','EXPERTISE'],['INTEGRATED','TRANSPORT'],['EXPERIENCED','TEAM'],['ON-TIME','DELIVERY']
+  ];
+  function poster(item, index = 0, full = false) {
+    const src = '../' + (full ? item.image : item.thumb);
+    const responsive = !full && item.thumbWidth < item.width
+      ? ` srcset="../${item.thumb} ${item.thumbWidth}w, ../${item.image} ${item.width}w" sizes="(max-width: 540px) 90vw, (max-width: 860px) 44vw, 29vw"` : '';
+    const loading = full || index < 6 ? 'eager' : 'lazy';
+    return `<span class="mm-poster">
+      <span class="mm-poster-head">
+        <span class="mm-poster-heading"><span class="mm-poster-title">MULTIMODAL<strong>TRANSPORTATION</strong></span><span class="mm-poster-subtitle">ROAD · SEA · RAIL · PROJECT LOGISTICS</span></span>
+        <span class="mm-poster-trust">TRUSTED LOGISTICS<br>WORLDWIDE</span>
+      </span>
+      <span class="mm-poster-photo">
+        <img class="mm-photo-backdrop" src="${src}" alt="" aria-hidden="true" loading="${loading}" decoding="async">
+        <img class="mm-poster-image" src="${src}" width="${item.width}" height="${item.height}" alt="${escapeHtml(item.alt)}" loading="${loading}" decoding="async"${responsive}>
+      </span>
+      <span class="mm-poster-foot">
+        <span class="mm-poster-caption"><b>${escapeHtml(item.caption)}</b><span>${escapeHtml(item.location)} · ${String(item.id).padStart(3,'0')}</span></span>
+        <span class="mm-poster-features">${features.map((label, i) => `<span class="mm-poster-feature"><span class="mm-feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round">${featureIcons[i]}</svg></span><span>${label[0]}<br>${label[1]}</span></span>`).join('')}</span>
+        <span class="mm-poster-baseline"><span>◎</span> CONNECTING INDUSTRIES ACROSS BORDERS<span class="mm-poster-rule"></span></span>
+      </span>
+    </span>`;
+  }
   function card(item, index) {
     const el = document.createElement('button');
     el.type = 'button';
     el.className = 'mm-card';
     el.setAttribute('aria-label', `Open photo ${item.id}: ${item.caption}, ${item.location}`);
-    el.innerHTML = `
-      <span class="mm-photo"><img src="../${item.thumb}" width="${item.width}" height="${item.height}" alt="${escapeHtml(item.alt)}" loading="${index < 6 ? 'eager' : 'lazy'}" decoding="async"></span>
-      <span class="mm-card-caption"><span class="mm-card-copy"><span class="mm-card-title">${escapeHtml(item.caption)}</span><span class="mm-card-location">${escapeHtml(item.location)}</span></span><span class="mm-card-number">${String(item.id).padStart(3, '0')} ↗</span></span>`;
-    if (item.thumbWidth < item.width) {
-      const img = el.querySelector('img');
-      img.srcset = `../${item.thumb} ${item.thumbWidth}w, ../${item.image} ${item.width}w`;
-      img.sizes = '(max-width: 600px) 90vw, (max-width: 1000px) 44vw, 29vw';
-    }
+    el.innerHTML = poster(item, index);
     el.addEventListener('click', () => openLightbox(index, el));
     return el;
   }
@@ -80,10 +103,7 @@
   }
   function updateLightbox() {
     const item = filtered[current];
-    lbImg.src = '../' + item.image;
-    lbImg.alt = item.alt;
-    lbImg.width = item.width;
-    lbImg.height = item.height;
+    lbPoster.innerHTML = poster(item, current, true);
     lbCaption.textContent = item.caption + ' — ' + item.location;
     lbCount.textContent = `${current + 1} / ${filtered.length}`;
     original.href = '../' + item.image;
@@ -121,7 +141,7 @@
     lb.classList.remove('open');
     lb.setAttribute('aria-hidden', 'true');
     document.body.style.overflow = previousOverflow;
-    lbImg.removeAttribute('src');
+    lbPoster.replaceChildren();
     if (lastTrigger) lastTrigger.focus();
   }
   function escapeHtml(s) {
