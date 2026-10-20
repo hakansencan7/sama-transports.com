@@ -1,0 +1,30 @@
+/* One language bar and reading direction for every SAMA public page. */
+:root{--sama-language-height:40px}
+html.sama-language-enabled{scroll-padding-top:calc(var(--sama-language-height) + 20px)}
+html.sama-language-enabled body{padding-top:var(--sama-language-height)}
+.sama-languagebar{position:fixed;inset:0 0 auto;z-index:10000;height:var(--sama-language-height);background:#020d16;color:#d9edf5;border-bottom:1px solid #144051;font-family:Arial,"Segoe UI",sans-serif;direction:ltr;box-sizing:border-box}
+.sama-language-inner{max-width:1800px;margin:0 auto;height:100%;padding:0 5.8%;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.sama-language-home{display:inline-flex;align-items:center;gap:8px;color:#f7fbfd;text-decoration:none;font-size:12px;font-weight:800;letter-spacing:.08em;white-space:nowrap}
+.sama-language-home span{font-size:8px;letter-spacing:.14em;color:#8eb0c0}
+.sama-language-options{display:flex;align-items:center;gap:5px;height:100%}
+.sama-language-label{margin-inline-end:9px;font-size:9px;font-weight:700;letter-spacing:.1em;color:#b0c9d5}
+.sama-language-button{display:inline-flex;align-items:center;justify-content:center;min-width:46px;height:28px;padding:0 10px;border:1px solid #375666;border-radius:4px;background:transparent;color:#d9edf5;font:700 11px/1 Arial,"Segoe UI",sans-serif;cursor:pointer;white-space:nowrap;transition:background .15s,border-color .15s;box-sizing:border-box}
+.sama-language-button[lang=ar]{font-size:13px;min-width:64px}
+.sama-language-button:hover{background:#123247;border-color:#15c9ff}
+.sama-language-button.is-active{background:#15c9ff;border-color:#15c9ff;color:#03121e}
+.sama-language-button:focus-visible,.sama-language-home:focus-visible{outline:2px solid #fff;outline-offset:3px}
+html.sama-language-enabled body>.site-header,html.sama-language-enabled #service-app>.site-header{top:var(--sama-language-height)}
+html.sama-language-enabled body.contact-page>.site-header{top:auto}
+html[dir=rtl] .brand{direction:ltr;unicode-bidi:isolate}
+html[dir=rtl] :is(h1,h2,h3,.eyebrow,.section-kicker,.kb-kicker,.strength-label,.strength-detail,.service-card small,.service-card span){letter-spacing:0;line-height:1.25}
+html[dir=rtl] :is(.copy p,.intro p,.hero-tagline,.kb-hero p,.request-heading p){line-height:1.85}
+html[dir=rtl] .hero>.copy{left:auto;right:6.2%;text-align:right}
+html[dir=rtl] .service-feature-copy,html[dir=rtl] .service-card div{direction:rtl;text-align:right}
+html[dir=rtl] .request-panel legend{padding-right:0;padding-left:18px}
+html[dir=rtl] .request-field input[type=email],html[dir=rtl] .request-field input[type=tel],html[dir=rtl] a[href^="tel:"],html[dir=rtl] a[href^="mailto:"]{direction:ltr;unicode-bidi:isolate}
+html[dir=rtl] .service-details>summary:after{float:left}
+html[dir=rtl] .contact-footer address,html[dir=rtl] .home-contact-details address{font-style:normal}
+@media(max-width:700px){.sama-language-inner{padding:0 20px}.sama-language-home span{display:none}.sama-language-label{font-size:8px;margin-inline-end:3px}.sama-language-options{gap:4px}.sama-language-button{min-width:42px;padding:0 8px}html[dir=rtl] .hero>.copy{right:5%}}
+@media(max-width:360px){.sama-language-inner{padding:0 12px}.sama-language-label{display:none}}
+@media(prefers-reduced-motion:reduce){.sama-language-button{transition:none}}
+@media print{.sama-languagebar{display:none!important}html.sama-language-enabled body{padding-top:0}}

@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="SAMA Transportations Knowledge Base — practical logistics information about ports, warehousing, transportation, project cargo and operations.">
   <title>Knowledge Base | SAMA Transportations</title>
-  <link rel="stylesheet" href="knowledge-base.css?v=20260928-1">
+  <link rel="stylesheet" href="knowledge-base.css?v=20261020-1">
   <link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="assets/i18n/site-language.css?v=20261020-1">
+<script defer src="assets/i18n/site-language.js?v=20261020-1"></script>
 </head>
 <body>
   <header class="site-header">
@@ -29,6 +31,10 @@
         <div class="kb-kicker">SAMA / LOGISTICS KNOWLEDGE</div>
         <h1>KNOWLEDGE <span>BASE</span></h1>
         <p>A growing SAMA reference center for practical information on logistics, port operations, warehousing, transportation, project cargo and supply-chain operations.</p>
+        <nav class="kb-atlas-jumps" aria-label="Explore the logistics atlas">
+          <a href="#ports">Ports <span aria-hidden="true">↓</span></a>
+          <a href="#railways">Railways <span aria-hidden="true">↓</span></a>
+        </nav>
       </div>
     </section>
 
@@ -48,7 +54,7 @@
         <p class="kb-section-note">This section will be expanded with real operation photos, technical information, practical guidance and field experience from SAMA logistics operations.</p>
       </div>
       <div class="kb-topic-grid">
-        <article class="kb-topic"><span class="kb-topic-no">01 / PORT</span><span class="kb-topic-icon">⚓</span><h3>PORT OPERATIONS</h3><p>Ship loading, unloading, berth operations, terminal handling and port coordination.</p></article>
+        <a class="kb-topic kb-topic-link" href="#ports"><span class="kb-topic-no">01 / PORT</span><span class="kb-topic-icon" aria-hidden="true">⚓</span><h3>PORT OPERATIONS</h3><p>Ship loading, unloading, berth operations, terminal handling and port coordination.</p><span class="kb-topic-action">VIEW PORT MAPS <span aria-hidden="true">→</span></span></a>
         <article class="kb-topic"><span class="kb-topic-no">02 / STORAGE</span><span class="kb-topic-icon">▣</span><h3>WAREHOUSING &amp; HANDLING</h3><p>Safe storage and handling solutions for bulk cargo, general cargo and project cargo.</p></article>
         <article class="kb-topic"><span class="kb-topic-no">03 / BULK</span><span class="kb-topic-icon">◫</span><h3>BULK CARGO</h3><p>Operational information for grain, fertilizer, sulfur, cement, clinker and other bulk commodities.</p></article>
         <article class="kb-topic"><span class="kb-topic-no">04 / ROAD</span><span class="kb-topic-icon">▰</span><h3>ROAD TRANSPORTATION</h3><p>Fleet planning, load safety, truck operations, route coordination and inland distribution.</p></article>
@@ -56,7 +62,85 @@
         <article class="kb-topic"><span class="kb-topic-no">06 / LIQUID</span><span class="kb-topic-icon">◉</span><h3>LIQUID &amp; FOOD LOGISTICS</h3><p>Equipment, hygiene, handling and transport practices for edible oils and liquid food products.</p></article>
         <article class="kb-topic"><span class="kb-topic-no">07 / TRANSIT</span><span class="kb-topic-icon">⇄</span><h3>CUSTOMS &amp; TRANSIT</h3><p>Border crossings, transit movements, customs coordination and regional cargo flows.</p></article>
         <article class="kb-topic"><span class="kb-topic-no">08 / MARINE</span><span class="kb-topic-icon">◇</span><h3>SEA FREIGHT &amp; VESSEL OPERATIONS</h3><p>Ship agency, chartering, maritime logistics and vessel-related port operations.</p></article>
+        <a class="kb-topic kb-topic-link" href="#railways"><span class="kb-topic-no">09 / RAIL</span><span class="kb-topic-icon" aria-hidden="true">▤</span><h3>RAILWAYS &amp; STATIONS</h3><p>Rail corridors, station locations and connections for inland cargo planning.</p><span class="kb-topic-action">VIEW RAILWAY MAP <span aria-hidden="true">→</span></span></a>
       </div>
+    </section>
+
+    <section class="kb-section kb-atlas" id="ports" aria-labelledby="ports-title" aria-describedby="atlas-reference-note">
+      <div class="kb-section-head">
+        <div>
+          <div class="kb-kicker">RUSSIA &amp; CASPIAN ATLAS</div>
+          <h2 id="ports-title">Ports</h2>
+        </div>
+        <p class="kb-section-note">Explore river corridors, access to the Caspian Sea and port facilities for your next cargo movement.</p>
+      </div>
+      <p class="kb-atlas-reference" id="atlas-reference-note">Reference date: 19 October 2026. Operator, authority and public map sources differ in coverage and update date. A ✓ marks dated evidence from 2026; see each port's source date for the activity check.</p>
+      <div class="kb-map-grid">
+        <article class="kb-map-card">
+          <a class="kb-map-preview" href="/knowledge/maps/02_Rusya_Nehir_Yollari_Limanlar.html" target="_blank" rel="noopener" aria-label="Open the navigable rivers and ports map in a new tab">
+            <img src="/assets/knowledge/russia-rivers-ports.png" width="2400" height="1575" alt="Preview of the navigable rivers and ports map" loading="lazy" decoding="async">
+          </a>
+          <div class="kb-map-copy">
+            <span class="kb-map-number">MAP 02</span>
+            <h3>Russia: Navigable Rivers &amp; Ports</h3>
+            <p>Explore the main river corridors, canal connections and selected commercial ports across Russia, with source and location notes.</p>
+            <a class="kb-map-open" href="/knowledge/maps/02_Rusya_Nehir_Yollari_Limanlar.html" target="_blank" rel="noopener" aria-label="Open the navigable rivers and ports map in a new tab">Open full map <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="kb-map-card">
+          <a class="kb-map-preview" href="/knowledge/maps/03_Hazar_Erisim_Faaliyet.html" target="_blank" rel="noopener" aria-label="Open the Caspian access and activity map in a new tab">
+            <img src="/assets/knowledge/caspian-access-activity.png" width="2400" height="1575" alt="Preview of the Caspian access and activity map" loading="lazy" decoding="async">
+          </a>
+          <div class="kb-map-copy">
+            <span class="kb-map-number">MAP 03</span>
+            <h3>River-Sea Access to Caspian Ports</h3>
+            <p>Review conditional access for river-sea vessels, vessel considerations and dated activity evidence at Caspian ports.</p>
+            <a class="kb-map-open" href="/knowledge/maps/03_Hazar_Erisim_Faaliyet.html" target="_blank" rel="noopener" aria-label="Open the Caspian access and activity map in a new tab">Open full map <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="kb-map-card">
+          <a class="kb-map-preview" href="/knowledge/maps/04_Hazar_Limanlar_Draft_Depolama.html" target="_blank" rel="noopener" aria-label="Open the Caspian port facilities map in a new tab">
+            <img src="/assets/knowledge/caspian-ports-draft-storage.png" width="2400" height="1575" alt="Preview of Caspian ports, vessel draft and storage facilities" loading="lazy" decoding="async">
+          </a>
+          <div class="kb-map-copy">
+            <span class="kb-map-number">MAP 04</span>
+            <h3>Caspian Ports: Draft, Storage &amp; Silos</h3>
+            <p>Check published draft limits, open and covered storage, and silo capacities, with source notes for each port.</p>
+            <a class="kb-map-open" href="/knowledge/maps/04_Hazar_Limanlar_Draft_Depolama.html" target="_blank" rel="noopener" aria-label="Open the Caspian port facilities map in a new tab">Open full map <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+      <aside class="kb-atlas-downloads" aria-labelledby="atlas-downloads-title">
+        <div>
+          <h3 id="atlas-downloads-title">Atlas &amp; source data</h3>
+          <p>Download the four-map atlas and the port inventory with source references.</p>
+        </div>
+        <div class="kb-download-links">
+          <a href="/knowledge/downloads/russia-caspian-logistics-atlas-2026-10-19.pdf" download>Download atlas (PDF) <span aria-hidden="true">↓</span></a>
+          <a href="/knowledge/downloads/caspian-ports-sources-2026-10-19.json" download>Download source data (JSON) <span aria-hidden="true">↓</span></a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="kb-section kb-atlas kb-atlas--railways" id="railways" aria-labelledby="railways-title" aria-describedby="atlas-reference-note">
+      <div class="kb-section-head">
+        <div>
+          <div class="kb-kicker">RAIL NETWORK</div>
+          <h2 id="railways-title">Railways</h2>
+        </div>
+        <p class="kb-section-note">See how Russia's railway corridors and stations connect the country's inland logistics geography.</p>
+      </div>
+      <article class="kb-map-card kb-map-card--railway">
+        <a class="kb-map-preview" href="/knowledge/maps/01_Rusya_Demiryollari_Istasyonlar.html" target="_blank" rel="noopener" aria-label="Open the railways and stations map in a new tab">
+          <img src="/assets/knowledge/russia-railways-stations.png" width="2400" height="1575" alt="Preview of Russia's railways and stations" loading="lazy" decoding="async">
+        </a>
+        <div class="kb-map-copy">
+          <span class="kb-map-number">MAP 01</span>
+          <h3>Russia: Railways &amp; Stations</h3>
+          <p>Explore railway lines and mapped stations. Search by station name or ESR code, then open a location to review its source and data date.</p>
+          <a class="kb-map-open" href="/knowledge/maps/01_Rusya_Demiryollari_Istasyonlar.html" target="_blank" rel="noopener" aria-label="Open the railways and stations map in a new tab">Open full map <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
     </section>
 
     <section class="kb-section kb-golden" aria-labelledby="golden-title">

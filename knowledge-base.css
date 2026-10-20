@@ -255,3 +255,75 @@ body{
 .kb-lightbox-image{display:block;width:100%;max-height:calc(100vh - 94px);object-fit:contain;background:#020d16}
 .kb-lightbox-close{position:absolute;z-index:2;right:8px;top:-44px;width:36px;height:36px;border:1px solid rgba(21,201,255,.7);background:#061725;color:#fff;font-size:1.5rem;cursor:pointer}
 .kb-lightbox-close:hover,.kb-lightbox-close:focus-visible{color:var(--cyan);border-color:var(--cyan)}
+
+/* Logistics atlas: direct links keep the four maps independently accessible. */
+.kb-atlas-jumps{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.kb-atlas-jumps a{display:inline-flex;align-items:center;gap:30px;min-height:46px;padding:11px 18px;border:1px solid rgba(21,201,255,.55);background:rgba(4,24,39,.7);color:var(--white);text-decoration:none;font-size:.83rem;font-weight:800}
+.kb-atlas-jumps a span{color:var(--cyan)}
+.kb-atlas-jumps a:hover{border-color:var(--cyan);background:#0a3046}
+.kb-topic-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.kb-topic-link{display:block;color:inherit;text-decoration:none}
+.kb-topic-action{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:24px;color:var(--cyan);font-size:.7rem;font-weight:900;letter-spacing:.1em}
+.kb-atlas{scroll-margin-top:28px;background:radial-gradient(ellipse at 0 0,rgba(21,201,255,.07),transparent 55%),#03121d}
+.kb-atlas h2{text-transform:uppercase}
+.kb-atlas .kb-section-head{margin-bottom:26px}
+.kb-atlas-reference{margin:0 0 30px;padding:17px 20px;border-inline-start:3px solid var(--cyan);background:rgba(21,201,255,.055);color:var(--muted);font-size:.8rem;line-height:1.7}
+.kb-map-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.kb-map-card{display:flex;flex-direction:column;min-width:0;overflow:hidden;border:1px solid var(--line);background:#061b29;transition:border-color .2s ease,box-shadow .2s ease}
+.kb-map-card:hover{border-color:rgba(21,201,255,.65);box-shadow:0 16px 38px rgba(0,0,0,.18)}
+.kb-map-preview{display:block;overflow:hidden;aspect-ratio:2400/1575;background:#dce6eb;border-bottom:1px solid var(--line)}
+.kb-map-preview img{display:block;width:100%;height:100%;object-fit:contain;transition:transform .35s ease}
+.kb-map-preview:hover img{transform:scale(1.015)}
+.kb-map-copy{display:flex;flex:1;flex-direction:column;align-items:flex-start;padding:25px}
+.kb-map-number{color:var(--cyan);font-size:.67rem;font-weight:900;letter-spacing:.16em}
+.kb-map-copy h3{margin:13px 0 12px;font-size:clamp(1.25rem,1.6vw,1.6rem);line-height:1.25;letter-spacing:-.025em}
+.kb-map-copy p{margin:0 0 25px;color:var(--muted);font-size:.87rem;line-height:1.7}
+.kb-map-open{display:inline-flex;align-items:center;justify-content:space-between;gap:26px;min-height:44px;margin-top:auto;padding:10px 0;border-bottom:1px solid rgba(21,201,255,.6);color:var(--cyan-soft);text-decoration:none;font-size:.82rem;font-weight:800}
+.kb-map-open:hover{color:#fff;border-bottom-color:#fff}
+.kb-atlas-downloads{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:28px;padding:25px 28px;border:1px solid var(--line);background:rgba(2,13,22,.45)}
+.kb-atlas-downloads h3{margin:0 0 8px;font-size:1.08rem}
+.kb-atlas-downloads p{margin:0;color:var(--muted);font-size:.82rem;line-height:1.65}
+.kb-download-links{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:10px;flex-shrink:0;max-width:52%}
+.kb-download-links a{display:inline-flex;align-items:center;justify-content:space-between;gap:18px;min-height:44px;padding:12px 16px;border:1px solid rgba(21,201,255,.45);color:var(--cyan-soft);text-decoration:none;font-size:.74rem;font-weight:800;line-height:1.45}
+.kb-download-links a:hover{border-color:var(--cyan);background:rgba(21,201,255,.07);color:#fff}
+.kb-atlas--railways{background:#020d16}
+.kb-map-card--railway{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr)}
+.kb-map-card--railway .kb-map-preview{border-bottom:0;border-inline-end:1px solid var(--line);align-self:stretch;aspect-ratio:auto}
+.kb-map-card--railway .kb-map-preview img{aspect-ratio:2400/1575}
+.kb-map-card--railway .kb-map-copy{justify-content:center;padding:clamp(25px,3.5vw,52px)}
+.kb-map-card--railway .kb-map-copy h3{font-size:clamp(1.55rem,2.5vw,2.7rem)}
+.kb-map-card--railway .kb-map-open{margin-top:2px}
+.kb-atlas-jumps a:focus-visible,.kb-topic-link:focus-visible,.kb-map-preview:focus-visible,.kb-map-open:focus-visible,.kb-download-links a:focus-visible{outline:2px solid var(--cyan);outline-offset:4px}
+.kb-map-preview:focus-visible{outline-offset:-4px}
+[dir="rtl"] .kb-atlas .kb-kicker,[dir="rtl"] .kb-map-number,[dir="rtl"] .kb-topic-action{letter-spacing:0}
+@media(max-width:1180px){
+  .kb-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .kb-map-copy{padding:22px}
+  .kb-atlas-downloads{align-items:flex-start;flex-direction:column;gap:20px}
+  .kb-download-links{max-width:none;justify-content:flex-start}
+}
+@media(max-width:960px){
+  .kb-map-grid{grid-template-columns:1fr}
+  .kb-map-grid .kb-map-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .kb-map-grid .kb-map-preview{aspect-ratio:auto;border-bottom:0;border-inline-end:1px solid var(--line)}
+  .kb-map-grid .kb-map-preview img{aspect-ratio:2400/1575}
+  .kb-map-copy h3{font-size:1.45rem}
+}
+@media(max-width:680px){
+  .kb-map-grid .kb-map-card,.kb-map-card--railway{display:flex;flex-direction:column}
+  .kb-map-grid .kb-map-preview,.kb-map-card--railway .kb-map-preview{aspect-ratio:2400/1575;border-inline-end:0;border-bottom:1px solid var(--line)}
+  .kb-map-card--railway .kb-map-copy{padding:25px}
+  .kb-atlas-downloads{padding:23px}
+  .kb-download-links{width:100%;flex-direction:column}
+  .kb-download-links a{width:100%}
+}
+@media(max-width:560px){
+  .kb-topic-grid{grid-template-columns:1fr}
+  .kb-atlas-reference{padding:15px 17px;font-size:.77rem}
+  .kb-atlas-jumps a{gap:24px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .kb-topic,.kb-map-card,.kb-map-preview img{transition:none}
+  .kb-map-preview:hover img{transform:none}
+}

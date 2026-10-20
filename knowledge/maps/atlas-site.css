@@ -1,0 +1,46 @@
+/* SAMA atlas integration. The shared language bar reserves 40px above body. */
+.sama-atlas .layout { height: calc(100vh - 132px); height: calc(100dvh - 132px); }
+.sama-atlas .atlas-breadcrumb { display:flex; align-items:center; flex-wrap:wrap; gap:7px; margin-bottom:3px; }
+.sama-atlas .atlas-back { color:#b9e6e0; font-size:11px; font-weight:650; text-decoration:none; }
+.sama-atlas .atlas-back:hover { text-decoration:underline; }
+.sama-atlas .atlas-breadcrumb>span[aria-hidden] { color:#89a6b8; font-size:11px; }
+.sama-atlas .heading { min-width:0; }
+.sama-atlas header { padding-block:12px; }
+.sama-atlas .topright { flex-shrink:0; }
+.sama-atlas aside { border-right:0; border-inline-end:1px solid var(--line); }
+.sama-atlas .result { text-align:start; }
+.sama-atlas .result .status { float:inline-end; margin-inline-start:4px; margin-inline-end:0; }
+.sama-atlas #map, .sama-atlas .leaflet-pane, .sama-atlas .leaflet-control-container { direction:ltr; }
+.sama-atlas .leaflet-popup-content, .sama-atlas .leaflet-tooltip { unicode-bidi:plaintext; }
+.sama-atlas .detail .source, .sama-atlas .detail li { overflow-wrap:anywhere; }
+.sama-atlas .metric .unit { display:inline-block; direction:ltr; unicode-bidi:isolate; }
+html[dir="rtl"] .sama-atlas .section-title,
+html[dir="rtl"] .sama-atlas .eyebrow { letter-spacing:0; }
+html[dir="rtl"] .sama-atlas .detail ul { padding-left:0; padding-right:17px; }
+html[dir="rtl"] .sama-atlas .date { text-align:left; }
+html[dir="rtl"] .sama-atlas .map-caption,
+html[dir="rtl"] .sama-atlas .map-key { direction:rtl; text-align:right; }
+@media(max-width:900px){
+ .sama-atlas .layout { height:calc(100vh - 123px); height:calc(100dvh - 123px); }
+ .sama-atlas header h1 { font-size:18px; }
+ .sama-atlas header p { font-size:10px; }
+ .sama-atlas .atlas-back { font-size:10px; }
+ .sama-atlas .atlas-breadcrumb { gap:5px; }
+}
+@media(max-width:650px){
+ .sama-atlas .layout { height:calc(100vh - 124px); height:calc(100dvh - 124px); min-height:420px; }
+ .sama-atlas header { height:84px; padding:9px 12px; gap:8px; }
+ .sama-atlas header h1 { font-size:15px; line-height:1.2; }
+ .sama-atlas .atlas-breadcrumb .eyebrow { font-size:7px; letter-spacing:.35px; }
+ .sama-atlas aside { border-inline-end:0; }
+ .sama-atlas .nav { gap:3px; }
+ .sama-atlas .nav a { width:24px; height:27px; }
+ .sama-atlas .map-toolbar { max-width:calc(100% - 62px); }
+ .sama-atlas .map-toolbar button { font-size:9px; padding:5px 6px; }
+}
+@media print{
+ .sama-atlas .layout { height:175mm; }
+ .sama-atlas .atlas-back { display:none; }
+}
+
+.sama-atlas .source .source-title { display:inline; font-size:inherit; color:inherit; }
