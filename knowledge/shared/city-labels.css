@@ -1,0 +1,7 @@
+.sama-city-pane,.sama-city-anchor,.sama-city-anchor *{pointer-events:none!important;user-select:none}
+.sama-city-anchor{background:none!important;border:0!important;overflow:visible!important}
+.sama-city-dot{position:absolute;width:4px;height:4px;border:1px solid #fff;border-radius:50%;background:#53697b;box-shadow:0 0 0 .5px #53697b;transform:translate(-50%,-50%)}
+.sama-city-dot.is-capital{width:5px;height:5px;background:#193e58;box-shadow:0 0 0 1px #193e58}
+.sama-city-name{position:absolute;display:block;box-sizing:content-box;white-space:nowrap;text-align:center;color:#334d60;font:600 12px/19px system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:0;text-shadow:-1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff,1px 1px 0 #fff,0 0 4px #fff;isolation:isolate}
+.sama-city-name.is-major{color:#1c3d55;font-size:13px;font-weight:700}
+.sama-city-name[lang="ar"]{letter-spacing:0}
