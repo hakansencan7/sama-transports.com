@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="SAMA Transportations Knowledge Base — practical logistics information about ports, warehousing, transportation, project cargo and operations.">
   <title>Knowledge Base | SAMA Transportations</title>
-  <link rel="stylesheet" href="knowledge-base.css?v=20261020-1">
+  <link rel="stylesheet" href="knowledge-base.css?v=20261021-1">
   <link rel="stylesheet" href="contact.css">
 <link rel="stylesheet" href="assets/i18n/site-language.css?v=20261020-1">
 <script defer src="assets/i18n/site-language.js?v=20261020-1"></script>
+<script defer src="/knowledge/atlas/atlas-i18n.js?v=20261021-1"></script>
 </head>
 <body>
   <header class="site-header">
@@ -34,6 +35,8 @@
         <nav class="kb-atlas-jumps" aria-label="Explore the logistics atlas">
           <a href="#ports">Ports <span aria-hidden="true">↓</span></a>
           <a href="#railways">Railways <span aria-hidden="true">↓</span></a>
+          <a href="#roads">Road transportation &amp; border crossings <span aria-hidden="true">↓</span></a>
+          <a href="/knowledge/atlas/index.html">Country directory <span aria-hidden="true">↗</span></a>
         </nav>
       </div>
     </section>
@@ -43,6 +46,13 @@
       <div><strong>KEY INSIGHTS</strong><span>Short, useful guidance for day-to-day logistics decisions.</span></div>
       <div><strong>VISUAL EXPLAINERS</strong><span>Clear topics supported by images, diagrams and examples.</span></div>
       <div><strong>CONTINUOUSLY UPDATED</strong><span>A knowledge center that grows with new content.</span></div>
+    </section>
+
+
+    <section class="kb-section kb-country-atlas" id="country-atlas" aria-labelledby="country-atlas-title">
+      <div class="kb-section-head"><div><div class="kb-kicker">New: Europe &amp; Asia atlas</div><h2 id="country-atlas-title">Country-by-country logistics maps</h2></div><p class="kb-section-note">Türkiye, Europe, Central Asia, Iran and beyond</p></div>
+      <a class="kb-country-directory" href="/knowledge/atlas/index.html"><div><strong>Choose a country. Explore its transport connections.</strong><p>Search rail stations, inspect published port specifications, and locate international road crossings in separate, source-linked maps.</p></div><span>Browse countries <span aria-hidden="true">↗</span></span></a>
+      <div class="kb-country-mode-links"><a href="/knowledge/atlas/railways.html?country=TR">Railways &amp; Stations <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/ports.html?country=TR">Ports &amp; Terminals <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/roads.html?country=TR">Roads &amp; Border Crossings <span aria-hidden="true">↗</span></a></div>
     </section>
 
     <section class="kb-section kb-topics" aria-labelledby="topics-title">
@@ -57,7 +67,7 @@
         <a class="kb-topic kb-topic-link" href="#ports"><span class="kb-topic-no">01 / PORT</span><span class="kb-topic-icon" aria-hidden="true">⚓</span><h3>PORT OPERATIONS</h3><p>Ship loading, unloading, berth operations, terminal handling and port coordination.</p><span class="kb-topic-action">VIEW PORT MAPS <span aria-hidden="true">→</span></span></a>
         <article class="kb-topic"><span class="kb-topic-no">02 / STORAGE</span><span class="kb-topic-icon">▣</span><h3>WAREHOUSING &amp; HANDLING</h3><p>Safe storage and handling solutions for bulk cargo, general cargo and project cargo.</p></article>
         <article class="kb-topic"><span class="kb-topic-no">03 / BULK</span><span class="kb-topic-icon">◫</span><h3>BULK CARGO</h3><p>Operational information for grain, fertilizer, sulfur, cement, clinker and other bulk commodities.</p></article>
-        <article class="kb-topic"><span class="kb-topic-no">04 / ROAD</span><span class="kb-topic-icon">▰</span><h3>ROAD TRANSPORTATION</h3><p>Fleet planning, load safety, truck operations, route coordination and inland distribution.</p></article>
+        <a class="kb-topic kb-topic-link" href="#roads"><span class="kb-topic-no">04 / ROAD</span><span class="kb-topic-icon">▰</span><h3>ROAD TRANSPORTATION</h3><p>Fleet planning, load safety, truck operations, route coordination and inland distribution.</p><span class="kb-topic-action">Roads &amp; Border Crossings <span aria-hidden="true">→</span></span></a>
         <article class="kb-topic"><span class="kb-topic-no">05 / PROJECT</span><span class="kb-topic-icon">↗</span><h3>PROJECT &amp; HEAVY CARGO</h3><p>Oversized cargo, route planning, lifting operations and specialized transportation.</p></article>
         <article class="kb-topic"><span class="kb-topic-no">06 / LIQUID</span><span class="kb-topic-icon">◉</span><h3>LIQUID &amp; FOOD LOGISTICS</h3><p>Equipment, hygiene, handling and transport practices for edible oils and liquid food products.</p></article>
         <article class="kb-topic"><span class="kb-topic-no">07 / TRANSIT</span><span class="kb-topic-icon">⇄</span><h3>CUSTOMS &amp; TRANSIT</h3><p>Border crossings, transit movements, customs coordination and regional cargo flows.</p></article>
@@ -69,11 +79,14 @@
     <section class="kb-section kb-atlas" id="ports" aria-labelledby="ports-title" aria-describedby="atlas-reference-note">
       <div class="kb-section-head">
         <div>
-          <div class="kb-kicker">RUSSIA &amp; CASPIAN ATLAS</div>
+          <div class="kb-kicker">Europe · Asia · Middle East</div>
           <h2 id="ports-title">Ports</h2>
         </div>
-        <p class="kb-section-note">Explore river corridors, access to the Caspian Sea and port facilities for your next cargo movement.</p>
+        <p class="kb-section-note">Explore technical port records by country, plus the detailed Russia and Caspian maps.</p>
       </div>
+
+      <article class="kb-map-card kb-global-map-card"><a class="kb-map-preview" href="/knowledge/atlas/ports.html?country=TR"><img src="/assets/knowledge/europe-asia-ports.png" width="1280" height="760" alt="Ports &amp; Terminals" loading="lazy" decoding="async"></a><div class="kb-map-copy"><span class="kb-map-number">Europe · Asia · Middle East</span><h3>Explore ports by country</h3><p>Published draft limits and dated evidence; unknown technical fields remain marked.</p><div class="kb-country-mode-links"><a href="/knowledge/atlas/ports.html?country=TR">Türkiye <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/ports.html?region=europe">Europe <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/ports.html?region=middle-east">Middle East <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/ports.html?region=central-asia-iran">Central Asia &amp; Iran <span aria-hidden="true">↗</span></a></div><a class="kb-map-open" href="/knowledge/atlas/ports.html?region=all">All countries <span aria-hidden="true">↗</span></a></div></article>
+
       <p class="kb-atlas-reference" id="atlas-reference-note">Reference date: 19 October 2026. Operator, authority and public map sources differ in coverage and update date. A ✓ marks dated evidence from 2026; see each port's source date for the activity check.</p>
       <div class="kb-map-grid">
         <article class="kb-map-card">
@@ -128,8 +141,16 @@
           <div class="kb-kicker">RAIL NETWORK</div>
           <h2 id="railways-title">Railways</h2>
         </div>
-        <p class="kb-section-note">See how Russia's railway corridors and stations connect the country's inland logistics geography.</p>
+        <p class="kb-section-note">Explore railway corridors and station records across Türkiye, Europe, Central Asia and Iran.</p>
       </div>
+
+      <div class="kb-map-grid kb-new-rail-grid">
+        <article class="kb-map-card"><a class="kb-map-preview" href="/knowledge/atlas/railways.html?country=TR"><img src="/assets/knowledge/turkiye-railways.png" width="1280" height="760" alt="Türkiye · Railways &amp; Stations" loading="lazy" decoding="async"></a><div class="kb-map-copy"><span class="kb-map-number">Türkiye</span><h3>Railways &amp; Stations</h3><p>Station locations, names, railway references and generalized lines.</p><a class="kb-map-open" href="/knowledge/atlas/railways.html?country=TR">Open full map <span aria-hidden="true">↗</span></a></div></article>
+        <article class="kb-map-card"><a class="kb-map-preview" href="/knowledge/atlas/railways.html?region=europe"><img src="/assets/knowledge/europe-railways.png" width="1280" height="760" alt="Europe · Railways &amp; Stations" loading="lazy" decoding="async"></a><div class="kb-map-copy"><span class="kb-map-number">Europe</span><h3>Railways &amp; Stations</h3><p>Station locations, names, railway references and generalized lines.</p><a class="kb-map-open" href="/knowledge/atlas/railways.html?region=europe">Open full map <span aria-hidden="true">↗</span></a></div></article>
+        <article class="kb-map-card"><a class="kb-map-preview" href="/knowledge/atlas/railways.html?region=central-asia-iran"><img src="/assets/knowledge/central-asia-iran-railways.png" width="1280" height="760" alt="Central Asia &amp; Iran · Railways &amp; Stations" loading="lazy" decoding="async"></a><div class="kb-map-copy"><span class="kb-map-number">Central Asia &amp; Iran</span><h3>Railways &amp; Stations</h3><p>Station locations, names, railway references and generalized lines.</p><a class="kb-map-open" href="/knowledge/atlas/railways.html?region=central-asia-iran">Open full map <span aria-hidden="true">↗</span></a></div></article>
+      </div>
+      <p class="kb-atlas-reference"><span>Compilation: 21 October 2026. Source dates vary.</span> <span>Station / halt objects</span> · <span>No records does not mean no infrastructure.</span></p>
+
       <article class="kb-map-card kb-map-card--railway">
         <a class="kb-map-preview" href="/knowledge/maps/01_Rusya_Demiryollari_Istasyonlar.html" target="_blank" rel="noopener" aria-label="Open the railways and stations map in a new tab">
           <img src="/assets/knowledge/russia-railways-stations.png" width="2400" height="1575" alt="Preview of Russia's railways and stations" loading="lazy" decoding="async">
@@ -141,6 +162,13 @@
           <a class="kb-map-open" href="/knowledge/maps/01_Rusya_Demiryollari_Istasyonlar.html" target="_blank" rel="noopener" aria-label="Open the railways and stations map in a new tab">Open full map <span aria-hidden="true">↗</span></a>
         </div>
       </article>
+    </section>
+
+
+    <section class="kb-section kb-atlas" id="roads" aria-labelledby="roads-title">
+      <div class="kb-section-head"><div><div class="kb-kicker">Europe · Asia · Middle East</div><h2 id="roads-title">Road transportation &amp; border crossings</h2></div><p class="kb-section-note">Choose a country to see its road network and mapped border crossings, then select entry and exit points.</p></div>
+      <article class="kb-map-card kb-global-map-card"><a class="kb-map-preview" href="/knowledge/atlas/roads.html?country=TR"><img src="/assets/knowledge/europe-asia-roads-crossings.png" width="1280" height="760" alt="Roads &amp; Border Crossings" loading="lazy" decoding="async"></a><div class="kb-map-copy"><span class="kb-map-number">Country-by-country logistics maps</span><h3>Roads &amp; Border Crossings</h3><p>Road networks, named crossings, neighbouring countries and dated status evidence.</p><div class="kb-country-mode-links"><a href="/knowledge/atlas/roads.html?country=TR">Türkiye <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/roads.html?region=europe">Europe <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/roads.html?region=middle-east">Middle East <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/roads.html?region=central-asia-iran">Central Asia &amp; Iran <span aria-hidden="true">↗</span></a></div><a class="kb-map-open" href="/knowledge/atlas/roads.html?region=all">All countries <span aria-hidden="true">↗</span></a></div></article>
+      <p class="kb-atlas-reference">Mapped road crossings are not automatically open to international trucks. Check the record type, source date and local customs conditions.</p>
     </section>
 
     <section class="kb-section kb-golden" aria-labelledby="golden-title">

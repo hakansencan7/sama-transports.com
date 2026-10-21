@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="SAMA country logistics atlas: railway stations, port technical data, roads and international border crossings across Europe and Asia.">
+ <meta property="og:image" content="https://sama-transports.com/assets/knowledge/country-atlas-preview-20261021.jpg">
+ <meta property="og:type" content="website">
+ <meta name="referrer" content="strict-origin-when-cross-origin">
+ <title>Ports & Terminals | SAMA Transportations</title>
+ <link rel="stylesheet" href="/assets/i18n/site-language.css?v=20261020-1">
+ <link rel="stylesheet" href="vendor/leaflet.css">
+ <link rel="stylesheet" href="atlas.css?v=20261021-1">
+ <script defer src="/assets/i18n/site-language.js?v=20261020-1"></script>
+ <script defer src="/assets/i18n/map-dictionary.js?v=20261020-1"></script>
+ <script defer src="atlas-i18n.js?v=20261021-1"></script>
+ <script defer src="vendor/leaflet.js"></script>
+ <script defer src="atlas.js?v=20261021-1"></script>
+</head>
+<body class="sama-global-atlas" data-atlas-mode="ports">
+ <header class="atlas-header">
+  <a class="atlas-brand" href="/index.html" translate="no">S<span>A</span>MA<small>TRANSPORTATIONS</small></a>
+  <nav class="atlas-top-nav" aria-label="Atlas navigation"><a href="/knowledge-base.html" data-t="Knowledge Base">Knowledge Base</a><a href="index.html" data-t="Country directory">Country directory</a><button class="text-button" type="button" id="sources-button" data-t="Sources & coverage">Sources &amp; coverage</button></nav>
+ </header>
+ <main id="atlas-app" aria-busy="true"><div class="initial-load" role="status">Loading the logistics atlas… / Lojistik atlası yükleniyor… / جارٍ تحميل الأطلس…</div></main>
+ <noscript><p class="noscript-message">JavaScript is required for interactive maps. / Haritalar için JavaScript'i etkinleştirin. / يرجى تفعيل JavaScript لعرض الخرائط.</p></noscript>
+ <dialog id="sources-dialog" class="sources-dialog"><div class="dialog-heading"><h2 data-t="Sources & coverage">Sources &amp; coverage</h2><button class="icon-button" id="close-sources" aria-label="Close">×</button></div><div id="sources-body"></div></dialog>
+ <footer class="atlas-footer"><span translate="no">© SAMA TRANSPORTATIONS</span><span data-t="Compilation: 21 October 2026. Source dates vary.">Compilation: 21 October 2026. Source dates vary.</span><a href="/contact.html" data-t="Contact">Contact</a></footer>
+</body>
+</html>
