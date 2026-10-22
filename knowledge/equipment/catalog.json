@@ -395,66 +395,6 @@
       "group": "other"
     },
     {
-      "id": "curtain",
-      "category": "road",
-      "name": "Curtainsiders & box trailers",
-      "drawing": "road"
-    },
-    {
-      "id": "lowbed",
-      "category": "road",
-      "name": "Lowbed trailers",
-      "drawing": "road"
-    },
-    {
-      "id": "extend",
-      "category": "road",
-      "name": "Extendable & modular trailers",
-      "drawing": "road"
-    },
-    {
-      "id": "carcarrier",
-      "category": "road",
-      "name": "Car transporters",
-      "drawing": "road"
-    },
-    {
-      "id": "tractor",
-      "category": "road",
-      "name": "Tractor configurations",
-      "drawing": "road"
-    },
-    {
-      "id": "fuel",
-      "category": "road",
-      "name": "Fuel tankers",
-      "drawing": "road"
-    },
-    {
-      "id": "food",
-      "category": "road",
-      "name": "Food & chemical tankers",
-      "drawing": "road"
-    },
-    {
-      "id": "gas",
-      "category": "road",
-      "name": "LPG & pressure tankers",
-      "drawing": "road"
-    },
-    {
-      "id": "silo",
-      "category": "road",
-      "name": "Silo & powder tankers",
-      "drawing": "road"
-    },
-    {
-      "id": "tipper",
-      "category": "road",
-      "name": "Tippers & refrigerated trailers",
-      "drawing": "road"
-    },
-    {
       "id": "rail-flat",
       "category": "rail",
       "name": "Flat & container wagons",
@@ -858,6 +798,314 @@
       "name": "Temperature-controlled air containers",
       "drawing": "containers",
       "group": "air"
+    },
+    {
+      "id": "curtain",
+      "category": "road",
+      "name": "Curtainsider semi-trailers",
+      "drawing": "road",
+      "group": "covered"
+    },
+    {
+      "id": "road-mega",
+      "category": "road",
+      "name": "Mega / high-volume trailers",
+      "drawing": "road",
+      "group": "covered"
+    },
+    {
+      "id": "road-box",
+      "category": "road",
+      "name": "Dry van / box semi-trailers",
+      "drawing": "road",
+      "group": "covered"
+    },
+    {
+      "id": "road-reefer",
+      "category": "road",
+      "name": "Refrigerated semi-trailers",
+      "drawing": "road",
+      "group": "covered"
+    },
+    {
+      "id": "road-doubledeck",
+      "category": "road",
+      "name": "Double-deck refrigerated trailers",
+      "drawing": "road",
+      "group": "covered"
+    },
+    {
+      "id": "road-city",
+      "category": "road",
+      "name": "City / short distribution trailers",
+      "drawing": "road",
+      "group": "covered"
+    },
+    {
+      "id": "road-flat",
+      "category": "road",
+      "name": "Flatbed semi-trailers",
+      "drawing": "road",
+      "group": "platform"
+    },
+    {
+      "id": "road-dropside",
+      "category": "road",
+      "name": "Dropside / sideboard trailers",
+      "drawing": "road",
+      "group": "platform"
+    },
+    {
+      "id": "road-chassis",
+      "category": "road",
+      "name": "Skeletal container chassis",
+      "drawing": "road",
+      "group": "platform"
+    },
+    {
+      "id": "road-swap",
+      "category": "road",
+      "name": "Swap-body carriers",
+      "drawing": "road",
+      "group": "platform"
+    },
+    {
+      "id": "road-sidelifter",
+      "category": "road",
+      "name": "Container side loaders",
+      "drawing": "road",
+      "group": "platform"
+    },
+    {
+      "id": "tipper",
+      "category": "road",
+      "name": "Rear tipper semi-trailers",
+      "drawing": "road",
+      "group": "bulk-road"
+    },
+    {
+      "id": "road-side-tipper",
+      "category": "road",
+      "name": "Side-tipping trailers",
+      "drawing": "road",
+      "group": "bulk-road"
+    },
+    {
+      "id": "road-grain",
+      "category": "road",
+      "name": "Grain / agricultural bulk trailers",
+      "drawing": "road",
+      "group": "bulk-road"
+    },
+    {
+      "id": "road-bottom-dump",
+      "category": "road",
+      "name": "Bottom-dump / hopper trailers",
+      "drawing": "road",
+      "group": "bulk-road"
+    },
+    {
+      "id": "road-walkingfloor",
+      "category": "road",
+      "name": "Moving-floor trailers",
+      "drawing": "road",
+      "group": "bulk-road"
+    },
+    {
+      "id": "silo",
+      "category": "road",
+      "name": "Non-tipping silo tankers",
+      "drawing": "road",
+      "group": "bulk-road"
+    },
+    {
+      "id": "road-tipping-silo",
+      "category": "road",
+      "name": "Tipping silo tankers",
+      "drawing": "road",
+      "group": "bulk-road"
+    },
+    {
+      "id": "fuel",
+      "category": "road",
+      "name": "Fuel tanker semi-trailers",
+      "drawing": "road",
+      "group": "tank-road"
+    },
+    {
+      "id": "food",
+      "category": "road",
+      "name": "Food-grade tanker semi-trailers",
+      "drawing": "road",
+      "group": "tank-road"
+    },
+    {
+      "id": "road-chemical",
+      "category": "road",
+      "name": "Chemical tanker semi-trailers",
+      "drawing": "road",
+      "group": "tank-road"
+    },
+    {
+      "id": "gas",
+      "category": "road",
+      "name": "LPG / pressure tanker semi-trailers",
+      "drawing": "road",
+      "group": "tank-road"
+    },
+    {
+      "id": "road-bitumen",
+      "category": "road",
+      "name": "Bitumen / heated tankers",
+      "drawing": "road",
+      "group": "tank-road"
+    },
+    {
+      "id": "lowbed",
+      "category": "road",
+      "name": "Lowbed trailers",
+      "drawing": "road",
+      "group": "heavy-road"
+    },
+    {
+      "id": "road-semilow",
+      "category": "road",
+      "name": "Semi-low-loader trailers",
+      "drawing": "road",
+      "group": "heavy-road"
+    },
+    {
+      "id": "extend",
+      "category": "road",
+      "name": "Extendable lowbed trailers",
+      "drawing": "road",
+      "group": "heavy-road"
+    },
+    {
+      "id": "road-rgn",
+      "category": "road",
+      "name": "Detachable-gooseneck / RGN lowboys",
+      "drawing": "road",
+      "group": "heavy-road"
+    },
+    {
+      "id": "road-modular",
+      "category": "road",
+      "name": "Towed hydraulic modular trailers",
+      "drawing": "road",
+      "group": "heavy-road"
+    },
+    {
+      "id": "road-spmt",
+      "category": "road",
+      "name": "Self-propelled modular transporters / SPMT",
+      "drawing": "road",
+      "group": "heavy-road"
+    },
+    {
+      "id": "road-widening",
+      "category": "road",
+      "name": "Widening / rows-of-eight low loaders",
+      "drawing": "road",
+      "group": "heavy-road"
+    },
+    {
+      "id": "road-blade",
+      "category": "road",
+      "name": "Wind-blade / telescopic flatbeds",
+      "drawing": "road",
+      "group": "special-road"
+    },
+    {
+      "id": "road-glass",
+      "category": "road",
+      "name": "Glass inloaders",
+      "drawing": "road",
+      "group": "special-road"
+    },
+    {
+      "id": "road-concrete",
+      "category": "road",
+      "name": "Precast-concrete inloaders",
+      "drawing": "road",
+      "group": "special-road"
+    },
+    {
+      "id": "road-logging",
+      "category": "road",
+      "name": "Timber / logging trailers",
+      "drawing": "road",
+      "group": "special-road"
+    },
+    {
+      "id": "carcarrier",
+      "category": "road",
+      "name": "Car transporters",
+      "drawing": "road",
+      "group": "special-road"
+    },
+    {
+      "id": "road-livestock",
+      "category": "road",
+      "name": "Livestock trailers",
+      "drawing": "road",
+      "group": "special-road"
+    },
+    {
+      "id": "road-interlink",
+      "category": "road",
+      "name": "B-double / bitrem / interlink combinations",
+      "drawing": "road",
+      "group": "combinations"
+    },
+    {
+      "id": "road-dolly",
+      "category": "road",
+      "name": "Dollies / self-steering load carriers",
+      "drawing": "road",
+      "group": "combinations"
+    },
+    {
+      "id": "road-roadtrain",
+      "category": "road",
+      "name": "Multi-trailer road trains",
+      "drawing": "road",
+      "group": "combinations"
+    },
+    {
+      "id": "tractor",
+      "category": "road",
+      "name": "Tractor units",
+      "drawing": "road",
+      "group": "trucks"
+    },
+    {
+      "id": "road-rigid",
+      "category": "road",
+      "name": "Rigid cargo trucks",
+      "drawing": "road",
+      "group": "trucks"
+    },
+    {
+      "id": "road-dumptruck",
+      "category": "road",
+      "name": "Rigid tipper trucks",
+      "drawing": "road",
+      "group": "trucks"
+    },
+    {
+      "id": "road-mixer",
+      "category": "road",
+      "name": "Concrete mixer trucks",
+      "drawing": "road",
+      "group": "trucks"
+    },
+    {
+      "id": "road-hooklift",
+      "category": "road",
+      "name": "Hooklift / roll-off trucks",
+      "drawing": "road",
+      "group": "trucks"
     }
   ],
   "records": [
@@ -2422,52 +2670,6 @@
       ]
     },
     {
-      "id": "lohr300",
-      "type": "carcarrier",
-      "category": "road",
-      "name": "EUROLOHR 300",
-      "brand": "Lohr",
-      "country": "",
-      "specs": {
-        "Trailer length": "≤ 12 m",
-        "Tractor wheelbase": "3,700–3,900 mm"
-      },
-      "source": "https://www.lohr.fr/blog/catalogue/eurolohr-300/",
-      "variant": "Manufacturer product family; equipment-dependent dimensions.",
-      "verified": true,
-      "photo": "https://www.lohr.fr/uploads/2022/10/akki-36-neu-4-ret-scaled.jpg",
-      "checked": "2026-10-22",
-      "drawing": "road",
-      "missing": [
-        "Overall length",
-        "Overall width",
-        "Overall height"
-      ]
-    },
-    {
-      "id": "fay-mega",
-      "type": "lowbed",
-      "category": "road",
-      "name": "MegaMAX",
-      "brand": "Faymonville",
-      "country": "",
-      "specs": {
-        "Axles": "1–5",
-        "Dolly axles": "1–2"
-      },
-      "source": "https://www.faymonville.com/produkte/tieflader/megamax/",
-      "variant": "Detachable gooseneck · family, not one configuration",
-      "verified": true,
-      "photo": "https://www.faymonville.com/thumbnails/120590-1200-1200-Max.jpg",
-      "checked": "2026-10-22",
-      "drawing": "road",
-      "missing": [
-        "Overall length",
-        "Overall width",
-        "Overall height"
-      ]
-    },
-    {
       "id": "liebherr550",
       "type": "harbour",
       "category": "cranes",
@@ -2648,118 +2850,6 @@
       "photo": "",
       "checked": "2026-10-22",
       "drawing": "cars",
-      "missing": []
-    },
-    {
-      "id": "type-curtain",
-      "type": "curtain",
-      "category": "road",
-      "name": "Curtainsiders & box trailers",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "road",
-      "missing": []
-    },
-    {
-      "id": "type-extend",
-      "type": "extend",
-      "category": "road",
-      "name": "Extendable & modular trailers",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "road",
-      "missing": []
-    },
-    {
-      "id": "type-tractor",
-      "type": "tractor",
-      "category": "road",
-      "name": "Tractor configurations",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "road",
-      "missing": []
-    },
-    {
-      "id": "type-food",
-      "type": "food",
-      "category": "road",
-      "name": "Food & chemical tankers",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "road",
-      "missing": []
-    },
-    {
-      "id": "type-gas",
-      "type": "gas",
-      "category": "road",
-      "name": "LPG & pressure tankers",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "road",
-      "missing": []
-    },
-    {
-      "id": "type-silo",
-      "type": "silo",
-      "category": "road",
-      "name": "Silo & powder tankers",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "road",
-      "missing": []
-    },
-    {
-      "id": "type-tipper",
-      "type": "tipper",
-      "category": "road",
-      "name": "Tippers & refrigerated trailers",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "road",
       "missing": []
     },
     {
@@ -3267,33 +3357,6 @@
       "checked": "2026-10-22",
       "drawing": "rail",
       "missing": [
-        "Overall height"
-      ]
-    },
-    {
-      "id": "kaess-fuel",
-      "type": "fuel",
-      "category": "road",
-      "name": "K.STB E 39 / 5 - 11 / 24",
-      "brand": "Kässbohrer",
-      "country": "",
-      "specs": {
-        "Overall length": "11,250 mm",
-        "Tank diameter": "2,350 mm",
-        "Gross tank volume": "39 m³",
-        "Net tank volume": "36 m³",
-        "Tare weight": "5,650 kg ±3%",
-        "Wheelbase": "6,700 mm",
-        "Compartments": "5"
-      },
-      "source": "https://kaessbohrer.com/static/media/product/519/attachments/auto_pdf/brochure_519_en.pdf?v=200719045635",
-      "variant": "Published configuration · 5 compartments · ADR Class 3",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "road",
-      "missing": [
-        "Overall width",
         "Overall height"
       ]
     },
@@ -5341,6 +5404,1954 @@
         "Construction & loading": "Insulated ULD with an active cooling/heating system. Batteries and equipment increase tare; autonomy and aircraft acceptance are model-specific."
       },
       "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
+    },
+    {
+      "id": "type-curtain",
+      "type": "curtain",
+      "category": "road",
+      "name": "Curtainsider semi-trailers · KRONE Profi Liner 4 TIR",
+      "brand": "KRONE",
+      "country": "DE",
+      "specs": {
+        "Loading length": "13,620 mm",
+        "Internal width": "2,480 mm",
+        "Side access height": "2,600–2,700 mm",
+        "Overall width": "2,550 mm",
+        "Axle count": "3",
+        "Road tyre count (spare excluded)": "6",
+        "Tyre size": "385/65 R22.5",
+        "Axle spacing": "1,310 / 1,310 mm",
+        "Technical gross weight": "39,000 kg",
+        "Tare weight": "6,290 kg",
+        "Technical payload": "32,710 kg"
+      },
+      "source": "https://www.krone-trailer.com/fileadmin/media/downloads/EN/Pritschensattelauflieger/Datenblaetter/Profi_Liner/Profi_Liner_4-TIR_GB.pdf",
+      "variant": "Curtainsider semi-trailers · KRONE Profi Liner 4 TIR",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Pallets and general cargo; side curtains permit forklift access.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Published example configuration. Weights and equipment vary with options; technical ratings are not universal road limits.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/curtain.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Richard Westbury Volvo FH460 artic curtainsider, Port of Teignmouth, 29 March 2012.jpg",
+        "author": "Barry Lewis",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Richard_Westbury_Volvo_FH460_artic_curtainsider,_Port_of_Teignmouth,_29_March_2012.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-krone-mega",
+      "type": "road-mega",
+      "category": "road",
+      "name": "Mega / high-volume trailers · KRONE Mega Liner Plus",
+      "brand": "KRONE",
+      "country": "DE",
+      "specs": {
+        "Loading length": "13,620 mm",
+        "Internal width": "2,480 mm",
+        "Axle count": "3",
+        "Road tyre count (spare excluded)": "12",
+        "Tyre size": "235/75 R17.5",
+        "Technical gross weight": "39,000 kg",
+        "Tare weight": "7,600 kg",
+        "Technical payload": "31,400 kg",
+        "Floor step": "500 mm"
+      },
+      "source": "https://www.krone-trailer.com/fileadmin/media/downloads/EN/Pritschensattelauflieger/Datenblaetter/Mega_Liner/Mega_Liner_Plus_GB.pdf",
+      "variant": "Mega / high-volume trailers · KRONE Mega Liner Plus",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "A lower loading floor provides more internal height for lightweight bulky cargo.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Published example configuration. Weights and equipment vary with options; technical ratings are not universal road limits.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/curtain.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Richard Westbury Volvo FH460 artic curtainsider, Port of Teignmouth, 29 March 2012.jpg",
+        "author": "Barry Lewis",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Richard_Westbury_Volvo_FH460_artic_curtainsider,_Port_of_Teignmouth,_29_March_2012.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-k-box",
+      "type": "road-box",
+      "category": "road",
+      "name": "Dry van / box semi-trailers · K.SBT / 20 - 12 / 27",
+      "brand": "Kässbohrer",
+      "country": "DE",
+      "specs": {
+        "Overall length": "13,700 mm",
+        "Overall width": "2,550 mm",
+        "Overall height": "4,020 mm",
+        "Internal dimensions (L × W × H)": "13,620 × 2,490 × 2,725 mm",
+        "Axle count": "3",
+        "Technical gross weight": "39,000 kg",
+        "Tare weight": "7,400 kg",
+        "Payload (gross minus tare)": "31,600 kg",
+        "Euro-pallet positions": "34"
+      },
+      "source": "https://kaessbohrer.com/uploads/2025/1/box-refeer-en-v5-2025-01-30-231119.pdf",
+      "variant": "Dry van / box semi-trailers · K.SBT / 20 - 12 / 27",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Rigid enclosed walls protect packaged cargo during transport.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Payload shown as gross minus tare is calculated from the cited figures, not an independent road approval.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/box.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Xtra-lease.jpg",
+        "author": "Xtralease",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Xtra-lease.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-k-reefer",
+      "type": "road-reefer",
+      "category": "road",
+      "name": "Refrigerated semi-trailers · K.SRI C / 10 - 12 / 27",
+      "brand": "Kässbohrer",
+      "country": "DE",
+      "specs": {
+        "Overall length": "13,600 mm",
+        "Overall width": "2,600 mm",
+        "Overall height": "4,030 mm",
+        "Internal dimensions (L × W × H)": "13,385 × 2,460 × 2,650 mm",
+        "Axle count": "3",
+        "Technical gross weight": "39,000 kg",
+        "Tare weight": "7,204 kg",
+        "Payload (gross minus tare)": "31,796 kg",
+        "Euro-pallet positions": "33"
+      },
+      "source": "https://kaessbohrer.com/uploads/2025/1/box-refeer-en-v5-2025-01-30-231119.pdf",
+      "variant": "Refrigerated semi-trailers · K.SRI C / 10 - 12 / 27",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Insulated body and refrigeration equipment carry temperature-sensitive cargo.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Payload shown as gross minus tare is calculated from the cited figures, not an independent road approval.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/reefer.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:PRIME Inc - Peterbilt Refrigerated Semi-trailer truck - I-90 Spokane, WA.jpg",
+        "author": "Ewkada",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:PRIME_Inc_-_Peterbilt_Refrigerated_Semi-trailer_truck_-_I-90_Spokane,_WA.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-k-double",
+      "type": "road-doubledeck",
+      "category": "road",
+      "name": "Double-deck refrigerated trailers · K.SRI P / 10 - 12 / 27",
+      "brand": "Kässbohrer",
+      "country": "DE",
+      "specs": {
+        "Overall length": "13,600 mm",
+        "Overall width": "2,600 mm",
+        "Overall height": "4,030 mm",
+        "Internal dimensions (L × W × H)": "13,385 × 2,460 × 2,800 mm",
+        "Axle count": "3",
+        "Technical gross weight": "39,000 kg",
+        "Tare weight": "7,960 kg",
+        "Payload (gross minus tare)": "31,040 kg",
+        "Euro-pallet positions": "66"
+      },
+      "source": "https://kaessbohrer.com/uploads/2025/1/box-refeer-en-v5-2025-01-30-231119.pdf",
+      "variant": "Double-deck refrigerated trailers · K.SRI P / 10 - 12 / 27",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "A second loading level increases pallet positions; floor and pallet loads remain limited.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Payload shown as gross minus tare is calculated from the cited figures, not an independent road approval.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/reefer.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:PRIME Inc - Peterbilt Refrigerated Semi-trailer truck - I-90 Spokane, WA.jpg",
+        "author": "Ewkada",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:PRIME_Inc_-_Peterbilt_Refrigerated_Semi-trailer_truck_-_I-90_Spokane,_WA.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-k-city",
+      "type": "road-city",
+      "category": "road",
+      "name": "City / short distribution trailers · K.SBT CS / 20 - 12 / 10",
+      "brand": "Kässbohrer",
+      "country": "DE",
+      "specs": {
+        "Overall length": "11,115 mm",
+        "Overall width": "2,550 mm",
+        "Overall height": "4,030 mm",
+        "Internal dimensions (L × W × H)": "11,025 × 2,490 × 2,715 mm",
+        "Axle count": "1",
+        "Technical gross weight": "22,000 kg",
+        "Tare weight": "6,620 kg",
+        "Payload (gross minus tare)": "15,380 kg",
+        "Euro-pallet positions": "27"
+      },
+      "source": "https://kaessbohrer.com/uploads/2025/1/box-refeer-en-v5-2025-01-30-231119.pdf",
+      "variant": "City / short distribution trailers · K.SBT CS / 20 - 12 / 10",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Short body and steering options improve access at constrained delivery locations.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Payload shown as gross minus tare is calculated from the cited figures, not an independent road approval.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/box.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Xtra-lease.jpg",
+        "author": "Xtralease",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Xtra-lease.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fesan-flat",
+      "type": "road-flat",
+      "category": "road",
+      "name": "Flatbed semi-trailers · FESAN Flatbed",
+      "brand": "FESAN",
+      "country": "TR",
+      "specs": {
+        "Overall length options": "10,000–13,600 mm",
+        "Axle count": "3",
+        "Tyre size": "385/65 R22.5"
+      },
+      "source": "https://fesantrailer.com/product-details/flatbed",
+      "variant": "Flatbed semi-trailers · FESAN Flatbed",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Open deck for machinery, steel and secured general cargo.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/flatbed.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Tennant Transport DAF XF truck with flatbed trailer, 4 February 2009.jpg",
+        "author": "bilbobagweed",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tennant_Transport_DAF_XF_truck_with_flatbed_trailer,_4_February_2009.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fesan-dropside",
+      "type": "road-dropside",
+      "category": "road",
+      "name": "Dropside / sideboard trailers · FESAN Side Covers",
+      "brand": "FESAN",
+      "country": "TR",
+      "specs": {
+        "Overall length options": "10,000–13,600 mm",
+        "Axle count": "3",
+        "Tyre size": "385/65 R22.5"
+      },
+      "source": "https://fesantrailer.com/product-details/platform-with-side-covers",
+      "variant": "Dropside / sideboard trailers · FESAN Side Covers",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Sideboards open for access; cover and floor options depend on the cargo.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/flatbed.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Tennant Transport DAF XF truck with flatbed trailer, 4 February 2009.jpg",
+        "author": "bilbobagweed",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tennant_Transport_DAF_XF_truck_with_flatbed_trailer,_4_February_2009.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fesan-chassis-20",
+      "type": "road-chassis",
+      "category": "road",
+      "name": "Skeletal container chassis · FESAN 20 ft",
+      "brand": "FESAN",
+      "country": "TR",
+      "specs": {
+        "Container nominal size": "20 ft",
+        "Axle count": "3",
+        "Tyre size": "385/65 R22.5"
+      },
+      "source": "https://fesantrailer.com/product-details/20-feet",
+      "variant": "Skeletal container chassis · FESAN 20 ft",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Twist locks secure ISO containers; chassis length and lock positions select compatible sizes.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Published example configuration. Weights and equipment vary with options; technical ratings are not universal road limits.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/container.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Krone Box Liner chassis for container transport.Spielvogel 1.JPG",
+        "author": "Spielvogel\n\nFor a gallery of some more of my uploaded pictures see: here.\nAll images can be used free of charge.",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Krone_Box_Liner_chassis_for_container_transport.Spielvogel_1.JPG",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fesan-chassis-40",
+      "type": "road-chassis",
+      "category": "road",
+      "name": "Skeletal container chassis · FESAN 40 ft",
+      "brand": "FESAN",
+      "country": "TR",
+      "specs": {
+        "Container nominal size": "40 ft",
+        "Axle count": "3",
+        "Tyre size": "385/65 R22.5"
+      },
+      "source": "https://fesantrailer.com/product-details/40-feet",
+      "variant": "Skeletal container chassis · FESAN 40 ft",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Twist locks secure ISO containers; chassis length and lock positions select compatible sizes.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Published example configuration. Weights and equipment vary with options; technical ratings are not universal road limits.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/container.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Krone Box Liner chassis for container transport.Spielvogel 1.JPG",
+        "author": "Spielvogel\n\nFor a gallery of some more of my uploaded pictures see: here.\nAll images can be used free of charge.",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Krone_Box_Liner_chassis_for_container_transport.Spielvogel_1.JPG",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-afrit-flat",
+      "type": "road-flat",
+      "category": "road",
+      "name": "Flatbed semi-trailers · AFRIT 13.5 m tridem",
+      "brand": "AFRIT",
+      "country": "ZA",
+      "specs": {
+        "Overall length": "13,500 mm",
+        "Axle count": "3",
+        "Tare weight": "6,600 kg",
+        "Payload": "33,400 kg",
+        "Gross combination mass": "49,500 kg"
+      },
+      "source": "https://afrit.co.za/flatdeck-semi-trailer/",
+      "variant": "Flatbed semi-trailers · AFRIT 13.5 m tridem",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Open deck for machinery, steel and secured general cargo.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Manufacturer payload assumes a 9,500 kg tractor. Gross combination mass includes that tractor; trailer tare does not.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/flatbed.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Tennant Transport DAF XF truck with flatbed trailer, 4 February 2009.jpg",
+        "author": "bilbobagweed",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Tennant_Transport_DAF_XF_truck_with_flatbed_trailer,_4_February_2009.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-swap-example",
+      "type": "road-swap",
+      "category": "road",
+      "name": "Swap-body carriers · KRONE swap systems",
+      "brand": "KRONE",
+      "country": "DE",
+      "specs": {},
+      "source": "https://www.krone-trailer.com/en/products/swap-systems/",
+      "variant": "Swap-body carriers · KRONE swap systems",
+      "verified": false,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Demountable bodies stand on support legs while the truck performs other work.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/swap.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Volvo FH 6x2 swap body truck.jpg",
+        "author": "Spielvogel\n\nFor a gallery of some more of my uploaded pictures see: here.",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_FH_6x2_swap_body_truck.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-steelbro",
+      "type": "road-sidelifter",
+      "category": "road",
+      "name": "Container side loaders · STEELBRO SB362",
+      "brand": "STEELBRO",
+      "country": "NZ",
+      "specs": {
+        "Lifting capacity": "36,000 kg"
+      },
+      "source": "https://steelbro.com/truckmount/",
+      "variant": "Container side loaders · STEELBRO SB362",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "On-board lifting units move a container between the trailer and the ground.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Lifting unit / subframe example. Truck dimensions, axle and tyre counts and road payload depend on the selected chassis.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/sidelifter.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Sidelifter in forest.jpg",
+        "author": "Steelbro NZ Ltd",
+        "license": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Sidelifter_in_forest.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "type-tipper",
+      "type": "tipper",
+      "category": "road",
+      "name": "Rear tipper semi-trailers · FESAN Half Pipe",
+      "brand": "FESAN",
+      "country": "TR",
+      "specs": {
+        "Axle count options": "3 / 4",
+        "Body volume options": "18–32 m³",
+        "Tyre size options": "385/65 R22.5 / 315/80 R22.5"
+      },
+      "source": "https://fesantrailer.com/product-details/half-pipe-u-type-tipper",
+      "variant": "Rear tipper semi-trailers · FESAN Half Pipe",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Hydraulic body lift discharges aggregate, excavation material or bulk cargo to the rear.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/tipper.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:3-х осный самосвал Schwarzmueller.JPG",
+        "author": "John galt17",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:3-%D1%85_%D0%BE%D1%81%D0%BD%D1%8B%D0%B9_%D1%81%D0%B0%D0%BC%D0%BE%D1%81%D0%B2%D0%B0%D0%BB_Schwarzmueller.JPG",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fesan-dangal",
+      "type": "tipper",
+      "category": "road",
+      "name": "Rear tipper semi-trailers · FESAN Dangal",
+      "brand": "FESAN",
+      "country": "TR",
+      "specs": {
+        "Axle count": "3",
+        "Road tyre count (spare excluded)": "6",
+        "Spare tyres": "1",
+        "Tyre size": "385/65 R22.5",
+        "Body volume options": "33–46 m³"
+      },
+      "source": "https://fesantrailer.com/product-details/dangal",
+      "variant": "Rear tipper semi-trailers · FESAN Dangal",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Hydraulic body lift discharges aggregate, excavation material or bulk cargo to the rear.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/tipper.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:3-х осный самосвал Schwarzmueller.JPG",
+        "author": "John galt17",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:3-%D1%85_%D0%BE%D1%81%D0%BD%D1%8B%D0%B9_%D1%81%D0%B0%D0%BC%D0%BE%D1%81%D0%B2%D0%B0%D0%BB_Schwarzmueller.JPG",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fesan-grain",
+      "type": "road-grain",
+      "category": "road",
+      "name": "Grain / agricultural bulk trailers · FESAN Grain Side Tipper",
+      "brand": "FESAN",
+      "country": "TR",
+      "specs": {
+        "Axle count options": "3 / 4",
+        "Body volume options": "35–60 m³",
+        "Tyre size options": "385/65 R22.5 / 315/80 R22.5"
+      },
+      "source": "https://fesantrailer.com/product-details/grain-side-tipper",
+      "variant": "Grain / agricultural bulk trailers · FESAN Grain Side Tipper",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "High-volume bodies carry grain and other agricultural bulk cargo.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/grain.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Hopperbottomsalemcountynewjersey280121.jpg",
+        "author": "Acornembryo",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Hopperbottomsalemcountynewjersey280121.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      },
+      "photo_note": "The photograph shows a hopper-bottom grain trailer. The specifications describe the named side-tipping grain model; their unloading mechanisms differ."
+    },
+    {
+      "id": "road-afrit-side",
+      "type": "road-side-tipper",
+      "category": "road",
+      "name": "Side-tipping trailers · AFRIT 45 m³ TA/TA",
+      "brand": "AFRIT",
+      "country": "ZA",
+      "specs": {
+        "Overall length (trailer combination)": "18,142 mm",
+        "Overall width": "2,600 mm",
+        "Overall height": "3,353 mm",
+        "Trailer axle count": "2 + 2",
+        "Tyre size": "385/65 R22.5",
+        "Body volume": "45 m³",
+        "Tare weight": "9,600 kg",
+        "Payload": "36,900 kg",
+        "Gross combination mass": "56,000 kg"
+      },
+      "source": "https://afrit.co.za/afrit_website_specsheet_side-tipper/",
+      "variant": "Side-tipping trailers · AFRIT 45 m³ TA/TA",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Side discharge serves mines and bulk-material operations with sufficient lateral clearance.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Figures follow the linked 45 m³ PDF configuration, not the different current web-page variant. Payload assumes a 9,500 kg tractor.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/side-tipper.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Side Dump Industries train set.jpg",
+        "author": "Side Dump (Wikimedia Commons); crop: Bility",
+        "license": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Side_Dump_Industries_train_set.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-afrit-bottom",
+      "type": "road-bottom-dump",
+      "category": "road",
+      "name": "Bottom-dump / hopper trailers · AFRIT 52 m³ TA/TA",
+      "brand": "AFRIT",
+      "country": "ZA",
+      "specs": {
+        "Trailer axle count": "2 + 2",
+        "Body volume": "52 m³",
+        "Tare weight": "8,880 kg",
+        "Payload": "37,620 kg",
+        "Gross combination mass": "56,000 kg"
+      },
+      "source": "https://afrit.co.za/bottom-dump-trailer/",
+      "variant": "Bottom-dump / hopper trailers · AFRIT 52 m³ TA/TA",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Bottom gates discharge bulk cargo without raising the entire body.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Payload assumes a 9,500 kg tractor. The stated 52 m³ model uses tandem/tandem trailer axles and super-single tyres.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/bottom-dump.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Semi trailer bottom dump truck.webp",
+        "author": "Wikideas1",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Semi_trailer_bottom_dump_truck.webp",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-knapen",
+      "type": "road-walkingfloor",
+      "category": "road",
+      "name": "Moving-floor trailers · Knapen wood transport",
+      "brand": "Knapen",
+      "country": "NL",
+      "specs": {
+        "Overall length": "13,600 mm",
+        "Overall height": "4,000 mm",
+        "Standard body volume": "92 m³",
+        "Maximum volume option": "105 m³"
+      },
+      "source": "https://www.knapen-trailers.com/en/branches/wood",
+      "variant": "Moving-floor trailers · Knapen wood transport",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Hydraulically moving floor slats unload biomass, waste and suitable pallet cargo.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/walkingfloor.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Moving Floor Trailer - Walking Floor Trailer - Zelflosser.png",
+        "author": "Jerre02",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Moving_Floor_Trailer_-_Walking_Floor_Trailer_-_Zelflosser.png",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "type-silo",
+      "type": "silo",
+      "category": "road",
+      "name": "Non-tipping silo tankers · K.SSL 33 / 2 - 10 / 24",
+      "brand": "Kässbohrer",
+      "country": "DE",
+      "specs": {
+        "Overall length": "9,385 mm",
+        "Tank diameter": "2,550 mm",
+        "Wheelbase": "6,475 mm",
+        "Fifth wheel height": "1,220 mm",
+        "Tare weight": "4,415 kg",
+        "Tank volume": "33 m³"
+      },
+      "source": "https://kaessbohrer.com/uploads/2023/9/silo-series-brochure-2023-09-20-085331.pdf",
+      "variant": "Non-tipping silo tankers · K.SSL 33 / 2 - 10 / 24",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Pneumatic discharge handles suitable dry powder or granules.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Published example configuration. Weights and equipment vary with options; technical ratings are not universal road limits.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/silo.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Heinsberger Agrar Handell Auflieger.jpg",
+        "author": "Blonder1984",
+        "license": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Heinsberger_Agrar_Handell_Auflieger.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-k-tippingsilo",
+      "type": "road-tipping-silo",
+      "category": "road",
+      "name": "Tipping silo tankers · K.SSK 60 / 5 - 10 / 24",
+      "brand": "Kässbohrer",
+      "country": "DE",
+      "specs": {
+        "Overall length": "12,875 mm",
+        "Tank diameter": "2,530 mm",
+        "Wheelbase": "7,480 mm",
+        "Fifth wheel height": "1,220 mm",
+        "Tare weight": "6,150 kg",
+        "Tank volume": "60 m³"
+      },
+      "source": "https://kaessbohrer.com/uploads/2023/9/silo-series-brochure-2023-09-20-085331.pdf",
+      "variant": "Tipping silo tankers · K.SSK 60 / 5 - 10 / 24",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "The tank tilts to assist dry-bulk discharge; operating pressure and site stability must be checked.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Published example configuration. Weights and equipment vary with options; technical ratings are not universal road limits.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/silo.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Heinsberger Agrar Handell Auflieger.jpg",
+        "author": "Blonder1984",
+        "license": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Heinsberger_Agrar_Handell_Auflieger.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "type-fuel",
+      "type": "fuel",
+      "category": "road",
+      "name": "Fuel tanker semi-trailers · FESAN Steel Fuel Tanker",
+      "brand": "FESAN",
+      "country": "TR",
+      "specs": {
+        "Axle count": "3",
+        "Tank volume options": "42,000 / 45,000 L",
+        "Compartment options": "5 / 6",
+        "Tyre size": "315/80 R22.5"
+      },
+      "source": "https://fesantrailer.com/product-details/steel-fuel-tanker",
+      "variant": "Fuel tanker semi-trailers · FESAN Steel Fuel Tanker",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Compartmented tanks separate liquid products; volume is not a mass payload.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/fuel.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Side View of a Shell Fuel Tanker in Capioví, Misiones, Argentina.jpg",
+        "author": "Horacio Cambeiro",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Side_View_of_a_Shell_Fuel_Tanker_in_Capiov%C3%AD,_Misiones,_Argentina.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "type-food",
+      "type": "food",
+      "category": "road",
+      "name": "Food-grade tanker semi-trailers · MAISONNEUVE FOODTANKER",
+      "brand": "MAISONNEUVE",
+      "country": "FR",
+      "specs": {
+        "Maximum tank volume": "36,000 L",
+        "Maximum compartments (ATP version)": "6"
+      },
+      "source": "https://www.maisonneuve-citerne.com/foodtanker-citerne-alimentaire/",
+      "variant": "Food-grade tanker semi-trailers · MAISONNEUVE FOODTANKER",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Cleanable stainless tanks transport compatible liquid foods with hygiene-controlled fittings.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/food.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Müller milk tanker in Longnor - geograph.org.uk - 7919111.jpg",
+        "author": "TCExplorer",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:M%C3%BCller_milk_tanker_in_Longnor_-_geograph.org.uk_-_7919111.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-k-chemical",
+      "type": "road-chemical",
+      "category": "road",
+      "name": "Chemical tanker semi-trailers · K.STC 37.5 / 1 - 10 / 24 / PR",
+      "brand": "Kässbohrer",
+      "country": "DE",
+      "specs": {
+        "Overall length": "10,905 mm",
+        "Tank diameter": "2,200 mm",
+        "Wheelbase": "6,200 mm",
+        "Fifth wheel height": "1,180 mm",
+        "Tank volume": "37,500 L",
+        "Tare weight": "7,340 kg",
+        "Operating pressure": "2.6 bar",
+        "Test pressure": "4 bar",
+        "Operating temperature": "120 °C"
+      },
+      "source": "https://kaessbohrer.com/en/products/tanker-599-c/dangerous-goods-622-c/kstc-375-1-10-24-pr",
+      "variant": "Chemical tanker semi-trailers · K.STC 37.5 / 1 - 10 / 24 / PR",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Tank material, seals and pressure approval must match the transported chemical.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Published example configuration. Weights and equipment vary with options; technical ratings are not universal road limits.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/chemical.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Hazardous chemical tanker truck - 陕EF6570.jpg",
+        "author": "Fumikas Sagisavas",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Hazardous_chemical_tanker_truck_-_%E9%99%95EF6570.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "type-gas",
+      "type": "gas",
+      "category": "road",
+      "name": "LPG / pressure tanker semi-trailers · NURSAN LPG",
+      "brand": "NURSAN",
+      "country": "TR",
+      "specs": {
+        "Tank length option": "11,470 mm",
+        "Tank diameter option": "2,170 mm",
+        "Tank volume": "50 m³",
+        "Road tyre count (spare excluded)": "6",
+        "Spare tyres": "1",
+        "Design pressure": "17.5 bar",
+        "Design temperature": "−20…+65 °C"
+      },
+      "source": "https://www.nursantrailer.com/urun_res/lpg-tanker_teknikozellik_en.pdf",
+      "variant": "LPG / pressure tanker semi-trailers · NURSAN LPG",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Pressure vessels carry compatible liquefied gases; filling limits depend on the gas and vessel approval.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Tank dimensions are optional vessel dimensions, not the complete trailer envelope. The PDF has inconsistent test-pressure units; test pressure is not reproduced.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/gas.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:17 ton LPG Tank Truck.jpg",
+        "author": "Ssumesh",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:17_ton_LPG_Tank_Truck.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      },
+      "additional_source": "https://www.nursantrailer.com/urunler/en/35_lpg-tanker-semi-trailer"
+    },
+    {
+      "id": "road-k-bitumen",
+      "type": "road-bitumen",
+      "category": "road",
+      "name": "Bitumen / heated tankers · Kässbohrer bitumen range",
+      "brand": "Kässbohrer",
+      "country": "DE",
+      "specs": {
+        "Tank volume options": "30–37 m³",
+        "Minimum tare (family)": "6,050 kg"
+      },
+      "source": "https://kaessbohrer.com/public/index.php/en/efficiency-to-the-next-level-tanker",
+      "variant": "Bitumen / heated tankers · Kässbohrer bitumen range",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Insulation and heating maintain suitable product temperature for bitumen discharge.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/fuel.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Side View of a Shell Fuel Tanker in Capioví, Misiones, Argentina.jpg",
+        "author": "Horacio Cambeiro",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Side_View_of_a_Shell_Fuel_Tanker_in_Capiov%C3%AD,_Misiones,_Argentina.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fesan-lowbed-2",
+      "type": "lowbed",
+      "category": "road",
+      "name": "Lowbed trailers · FESAN 2 axle",
+      "brand": "FESAN",
+      "country": "TR",
+      "specs": {
+        "Axle count": "2",
+        "Ramp length": "3,000 mm",
+        "Road tyre count (spare excluded)": "8",
+        "Spare tyres": "1",
+        "Tyre size": "245/70 R17.5",
+        "Theoretical support capacity (not payload)": "42,000 kg",
+        "Kingpin load rating": "18,000 kg",
+        "Axle-group load rating": "24,000 kg"
+      },
+      "source": "https://fesantrailer.com/product-details/2-axle-lowbed",
+      "variant": "Lowbed trailers · FESAN 2 axle",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Low deck and ramps carry construction machines and tall indivisible loads.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Support ratings include vehicle weight; they are not net payload. Ramp and deck options change the configuration.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/lowbed.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Volvo and low loader trailer - geograph.org.uk - 3877164.jpg",
+        "author": "Michael Trolove",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_and_low_loader_trailer_-_geograph.org.uk_-_3877164.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "type-lowbed",
+      "type": "lowbed",
+      "category": "road",
+      "name": "Lowbed trailers · FESAN 3 axle",
+      "brand": "FESAN",
+      "country": "TR",
+      "specs": {
+        "Axle count": "3",
+        "Ramp length": "3,000 mm",
+        "Road tyre count (spare excluded)": "12",
+        "Spare tyres": "1",
+        "Tyre size": "245/70 R17.5",
+        "Theoretical support capacity (not payload)": "54,000 kg",
+        "Kingpin load rating": "18,000 kg",
+        "Axle-group load rating": "36,000 kg"
+      },
+      "source": "https://fesantrailer.com/product-details/3-axle-lowbed",
+      "variant": "Lowbed trailers · FESAN 3 axle",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Low deck and ramps carry construction machines and tall indivisible loads.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Support ratings include vehicle weight; they are not net payload. Ramp and deck options change the configuration.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/lowbed.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Volvo and low loader trailer - geograph.org.uk - 3877164.jpg",
+        "author": "Michael Trolove",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_and_low_loader_trailer_-_geograph.org.uk_-_3877164.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fesan-lowbed-4",
+      "type": "lowbed",
+      "category": "road",
+      "name": "Lowbed trailers · FESAN 4 axle",
+      "brand": "FESAN",
+      "country": "TR",
+      "specs": {
+        "Axle count": "4",
+        "Ramp length": "3,000 mm",
+        "Road tyre count (spare excluded)": "16",
+        "Spare tyres": "1",
+        "Tyre size": "245/70 R17.5"
+      },
+      "source": "https://fesantrailer.com/product-details/4-axle-lowbed",
+      "variant": "Lowbed trailers · FESAN 4 axle",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Low deck and ramps carry construction machines and tall indivisible loads.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "The title identifies four axles, but the moving-parts text says 3×9 tonnes while another section lists a 48-tonne axle group. These inconsistent load ratings are omitted; confirm the ordered configuration with FESAN. The page separately states 16 road tyres and one spare.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/lowbed.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Volvo and low loader trailer - geograph.org.uk - 3877164.jpg",
+        "author": "Michael Trolove",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_and_low_loader_trailer_-_geograph.org.uk_-_3877164.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-noote",
+      "type": "road-semilow",
+      "category": "road",
+      "name": "Semi-low-loader trailers · Nooteboom OSDS",
+      "brand": "Nooteboom",
+      "country": "NL",
+      "specs": {
+        "Overall width": "2,520 mm",
+        "Loaded deck height": "860 mm",
+        "Tyre size options": "235/75 R17.5 / 245/70 R17.5",
+        "Axle spacing": "1,360 mm"
+      },
+      "source": "https://www.nooteboom.com/trailers/multitrailer/osds-semi-low-loader/",
+      "variant": "Semi-low-loader trailers · Nooteboom OSDS",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Stepped deck, optional extension and steering provide versatile machinery transport.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/lowbed.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Volvo and low loader trailer - geograph.org.uk - 3877164.jpg",
+        "author": "Michael Trolove",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_and_low_loader_trailer_-_geograph.org.uk_-_3877164.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fay-multimax",
+      "type": "road-semilow",
+      "category": "road",
+      "name": "Semi-low-loader trailers · Faymonville MultiMAX",
+      "brand": "Faymonville",
+      "country": "BE",
+      "specs": {
+        "Axle count options": "2–10",
+        "Maximum extension / vehicle length": "36,000 mm",
+        "Maximum family payload": "120,000 kg"
+      },
+      "source": "https://www.faymonville.com/products/semi-trailer/multimax/",
+      "variant": "Semi-low-loader trailers · Faymonville MultiMAX",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Stepped deck, optional extension and steering provide versatile machinery transport.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/lowbed.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Volvo and low loader trailer - geograph.org.uk - 3877164.jpg",
+        "author": "Michael Trolove",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_and_low_loader_trailer_-_geograph.org.uk_-_3877164.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "type-extend",
+      "type": "extend",
+      "category": "road",
+      "name": "Extendable lowbed trailers · K.SLA 4 / 2N - 18 / 40",
+      "brand": "Kässbohrer",
+      "country": "DE",
+      "specs": {
+        "Overall length": "13,190 mm",
+        "Platform length": "9,240 mm",
+        "Platform extension": "6,200 mm",
+        "Overall width": "2,550 mm",
+        "Width with extensions": "3,150 mm",
+        "Loaded deck height": "875 mm",
+        "Axle count": "4",
+        "Tyre size": "245/70 R17.5",
+        "Technical gross weight": "58,000 kg"
+      },
+      "source": "https://kaessbohrer.com/uploads/static/media/product/660/attachments/auto_pdf/brochure_660_en.pdf?auto=format&v=21628",
+      "variant": "Extendable lowbed trailers · K.SLA 4 / 2N - 18 / 40",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Telescoping chassis increases loading length for long indivisible loads.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "The brochure gives conflicting tare values (11,850 and 11,570 kg). Tare and derived payload are withheld pending manufacturer confirmation.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/rgn.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Low loader.jpg",
+        "author": "Eivind Myhr",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Low_loader.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fontaine",
+      "type": "road-rgn",
+      "category": "road",
+      "name": "Detachable-gooseneck / RGN lowboys · Fontaine Workhorse 55LCC FLD",
+      "brand": "Fontaine",
+      "country": "US",
+      "specs": {
+        "Clear deck length": "7,924.8 mm",
+        "Overall width": "2,590.8 mm",
+        "Loaded deck height": "457.2 mm",
+        "Ground clearance": "152.4 mm",
+        "Axle count": "3",
+        "Tyre size": "275/70 R22.5",
+        "Payload rating (US short tons)": "55",
+        "Tare weight (lb)": "22,040 lb"
+      },
+      "source": "https://www.fontaineheavy-haul.com/pdfs/WH-55L-SpecSheet-LT-116.pdf",
+      "variant": "Detachable-gooseneck / RGN lowboys · Fontaine Workhorse 55LCC FLD",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Detachable front neck lets machinery drive onto the low deck from the front.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "US brochure: 26 ft clear deck, 8 ft 6 in width, 18 in deck height; metric dimensions converted at 25.4 mm/in. 55 US short tons = 49,895 kg, rated in a 13 ft load length; legal loading depends on configuration.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/rgn.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Low loader.jpg",
+        "author": "Eivind Myhr",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Low_loader.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-goldhofer",
+      "type": "road-modular",
+      "category": "road",
+      "name": "Towed hydraulic modular trailers · Goldhofer THP/SL · 4 lines",
+      "brand": "Goldhofer",
+      "country": "DE",
+      "specs": {
+        "Module length": "6,000 mm",
+        "Overall width": "3,000 mm",
+        "Axle lines": "4",
+        "Axle spacing": "1,500 mm",
+        "Tyre size": "215/75 R17.5",
+        "Tare weight": "13,850 kg",
+        "Axle-line rating at 1 km/h": "45,000 kg",
+        "Suspension travel": "600 mm"
+      },
+      "source": "https://www.goldhofer.com/fileadmin/downloads/BRO_TT/EN/BRO_THP-SL-Family_EN.pdf",
+      "variant": "Towed hydraulic modular trailers · Goldhofer THP/SL · 4 lines",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Coupled axle-line modules distribute exceptional loads; capacity is speed- and configuration-dependent.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Four-line module example. The 45 t rating applies per axle line at 1 km/h, not to highway travel or net payload.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/modular.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Hydraulic modular heavy haul.JPG",
+        "author": "Ruiqianhe",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Hydraulic_modular_heavy_haul.JPG",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-spmt-4",
+      "type": "road-spmt",
+      "category": "road",
+      "name": "Self-propelled modular transporters / SPMT · SCHEUERLE SPMT · 4 lines",
+      "brand": "TII SCHEUERLE",
+      "country": "DE",
+      "specs": {
+        "Module length": "5,600 mm",
+        "Overall width": "2,430 mm",
+        "Module height": "1,150 mm",
+        "Axle lines": "4",
+        "Maximum technical payload": "222,200 kg",
+        "Suspension travel": "700 mm"
+      },
+      "source": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+      "variant": "Self-propelled modular transporters / SPMT · SCHEUERLE SPMT · 4 lines",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Self-propelled steering modules position extremely heavy industrial loads at low speed.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Manufacturer maximum for the stated module version. Use its load/speed chart; this is industrial low-speed transport, not a road-trailer payload limit.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/spmt.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Robosoon-Dafang SPMT.JPG",
+        "author": "Joeyuna",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Robosoon-Dafang_SPMT.JPG",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-spmt-6",
+      "type": "road-spmt",
+      "category": "road",
+      "name": "Self-propelled modular transporters / SPMT · SCHEUERLE SPMT · 6 lines",
+      "brand": "TII SCHEUERLE",
+      "country": "DE",
+      "specs": {
+        "Module length": "8,400 mm",
+        "Overall width": "2,430 mm",
+        "Module height": "1,500 mm",
+        "Axle lines": "6",
+        "Maximum technical payload": "333,900 kg",
+        "Suspension travel": "700 mm"
+      },
+      "source": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
+      "variant": "Self-propelled modular transporters / SPMT · SCHEUERLE SPMT · 6 lines",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Self-propelled steering modules position extremely heavy industrial loads at low speed.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Manufacturer maximum for the stated module version. Use its load/speed chart; this is industrial low-speed transport, not a road-trailer payload limit.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/spmt.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Robosoon-Dafang SPMT.JPG",
+        "author": "Joeyuna",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Robosoon-Dafang_SPMT.JPG",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-drake",
+      "type": "road-widening",
+      "category": "road",
+      "name": "Widening / rows-of-eight low loaders · Drake Swing Wing",
+      "brand": "Drake",
+      "country": "AU",
+      "specs": {
+        "Axle-row options": "3 / 4 / 5",
+        "Road tyres per axle row": "8",
+        "Road tyre count options": "24 / 32 / 40",
+        "Width range option A": "2,500–4,300 mm",
+        "Width range option B": "2,700–4,600 mm",
+        "Family capacity range": "75,000–120,000 kg"
+      },
+      "source": "https://thedrakegroup.com.au/wp-content/uploads/Drake-Trailers-rows-of-8-Brochure-Digital-1.pdf",
+      "variant": "Widening / rows-of-eight low loaders · Drake Swing Wing",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Widening decks and eight tyres per row distribute heavy equipment loads.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/lowbed.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Volvo and low loader trailer - geograph.org.uk - 3877164.jpg",
+        "author": "Michael Trolove",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_and_low_loader_trailer_-_geograph.org.uk_-_3877164.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-brazilmax",
+      "type": "road-widening",
+      "category": "road",
+      "name": "Widening / rows-of-eight low loaders · Faymonville BrazilMAX",
+      "brand": "Faymonville",
+      "country": "BR",
+      "specs": {
+        "Axle-line options": "6 / 8",
+        "Road tyres per axle row": "8",
+        "Road tyre count options": "48 / 64",
+        "Overall width": "3,200 mm",
+        "Maximum platform length": "27,000 mm",
+        "Platform extension": "7,000 mm",
+        "Axle spacing": "2,410 mm",
+        "Maximum family payload": "120,000 kg"
+      },
+      "source": "https://www.faymonville.com/products/semi-trailer/brazilmax/",
+      "variant": "Widening / rows-of-eight low loaders · Faymonville BrazilMAX",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Widening decks and eight tyres per row distribute heavy equipment loads.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/lowbed.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Volvo and low loader trailer - geograph.org.uk - 3877164.jpg",
+        "author": "Michael Trolove",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_and_low_loader_trailer_-_geograph.org.uk_-_3877164.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fay-telemax",
+      "type": "road-blade",
+      "category": "road",
+      "name": "Wind-blade / telescopic flatbeds · Faymonville TeleMAX / WingMAX",
+      "brand": "Faymonville",
+      "country": "BE",
+      "specs": {
+        "Axle count options": "2–6",
+        "Maximum vehicle length (WingMAX)": "74,650 mm"
+      },
+      "source": "https://www.faymonville.com/products/flatbed-trailer/telemax/",
+      "variant": "Wind-blade / telescopic flatbeds · Faymonville TeleMAX / WingMAX",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Long extending platforms support wind-turbine blades and other long cargo.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/blade.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Wind turbine blade IA1.jpg",
+        "author": "Acroterion",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Wind_turbine_blade_IA1.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fay-glass",
+      "type": "road-glass",
+      "category": "road",
+      "name": "Glass inloaders · Faymonville FloatMAX Light",
+      "brand": "Faymonville",
+      "country": "BE",
+      "specs": {
+        "Axle count": "3",
+        "Loading channel length options": "7,500 / 7,700 mm"
+      },
+      "source": "https://www.faymonville.com/products/inloader/floatmax/",
+      "variant": "Glass inloaders · Faymonville FloatMAX Light",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "The chassis surrounds a removable glass rack and restrains sensitive glass sheets.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/glass.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Glas-Innenlader.jpg",
+        "author": "Jaegermeister 64",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Glas-Innenlader.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fay-concrete",
+      "type": "road-concrete",
+      "category": "road",
+      "name": "Precast-concrete inloaders · Faymonville PrefaMAX 3HL 9.80 Light",
+      "brand": "Faymonville",
+      "country": "BE",
+      "specs": {
+        "Loading length": "9,800 mm",
+        "Overall width": "2,550 mm",
+        "Minimum tare (configuration)": "8,300 kg"
+      },
+      "source": "https://www.faymonville.com/products/inloader/prefamax/",
+      "variant": "Precast-concrete inloaders · Faymonville PrefaMAX 3HL 9.80 Light",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "A low loading channel transports tall precast panels on suitable racks.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Published example configuration. Weights and equipment vary with options; technical ratings are not universal road limits.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/concrete.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:AM64166 (18.07.03, Motorvej 501, Viby J)DSC 4593 Balancer (33006532278).jpg",
+        "author": "Lav Ulv from Viby J, Denmark",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:AM64166_(18.07.03,_Motorvej_501,_Viby_J)DSC_4593_Balancer_(33006532278).jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-fay-timber",
+      "type": "road-logging",
+      "category": "road",
+      "name": "Timber / logging trailers · Faymonville TimberMAX",
+      "brand": "Faymonville",
+      "country": "BE",
+      "specs": {
+        "Axle count options": "2 / 3",
+        "Maximum log length": "22,000 mm"
+      },
+      "source": "https://www.faymonville.com/products/flatbed-trailer/timbermax/",
+      "variant": "Timber / logging trailers · Faymonville TimberMAX",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Stanchions and load restraints secure timber; telescopic versions accommodate long logs.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/logging.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Loaded Sisu SM timber truck with trailer.jpg",
+        "author": "Druschba 4",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Loaded_Sisu_SM_timber_truck_with_trailer.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "type-carcarrier",
+      "type": "carcarrier",
+      "category": "road",
+      "name": "Car transporters · Lohr EUROLOHR 300",
+      "brand": "Lohr",
+      "country": "FR",
+      "specs": {
+        "Maximum trailer length": "12,000 mm",
+        "Compatible tractor wheelbase": "3,700–3,900 mm"
+      },
+      "source": "https://www.lohr.fr/blog/catalogue/eurolohr-300/",
+      "variant": "Car transporters · Lohr EUROLOHR 300",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Adjustable decks carry finished vehicles; car count depends on vehicle dimensions and loading layout.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "The length is the trailer portion, not the complete loaded combination. Loading decks, vehicle sizes and local limits determine actual car capacity.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/carcarrier.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Scania S-series car carrier in Tokyo.jpg",
+        "author": "Syced",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Scania_S-series_car_carrier_in_Tokyo.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-iwt",
+      "type": "road-livestock",
+      "category": "road",
+      "name": "Livestock trailers · Ifor Williams TA510T 14 ft × 6 ft",
+      "brand": "Ifor Williams",
+      "country": "GB",
+      "specs": {
+        "Overall length": "5,830 mm",
+        "Overall width": "2,300 mm",
+        "Internal length": "4,320 mm",
+        "Internal width": "1,750 mm",
+        "Axle count": "3",
+        "Tyre size": "175/75R16C",
+        "Maximum gross weight": "3,500 kg",
+        "Tare weight": "1,265 kg",
+        "Payload (gross minus tare)": "2,235 kg"
+      },
+      "source": "https://www.iwt.co.uk/products/livestock/ta510/?tab=spec",
+      "variant": "Livestock trailers · Ifor Williams TA510T 14 ft × 6 ft",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Ventilated animal compartments and ramps support livestock loading; species and space requirements control loading.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Payload shown as gross minus tare is calculated from the cited figures, not an independent road approval.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/light.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Ôl-gerbyd Ifor Williams Trailer - geograph.org.uk - 557332.jpg",
+        "author": "Alan Fryer",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:%C3%94l-gerbyd_Ifor_Williams_Trailer_-_geograph.org.uk_-_557332.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-randon-7",
+      "type": "road-interlink",
+      "category": "road",
+      "name": "B-double / bitrem / interlink combinations · Randon Bitrem 7",
+      "brand": "Randon",
+      "country": "BR",
+      "specs": {
+        "Overall length (combination)": "25,000 mm",
+        "Axles including tractor": "7",
+        "Tractor configuration": "6×4",
+        "Gross combination mass": "57,000 kg"
+      },
+      "source": "https://www.randon.com.br/pt/produtos/linha-pesada/furgao/furgao-carga-geral",
+      "variant": "B-double / bitrem / interlink combinations · Randon Bitrem 7",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "The first semi-trailer carries a fifth wheel for the second trailer. Figures must identify the complete combination.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Brazilian combination example. Axle count and gross combination mass include the tractor; neither is the trailer-only payload.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/bitrem.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Red B-double truck (cropped).jpg",
+        "author": "ScottDavis",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_B-double_truck_(cropped).jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-randon-9",
+      "type": "road-interlink",
+      "category": "road",
+      "name": "B-double / bitrem / interlink combinations · Randon Bitrem 9",
+      "brand": "Randon",
+      "country": "BR",
+      "specs": {
+        "Overall length (combination)": "25,000 mm",
+        "Axles including tractor": "9",
+        "Tractor configuration": "6×4",
+        "Gross combination mass": "74,000 kg"
+      },
+      "source": "https://www.randon.com.br/pt/produtos/linha-pesada/furgao/furgao-carga-geral",
+      "variant": "B-double / bitrem / interlink combinations · Randon Bitrem 9",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "The first semi-trailer carries a fifth wheel for the second trailer. Figures must identify the complete combination.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Brazilian combination example. Axle count and gross combination mass include the tractor; neither is the trailer-only payload.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/bitrem.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Red B-double truck (cropped).jpg",
+        "author": "ScottDavis",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_B-double_truck_(cropped).jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-afrit-interlink",
+      "type": "road-interlink",
+      "category": "road",
+      "name": "B-double / bitrem / interlink combinations · AFRIT 5.2 / 10.8 m TA/TA",
+      "brand": "AFRIT",
+      "country": "ZA",
+      "specs": {
+        "Trailer deck lengths": "5,200 / 10,800 mm",
+        "Trailer axle count": "2 + 2",
+        "Tare weight": "6,600 kg",
+        "Payload": "39,900 kg",
+        "Gross combination mass": "56,000 kg"
+      },
+      "source": "https://afrit.co.za/flatdeck-semi-trailer/",
+      "variant": "B-double / bitrem / interlink combinations · AFRIT 5.2 / 10.8 m TA/TA",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "The first semi-trailer carries a fifth wheel for the second trailer. Figures must identify the complete combination.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/bitrem.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Red B-double truck (cropped).jpg",
+        "author": "ScottDavis",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_B-double_truck_(cropped).jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-flexmax",
+      "type": "road-dolly",
+      "category": "road",
+      "name": "Dollies / self-steering load carriers · Faymonville FlexMAX",
+      "brand": "Faymonville",
+      "country": "BE",
+      "specs": {
+        "Dolly axle options": "2–4",
+        "Rear load-carrier axle options": "2–7"
+      },
+      "source": "https://www.faymonville.com/products/dolly-trailer/flexmax/",
+      "variant": "Dollies / self-steering load carriers · Faymonville FlexMAX",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "A wheeled support links trailers or supports self-carrying long loads; these are different dolly applications.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/dolly.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Dolly Anhänger.jpg",
+        "author": "Tobias Fleischmann",
+        "license": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Dolly_Anh%C3%A4nger.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      },
+      "photo_note": "The photograph illustrates a converter dolly. The specifications describe the FlexMAX long-load dolly and rear load-carrier family."
+    },
+    {
+      "id": "road-roadtrain-guide",
+      "type": "road-roadtrain",
+      "category": "road",
+      "name": "Multi-trailer road trains · Australia road-train combinations",
+      "brand": "NHVR",
+      "country": "AU",
+      "specs": {},
+      "source": "https://www.nhvr.gov.au/road-access/access-management/applications/road-train-permit",
+      "variant": "Multi-trailer road trains · Australia road-train combinations",
+      "verified": false,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Several trailer units operate as a combination on approved routes. Local approvals determine permitted length and mass.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "A configuration guide, not one vehicle model. Trailer number, overall length, axle and tyre counts and payload must be established from the approved combination and route.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/roadtrain.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Australian road train headed by Volvo NH15.jpg",
+        "author": "Sibylle Dreyer",
+        "license": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Australian_road_train_headed_by_Volvo_NH15.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "type-tractor",
+      "type": "tractor",
+      "category": "road",
+      "name": "Tractor units · SHACMAN X5000",
+      "brand": "SHACMAN",
+      "country": "CN",
+      "specs": {
+        "Series drive configuration options": "4×2 / 6×4 / 8×4"
+      },
+      "source": "https://www.shacman.com/product/5000-series/x5000/",
+      "variant": "Tractor units · SHACMAN X5000",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "The fifth wheel supports a semi-trailer. Gross combination mass includes tractor, trailer and cargo.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "The manufacturer lists these layouts for the X5000 series across tractor, cargo and dump versions. They are not a claim that every tractor variant offers every layout.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/tractor.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Volvo FH 520, North Fremantle, 2020 (03).jpg",
+        "author": "Bahnfrend",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_FH_520,_North_Fremantle,_2020_(03).jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-hino",
+      "type": "road-rigid",
+      "category": "road",
+      "name": "Rigid cargo trucks · Hino FS 2848 AMT Air 4317 · 2019",
+      "brand": "Hino",
+      "country": "AU",
+      "specs": {
+        "Overall length (cab chassis)": "7,645 mm",
+        "Overall width": "2,490 mm",
+        "Overall height (cab chassis)": "3,005 mm",
+        "Wheelbase": "4,317 mm",
+        "Axle count": "3",
+        "Drive configuration": "6×4",
+        "Road tyre count (spare excluded)": "10",
+        "Spare tyres": "1",
+        "Chassis mass": "8,355 kg",
+        "Gross vehicle mass": "28,000 kg",
+        "Gross combination mass": "72,000 kg"
+      },
+      "source": "https://cdn.mattaki.com/hino/static-assets/vehicles/specifications/HS700FS2844-2848-1019_WEB.pdf",
+      "variant": "Rigid cargo trucks · Hino FS 2848 AMT Air 4317 · 2019",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Cab and cargo body share a chassis; body weight reduces the available cargo payload.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Historical 2019 Australian cab-chassis specification. Payload requires deduction of the installed body, equipment and operating loads; it is not GVM minus bare-chassis mass alone.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/rigid.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Colfrance truck, Colombia.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Colfrance_truck,_Colombia.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-shacman-dump",
+      "type": "road-dumptruck",
+      "category": "road",
+      "name": "Rigid tipper trucks · SHACMAN X5000 dump range",
+      "brand": "SHACMAN",
+      "country": "CN",
+      "specs": {},
+      "source": "https://www.shacman.com/product/5000-series/x5000/",
+      "variant": "Rigid tipper trucks · SHACMAN X5000 dump range",
+      "verified": false,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "Truck-mounted tipping bodies serve excavation and construction operations.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Product-family ranges and maxima; they do not all apply to one configuration. Confirm the ordered vehicle specification.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/dumptruck.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Mercedes-Benz Arocs - dump truck version (1).JPG",
+        "author": "High Contrast",
+        "license": "CC BY 3.0 de",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Arocs_-_dump_truck_version_(1).JPG",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-liebherr",
+      "type": "road-mixer",
+      "category": "road",
+      "name": "Concrete mixer trucks · Liebherr HTM 905",
+      "brand": "Liebherr",
+      "country": "DE",
+      "specs": {
+        "Nominal concrete capacity": "9 m³",
+        "Geometric drum volume": "16 m³",
+        "Water capacity": "10.5 m³",
+        "Body height without frame": "2,544 mm",
+        "Standard body weight": "3,780 kg"
+      },
+      "source": "https://www.liebherr.com/en-tw/p/70959-6190975",
+      "variant": "Concrete mixer trucks · Liebherr HTM 905",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "The rotating mixer body carries concrete; drum geometric volume differs from nominal concrete capacity.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "Mixer body figures exclude the truck chassis. Overall length, axle count, tyre count and road payload depend on the completed vehicle.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/mixer.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Kaohsiung Taiwan Cement-mixer-truck-01.jpg",
+        "author": "CEphoto, Uwe Aranas",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Kaohsiung_Taiwan_Cement-mixer-truck-01.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
+    },
+    {
+      "id": "road-hiab",
+      "type": "road-hooklift",
+      "category": "road",
+      "name": "Hooklift / roll-off trucks · MULTILIFT ULT26S 6100 · US",
+      "brand": "Hiab",
+      "country": "US",
+      "specs": {
+        "Lifting capacity (lb)": "60,000 lb",
+        "Body length range (optimum)": "6,096–6,705.6 mm",
+        "Hook to rear roller": "6,080.76 mm",
+        "Shipping weight (lb)": "6,065 lb"
+      },
+      "source": "https://cms.hiab.com/globalassets/documents/local/united-states/ultima-21-26-_-30---hooklift-tech-data.pdf",
+      "variant": "Hooklift / roll-off trucks · MULTILIFT ULT26S 6100 · US",
+      "verified": true,
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "guide": {
+        "Applications": "A hook mechanism loads and tips compatible detachable bins; lifting capacity is not the road payload.",
+        "Construction & loading": "Specifications describe the named model or stated product family. Trailer axle and tyre counts exclude the tractor unless the label says combination."
+      },
+      "data_note": "US equipment sheet: 20–22 ft optimum body length and 239.4 in hook-to-roller distance converted to mm. Capacity refers to the hooklift, not truck payload.",
+      "missing": [],
+      "photo": "/assets/knowledge/road/hooklift.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Multilift hooklift Scania truck Rally Finland Service Park.jpg",
+        "author": "Antti Leppänen",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Multilift_hooklift_Scania_truck_Rally_Finland_Service_Park.jpg",
+        "changes": "Resized and converted to WebP; no content alterations."
+      }
     }
   ],
   "brands": {
@@ -5399,24 +7410,28 @@
       "Lexus"
     ],
     "road": [
+      "AFRIT",
+      "Drake",
+      "FESAN",
       "Faymonville",
-      "Lohr",
-      "Tırsan",
-      "Kässbohrer",
-      "Krone",
-      "Schmitz Cargobull",
-      "Kögel",
-      "Nooteboom",
+      "Fontaine",
       "Goldhofer",
-      "Feldbinder",
+      "Hiab",
+      "Hino",
+      "Ifor Williams",
+      "KRONE",
+      "Knapen",
       "Kässbohrer",
-      "Fliegl",
-      "Mercedes-Benz",
-      "Volvo Trucks",
-      "Scania",
-      "MAN",
-      "DAF",
-      "IVECO"
+      "Liebherr",
+      "Lohr",
+      "MAISONNEUVE",
+      "NHVR",
+      "NURSAN",
+      "Nooteboom",
+      "Randon",
+      "SHACMAN",
+      "STEELBRO",
+      "TII SCHEUERLE"
     ],
     "rail": [
       "TÜRASAŞ",
@@ -5539,6 +7554,40 @@
     {
       "id": "air",
       "name": "Air cargo ULD containers"
+    }
+  ],
+  "roadGroups": [
+    {
+      "id": "covered",
+      "name": "Covered & temperature-controlled"
+    },
+    {
+      "id": "platform",
+      "name": "Platforms & intermodal"
+    },
+    {
+      "id": "bulk-road",
+      "name": "Tippers & dry bulk"
+    },
+    {
+      "id": "tank-road",
+      "name": "Liquid & gas tankers"
+    },
+    {
+      "id": "heavy-road",
+      "name": "Lowbeds & heavy transport"
+    },
+    {
+      "id": "special-road",
+      "name": "Special cargo carriers"
+    },
+    {
+      "id": "combinations",
+      "name": "Trailers & road trains"
+    },
+    {
+      "id": "trucks",
+      "name": "Trucks & body equipment"
     }
   ]
 }
