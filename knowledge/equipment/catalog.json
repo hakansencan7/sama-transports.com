@@ -48,43 +48,351 @@
       "id": "bulk",
       "category": "sea",
       "name": "Bulk carrier",
-      "drawing": "sea"
+      "drawing": "sea",
+      "group": "dry"
+    },
+    {
+      "id": "ore",
+      "category": "sea",
+      "name": "Ore carrier",
+      "drawing": "sea",
+      "group": "dry"
+    },
+    {
+      "id": "self-unloader",
+      "category": "sea",
+      "name": "Self-unloading bulk carrier",
+      "drawing": "sea",
+      "group": "dry"
+    },
+    {
+      "id": "cement",
+      "category": "sea",
+      "name": "Cement carrier",
+      "drawing": "sea",
+      "group": "dry"
+    },
+    {
+      "id": "woodchip",
+      "category": "sea",
+      "name": "Woodchip carrier",
+      "drawing": "sea",
+      "group": "dry"
+    },
+    {
+      "id": "general",
+      "category": "sea",
+      "name": "General cargo ship",
+      "drawing": "sea",
+      "group": "dry"
+    },
+    {
+      "id": "multipurpose",
+      "category": "sea",
+      "name": "Multipurpose cargo vessel",
+      "drawing": "sea",
+      "group": "dry"
     },
     {
       "id": "container-ship",
       "category": "sea",
       "name": "Container ship",
-      "drawing": "sea"
+      "drawing": "sea",
+      "group": "dry"
     },
     {
-      "id": "roro",
+      "id": "reefer-ship",
       "category": "sea",
-      "name": "Ro-Ro vessel",
-      "drawing": "sea"
+      "name": "Refrigerated cargo ship",
+      "drawing": "sea",
+      "group": "special"
     },
     {
-      "id": "tanker-ship",
+      "id": "livestock",
       "category": "sea",
-      "name": "Tanker vessel",
-      "drawing": "sea"
-    },
-    {
-      "id": "general",
-      "category": "sea",
-      "name": "General cargo vessel",
-      "drawing": "sea"
+      "name": "Livestock carrier",
+      "drawing": "sea",
+      "group": "special"
     },
     {
       "id": "heavy",
       "category": "sea",
-      "name": "Heavy-lift vessel",
-      "drawing": "sea"
+      "name": "Heavy-lift cargo ship",
+      "drawing": "sea",
+      "group": "special"
+    },
+    {
+      "id": "semi-submersible",
+      "category": "sea",
+      "name": "Semi-submersible heavy transport ship",
+      "drawing": "sea",
+      "group": "special"
+    },
+    {
+      "id": "roro",
+      "category": "sea",
+      "name": "Ro-Ro cargo ship",
+      "drawing": "sea",
+      "group": "vehicle"
+    },
+    {
+      "id": "car-carrier",
+      "category": "sea",
+      "name": "Car and truck carrier (PCC / PCTC)",
+      "drawing": "sea",
+      "group": "vehicle"
+    },
+    {
+      "id": "conro",
+      "category": "sea",
+      "name": "ConRo ship",
+      "drawing": "sea",
+      "group": "vehicle"
+    },
+    {
+      "id": "tanker-ship",
+      "category": "sea",
+      "name": "Crude oil tanker",
+      "drawing": "sea",
+      "group": "liquid"
+    },
+    {
+      "id": "product-tanker",
+      "category": "sea",
+      "name": "Product tanker",
+      "drawing": "sea",
+      "group": "liquid"
+    },
+    {
+      "id": "chemical-tanker",
+      "category": "sea",
+      "name": "Chemical tanker",
+      "drawing": "sea",
+      "group": "liquid"
+    },
+    {
+      "id": "lng",
+      "category": "sea",
+      "name": "LNG carrier",
+      "drawing": "sea",
+      "group": "liquid"
+    },
+    {
+      "id": "lpg",
+      "category": "sea",
+      "name": "LPG carrier",
+      "drawing": "sea",
+      "group": "liquid"
+    },
+    {
+      "id": "bitumen",
+      "category": "sea",
+      "name": "Bitumen tanker",
+      "drawing": "sea",
+      "group": "liquid"
+    },
+    {
+      "id": "bunker",
+      "category": "sea",
+      "name": "Bunker supply tanker",
+      "drawing": "sea",
+      "group": "liquid"
+    },
+    {
+      "id": "ferry",
+      "category": "sea",
+      "name": "Ferry",
+      "drawing": "sea",
+      "group": "passenger"
+    },
+    {
+      "id": "ropax",
+      "category": "sea",
+      "name": "Ro-Pax ferry",
+      "drawing": "sea",
+      "group": "passenger"
+    },
+    {
+      "id": "cruise",
+      "category": "sea",
+      "name": "Cruise ship",
+      "drawing": "sea",
+      "group": "passenger"
+    },
+    {
+      "id": "high-speed",
+      "category": "sea",
+      "name": "High-speed passenger craft",
+      "drawing": "sea",
+      "group": "passenger"
     },
     {
       "id": "barge",
       "category": "sea",
-      "name": "Barge & pontoon",
-      "drawing": "sea"
+      "name": "Barge / pontoon",
+      "drawing": "sea",
+      "group": "port"
+    },
+    {
+      "id": "tug",
+      "category": "sea",
+      "name": "Tugboat",
+      "drawing": "sea",
+      "group": "port"
+    },
+    {
+      "id": "pushboat",
+      "category": "sea",
+      "name": "Pushboat",
+      "drawing": "sea",
+      "group": "port"
+    },
+    {
+      "id": "dredger",
+      "category": "sea",
+      "name": "Dredger",
+      "drawing": "sea",
+      "group": "port"
+    },
+    {
+      "id": "hopper",
+      "category": "sea",
+      "name": "Hopper barge",
+      "drawing": "sea",
+      "group": "port"
+    },
+    {
+      "id": "coaster",
+      "category": "sea",
+      "name": "Coastal trading vessel",
+      "drawing": "sea",
+      "group": "dry"
+    },
+    {
+      "id": "crane-vessel",
+      "category": "sea",
+      "name": "Crane vessel",
+      "drawing": "sea",
+      "group": "offshore"
+    },
+    {
+      "id": "cable",
+      "category": "sea",
+      "name": "Cable-laying vessel",
+      "drawing": "sea",
+      "group": "offshore"
+    },
+    {
+      "id": "pipe",
+      "category": "sea",
+      "name": "Pipe-laying vessel",
+      "drawing": "sea",
+      "group": "offshore"
+    },
+    {
+      "id": "psv",
+      "category": "sea",
+      "name": "Platform supply vessel (PSV)",
+      "drawing": "sea",
+      "group": "offshore"
+    },
+    {
+      "id": "ahts",
+      "category": "sea",
+      "name": "Anchor handling tug supply vessel (AHTS)",
+      "drawing": "sea",
+      "group": "offshore"
+    },
+    {
+      "id": "wind-install",
+      "category": "sea",
+      "name": "Wind turbine installation vessel",
+      "drawing": "sea",
+      "group": "offshore"
+    },
+    {
+      "id": "drillship",
+      "category": "sea",
+      "name": "Drillship",
+      "drawing": "sea",
+      "group": "offshore"
+    },
+    {
+      "id": "fpso",
+      "category": "sea",
+      "name": "FPSO unit",
+      "drawing": "sea",
+      "group": "offshore"
+    },
+    {
+      "id": "research",
+      "category": "sea",
+      "name": "Research and survey vessel",
+      "drawing": "sea",
+      "group": "science"
+    },
+    {
+      "id": "icebreaker",
+      "category": "sea",
+      "name": "Icebreaker",
+      "drawing": "sea",
+      "group": "science"
+    },
+    {
+      "id": "fishing",
+      "category": "sea",
+      "name": "Fishing vessel",
+      "drawing": "sea",
+      "group": "science"
+    },
+    {
+      "id": "factory",
+      "category": "sea",
+      "name": "Factory fishing ship",
+      "drawing": "sea",
+      "group": "science"
+    },
+    {
+      "id": "pilot",
+      "category": "sea",
+      "name": "Pilot boat",
+      "drawing": "sea",
+      "group": "port"
+    },
+    {
+      "id": "rescue",
+      "category": "sea",
+      "name": "Search and rescue vessel",
+      "drawing": "sea",
+      "group": "science"
+    },
+    {
+      "id": "fireboat",
+      "category": "sea",
+      "name": "Fireboat",
+      "drawing": "sea",
+      "group": "port"
+    },
+    {
+      "id": "yacht",
+      "category": "sea",
+      "name": "Motor yacht",
+      "drawing": "sea",
+      "group": "other"
+    },
+    {
+      "id": "sailing",
+      "category": "sea",
+      "name": "Sailing ship",
+      "drawing": "sea",
+      "group": "other"
+    },
+    {
+      "id": "naval",
+      "category": "sea",
+      "name": "Naval surface ship",
+      "drawing": "sea",
+      "group": "other"
     },
     {
       "id": "dry",
@@ -358,6 +666,1440 @@
     }
   ],
   "records": [
+    {
+      "id": "type-bulk",
+      "type": "bulk",
+      "category": "sea",
+      "name": "Bulk carrier",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.ics-shipping.org/explaining/ships-ops/bulk-carriers/",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/bulk.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Sabrina_I_cropped.jpg",
+        "author": "Nsandel at English Wikipedia",
+        "license": "Public domain",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Sabrina I cropped.jpg",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Unpackaged dry cargo such as grain, coal and minerals.",
+        "Distinctive features": "Large cargo holds and hatch covers; geared and gearless versions. Common size families include Handysize, Supramax, Panamax and Capesize."
+      }
+    },
+    {
+      "id": "type-ore",
+      "type": "ore",
+      "category": "sea",
+      "name": "Ore carrier",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/ore-carrier",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/ore.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Vale_Brasil_x.jpg",
+        "author": "Superfast1111",
+        "license": "CC BY-SA 3.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Vale Brasil x.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Dense mineral cargo, particularly iron ore.",
+        "Distinctive features": "Hold and hull arrangements are designed for heavy cargo; available cargo weight and structural loading limits govern stowage."
+      }
+    },
+    {
+      "id": "type-self-unloader",
+      "type": "self-unloader",
+      "category": "sea",
+      "name": "Self-unloading bulk carrier",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://cslships.com/fleet/self-unloaders/",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/self-unloader.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:USEPA_GL_collection_151_DuluthHalletDockSelfunloader.jpg",
+        "author": "US Army Corps of Engineers, photo by Jerry Bielicki",
+        "license": "Public domain",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "USEPA GL collection 151 DuluthHalletDockSelfunloader.jpg",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Dry bulk deliveries where dedicated shore unloading equipment is limited.",
+        "Distinctive features": "Onboard conveyors and a discharge boom transfer cargo to shore or another vessel; unloading equipment varies by design."
+      }
+    },
+    {
+      "id": "type-cement",
+      "type": "cement",
+      "category": "sea",
+      "name": "Cement carrier",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/cement-carrier",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/cement.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Cement_carrier_ship_%27Cement_Ferry%27_(IMO_8404264)_at_the_anchorage_of_the_Port_of_Haifa,_Israel_-_2023-10-13_(DSC1092-_DSC1119;_vignetting_removal,_G%27MIC_Median_Blend_of_23_photos).guetzli.jpg",
+        "author": "DmitTrix",
+        "license": "CC BY 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Cement carrier ship 'Cement Ferry' (IMO 8404264) at the anchorage of the Port of Haifa, Israel - 2023-10-13 (DSC1092- DSC1119; vignetting removal, G'MIC Median Blend of 23 photos).guetzli.jpg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Bulk cement and similar dry powder products.",
+        "Distinctive features": "Enclosed cargo spaces and pneumatic handling are common; dust control and protection from moisture are important."
+      }
+    },
+    {
+      "id": "type-woodchip",
+      "type": "woodchip",
+      "category": "sea",
+      "name": "Woodchip carrier",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.mol.co.jp/en/yanagihara/museum/museum05.html",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/woodchip.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tarakan-Express-Burnie-20150420-001.jpg",
+        "author": "Gary Houston",
+        "license": "CC0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Tarakan-Express-Burnie-20150420-001.jpg",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Woodchips for pulp and paper production.",
+        "Distinctive features": "High-volume holds suit low-density cargo; grab cranes and conveyors are common handling equipment."
+      }
+    },
+    {
+      "id": "type-general",
+      "type": "general",
+      "category": "sea",
+      "name": "General cargo ship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/general-cargo-ship",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/general.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Cargo_Ship_Puerto_Cortes.jpg",
+        "author": "Luis Alfredo Romero",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Cargo Ship Puerto Cortes.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Bagged, palletised and unpackaged individual cargo items.",
+        "Distinctive features": "Flexible holds for mixed cargo; ship or shore cranes handle individual pieces. Some designs have intermediate decks."
+      }
+    },
+    {
+      "id": "type-multipurpose",
+      "type": "multipurpose",
+      "category": "sea",
+      "name": "Multipurpose cargo vessel",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.mol-service.com/en/services/low-carbon-decarbonized-business/sustainable-supply-chain/special-cargo-transportation",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/multipurpose.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Navire_NETBURG_%C3%A0_quai.jpg",
+        "author": "Farid mernissi",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Navire NETBURG à quai.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Different combinations of general cargo, containers and project cargo.",
+        "Distinctive features": "Adaptable holds and deck arrangements; cranes and removable intermediate decks depend on the vessel configuration."
+      }
+    },
+    {
+      "id": "type-container-ship",
+      "type": "container-ship",
+      "category": "sea",
+      "name": "Container ship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://climate.ec.europa.eu/document/download/31875b4f-39b9-4cde-a4e2-fbb8f65ee703_en?filename=policy_transport_shipping_gd1_maritime_en.pdf",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/container-ship.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_(48694054418).jpg",
+        "author": "kees torn",
+        "license": "CC BY-SA 2.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "MAERSK MC KINNEY MÖLLER & MARSEILLE MAERSK (48694054418).jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Standardised freight containers, including refrigerated units where connections are available.",
+        "Distinctive features": "Container guides and securing systems organise stowage; capacity is commonly stated in TEU, not cargo tonnes alone."
+      }
+    },
+    {
+      "id": "type-reefer-ship",
+      "type": "reefer-ship",
+      "category": "sea",
+      "name": "Refrigerated cargo ship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/reefer-vessel-refrigerated-cargo-ship",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/reefer.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Lombok_Strait.jpg",
+        "author": "Niels Johannes",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Lombok Strait.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Temperature-sensitive food such as fruit, meat and fish.",
+        "Distinctive features": "Insulated, temperature-controlled holds maintain the cargo environment; ventilation and temperature settings depend on the product."
+      }
+    },
+    {
+      "id": "type-livestock",
+      "type": "livestock",
+      "category": "sea",
+      "name": "Livestock carrier",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.amsa.gov.au/about/regulations-and-standards/marine-order-43-cargo-and-cargo-handling-livestock",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/livestock.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_4345_Livestock_transport_at_Port_Adelaide_South_Australia_1995.jpg",
+        "author": "John Coppi, CSIRO",
+        "license": "CC BY 3.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "CSIRO ScienceImage 4345 Livestock transport at Port Adelaide South Australia 1995.jpg",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Live animals on dedicated sea transport voyages.",
+        "Distinctive features": "Animal pens, ventilation, feed and water systems; space and care requirements depend on animal type and voyage."
+      }
+    },
+    {
+      "id": "type-heavy",
+      "type": "heavy",
+      "category": "sea",
+      "name": "Heavy-lift cargo ship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/heavy-lift-ships",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/heavy.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:MV_Happy_Star.jpg",
+        "author": "WindBorneListener",
+        "license": "CC0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "MV Happy Star.jpg",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Large machinery, industrial modules and other oversized project cargo.",
+        "Distinctive features": "Strengthened cargo areas and heavy-duty cranes on geared versions; lifting limits depend on radius and configuration."
+      }
+    },
+    {
+      "id": "type-semi-submersible",
+      "type": "semi-submersible",
+      "category": "sea",
+      "name": "Semi-submersible heavy transport ship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/heavy-lift-ships",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/semi-submersible.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:US_Navy_060109-N-3019M-012_The_heavy_lift_vessel_MV_Blue_Marlin_enters_Pearl_Harbor,_Hawaii_with_the_Sea_Based_X-Band_Radar_(SBX)_aboard.jpg",
+        "author": "U.S. Navy/Journalist 2nd Class Ryan C. McGinley",
+        "license": "Public domain",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "US Navy 060109-N-3019M-012 The heavy lift vessel MV Blue Marlin enters Pearl Harbor, Hawaii with the Sea Based X-Band Radar (SBX) aboard.jpg",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Floating structures, large vessels and offshore units.",
+        "Distinctive features": "Ballast tanks lower the cargo deck for float-on loading; the vessel then raises the deck for transport."
+      }
+    },
+    {
+      "id": "type-roro",
+      "type": "roro",
+      "category": "sea",
+      "name": "Ro-Ro cargo ship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.dpworld.com/en/glossary/roll-on-roll-off-roro",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/roro.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Hartland_Point_Ro-Ro_Cargo_Ship,_IMO_9248538.jpg",
+        "author": "Tim Green",
+        "license": "CC BY 2.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Hartland Point Ro-Ro Cargo Ship, IMO 9248538.jpg",
+        "license_url": "https://creativecommons.org/licenses/by/2.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Trucks, trailers and other wheeled cargo.",
+        "Distinctive features": "Cargo rolls through ramps onto vehicle decks. Lane metres and deck loading limits matter alongside payload."
+      }
+    },
+    {
+      "id": "type-car-carrier",
+      "type": "car-carrier",
+      "category": "sea",
+      "name": "Car and truck carrier (PCC / PCTC)",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.mol.co.jp/en/services/carcarrier/",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/car-carrier.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Car_carrier_vessel_LIBERTY_PEACE,_sailing_in_the_Puget_Sound_(20240219).jpg",
+        "author": "FPTI",
+        "license": "CC0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Car carrier vessel LIBERTY PEACE, sailing in the Puget Sound (20240219).jpg",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Vehicles carried on multiple enclosed decks.",
+        "Distinctive features": "Vehicle ramps and closely spaced decks; PCTC designs may include adjustable decks for taller trucks and machinery."
+      }
+    },
+    {
+      "id": "type-conro",
+      "type": "conro",
+      "category": "sea",
+      "name": "ConRo ship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.aclcargo.com/about-acl/",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/conro.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:ConRo_ship_Atlantic_Compass.jpg",
+        "author": "Tvabutzku1234",
+        "license": "Public domain",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "ConRo ship Atlantic Compass.jpg",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Containers and wheeled cargo on the same vessel.",
+        "Distinctive features": "Combines container stowage with Ro-Ro decks; cranes handle containers and ramps handle vehicles."
+      }
+    },
+    {
+      "id": "type-tanker-ship",
+      "type": "tanker-ship",
+      "category": "sea",
+      "name": "Crude oil tanker",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/oil-tanker",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/tanker-ship.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Supertanker_AbQaiq.jpg",
+        "author": "Kevin H. Tierney / U.S. Navy",
+        "license": "Public domain",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Supertanker AbQaiq.jpg",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Unrefined petroleum between production areas and refineries.",
+        "Distinctive features": "Liquid cargo tanks, pumps and piping; common size descriptions include Aframax, Suezmax and VLCC."
+      }
+    },
+    {
+      "id": "type-product-tanker",
+      "type": "product-tanker",
+      "category": "sea",
+      "name": "Product tanker",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/tankers",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/product-tanker.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:2022-09-04_01_ACADIAN_-_IMO_9298715_tanker_%E2%80%93_St._John%E2%80%99s_NL_Canada.jpg",
+        "author": "Gordon Leggett",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "2022-09-04 01 ACADIAN - IMO 9298715 tanker – St. John’s NL Canada.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Refined petroleum products such as diesel and gasoline.",
+        "Distinctive features": "Separated tanks and cargo systems support different product parcels; tank cleanliness and product compatibility are important."
+      }
+    },
+    {
+      "id": "type-chemical-tanker",
+      "type": "chemical-tanker",
+      "category": "sea",
+      "name": "Chemical tanker",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.ics-shipping.org/explaining/ships-ops/tankers/",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/chemical-tanker.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Ursula_Essberger_2018.jpg",
+        "author": "Niels Johannes",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Ursula Essberger 2018.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Liquid chemicals and compatible specialised liquid cargo.",
+        "Distinctive features": "Separate tanks, specialised coatings or stainless steel and segregated pipework depend on the substances carried."
+      }
+    },
+    {
+      "id": "type-lng",
+      "type": "lng",
+      "category": "sea",
+      "name": "LNG carrier",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.cz/marine/products/gas-solutions/gas-carriers",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/lng.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Methanier_aspher_LNGRIVERS.jpg",
+        "author": "Pline",
+        "license": "CC BY-SA 3.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Methanier aspher LNGRIVERS.jpg",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Natural gas transported in liquid form at cryogenic temperature.",
+        "Distinctive features": "Highly insulated containment systems; membrane and independent tank designs are used. Cargo volume is normally stated in cubic metres."
+      }
+    },
+    {
+      "id": "type-lpg",
+      "type": "lpg",
+      "category": "sea",
+      "name": "LPG carrier",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.cz/marine/products/gas-solutions/gas-carriers",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/lpg.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:LPG_tanker_Run_Far_in_waters_off_Peng_Chau,_Hong_Kong_2019-10-22.jpg",
+        "author": "Ilkka Simomaa",
+        "license": "CC BY 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "LPG tanker Run Far in waters off Peng Chau, Hong Kong 2019-10-22.jpg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Liquefied gases such as propane and butane.",
+        "Distinctive features": "Pressurised, semi-refrigerated or fully refrigerated arrangements; tank conditions are matched to the cargo."
+      }
+    },
+    {
+      "id": "type-bitumen",
+      "type": "bitumen",
+      "category": "sea",
+      "name": "Bitumen tanker",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/high-heat-tanker-bitflower",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/bitumen.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Iver_Brilliant_(ship,_2012)_IMO_9616761,_MMSI_244308000)_Bitumen_Tanker_arriving_at_Europoort.jpg",
+        "author": "Alfvanbeem",
+        "license": "CC0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Iver Brilliant (ship, 2012) IMO 9616761, MMSI 244308000) Bitumen Tanker arriving at Europoort.jpg",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Bitumen and other suitable viscous hot cargoes.",
+        "Distinctive features": "Heated and insulated tanks and piping keep cargo pumpable; required temperature depends on the product."
+      }
+    },
+    {
+      "id": "type-bunker",
+      "type": "bunker",
+      "category": "sea",
+      "name": "Bunker supply tanker",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/tankers",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/bunker.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Bunkering_Tanker_on_the_Nile_R03.jpg",
+        "author": "Marc Ryckaert",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Bunkering Tanker on the Nile R03.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Marine fuel delivered to other vessels.",
+        "Distinctive features": "Cargo tanks, transfer pumps and hoses support ship-to-ship fuel delivery; tanker or barge configurations are used."
+      }
+    },
+    {
+      "id": "type-ferry",
+      "type": "ferry",
+      "category": "sea",
+      "name": "Ferry",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.damen.com/vessels/ferries",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/ferry.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:DFDS_Transmanche_Ferry_loading_at_Newhaven_Harbour.jpg",
+        "author": "FrogsLegs71",
+        "license": "CC BY-SA 3.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "DFDS Transmanche Ferry loading at Newhaven Harbour.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Regular passenger crossings; some designs also carry vehicles.",
+        "Distinctive features": "Designed around route length and terminal access; vehicle ferries use loading ramps and dedicated vehicle spaces."
+      }
+    },
+    {
+      "id": "type-ropax",
+      "type": "ropax",
+      "category": "sea",
+      "name": "Ro-Pax ferry",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.damen.com/vessels/ferries/ropax-ferries",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/ropax.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Viking_Grace_Ruissalo_4.jpg",
+        "author": "kallerna",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Viking Grace Ruissalo 4.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Passengers together with cars, trucks and trailers.",
+        "Distinctive features": "Combines passenger accommodation with Ro-Ro decks; capacity is described separately for passengers and vehicles."
+      }
+    },
+    {
+      "id": "type-cruise",
+      "type": "cruise",
+      "category": "sea",
+      "name": "Cruise ship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.imo.org/en/ourwork/safety/pages/regulationsdefault.aspx",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/cruise.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Icon_of_the_Seas_Puerto_Rico_2025_(cropped).jpg",
+        "author": "Corey Seeman",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Icon of the Seas Puerto Rico 2025 (cropped).jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Leisure voyages with accommodation and visits to multiple destinations.",
+        "Distinctive features": "Cabins, dining and leisure spaces distinguish it from a simple transport ferry; passenger capacity is vessel-specific."
+      }
+    },
+    {
+      "id": "type-high-speed",
+      "type": "high-speed",
+      "category": "sea",
+      "name": "High-speed passenger craft",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.imo.org/en/ourwork/safety/pages/hsc.aspx",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/high-speed.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:SpeedOne_(1).JPG",
+        "author": "Remi Jouan",
+        "license": "CC BY-SA 3.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "SpeedOne (1).JPG",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Fast passenger services, with vehicle capacity on some designs.",
+        "Distinctive features": "Includes catamarans, hydrofoils and other high-speed forms; operating limits depend on design and route."
+      }
+    },
+    {
+      "id": "type-barge",
+      "type": "barge",
+      "category": "sea",
+      "name": "Barge / pontoon",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/barge",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/barge.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Barge_on_River_Thames,_London_-_Dec_2009.jpg",
+        "author": "Diliff",
+        "license": "CC BY-SA 3.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Barge on River Thames, London - Dec 2009.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Cargo, equipment or floating work platforms.",
+        "Distinctive features": "Broad, shallow hull; many rely on tugs or pushboats. Open, covered and flat-deck versions serve different cargoes."
+      }
+    },
+    {
+      "id": "type-tug",
+      "type": "tug",
+      "category": "sea",
+      "name": "Tugboat",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.damen.com/vessels/tugs/asd-tugs",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/tug.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tugboat_Crosby_Skipper.jpg",
+        "author": "GuavaTrain",
+        "license": "CC0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Tugboat Crosby Skipper.jpg",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Assisting ships during manoeuvres and towing operations.",
+        "Distinctive features": "Compact hull with powerful propulsion and towing gear; bollard pull is a key measure, distinct from engine power."
+      }
+    },
+    {
+      "id": "type-pushboat",
+      "type": "pushboat",
+      "category": "sea",
+      "name": "Pushboat",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/barge",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/pushboat.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tow_boat_La_Crosse.jpg",
+        "author": "Wikideas1",
+        "license": "CC0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Tow boat La Crosse.jpg",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Moving barges in inland waterways.",
+        "Distinctive features": "Pushes a coupled barge formation from behind; the barge carries the cargo and the pushboat supplies propulsion."
+      }
+    },
+    {
+      "id": "type-dredger",
+      "type": "dredger",
+      "category": "sea",
+      "name": "Dredger",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://boskalis.com/about-us/fleet-and-equipment",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/dredger.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Pallieter_Hopper_Dredger_R04.jpg",
+        "author": "Marc Ryckaert",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Pallieter Hopper Dredger R04.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Removing seabed material for channels, ports and reclamation work.",
+        "Distinctive features": "Main types include trailing suction hopper, cutter suction and mechanical dredgers; equipment is selected for the ground material."
+      }
+    },
+    {
+      "id": "type-hopper",
+      "type": "hopper",
+      "category": "sea",
+      "name": "Hopper barge",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/hopper-barge",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/hopper.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Tiger_Split_Hopper_Barge_R01.jpg",
+        "author": "Marc Ryckaert",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Tiger Split Hopper Barge R01.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Transporting dredged sand, silt and similar material.",
+        "Distinctive features": "A central hopper carries material; bottom doors or a split hull may discharge it at the authorised location."
+      }
+    },
+    {
+      "id": "type-coaster",
+      "type": "coaster",
+      "category": "sea",
+      "name": "Coastal trading vessel",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/coaster",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/coaster.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Warnem%C3%BCnde_Handelsschiff_(01)_2006-09-21.JPG",
+        "author": "Norbert Kaiser",
+        "license": "CC BY-SA 2.5",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Warnemünde Handelsschiff (01) 2006-09-21.JPG",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.5"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Short-sea and regional cargo transport.",
+        "Distinctive features": "Usually smaller cargo vessels suited to coastal ports; draught and air draught may be decisive route constraints."
+      }
+    },
+    {
+      "id": "type-crane-vessel",
+      "type": "crane-vessel",
+      "category": "sea",
+      "name": "Crane vessel",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/crane-vessel",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/crane-vessel.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Thialf_(ship,_1985)_leaving_Port_of_Rotterdam_photo_1.JPG",
+        "author": "Alf van Beem",
+        "license": "Public domain",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Thialf (ship, 1985) leaving Port of Rotterdam photo 1.JPG",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Lifting heavy structures for marine construction.",
+        "Distinctive features": "Large fixed or rotating cranes; rated lift depends on outreach, operating conditions and crane arrangement."
+      }
+    },
+    {
+      "id": "type-cable",
+      "type": "cable",
+      "category": "sea",
+      "name": "Cable-laying vessel",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.damen.com/vessels/offshore/cable-laying-vessels?view=models",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/cable.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Port_Side_of_CS_Cable_Innovator.jpg",
+        "author": "DeVos Max",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Port Side of CS Cable Innovator.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Installing and repairing subsea power and communication cables.",
+        "Distinctive features": "Cable storage and controlled payout equipment; positioning and cable handling are central to the operation."
+      }
+    },
+    {
+      "id": "type-pipe",
+      "type": "pipe",
+      "category": "sea",
+      "name": "Pipe-laying vessel",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.allseas.com/en/who-we-are/our-fleet/solitaire",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/pipe.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Allseas%27_Solitaire,_pijplegschip.jpg",
+        "author": "PR Allseas",
+        "license": "CC BY-SA 3.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Allseas' Solitaire, pijplegschip.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Installing subsea pipelines.",
+        "Distinctive features": "Pipe joining, tension control and overboarding systems; S-lay, J-lay and reel-lay are different installation methods."
+      }
+    },
+    {
+      "id": "type-psv",
+      "type": "psv",
+      "category": "sea",
+      "name": "Platform supply vessel (PSV)",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.cz/encyclopedia/term/offshore-support-vessels-%28osvs%29",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/psv.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Supply_vessel_%22Island_Chieftain%22_in_Sandnessj%C3%B8en.jpg",
+        "author": "JoachimKohler-HB",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Supply vessel \"Island Chieftain\" in Sandnessjøen.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Supplies and equipment for offshore installations.",
+        "Distinctive features": "Open cargo deck plus tanks for suitable liquids and dry bulk; deck area and cargo tank volumes describe capability."
+      }
+    },
+    {
+      "id": "type-ahts",
+      "type": "ahts",
+      "category": "sea",
+      "name": "Anchor handling tug supply vessel (AHTS)",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.cz/encyclopedia/term/offshore-support-vessels-%28osvs%29",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/ahts.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Normand_Master.jpg",
+        "author": "BoH",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Normand Master.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Handling offshore anchors, towing and supply duties.",
+        "Distinctive features": "Powerful winches and working deck; towing and anchor loads distinguish this type from an ordinary supply vessel."
+      }
+    },
+    {
+      "id": "type-wind-install",
+      "type": "wind-install",
+      "category": "sea",
+      "name": "Wind turbine installation vessel",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.cadeler.com/vessels/wind-maker",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/wind-install.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:TIV_Resolution_raised_(rotated).jpg",
+        "author": "Ian Simons",
+        "license": "CC BY-SA 2.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "TIV Resolution raised (rotated).jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Installing offshore wind turbine components.",
+        "Distinctive features": "Heavy lifting and component storage; jack-up versions use seabed-supported legs to raise the working platform."
+      }
+    },
+    {
+      "id": "type-drillship",
+      "type": "drillship",
+      "category": "sea",
+      "name": "Drillship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/drillship",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/drillship.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Deep_Value_Driller_docked_at_Nedrev%C3%A5ge.jpg",
+        "author": "Christoffer Hjeltnes Støle",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Deep Value Driller docked at Nedrevåge.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Offshore well drilling or scientific deep drilling.",
+        "Distinctive features": "Drilling derrick and drill handling systems; station keeping and drilling equipment are tailored to water depth and task."
+      }
+    },
+    {
+      "id": "type-fpso",
+      "type": "fpso",
+      "category": "sea",
+      "name": "FPSO unit",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.sbmoffshore.com/what-we-do/fpso-operations/",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/fpso.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:MystrasFPSO.jpg",
+        "author": "Ciacho5",
+        "license": "Public domain",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "MystrasFPSO.jpg",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Processing and storing offshore production before transfer to tankers.",
+        "Distinctive features": "Combines process equipment with storage tanks and offloading systems; usually stationed at a production field."
+      }
+    },
+    {
+      "id": "type-research",
+      "type": "research",
+      "category": "sea",
+      "name": "Research and survey vessel",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.damen.com/vessels/research-and-science-vessels/research-vessels?view=models",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/research.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:2019-03-10_01_ESPS_BIO_HESPIRIDES_A33_-_IMO_8803563.jpg",
+        "author": "Gordon Leggett",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "2019-03-10 01 ESPS BIO HESPIRIDES A33 - IMO 8803563.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Oceanography, hydrographic surveying and marine sampling.",
+        "Distinctive features": "Laboratories, sensors and sampling gear are configured for the mission; survey and research variants differ."
+      }
+    },
+    {
+      "id": "type-icebreaker",
+      "type": "icebreaker",
+      "category": "sea",
+      "name": "Icebreaker",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.wartsila.com/encyclopedia/term/icebreaker",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/icebreaker.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:120106-G-IA651-272_(6668116881).jpg",
+        "author": "U.S. Department of Defense Current Photos",
+        "license": "Public domain",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "120106-G-IA651-272 (6668116881).jpg",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Opening routes through ice and supporting polar operations.",
+        "Distinctive features": "Reinforced hull and ice-capable propulsion; capability depends on ice conditions and the vessel's design."
+      }
+    },
+    {
+      "id": "type-fishing",
+      "type": "fishing",
+      "category": "sea",
+      "name": "Fishing vessel",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.damen.com/vessels/fishing-vessels",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/fishing.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Krabbenkutter_Ivonne_Pellworm_P5242390jm.JPG",
+        "author": "The original uploader was Jom at German Wikipedia.",
+        "license": "CC BY-SA 2.0 de",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Krabbenkutter Ivonne Pellworm P5242390jm.JPG",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Catching fish and other marine resources.",
+        "Distinctive features": "Trawlers, longliners, purse seiners and pot vessels use different gear; catch storage and handling depend on the fishery."
+      }
+    },
+    {
+      "id": "type-factory",
+      "type": "factory",
+      "category": "sea",
+      "name": "Factory fishing ship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://apps-afsc.fisheries.noaa.gov/Publications/AFSC-TM/NOAA-TM-AFSC-205.pdf",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/factory.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Kiel_(Ship_1973)_-Deutsche_Fischfang_Union-_Cuxhaven_2008_by-RaBoe_01.jpg",
+        "author": "Ra Boe",
+        "license": "CC BY-SA 3.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Kiel (Ship 1973) -Deutsche Fischfang Union- Cuxhaven 2008 by-RaBoe 01.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Processing catch at sea, often with freezing and packaging.",
+        "Distinctive features": "Combines fish handling and processing machinery with cold storage; processing throughput differs from cargo storage capacity."
+      }
+    },
+    {
+      "id": "type-pilot",
+      "type": "pilot",
+      "category": "sea",
+      "name": "Pilot boat",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.dpworld.com/en/supply-chain-solutions/marine-services/maritime-solutions/our-fleet/pilot-boat",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/pilot.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Pilot_boat_in_Victoria,_British_Columbia.jpg",
+        "author": "Cullen328",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Pilot boat in Victoria, British Columbia.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Transferring marine pilots between shore and ships.",
+        "Distinctive features": "Manoeuvrable hull, protective fendering and transfer access; designed for boarding operations near moving ships."
+      }
+    },
+    {
+      "id": "type-rescue",
+      "type": "rescue",
+      "category": "sea",
+      "name": "Search and rescue vessel",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://rnli.org/what-we-do/lifeboats-and-stations/our-lifeboat-fleet/severn-class-lifeboat",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/rescue.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Lifeboat.17-31.underway.arp.jpg",
+        "author": "Adrian Pingstone (User:Arpingstone)",
+        "license": "Public domain",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Lifeboat.17-31.underway.arp.jpg",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Rescuing people and assisting vessels in distress.",
+        "Distinctive features": "Recovery equipment, survivor space and communications; offshore and coastal rescue designs serve different conditions."
+      }
+    },
+    {
+      "id": "type-fireboat",
+      "type": "fireboat",
+      "category": "sea",
+      "name": "Fireboat",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.damen.com/markets/harbour-terminal/navigating-safely-into-port",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/fireboat.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:LFB_fireboat.JPG",
+        "author": "Iridescenti",
+        "license": "CC BY-SA 3.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "LFB fireboat.JPG",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Firefighting on vessels, waterfronts and port facilities.",
+        "Distinctive features": "Water pumps and fire monitors deliver extinguishing streams; equipment and foam capability vary by vessel."
+      }
+    },
+    {
+      "id": "type-yacht",
+      "type": "yacht",
+      "category": "sea",
+      "name": "Motor yacht",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.damen.com/vessels",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/yacht.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Lady_Lau_super-yacht_IMO_1010674_Bonifacio.jpg",
+        "author": "Myrabella",
+        "license": "CC BY-SA 3.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Lady Lau super-yacht IMO 1010674 Bonifacio.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Private leisure voyages or charter services.",
+        "Distinctive features": "Motor propulsion, accommodation and leisure spaces; layout and passenger limits are specific to each yacht."
+      }
+    },
+    {
+      "id": "type-sailing",
+      "type": "sailing",
+      "category": "sea",
+      "name": "Sailing ship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.capitanmiranda.org.uy/el-buque",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/sailing.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:%27Capit%C3%A1n_Miranda,_Tall_Ships_Belfast_2009_-_geograph.org.uk_-_1447768.jpg",
+        "author": "Ross",
+        "license": "CC BY-SA 2.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "'Capitán Miranda, Tall Ships Belfast 2009 - geograph.org.uk - 1447768.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Sail-powered voyages, training or leisure.",
+        "Distinctive features": "Masts, sails and rigging provide wind propulsion; many ships also have auxiliary engines."
+      }
+    },
+    {
+      "id": "type-naval",
+      "type": "naval",
+      "category": "sea",
+      "name": "Naval surface ship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "https://www.damen.com/vessels/defence-and-security",
+      "variant": "",
+      "verified": false,
+      "photo": "/assets/knowledge/vessels/naval.webp",
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Italian_frigate_Federico_Martinengo_(F_596).jpg",
+        "author": "SebastianSaid28",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Italian frigate Federico Martinengo (F 596).jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [],
+      "guide": {
+        "Typical cargo / purpose": "Patrol, defence, support and other naval missions.",
+        "Distinctive features": "Includes patrol vessels, corvettes, frigates, destroyers and support ships; equipment varies by mission and class."
+      }
+    },
+    {
+      "id": "damen-cf3850",
+      "type": "general",
+      "category": "sea",
+      "name": "Combi Freighter 3850",
+      "brand": "Damen",
+      "country": "",
+      "specs": {
+        "Overall length": "89.75 m",
+        "Overall width": "12.50 m",
+        "Draught": "5.48 m",
+        "Deadweight": "3,800 t",
+        "Hold volume": "5,250 m³",
+        "Hold dimensions": "62.5 × 10.1 × 8.4 m"
+      },
+      "source": "https://www.damen.com/vessels/cargo/multi-purpose-cargo-vessels/combi-freighter-3850",
+      "variant": "Manufacturer current product page; vessel versions differ.",
+      "verified": true,
+      "photo": "/assets/knowledge/vessels/general.webp",
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [
+        "Overall height"
+      ],
+      "photo_credit": {
+        "source": "https://commons.wikimedia.org/wiki/File:Cargo_Ship_Puerto_Cortes.jpg",
+        "author": "Luis Alfredo Romero",
+        "license": "CC BY-SA 4.0",
+        "changes": "Resized and converted to WebP; no content changes.",
+        "title": "Cargo Ship Puerto Cortes.jpg",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      "photo_type_example": true
+    },
     {
       "id": "hl-20",
       "type": "dry",
@@ -758,102 +2500,6 @@
       "photo": "",
       "checked": "2026-10-22",
       "drawing": "cars",
-      "missing": []
-    },
-    {
-      "id": "type-bulk",
-      "type": "bulk",
-      "category": "sea",
-      "name": "Bulk carrier",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "sea",
-      "missing": []
-    },
-    {
-      "id": "type-container-ship",
-      "type": "container-ship",
-      "category": "sea",
-      "name": "Container ship",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "sea",
-      "missing": []
-    },
-    {
-      "id": "type-roro",
-      "type": "roro",
-      "category": "sea",
-      "name": "Ro-Ro vessel",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "sea",
-      "missing": []
-    },
-    {
-      "id": "type-tanker-ship",
-      "type": "tanker-ship",
-      "category": "sea",
-      "name": "Tanker vessel",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "sea",
-      "missing": []
-    },
-    {
-      "id": "type-heavy",
-      "type": "heavy",
-      "category": "sea",
-      "name": "Heavy-lift vessel",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "sea",
-      "missing": []
-    },
-    {
-      "id": "type-barge",
-      "type": "barge",
-      "category": "sea",
-      "name": "Barge & pontoon",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "sea",
       "missing": []
     },
     {
@@ -1541,31 +3187,6 @@
       ]
     },
     {
-      "id": "damen-cf3850",
-      "type": "general",
-      "category": "sea",
-      "name": "Combi Freighter 3850",
-      "brand": "Damen",
-      "country": "",
-      "specs": {
-        "Overall length": "89.75 m",
-        "Overall width": "12.50 m",
-        "Draught": "5.48 m",
-        "Deadweight": "3,800 t",
-        "Hold volume": "5,250 m³",
-        "Hold dimensions": "62.5 × 10.1 × 8.4 m"
-      },
-      "source": "https://www.damen.com/vessels/cargo/multi-purpose-cargo-vessels/combi-freighter-3850",
-      "variant": "Manufacturer current product page; vessel versions differ.",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "sea",
-      "missing": [
-        "Overall height"
-      ]
-    },
-    {
       "id": "kaess-fuel",
       "type": "fuel",
       "category": "road",
@@ -1764,5 +3385,43 @@
       "NEUERO",
       "Liebherr"
     ]
-  }
+  },
+  "seaGroups": [
+    {
+      "id": "dry",
+      "name": "Dry cargo & bulk"
+    },
+    {
+      "id": "special",
+      "name": "Special cargo & heavy transport"
+    },
+    {
+      "id": "vehicle",
+      "name": "Vehicle carriers"
+    },
+    {
+      "id": "liquid",
+      "name": "Tankers & gas carriers"
+    },
+    {
+      "id": "passenger",
+      "name": "Passenger ships"
+    },
+    {
+      "id": "port",
+      "name": "Port & inland services"
+    },
+    {
+      "id": "offshore",
+      "name": "Offshore energy & construction"
+    },
+    {
+      "id": "science",
+      "name": "Research, fishing & rescue"
+    },
+    {
+      "id": "other",
+      "name": "Leisure & naval vessels"
+    }
+  ]
 }
