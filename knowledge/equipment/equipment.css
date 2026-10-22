@@ -9,3 +9,4 @@
 @media(max-width:700px){.eq-family-chips{gap:6px}.eq-family-chips button{font-size:11px}.eq-guide dd{font-size:14px}.eq-thumb{width:90px;flex-basis:90px}.eq-image-dialog{padding:30px 12px 16px;max-width:96vw}.eq-image-dialog img{max-width:86vw}.eq-title-row h3{overflow-wrap:anywhere}}
 @media print{.eq-sea-intro{display:none!important}.eq-photo{max-height:280px;object-fit:contain}.eq-photo-open>span{display:none}.eq-guide>div{break-inside:avoid}.eq-figure figcaption{font-size:9px}.eq-credit a::after{content:' (' attr(href) ')';font-size:8px}.eq-figure details{display:block}.eq-figure details>p{display:block}}
 #eq-detail{scroll-margin-top:75px}
+.eq-count>span:last-child{direction:ltr;unicode-bidi:isolate}
