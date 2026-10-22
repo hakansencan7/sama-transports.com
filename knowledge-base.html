@@ -11,9 +11,7 @@
 <script defer src="assets/i18n/site-language.js?v=20261020-1"></script>
 <script defer src="/knowledge/atlas/atlas-i18n.js?v=20261022-airports"></script>
 <script defer src="/knowledge/atlas/airports-i18n.js?v=20261022-2"></script>
-<link rel="stylesheet" href="/knowledge/equipment/equipment.css?v=20261022-1">
 <script defer src="/knowledge/equipment/equipment-i18n.js?v=20261022-1"></script>
-<script defer src="/knowledge/equipment/equipment.js?v=20261022-1"></script>
 </head>
 <body>
   <header class="site-header">
@@ -36,7 +34,7 @@
         <div class="kb-kicker">SAMA / LOGISTICS KNOWLEDGE</div>
         <h1>KNOWLEDGE <span>BASE</span></h1>
         <p>A growing SAMA reference center for practical information on logistics, port operations, warehousing, transportation, project cargo and supply-chain operations.</p>
-        <nav class="kb-atlas-jumps" aria-label="Explore the logistics atlas">
+        <nav class="kb-atlas-jumps" aria-label="Explore the logistics atlas"><a href="#equipment"><span>Transport equipment library</span> ↓</a>
           <a href="#airports">Airports <span aria-hidden="true">↓</span></a>
           <a href="#ports">Ports <span aria-hidden="true">↓</span></a>
           <a href="#railways">Railways <span aria-hidden="true">↓</span></a>
@@ -68,7 +66,7 @@
         </div>
         <p class="kb-section-note">This section will be expanded with real operation photos, technical information, practical guidance and field experience from SAMA logistics operations.</p>
       </div>
-      <div class="kb-topic-grid"><a class="kb-topic kb-topic-link" href="#equipment-app"><span class="kb-topic-no">10 / EQUIPMENT</span><h3>Transport equipment library</h3><p>Select on the left. Inspect on the right.</p><span class="kb-topic-action"><span>Explore equipment</span> →</span></a>
+      <div class="kb-topic-grid"><a class="kb-topic kb-topic-link" href="/knowledge/equipment/index.html"><span class="kb-topic-no">10 / EQUIPMENT</span><h3>Transport equipment library</h3><p>Select on the left. Inspect on the right.</p><span class="kb-topic-action"><span>Explore equipment</span> →</span></a>
         <a class="kb-topic kb-topic-link" href="#ports"><span class="kb-topic-no">01 / PORT</span><span class="kb-topic-icon" aria-hidden="true">⚓</span><h3>PORT OPERATIONS</h3><p>Ship loading, unloading, berth operations, terminal handling and port coordination.</p><span class="kb-topic-action">VIEW PORT MAPS <span aria-hidden="true">→</span></span></a>
         <article class="kb-topic"><span class="kb-topic-no">02 / STORAGE</span><span class="kb-topic-icon">▣</span><h3>WAREHOUSING &amp; HANDLING</h3><p>Safe storage and handling solutions for bulk cargo, general cargo and project cargo.</p></article>
         <article class="kb-topic"><span class="kb-topic-no">03 / BULK</span><span class="kb-topic-icon">◫</span><h3>BULK CARGO</h3><p>Operational information for grain, fertilizer, sulfur, cement, clinker and other bulk commodities.</p></article>
@@ -198,7 +196,10 @@
       </div>
     </section>
 
-    <section class="kb-section eq-app" id="equipment-app" aria-label="Transport equipment library"><div class="eq-toolbar"><a href="/knowledge-base.html">Knowledge Base</a><span>/</span><span>Transport equipment library</span><a class="eq-full" href="/knowledge/equipment/index.html"><span>Open full library</span> ↗</a></div><div class="eq-heading"><div><p class="eq-kicker">SAMA · TECHNICAL LIBRARY</p><h2>Transport equipment library</h2><p>Select on the left. Inspect on the right.</p></div><div class="eq-heading-stat" id="eq-overview" translate="no"></div></div><div class="eq-layout"><aside class="eq-sidebar"><h3>Equipment categories</h3><nav id="eq-categories" aria-label="Equipment categories"></nav><div class="eq-filters"><label>Equipment type<select id="eq-type"></select></label><label id="eq-country-label">Country / market<select id="eq-country"></select></label><label>Brand<select id="eq-brand"></select></label><label>Search model or equipment<input id="eq-search" type="search" placeholder="Search model or equipment" autocomplete="off"></label><button type="button" id="eq-reset">Reset filters</button></div><p class="eq-coverage">Country and brand directories can be expanded. Counts refer only to the records currently listed.</p></aside><section class="eq-main" aria-label="Technical specifications"><div id="eq-count" class="eq-count" role="status" aria-live="polite"></div><div id="eq-detail"></div><h3 class="eq-list-title">Equipment records</h3><div id="eq-list" class="eq-grid"></div></section></div><dialog class="eq-image-dialog" id="eq-image-dialog"><button type="button" id="eq-image-close" aria-label="Close">×</button><img id="eq-image-large" alt="Manufacturer image"></dialog></section>
+    <section class="kb-section kb-atlas" id="equipment" aria-labelledby="equipment-title">
+      <div class="kb-section-head"><div><div class="kb-kicker">SAMA · TECHNICAL LIBRARY</div><h2 id="equipment-title">Transport equipment library</h2></div><p class="kb-section-note">Explore ships, containers, trailers, country-specific wagons, cranes, machinery and vehicles in a separate technical library.</p></div>
+      <article class="kb-map-card kb-global-map-card"><a class="kb-map-preview" href="/knowledge/equipment/index.html"><img src="/knowledge/equipment/library-preview.svg" width="1280" height="720" alt="Transport equipment library" loading="lazy"></a><div class="kb-map-copy"><span class="kb-map-number">Equipment categories</span><h3>Transport equipment library</h3><p>Select on the left. Inspect on the right.</p><div class="kb-country-mode-links"><a href="/knowledge/equipment/index.html?eq_category=sea"><span>Ships &amp; marine equipment</span> ↗</a><a href="/knowledge/equipment/index.html?eq_category=road"><span>Road transport equipment</span> ↗</a><a href="/knowledge/equipment/index.html?eq_category=rail"><span>Railway wagons</span> ↗</a><a href="/knowledge/equipment/index.html?eq_category=machinery"><span>Construction machinery</span> ↗</a></div><a class="kb-map-open" href="/knowledge/equipment/index.html"><span>Open full library</span> <span aria-hidden="true">↗</span></a></div></article>
+    </section>
 
     <section class="kb-cta">
       <div>
