@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="contact.css">
 <link rel="stylesheet" href="assets/i18n/site-language.css?v=20261020-1">
 <script defer src="assets/i18n/site-language.js?v=20261020-1"></script>
-<script defer src="/knowledge/atlas/atlas-i18n.js?v=20261021-2"></script>
+<script defer src="/knowledge/atlas/atlas-i18n.js?v=20261022-airports"></script>
+<script defer src="/knowledge/atlas/airports-i18n.js?v=20261022-1"></script>
 </head>
 <body>
   <header class="site-header">
@@ -33,6 +34,7 @@
         <h1>KNOWLEDGE <span>BASE</span></h1>
         <p>A growing SAMA reference center for practical information on logistics, port operations, warehousing, transportation, project cargo and supply-chain operations.</p>
         <nav class="kb-atlas-jumps" aria-label="Explore the logistics atlas">
+          <a href="#airports">Airports <span aria-hidden="true">↓</span></a>
           <a href="#ports">Ports <span aria-hidden="true">↓</span></a>
           <a href="#railways">Railways <span aria-hidden="true">↓</span></a>
           <a href="#roads">Road transportation &amp; border crossings <span aria-hidden="true">↓</span></a>
@@ -52,7 +54,7 @@
     <section class="kb-section kb-country-atlas" id="country-atlas" aria-labelledby="country-atlas-title">
       <div class="kb-section-head"><div><div class="kb-kicker">New: Europe &amp; Asia atlas</div><h2 id="country-atlas-title">Country-by-country logistics maps</h2></div><p class="kb-section-note">Türkiye, Europe, Central Asia, Iran and beyond</p></div>
       <a class="kb-country-directory" href="/knowledge/atlas/index.html"><div><strong>Choose a country. Explore its transport connections.</strong><p>Search rail stations, inspect published port specifications, and locate international road crossings in separate, source-linked maps.</p></div><span>Browse countries <span aria-hidden="true">↗</span></span></a>
-      <div class="kb-country-mode-links"><a href="/knowledge/atlas/railways.html?country=TR">Railways &amp; Stations <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/ports.html?country=TR">Ports &amp; Terminals <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/roads.html?country=TR">Roads &amp; Border Crossings <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/borders.html?country=TR">Border Crossings <span aria-hidden="true">↗</span></a></div>
+      <div class="kb-country-mode-links"><a href="/knowledge/atlas/railways.html?country=TR">Railways &amp; Stations <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/ports.html?country=TR">Ports &amp; Terminals <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/roads.html?country=TR">Roads &amp; Border Crossings <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/borders.html?country=TR">Border Crossings <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/airports.html">World Airports <span aria-hidden="true">↗</span></a></div>
     </section>
 
     <section class="kb-section kb-topics" aria-labelledby="topics-title">
@@ -74,6 +76,7 @@
         <article class="kb-topic"><span class="kb-topic-no">08 / MARINE</span><span class="kb-topic-icon">◇</span><h3>SEA FREIGHT &amp; VESSEL OPERATIONS</h3><p>Ship agency, chartering, maritime logistics and vessel-related port operations.</p></article>
         <a class="kb-topic kb-topic-link" href="#railways"><span class="kb-topic-no">09 / RAIL</span><span class="kb-topic-icon" aria-hidden="true">▤</span><h3>RAILWAYS &amp; STATIONS</h3><p>Rail corridors, station locations and connections for inland cargo planning.</p><span class="kb-topic-action">VIEW RAILWAY MAP <span aria-hidden="true">→</span></span></a>
       </div>
+      <a class="kb-topic kb-topic-link" href="#airports"><span class="kb-topic-no">10 / AIRPORTS</span><span class="kb-topic-icon" aria-hidden="true">✈</span><h3>WORLD AIRPORTS</h3><p>Airport locations, IATA and ICAO codes, scheduled service and published runway details.</p><span class="kb-topic-action">VIEW AIRPORT MAP <span aria-hidden="true">→</span></span></a>
     </section>
 
     <section class="kb-section kb-atlas" id="ports" aria-labelledby="ports-title" aria-describedby="atlas-reference-note">
@@ -164,6 +167,11 @@
       </article>
     </section>
 
+
+    <section class="kb-section kb-atlas" id="airports" aria-labelledby="airports-title">
+      <div class="kb-section-head"><div><div class="kb-kicker">Worldwide coverage</div><h2 id="airports-title">World Airports</h2></div><p class="kb-section-note">Find airports worldwide by country, city, name, IATA or ICAO code.</p></div>
+      <article class="kb-map-card kb-global-map-card"><a class="kb-map-preview" href="/knowledge/atlas/airports.html"><img src="/assets/knowledge/world-airports.svg" width="1280" height="760" alt="World Airports" loading="lazy" decoding="async"></a><div class="kb-map-copy"><span class="kb-map-number">Worldwide coverage</span><h3>Explore airports by country</h3><p>Airport locations, IATA and ICAO codes, scheduled service and published runway details.</p><div class="kb-country-mode-links"><a href="/knowledge/atlas/airports.html?country=TR">Türkiye <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/airports.html?country=IQ">Iraq <span aria-hidden="true">↗</span></a><a href="/knowledge/atlas/airports.html?region=europe">Europe <span aria-hidden="true">↗</span></a></div><a class="kb-map-open" href="/knowledge/atlas/airports.html">All countries <span aria-hidden="true">↗</span></a></div></article>
+    </section>
 
     <section class="kb-section kb-atlas" id="roads" aria-labelledby="roads-title">
       <div class="kb-section-head"><div><div class="kb-kicker">Europe · Asia · Middle East</div><h2 id="roads-title">Road transportation &amp; border crossings</h2></div><p class="kb-section-note">Choose a country to see its road network and mapped border crossings, then select entry and exit points.</p></div>

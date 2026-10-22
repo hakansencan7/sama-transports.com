@@ -1,0 +1,23 @@
+{
+  "source": "OurAirports",
+  "url": "https://ourairports.com/data/",
+  "license": "Public Domain",
+  "retrieved": "2026-10-22",
+  "records": 86258,
+  "countries": 247,
+  "unlocated": 0,
+  "source_files": {
+    "airports": {
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/main/airports.csv",
+      "sha256": "0499dbd88de2fc735ac5c09f59796ccc3af544e17ffda807f793c0c6fe6c3d75"
+    },
+    "countries": {
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/main/countries.csv",
+      "sha256": "2a9dbee691125b0cdb8ceb5fe227c48c903f99c488963b8e53e2ab366521c639"
+    },
+    "runways": {
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/main/runways.csv",
+      "sha256": "eff294dc5c055e7bb48ef43cb3b564399f2741bbfbba0c18c085aea7b9ab988b"
+    }
+  }
+}

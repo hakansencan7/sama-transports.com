@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explore airports worldwide with country, city, IATA and ICAO search, runway details and interactive maps.">
+<title>World Airports | SAMA Transportations</title>
+<link rel="stylesheet" href="/assets/i18n/site-language.css?v=20261020-1">
+<link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="atlas.css?v=20261022-1"><link rel="stylesheet" href="airports.css?v=20261022-1">
+<script defer src="/assets/i18n/site-language.js?v=20261020-1"></script>
+<script defer src="atlas-i18n.js?v=20261022-airports"></script><script defer src="airports-i18n.js?v=20261022-1"></script>
+<script defer src="vendor/leaflet.js"></script><script defer src="airports-core.js?v=20261022-1"></script><script defer src="airports.js?v=20261022-1"></script>
+</head><body class="sama-global-atlas">
+<header class="atlas-header"><a class="atlas-brand" href="/index.html" translate="no">S<span>A</span>MA<small>TRANSPORTATIONS</small></a><nav class="atlas-top-nav" aria-label="Atlas navigation"><a href="/knowledge-base.html">Knowledge Base</a><a href="index.html">Country directory</a><button type="button" id="sources-button" class="text-button">Sources &amp; coverage</button></nav></header>
+<main id="airports-app" aria-busy="true" translate="no">
+<section class="hero"><div class="eyebrow" data-t="WORLDWIDE AIR TRANSPORT">WORLDWIDE AIR TRANSPORT</div><div class="hero-row"><div><h1 data-t="World Airports">World Airports</h1><p data-t="Find airports worldwide by country, city, name, IATA or ICAO code.">Find airports worldwide by country, city, name, IATA or ICAO code.</p></div><span class="hero-badge">✈ <span data-t="Global airport directory">Global airport directory</span></span></div>
+<nav class="mode-nav" aria-label="Choose your map"><a class="mode-link" href="index.html" data-t="Country directory">Country directory</a><a class="mode-link" href="railways.html?country=TR" data-t="Railways & Stations">Railways &amp; Stations</a><a class="mode-link" href="ports.html?country=TR" data-t="Ports & Terminals">Ports &amp; Terminals</a><a class="mode-link" href="roads.html?country=TR" data-t="Roads & Border Crossings">Roads &amp; Border Crossings</a><a class="mode-link active" href="airports.html" aria-current="page" data-t="World Airports">World Airports</a></nav></section>
+<div class="content-wrap">
+<div id="airport-message" role="status" aria-live="polite" data-t="Loading airports…">Loading airports…</div>
+<div class="stat-row" id="airport-stats"></div>
+<form class="airport-filters" id="airport-filters" role="search">
+<label class="control"><span data-t="Region">Region</span><select id="airport-region" aria-label="Region"><option value="" data-t="Worldwide coverage">Worldwide coverage</option><option value="europe" data-t="Europe">Europe</option><option value="asia" data-t="Asia">Asia</option><option value="africa" data-t="Africa">Africa</option><option value="north-america" data-t="North America">North America</option><option value="south-america" data-t="South America">South America</option><option value="oceania" data-t="Oceania">Oceania</option><option value="antarctica" data-t="Antarctica">Antarctica</option><option value="middle-east" data-t="Middle East">Middle East</option><option value="central-asia-iran" data-t="Central Asia & Iran">Central Asia &amp; Iran</option></select></label>
+<label class="control"><span data-t="Country">Country</span><select id="airport-country" aria-label="Country"><option value="" data-t="All countries">All countries</option></select></label>
+<label class="control airport-search"><span data-t="Search airports">Search airports</span><input type="search" id="airport-search" placeholder="Name, city, IATA or ICAO" aria-label="Search airports" autocomplete="off"></label>
+<label class="control"><span data-t="Airport type">Airport type</span><select id="airport-type" aria-label="Airport type"><option value="airports" data-t="Airports and airfields">Airports and airfields</option><option value="all" data-t="All facility types">All facility types</option><option value="large_airport" data-t="Large airport">Large airport</option><option value="medium_airport" data-t="Medium airport">Medium airport</option><option value="small_airport" data-t="Small airport / airfield">Small airport / airfield</option><option value="heliport" data-t="Heliport">Heliport</option><option value="seaplane_base" data-t="Seaplane base">Seaplane base</option><option value="balloonport" data-t="Balloonport">Balloonport</option></select></label>
+<label class="airport-check"><input type="checkbox" id="airport-scheduled"><span data-t="Scheduled airline service only">Scheduled airline service only</span></label>
+<label class="airport-check"><input type="checkbox" id="airport-closed"><span data-t="Include closed airports">Include closed airports</span></label>
+<button type="button" class="airport-button" id="airport-reset" data-t="Reset filters">Reset filters</button>
+</form>
+<div class="airport-workspace"><section class="airport-map-panel" aria-label="Airport map"><div class="airport-panel-head"><h2 data-t="Airport map">Airport map</h2><button type="button" class="text-button" id="airport-fit" data-t="Fit results on map">Fit results on map</button></div><div id="airport-map"></div><p class="airport-map-hint" data-t="Select a numbered group to zoom in, or select an airport for details.">Select a numbered group to zoom in, or select an airport for details.</p><div id="airport-detail" aria-live="polite"></div></section>
+<section class="airport-results" aria-label="Airport results"><div class="airport-panel-head"><h2 data-t="Airport results">Airport results</h2><span id="airport-result-count"></span></div><div id="airport-list"></div><div class="airport-pagination"><button type="button" id="airport-previous" class="airport-button" data-t="Previous">Previous</button><span id="airport-page"></span><button type="button" id="airport-next" class="airport-button" data-t="Next">Next</button></div></section></div>
+<p class="airport-source" id="airport-source"></p>
+</div></main>
+<dialog id="sources-dialog" class="sources-dialog"><div class="dialog-heading"><h2>Sources &amp; coverage</h2><button type="button" class="icon-button" id="close-sources" aria-label="Close">×</button></div><div id="sources-body"></div></dialog>
+<footer class="atlas-footer"><span translate="no">© SAMA TRANSPORTATIONS</span><a href="/knowledge-base.html">Knowledge Base</a><a href="/contact.html">Contact</a></footer></body></html>
