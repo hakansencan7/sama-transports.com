@@ -10,3 +10,12 @@
 @media print{.eq-sea-intro{display:none!important}.eq-photo{max-height:280px;object-fit:contain}.eq-photo-open>span{display:none}.eq-guide>div{break-inside:avoid}.eq-figure figcaption{font-size:9px}.eq-credit a::after{content:' (' attr(href) ')';font-size:8px}.eq-figure details{display:block}.eq-figure details>p{display:block}}
 #eq-detail{scroll-margin-top:75px}
 .eq-count>span:last-child{direction:ltr;unicode-bidi:isolate}
+
+/* Container sheets pair source-specific dimensions with clearly separated type guidance. */
+.eq-container-card .eq-figure>h4{margin:24px 0 14px;font-size:13px;color:#7ad7e9}
+.eq-container-card .eq-guide dd{font-size:13px;line-height:1.75}
+.eq-units{font-size:11px;color:#9dbcc9;line-height:1.7;margin:0 0 15px}
+.eq-container-card .eq-specs>div{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);padding:11px 0;gap:10px}
+.eq-container-card .eq-specs dd{font-variant-numeric:tabular-nums;font-size:13px;line-height:1.6}
+.eq-data-note{font-size:11px;line-height:1.7;color:#c6d9df;border-inline-start:2px solid #d9a45f;padding:10px 12px;background:#20323a;margin:18px 0 0}
+@media(max-width:700px){.eq-container-card .eq-specs>div{font-size:11px}.eq-container-card .eq-specs dd{font-size:12px}}

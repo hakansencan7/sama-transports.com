@@ -395,42 +395,6 @@
       "group": "other"
     },
     {
-      "id": "dry",
-      "category": "containers",
-      "name": "Dry containers",
-      "drawing": "containers"
-    },
-    {
-      "id": "hc",
-      "category": "containers",
-      "name": "High Cube containers",
-      "drawing": "containers"
-    },
-    {
-      "id": "reefer",
-      "category": "containers",
-      "name": "Reefer containers",
-      "drawing": "containers"
-    },
-    {
-      "id": "opentop",
-      "category": "containers",
-      "name": "Open Top containers",
-      "drawing": "containers"
-    },
-    {
-      "id": "flat",
-      "category": "containers",
-      "name": "Flat Rack & platform",
-      "drawing": "containers"
-    },
-    {
-      "id": "tank",
-      "category": "containers",
-      "name": "Tank containers",
-      "drawing": "containers"
-    },
-    {
       "id": "curtain",
       "category": "road",
       "name": "Curtainsiders & box trailers",
@@ -663,6 +627,237 @@
       "category": "cars",
       "name": "Pickups & vans",
       "drawing": "cars"
+    },
+    {
+      "id": "dry",
+      "category": "containers",
+      "name": "Dry containers",
+      "drawing": "containers",
+      "group": "dry"
+    },
+    {
+      "id": "hc",
+      "category": "containers",
+      "name": "High Cube containers",
+      "drawing": "containers",
+      "group": "dry"
+    },
+    {
+      "id": "palletwide",
+      "category": "containers",
+      "name": "Pallet-wide containers",
+      "drawing": "containers",
+      "group": "dry"
+    },
+    {
+      "id": "ventilated",
+      "category": "containers",
+      "name": "Ventilated containers",
+      "drawing": "containers",
+      "group": "dry"
+    },
+    {
+      "id": "reefer",
+      "category": "containers",
+      "name": "Reefer containers",
+      "drawing": "containers",
+      "group": "thermal"
+    },
+    {
+      "id": "controlled-atmosphere",
+      "category": "containers",
+      "name": "Controlled-atmosphere reefer",
+      "drawing": "containers",
+      "group": "thermal"
+    },
+    {
+      "id": "superfreezer",
+      "category": "containers",
+      "name": "Ultra-low-temperature containers",
+      "drawing": "containers",
+      "group": "thermal"
+    },
+    {
+      "id": "insulated",
+      "category": "containers",
+      "name": "Insulated / non-operating reefer",
+      "drawing": "containers",
+      "group": "thermal"
+    },
+    {
+      "id": "opentop",
+      "category": "containers",
+      "name": "Open Top containers",
+      "drawing": "containers",
+      "group": "access"
+    },
+    {
+      "id": "hardtop",
+      "category": "containers",
+      "name": "Hardtop containers",
+      "drawing": "containers",
+      "group": "access"
+    },
+    {
+      "id": "side-opening",
+      "category": "containers",
+      "name": "Side-opening containers",
+      "drawing": "containers",
+      "group": "access"
+    },
+    {
+      "id": "double-door",
+      "category": "containers",
+      "name": "Double-end-door / tunnel containers",
+      "drawing": "containers",
+      "group": "access"
+    },
+    {
+      "id": "curtainside",
+      "category": "containers",
+      "name": "Curtain-side containers",
+      "drawing": "containers",
+      "group": "access"
+    },
+    {
+      "id": "flat",
+      "category": "containers",
+      "name": "Flat Rack & platform",
+      "drawing": "containers",
+      "group": "heavy"
+    },
+    {
+      "id": "platform",
+      "category": "containers",
+      "name": "Platform containers",
+      "drawing": "containers",
+      "group": "heavy"
+    },
+    {
+      "id": "superrack",
+      "category": "containers",
+      "name": "Height-adjustable Super Rack",
+      "drawing": "containers",
+      "group": "heavy"
+    },
+    {
+      "id": "dry-bulk",
+      "category": "containers",
+      "name": "Dry bulk containers",
+      "drawing": "containers",
+      "group": "bulk"
+    },
+    {
+      "id": "half-height",
+      "category": "containers",
+      "name": "Half-height containers",
+      "drawing": "containers",
+      "group": "bulk"
+    },
+    {
+      "id": "bulk-liner",
+      "category": "containers",
+      "name": "Dry bulk liner system",
+      "drawing": "containers",
+      "group": "bulk"
+    },
+    {
+      "id": "tank",
+      "category": "containers",
+      "name": "Tank containers",
+      "drawing": "containers",
+      "group": "liquids"
+    },
+    {
+      "id": "hazardous-tank",
+      "category": "containers",
+      "name": "T22 specialised liquid tanks",
+      "drawing": "containers",
+      "group": "liquids"
+    },
+    {
+      "id": "gas-tank",
+      "category": "containers",
+      "name": "T50 pressurised gas tanks",
+      "drawing": "containers",
+      "group": "liquids"
+    },
+    {
+      "id": "cryogenic-tank",
+      "category": "containers",
+      "name": "T75 cryogenic tanks",
+      "drawing": "containers",
+      "group": "liquids"
+    },
+    {
+      "id": "swap-tank",
+      "category": "containers",
+      "name": "Swap-body tanks",
+      "drawing": "containers",
+      "group": "liquids"
+    },
+    {
+      "id": "flexitank",
+      "category": "containers",
+      "name": "Flexitank liner system",
+      "drawing": "containers",
+      "group": "liquids"
+    },
+    {
+      "id": "offshore-container",
+      "category": "containers",
+      "name": "Offshore cargo containers",
+      "drawing": "containers",
+      "group": "regional"
+    },
+    {
+      "id": "swap-body",
+      "category": "containers",
+      "name": "Swap bodies",
+      "drawing": "containers",
+      "group": "regional"
+    },
+    {
+      "id": "domestic-container",
+      "category": "containers",
+      "name": "North American domestic containers",
+      "drawing": "containers",
+      "group": "regional"
+    },
+    {
+      "id": "japan-rail-container",
+      "category": "containers",
+      "name": "Japanese rail containers",
+      "drawing": "containers",
+      "group": "regional"
+    },
+    {
+      "id": "garmentainer",
+      "category": "containers",
+      "name": "Garment-on-hanger containers",
+      "drawing": "containers",
+      "group": "dry"
+    },
+    {
+      "id": "storage-container",
+      "category": "containers",
+      "name": "Compact storage containers",
+      "drawing": "containers",
+      "group": "regional"
+    },
+    {
+      "id": "air-uld",
+      "category": "containers",
+      "name": "Air cargo containers (ULD)",
+      "drawing": "containers",
+      "group": "air"
+    },
+    {
+      "id": "air-reefer",
+      "category": "containers",
+      "name": "Temperature-controlled air containers",
+      "drawing": "containers",
+      "group": "air"
     }
   ],
   "records": [
@@ -2101,53 +2296,6 @@
       "photo_type_example": true
     },
     {
-      "id": "hl-20",
-      "type": "dry",
-      "category": "containers",
-      "name": "20′ Standard",
-      "brand": "Hapag-Lloyd",
-      "country": "",
-      "specs": {
-        "Internal length": "5,900 mm",
-        "Internal width": "2,352 mm",
-        "Internal height": "2,395 mm",
-        "Door opening": "2,340 × 2,292 mm",
-        "Volume": "33.2 m³",
-        "Maximum gross weight": "32,500 kg",
-        "Tare weight": "2,370 kg",
-        "Payload": "30,130 kg"
-      },
-      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/20-standard.html",
-      "variant": "Carrier fleet example; confirm the allocated unit.",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "containers",
-      "missing": []
-    },
-    {
-      "id": "hl-40hc",
-      "type": "hc",
-      "category": "containers",
-      "name": "40′ High Cube",
-      "brand": "Hapag-Lloyd",
-      "country": "",
-      "specs": {
-        "Internal length": "12,032 mm",
-        "Internal width": "2,350 mm",
-        "Internal height": "2,700 mm",
-        "Door opening": "2,340 × 2,597 mm",
-        "Volume": "76.3 m³"
-      },
-      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/40-standard-high-cube.html",
-      "variant": "Carrier fleet example; confirm the allocated unit.",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "containers",
-      "missing": []
-    },
-    {
       "id": "tr-rgns",
       "type": "rail-flat",
       "category": "rail",
@@ -2500,70 +2648,6 @@
       "photo": "",
       "checked": "2026-10-22",
       "drawing": "cars",
-      "missing": []
-    },
-    {
-      "id": "type-reefer",
-      "type": "reefer",
-      "category": "containers",
-      "name": "Reefer containers",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "containers",
-      "missing": []
-    },
-    {
-      "id": "type-opentop",
-      "type": "opentop",
-      "category": "containers",
-      "name": "Open Top containers",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "containers",
-      "missing": []
-    },
-    {
-      "id": "type-flat",
-      "type": "flat",
-      "category": "containers",
-      "name": "Flat Rack & platform",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "containers",
-      "missing": []
-    },
-    {
-      "id": "type-tank",
-      "type": "tank",
-      "category": "containers",
-      "name": "Tank containers",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "containers",
       "missing": []
     },
     {
@@ -3280,6 +3364,1983 @@
       "checked": "2026-10-22",
       "drawing": "cars",
       "missing": []
+    },
+    {
+      "id": "hl-20",
+      "type": "dry",
+      "category": "containers",
+      "name": "20′ Standard dry",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,591 mm",
+        "Internal dimensions (L × W × H)": "5,900 × 2,352 × 2,395 mm",
+        "Door opening (W × H)": "2,340 × 2,292 mm",
+        "Volume": "33.2 m³",
+        "Maximum gross weight": "30,480 kg",
+        "Tare weight": "2,350 kg",
+        "Payload": "28,130 kg",
+        "ISO size/type code": "22G1"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/20-standard.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/dry.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:20 tons dry container leased from Beacon.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:20_tons_dry_container_leased_from_Beacon.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Packaged goods, cartons, pallets and machinery that do not need refrigeration.",
+        "Construction & loading": "Enclosed steel body with end doors and cargo securing points. The 20 ft and 40 ft versions differ in volume and payload."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html"
+    },
+    {
+      "id": "hl-40",
+      "type": "dry",
+      "category": "containers",
+      "name": "40′ Standard dry",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "12,192 × 2,438 × 2,591 mm",
+        "Internal dimensions (L × W × H)": "12,032 × 2,352 × 2,395 mm",
+        "Door opening (W × H)": "2,340 × 2,292 mm",
+        "Volume": "67.7 m³",
+        "Maximum gross weight": "32,500 kg",
+        "Tare weight": "3,750 kg",
+        "Payload": "28,750 kg",
+        "ISO size/type code": "42G1"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/40-standard.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/dry40.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:MSC 42G1 MSCU 569568 0.jpg",
+        "author": "Col André Kritzinger",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:MSC_42G1_MSCU_569568_0.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Packaged goods, cartons, pallets and machinery that do not need refrigeration.",
+        "Construction & loading": "Enclosed steel body with end doors and cargo securing points. The 20 ft and 40 ft versions differ in volume and payload."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html"
+    },
+    {
+      "id": "hl-40hc",
+      "type": "hc",
+      "category": "containers",
+      "name": "40′ High Cube dry",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "12,192 × 2,438 × 2,896 mm",
+        "Internal dimensions (L × W × H)": "12,032 × 2,350 × 2,700 mm",
+        "Door opening (W × H)": "2,340 × 2,597 mm",
+        "Volume": "76.3 m³",
+        "Maximum gross weight": "32,500 kg",
+        "Tare weight": "3,900 kg",
+        "Payload": "28,600 kg",
+        "ISO size/type code": "45G1"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/40-standard-high-cube.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/hc.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Container 【 45G1 】 MSCU 951715(6)---No,2 【 Pictures taken in Japan 】.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Container_%E3%80%90_45G1_%E3%80%91_MSCU_951715(6)---No,2_%E3%80%90_Pictures_taken_in_Japan_%E3%80%91.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Bulky, relatively light goods, furniture and high pallet loads.",
+        "Construction & loading": "Taller closed body provides more internal volume. Greater volume does not automatically mean a higher permitted cargo weight."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html"
+    },
+    {
+      "id": "hl-45hc",
+      "type": "hc",
+      "category": "containers",
+      "name": "45′ High Cube dry",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "13,716 × 2,438 × 2,896 mm",
+        "Internal dimensions (L × W × H)": "13,556 × 2,352 × 2,700 mm",
+        "Door opening (W × H)": "2,340 × 2,597 mm",
+        "Volume": "86 m³",
+        "Maximum gross weight": "32,500 kg",
+        "Tare weight": "4,800 kg",
+        "Payload": "27,700 kg",
+        "ISO size/type code": "L5G1"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/45-standard-high-cube.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/hc.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Container 【 45G1 】 MSCU 951715(6)---No,2 【 Pictures taken in Japan 】.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Container_%E3%80%90_45G1_%E3%80%91_MSCU_951715(6)---No,2_%E3%80%90_Pictures_taken_in_Japan_%E3%80%91.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Bulky, relatively light goods, furniture and high pallet loads.",
+        "Construction & loading": "Taller closed body provides more internal volume. Greater volume does not automatically mean a higher permitted cargo weight."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html"
+    },
+    {
+      "id": "type-opentop",
+      "type": "opentop",
+      "category": "containers",
+      "name": "20′ Open Top",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,591 mm",
+        "Internal dimensions (L × W × H)": "5,895 × 2,350 × 2,340 mm",
+        "Door opening (W × H)": "2,338 × 2,280 mm",
+        "Volume": "32.5 m³",
+        "Maximum gross weight": "32,500 kg",
+        "Tare weight": "2,450 kg",
+        "Payload": "30,050 kg",
+        "ISO size/type code": "22U1",
+        "Roof opening (L × W)": "5,338 × 2,230 mm"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/20-open-top.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/opentop.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:TAL 22U1 TRLU 904036 2.jpg",
+        "author": "Col André Kritzinger",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:TAL_22U1_TRLU_904036_2.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Cargo loaded by crane from above, including machinery and tall goods.",
+        "Construction & loading": "Removable tarpaulin and roof bows provide top access. The roof opening is smaller than the external footprint; overheight cargo needs separate acceptance."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html",
+      "data_note": "Published nominal volume may include space outside the usable load line; it is not recalculated from the displayed dimensions."
+    },
+    {
+      "id": "hl-20othc",
+      "type": "opentop",
+      "category": "containers",
+      "name": "20′ High Cube Open Top",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,896 mm",
+        "Internal dimensions (L × W × H)": "5,892 × 2,347 × 2,648 mm",
+        "Door opening (W × H)": "2,335 × 2,580 mm",
+        "Volume": "36.8 m³",
+        "Maximum gross weight": "30,480 kg",
+        "Tare weight": "2,510 kg",
+        "Payload": "27,970 kg",
+        "ISO size/type code": "25U1",
+        "Roof opening (L × W)": "5,391 × 2,227 mm"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/20--open-top-high-cube.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/opentop.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:TAL 22U1 TRLU 904036 2.jpg",
+        "author": "Col André Kritzinger",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:TAL_22U1_TRLU_904036_2.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Cargo loaded by crane from above, including machinery and tall goods.",
+        "Construction & loading": "Removable tarpaulin and roof bows provide top access. The roof opening is smaller than the external footprint; overheight cargo needs separate acceptance."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html",
+      "data_note": "Published nominal volume may include space outside the usable load line; it is not recalculated from the displayed dimensions."
+    },
+    {
+      "id": "hl-40ot",
+      "type": "opentop",
+      "category": "containers",
+      "name": "40′ Open Top",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "12,192 × 2,438 × 2,591 mm",
+        "Internal dimensions (L × W × H)": "12,029 × 2,350 × 2,344 mm",
+        "Door opening (W × H)": "2,340 × 2,276 mm",
+        "Volume": "66.8 m³",
+        "Maximum gross weight": "32,500 kg",
+        "Tare weight": "4,050 kg",
+        "Payload": "28,450 kg",
+        "ISO size/type code": "42U1",
+        "Roof opening (L × W)": "11,552 × 2,230 mm"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/40-open-top.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/opentop.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:TAL 22U1 TRLU 904036 2.jpg",
+        "author": "Col André Kritzinger",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:TAL_22U1_TRLU_904036_2.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Cargo loaded by crane from above, including machinery and tall goods.",
+        "Construction & loading": "Removable tarpaulin and roof bows provide top access. The roof opening is smaller than the external footprint; overheight cargo needs separate acceptance."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html",
+      "data_note": "Published nominal volume may include space outside the usable load line; it is not recalculated from the displayed dimensions."
+    },
+    {
+      "id": "hl-40othc",
+      "type": "opentop",
+      "category": "containers",
+      "name": "40′ High Cube Open Top",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "12,192 × 2,438 × 2,896 mm",
+        "Internal dimensions (L × W × H)": "12,029 × 2,352 × 2,649 mm",
+        "Door opening (W × H)": "2,352 × 2,570 mm",
+        "Volume": "74.9 m³",
+        "Maximum gross weight": "32,500 kg",
+        "Tare weight": "4,250 kg",
+        "Payload": "28,250 kg",
+        "ISO size/type code": "45U1",
+        "Roof opening (L × W)": "11,552 × 2,192 mm"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/40-open-top-high-cube.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/opentop.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:TAL 22U1 TRLU 904036 2.jpg",
+        "author": "Col André Kritzinger",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:TAL_22U1_TRLU_904036_2.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Cargo loaded by crane from above, including machinery and tall goods.",
+        "Construction & loading": "Removable tarpaulin and roof bows provide top access. The roof opening is smaller than the external footprint; overheight cargo needs separate acceptance."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html",
+      "data_note": "Published nominal volume may include space outside the usable load line; it is not recalculated from the displayed dimensions."
+    },
+    {
+      "id": "hl-20-hardtop",
+      "type": "hardtop",
+      "category": "containers",
+      "name": "20′ Hardtop",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,591 mm",
+        "Internal dimensions (L × W × H)": "5,886 × 2,342 × 2,313 mm",
+        "Door opening (W × H)": "2,336 × 2,276 mm",
+        "Volume": "33 m³",
+        "Maximum gross weight": "30,480 kg",
+        "Tare weight": "2,700 kg",
+        "Payload": "27,780 kg",
+        "ISO size/type code": "22U6",
+        "Roof opening (L × W)": "5,590 × 2,208 mm"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/20-hardtop.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/hardtop.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Container 【 22U6 】 DKKU 000153(7)---No,5 【 Pictures taken in Japan 】.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Container_%E3%80%90_22U6_%E3%80%91_DKKU_000153(7)---No,5_%E3%80%90_Pictures_taken_in_Japan_%E3%80%91.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Crane-loaded heavy machinery and cargo requiring a rigid roof.",
+        "Construction & loading": "Removable steel roof and, depending on model, a movable door header. Roof removal and storage affect clearance and handling."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html",
+      "data_note": "Published nominal volume may include space outside the usable load line; it is not recalculated from the displayed dimensions."
+    },
+    {
+      "id": "hl-40-hardtop",
+      "type": "hardtop",
+      "category": "containers",
+      "name": "40′ Hardtop",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "12,192 × 2,438 × 2,591 mm",
+        "Internal dimensions (L × W × H)": "12,020 × 2,342 × 2,313 mm",
+        "Door opening (W × H)": "2,336 × 2,276 mm",
+        "Volume": "67.2 m³",
+        "Maximum gross weight": "30,480 kg",
+        "Tare weight": "4,700 kg",
+        "Payload": "25,780 kg",
+        "ISO size/type code": "42U6",
+        "Roof opening (L × W)": "11,724 × 2,208 mm"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/40-hardtop.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/hardtop.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Container 【 22U6 】 DKKU 000153(7)---No,5 【 Pictures taken in Japan 】.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Container_%E3%80%90_22U6_%E3%80%91_DKKU_000153(7)---No,5_%E3%80%90_Pictures_taken_in_Japan_%E3%80%91.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Crane-loaded heavy machinery and cargo requiring a rigid roof.",
+        "Construction & loading": "Removable steel roof and, depending on model, a movable door header. Roof removal and storage affect clearance and handling."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html",
+      "data_note": "Published nominal volume may include space outside the usable load line; it is not recalculated from the displayed dimensions."
+    },
+    {
+      "id": "hl-40-hardtop-high-cube",
+      "type": "hardtop",
+      "category": "containers",
+      "name": "40′ High Cube Hardtop",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "12,192 × 2,438 × 2,896 mm",
+        "Internal dimensions (L × W × H)": "12,032 × 2,352 × 2,620 mm",
+        "Door opening (W × H)": "2,340 × 2,581 mm",
+        "Volume": "76.3 m³",
+        "Maximum gross weight": "32,500 kg",
+        "Tare weight": "5,200 kg",
+        "Payload": "27,300 kg",
+        "ISO size/type code": "45U6",
+        "Roof opening (L × W)": "11,724 × 2,212 mm"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/40-hardtop-high-cube.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/hardtop.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Container 【 22U6 】 DKKU 000153(7)---No,5 【 Pictures taken in Japan 】.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Container_%E3%80%90_22U6_%E3%80%91_DKKU_000153(7)---No,5_%E3%80%90_Pictures_taken_in_Japan_%E3%80%91.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Crane-loaded heavy machinery and cargo requiring a rigid roof.",
+        "Construction & loading": "Removable steel roof and, depending on model, a movable door header. Roof removal and storage affect clearance and handling."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html",
+      "data_note": "Published nominal volume may include space outside the usable load line; it is not recalculated from the displayed dimensions."
+    },
+    {
+      "id": "type-reefer",
+      "type": "reefer",
+      "category": "containers",
+      "name": "20′ Reefer",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,591 mm",
+        "Internal dimensions (L × W × H)": "5,450 × 2,280 × 2,159 mm",
+        "Door opening (W × H)": "2,290 × 2,264 mm",
+        "Volume": "28.1 m³",
+        "Maximum gross weight": "32,000 kg",
+        "Tare weight": "2,860 kg",
+        "Payload": "29,140 kg",
+        "ISO size/type code": "22R1"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/20-reefer.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/reefer.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Alaska Marine Lines refrigerated containers.jpg",
+        "author": "Quintin Soloviev",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alaska_Marine_Lines_refrigerated_containers.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Chilled or frozen food and other temperature-sensitive goods.",
+        "Construction & loading": "Insulated body, refrigeration machinery and an airflow floor. Cargo must respect the load line and circulation space; the usable volume may be below nominal volume."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html",
+      "data_note": "Published nominal volume may include space outside the usable load line; it is not recalculated from the displayed dimensions."
+    },
+    {
+      "id": "hl-40rh",
+      "type": "reefer",
+      "category": "containers",
+      "name": "40′ High Cube reefer",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "12,192 × 2,438 × 2,896 mm",
+        "Internal dimensions (L × W × H)": "11,599 × 2,290 × 2,425 mm",
+        "Door opening (W × H)": "2,290 × 2,557 mm",
+        "Volume": "67.7 m³",
+        "Maximum gross weight": "34,000 kg",
+        "Tare weight": "4,420 kg",
+        "Payload": "29,580 kg",
+        "ISO size/type code": "45R1"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/40-reefer-high-cube.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/reefer.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Alaska Marine Lines refrigerated containers.jpg",
+        "author": "Quintin Soloviev",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alaska_Marine_Lines_refrigerated_containers.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Chilled or frozen food and other temperature-sensitive goods.",
+        "Construction & loading": "Insulated body, refrigeration machinery and an airflow floor. Cargo must respect the load line and circulation space; the usable volume may be below nominal volume."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html",
+      "data_note": "Published nominal volume may include space outside the usable load line; it is not recalculated from the displayed dimensions."
+    },
+    {
+      "id": "cma-45rh",
+      "type": "reefer",
+      "category": "containers",
+      "name": "45′ Pallet-wide reefer",
+      "brand": "CMA CGM",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "13,716 × 2,550 × 2,896 mm",
+        "Internal dimensions (L × W × H)": "13,280 × 2,440 × 2,582 mm",
+        "Door opening (W × H)": "2,440 × 2,567 mm",
+        "Volume": "83.7 m³",
+        "Maximum gross weight": "34,000 kg",
+        "Tare weight": "6,180 kg",
+        "Payload": "27,820 kg",
+        "Usable volume": "80.42 m³"
+      },
+      "source": "https://www.cma-cgm.com/products-services/containers",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/reefer.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Alaska Marine Lines refrigerated containers.jpg",
+        "author": "Quintin Soloviev",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alaska_Marine_Lines_refrigerated_containers.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Chilled or frozen food and other temperature-sensitive goods.",
+        "Construction & loading": "Insulated body, refrigeration machinery and an airflow floor. Cargo must respect the load line and circulation space; the usable volume may be below nominal volume."
+      },
+      "data_note": "Published nominal volume may include space outside the usable load line; it is not recalculated from the displayed dimensions."
+    },
+    {
+      "id": "cma-40pw",
+      "type": "palletwide",
+      "category": "containers",
+      "name": "40′ High Cube pallet-wide",
+      "brand": "CMA CGM",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "12,192 × 2,462 × 2,896 mm",
+        "Internal dimensions (L × W × H)": "12,095 × 2,444 × 2,692 mm",
+        "Door opening (W × H)": "2,400 × 2,584 mm",
+        "Volume": "79.6 m³",
+        "Maximum gross weight": "34,000 kg",
+        "Tare weight": "4,260 kg",
+        "Payload": "29,740 kg"
+      },
+      "source": "https://www.cma-cgm.com/products-services/containers",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/hc.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Container 【 45G1 】 MSCU 951715(6)---No,2 【 Pictures taken in Japan 】.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Container_%E3%80%90_45G1_%E3%80%91_MSCU_951715(6)---No,2_%E3%80%90_Pictures_taken_in_Japan_%E3%80%91.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "European palletised cargo on compatible sea, road and rail services.",
+        "Construction & loading": "A wider interior improves pallet arrangement. These are not the same width as an ordinary 8 ft ISO box; route and equipment compatibility must be checked."
+      },
+      "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
+    },
+    {
+      "id": "cma-45pw",
+      "type": "palletwide",
+      "category": "containers",
+      "name": "45′ High Cube pallet-wide",
+      "brand": "CMA CGM",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "13,716 × 2,462 × 2,896 mm",
+        "Internal dimensions (L × W × H)": "13,624 × 2,420 × 2,687 mm",
+        "Door opening (W × H)": "2,360 × 2,580 mm",
+        "Volume": "85.25 m³",
+        "Maximum gross weight": "34,000 kg",
+        "Tare weight": "4,980 kg",
+        "Payload": "29,020 kg"
+      },
+      "source": "https://www.cma-cgm.com/products-services/containers",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/hc.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Container 【 45G1 】 MSCU 951715(6)---No,2 【 Pictures taken in Japan 】.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Container_%E3%80%90_45G1_%E3%80%91_MSCU_951715(6)---No,2_%E3%80%90_Pictures_taken_in_Japan_%E3%80%91.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "European palletised cargo on compatible sea, road and rail services.",
+        "Construction & loading": "A wider interior improves pallet arrangement. These are not the same width as an ordinary 8 ft ISO box; route and equipment compatibility must be checked."
+      },
+      "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
+    },
+    {
+      "id": "ct-vent20",
+      "type": "ventilated",
+      "category": "containers",
+      "name": "20′ Ventilated",
+      "brand": "Dewetra",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,591 mm",
+        "Internal dimensions (L × W × H)": "5,895 × 2,321 × 2,392 mm",
+        "Door opening (W × H)": "2,340 × 2,292 mm",
+        "Volume": "33 m³",
+        "Maximum gross weight": "30,480 kg",
+        "Tare weight": "2,490 kg",
+        "Payload": "27,990 kg",
+        "ISO size/type code": "22V0"
+      },
+      "source": "https://www.dewetra.de/container/standard-container/container_22vh/",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/vent.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Container 【 22V0 】 HLXU 250768(1)---No,1 【 Pictures taken in Japan 】.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Container_%E3%80%90_22V0_%E3%80%91_HLXU_250768(1)---No,1_%E3%80%90_Pictures_taken_in_Japan_%E3%80%91.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Moisture-sensitive natural products such as coffee and cocoa.",
+        "Construction & loading": "Dedicated ventilation openings allow air exchange. Passive ventilation does not provide active temperature or humidity control."
+      }
+    },
+    {
+      "id": "ct-ca",
+      "type": "controlled-atmosphere",
+      "category": "containers",
+      "name": "Controlled-atmosphere reefer — Star Cool CA",
+      "brand": "Maersk Container Industry",
+      "country": "",
+      "specs": {},
+      "source": "https://www.mcicontainers.com/products/star-cool-ca/",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": false,
+      "photo": "/assets/knowledge/containers/reefer.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Alaska Marine Lines refrigerated containers.jpg",
+        "author": "Quintin Soloviev",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alaska_Marine_Lines_refrigerated_containers.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "External dimensions (L × W × H)",
+        "Internal dimensions (L × W × H)",
+        "Door opening (W × H)",
+        "Volume",
+        "Tare weight",
+        "Maximum gross weight",
+        "Payload"
+      ],
+      "guide": {
+        "Applications": "Fresh fruit and vegetables requiring management of ripening during transit.",
+        "Construction & loading": "Combines refrigeration with oxygen and carbon dioxide management. This is a reefer technology option, not a single universal container size."
+      },
+      "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
+    },
+    {
+      "id": "ct-superfreezer",
+      "type": "superfreezer",
+      "category": "containers",
+      "name": "SuperFreezer — 10′ / 20′ / 40′ systems",
+      "brand": "Thermo King",
+      "country": "",
+      "specs": {
+        "Minimum temperature (10′ / 20′)": "−70 °C",
+        "Minimum temperature (40′)": "−65 °C",
+        "Power supply": "360–500 V · 50 / 60 Hz"
+      },
+      "source": "https://www.thermoking.com/na/en/road/pharmasolutions/cold-storage-solutions-/superfreezer.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/reefer.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Alaska Marine Lines refrigerated containers.jpg",
+        "author": "Quintin Soloviev",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alaska_Marine_Lines_refrigerated_containers.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "External dimensions (L × W × H)",
+        "Internal dimensions (L × W × H)",
+        "Door opening (W × H)",
+        "Volume",
+        "Tare weight",
+        "Maximum gross weight",
+        "Payload"
+      ],
+      "guide": {
+        "Applications": "Special seafood, pharmaceuticals and other cargo requiring ultra-low temperatures.",
+        "Construction & loading": "Special insulation and cascade refrigeration. Temperature capability depends on the installed unit, insulation and ambient conditions."
+      },
+      "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
+    },
+    {
+      "id": "ct-nor",
+      "type": "insulated",
+      "category": "containers",
+      "name": "40′ Reefer used as NOR",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "12,192 × 2,438 × 2,896 mm",
+        "Internal dimensions (L × W × H)": "11,599 × 2,290 × 2,425 mm",
+        "Door opening (W × H)": "2,290 × 2,557 mm",
+        "Volume": "67.7 m³",
+        "Maximum gross weight": "34,000 kg",
+        "Tare weight": "4,420 kg",
+        "Payload": "29,580 kg"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/40-reefer-high-cube.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/reefer.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Alaska Marine Lines refrigerated containers.jpg",
+        "author": "Quintin Soloviev",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alaska_Marine_Lines_refrigerated_containers.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Approved dry cargo carried in an insulated reefer with the refrigeration switched off.",
+        "Construction & loading": "NOR is an operating mode. The machinery and insulation remain, so its internal space and tare differ from a dry box. It does not actively refrigerate cargo."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html",
+      "data_note": "Published nominal volume may include space outside the usable load line; it is not recalculated from the displayed dimensions."
+    },
+    {
+      "id": "type-flat",
+      "type": "flat",
+      "category": "containers",
+      "name": "20′ Flat Rack",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,591 mm",
+        "Internal dimensions (L × W × H)": "5,638 × 2,438 × 2,233 mm",
+        "Maximum gross weight": "45,000 kg",
+        "Tare weight": "2,900 kg",
+        "Payload": "42,100 kg",
+        "ISO size/type code": "22P3",
+        "Deck height": "370 mm",
+        "Minimum clear width": "2,194 mm"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/20-flatrack.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/flat.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Flat-rack-small-vessel.jpeg",
+        "author": "Marc Cromme, Denmark\n\nUploaded by Chlor at en.wikipedia",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Flat-rack-small-vessel.jpeg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Heavy machinery, vehicles, reels and oversized project cargo.",
+        "Construction & loading": "A reinforced base with fixed or folding end walls and no side walls or roof. Payload depends on how the weight bears on the main rails, not only on its total."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html"
+    },
+    {
+      "id": "hl-flat40",
+      "type": "flat",
+      "category": "containers",
+      "name": "40′ High Cube Flat Rack",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "12,192 × 2,438 × 2,896 mm",
+        "Internal dimensions (L × W × H)": "11,652 × 2,347 × 2,265 mm",
+        "Maximum gross weight": "55,000 kg",
+        "Tare weight": "5,900 kg",
+        "Payload": "49,100 kg",
+        "ISO size/type code": "45P3",
+        "Deck height": "648 mm",
+        "Minimum clear width": "2,245 mm"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/40-flatrack-high-cube.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/flat.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Flat-rack-small-vessel.jpeg",
+        "author": "Marc Cromme, Denmark\n\nUploaded by Chlor at en.wikipedia",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Flat-rack-small-vessel.jpeg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Heavy machinery, vehicles, reels and oversized project cargo.",
+        "Construction & loading": "A reinforced base with fixed or folding end walls and no side walls or roof. Payload depends on how the weight bears on the main rails, not only on its total."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html"
+    },
+    {
+      "id": "hl-platform20",
+      "type": "platform",
+      "category": "containers",
+      "name": "20′ Collapsed flatrack platform",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "Maximum gross weight": "45,000 kg",
+        "Tare weight": "2,900 kg",
+        "Payload": "42,100 kg",
+        "Platform dimensions (L × W × thickness)": "6,058 × 2,438 × 370 mm"
+      },
+      "source": "https://static-cf.hapag-lloyd.com/content/dam/website/downloads/local_info/HPL-CONTAINER_SPECIFICATION.pdf#page=39",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/platform.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Altenwerder Damm, Containers, WPAhoi, Hamburg (P1080560).jpg",
+        "author": "Matti Blume",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Altenwerder_Damm,_Containers,_WPAhoi,_Hamburg_(P1080560).jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Internal dimensions (L × W × H)",
+        "External dimensions (L × W × H)"
+      ],
+      "guide": {
+        "Applications": "Long or oversized cargo and project loads supported on a flat base.",
+        "Construction & loading": "No upright ends in platform mode. The examples are collapsed flatracks; deck thickness and bearing length remain important."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html"
+    },
+    {
+      "id": "hl-platform40",
+      "type": "platform",
+      "category": "containers",
+      "name": "40′ Collapsed flatrack platform",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "Maximum gross weight": "55,000 kg",
+        "Tare weight": "5,900 kg",
+        "Payload": "49,100 kg",
+        "Platform dimensions (L × W × thickness)": "12,192 × 2,245 × 648 mm"
+      },
+      "source": "https://static-cf.hapag-lloyd.com/content/dam/website/downloads/local_info/HPL-CONTAINER_SPECIFICATION.pdf#page=39",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/platform.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Altenwerder Damm, Containers, WPAhoi, Hamburg (P1080560).jpg",
+        "author": "Matti Blume",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Altenwerder_Damm,_Containers,_WPAhoi,_Hamburg_(P1080560).jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Internal dimensions (L × W × H)",
+        "External dimensions (L × W × H)"
+      ],
+      "guide": {
+        "Applications": "Long or oversized cargo and project loads supported on a flat base.",
+        "Construction & loading": "No upright ends in platform mode. The examples are collapsed flatracks; deck thickness and bearing length remain important."
+      },
+      "additional_source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/container-type-groups.html"
+    },
+    {
+      "id": "oocl-superrack",
+      "type": "superrack",
+      "category": "containers",
+      "name": "40′ Super Rack",
+      "brand": "OOCL",
+      "country": "",
+      "specs": {
+        "Internal dimensions (L × W × H)": "11,615 × 2,438 × 2,264 mm",
+        "Maximum gross weight": "50,000 kg",
+        "Tare weight": "6,000 kg",
+        "Payload": "44,000 kg",
+        "Adjustable clear heights": "2,264 / 2,568 / 2,873 / 3,178 / 3,483 mm"
+      },
+      "source": "https://www.oocl.com/eng/ourservices/containers/containerspecifications/Pages/SuperRack.aspx",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/superrack.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Stackable Container 1225268196.jpg",
+        "author": "Trail-jp",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Stackable_Container_1225268196.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "External dimensions (L × W × H)"
+      ],
+      "guide": {
+        "Applications": "Tall machinery and project cargo requiring adjustable end posts.",
+        "Construction & loading": "Telescopic posts provide several height positions. This is a specialised carrier design; out-of-gauge acceptance is assessed separately."
+      }
+    },
+    {
+      "id": "scf-side20",
+      "type": "side-opening",
+      "category": "containers",
+      "name": "20′ Double side door High Cube",
+      "brand": "SCF",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,500 × 2,896 mm",
+        "Internal dimensions (L × W × H)": "5,970 × 2,400 × 2,587 mm",
+        "Volume": "37 m³",
+        "Maximum gross weight": "34,000 kg",
+        "Tare weight": "3,670 kg",
+        "Payload": "30,330 kg"
+      },
+      "source": "https://scf.com.au/products-services/intermodal-containers/side-door/20ft-double-side-door/",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/side.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Container 【 25G2 】 KCBU 100005(1) 【 Pictures taken in Japan 】.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Container_%E3%80%90_25G2_%E3%80%91_KCBU_100005(1)_%E3%80%90_Pictures_taken_in_Japan_%E3%80%91.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Door opening (W × H)"
+      ],
+      "guide": {
+        "Applications": "Long, awkward or palletised loads needing lateral forklift access.",
+        "Construction & loading": "Large side doors provide access along the body. One-side and both-side versions exist; the sample is a regional double-side-door design."
+      }
+    },
+    {
+      "id": "acc-tunnel20",
+      "type": "double-door",
+      "category": "containers",
+      "name": "20′ Double-end-door / tunnel",
+      "brand": "Atlantic Coast Container",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,591 mm",
+        "Internal dimensions (L × W × H)": "5,844 × 2,350 × 2,390 mm",
+        "Door opening (W × H)": "2,340 × 2,280 mm",
+        "Volume": "32.8 m³",
+        "Maximum gross weight": "30,480 kg",
+        "Tare weight": "2,180 kg",
+        "Payload": "28,300 kg"
+      },
+      "source": "https://accontainer.com/our-containers/standard-containers/20-double-door-shipping-container/",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/dry.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:20 tons dry container leased from Beacon.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:20_tons_dry_container_leased_from_Beacon.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Cargo that benefits from loading or unloading at either end.",
+        "Construction & loading": "Doors at both short ends. The extra door assembly can reduce usable internal length compared with a single-end-door container."
+      },
+      "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
+    },
+    {
+      "id": "scf-curtain48",
+      "type": "curtainside",
+      "category": "containers",
+      "name": "48′ Curtain-side / Tautliner",
+      "brand": "SCF",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "14,630 × 2,500 × 2,997 mm",
+        "Internal dimensions (L × W × H)": "14,526 × 2,400 × 2,623 mm",
+        "Volume": "91 m³",
+        "Maximum gross weight": "32,000 kg",
+        "Tare weight": "7,950 kg",
+        "Payload": "24,050 kg"
+      },
+      "source": "https://scf.com.au/products-services/intermodal-containers/tautliner-and-curtain-side-containers/48ft-tautliner-container/",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "https://scf.com.au/media/xhbjq23e/scf-48ft-curtain-side-open.jpg?width=1000",
+      "photo_type_example": true,
+      "photo_credit": {
+        "author": "SCF",
+        "source": "https://scf.com.au/products-services/intermodal-containers/tautliner-and-curtain-side-containers/48ft-tautliner-container/",
+        "external": true
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Door opening (W × H)"
+      ],
+      "guide": {
+        "Applications": "Pallet distribution and frequent side loading on regional intermodal routes.",
+        "Construction & loading": "Sliding curtains with posts and cargo restraints. A curtain is not a substitute for securing the load. The example is an Australian 48 ft design."
+      }
+    },
+    {
+      "id": "scf-bulk20",
+      "type": "dry-bulk",
+      "category": "containers",
+      "name": "20′ Dry bulk — roof hatches",
+      "brand": "SCF",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,460 × 2,896 mm",
+        "Volume": "37.6 m³",
+        "Maximum gross weight": "30,480 kg",
+        "Tare weight": "3,270 kg",
+        "Payload": "27,210 kg",
+        "Top loading hatches": "3"
+      },
+      "source": "https://scf.com.au/products-services/intermodal-containers/bulk-containers/20ft-bulk-container/",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/bulk.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Container 【 2280 】 MITU 820038(6) 【 Container pictures taken in Japan 】.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Container_%E3%80%90_2280_%E3%80%91_MITU_820038(6)_%E3%80%90_Container_pictures_taken_in_Japan_%E3%80%91.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Internal dimensions (L × W × H)",
+        "Door opening (W × H)"
+      ],
+      "guide": {
+        "Applications": "Grain, salt, powders and other compatible dry bulk products.",
+        "Construction & loading": "Roof filling hatches and a dedicated discharge opening. The sample has reinforced sides and three top hatches; unloading needs suitable equipment."
+      }
+    },
+    {
+      "id": "ct-half20",
+      "type": "half-height",
+      "category": "containers",
+      "name": "20′ Half-height",
+      "brand": "Tasbulk",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 1,295 mm",
+        "Internal dimensions (L × W × H)": "5,898 × 2,352 × 1,042 mm",
+        "Maximum gross weight": "35,000 kg",
+        "Tare weight": "2,370 kg",
+        "Payload": "32,630 kg"
+      },
+      "source": "https://tasbulk.com.au/collections/shipping-containers/products/20ft-half-height",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "https://tasbulk.com.au/cdn/shop/files/D20HH_4.jpg?v=1710478407&width=1214",
+      "photo_type_example": true,
+      "photo_credit": {
+        "author": "Tasbulk",
+        "source": "https://tasbulk.com.au/collections/shipping-containers/products/20ft-half-height",
+        "external": true
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Dense bulk cargo, scrap and heavy materials that do not need full box height.",
+        "Construction & loading": "Low walls and top access reduce the loading height. ISO and offshore variants have different lifting and gross-weight ratings."
+      }
+    },
+    {
+      "id": "ct-half40",
+      "type": "half-height",
+      "category": "containers",
+      "name": "40′ Offshore half-height",
+      "brand": "OEG / Cargoweld",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "12,192 × 2,438 × 1,281 mm",
+        "Internal dimensions (L × W × H)": "11,984 × 2,194 × 929 mm",
+        "Maximum gross weight": "25,000 kg",
+        "Tare weight": "4,970 kg",
+        "Payload": "20,030 kg"
+      },
+      "source": "https://cargoweld.com/wp-content/uploads/2022/12/HALF-HEIGHT.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "https://tasbulk.com.au/cdn/shop/files/D20HH_4.jpg?v=1710478407&width=1214",
+      "photo_type_example": true,
+      "photo_credit": {
+        "author": "Tasbulk",
+        "source": "https://tasbulk.com.au/collections/shipping-containers/products/20ft-half-height",
+        "external": true
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Dense bulk cargo, scrap and heavy materials that do not need full box height.",
+        "Construction & loading": "Low walls and top access reduce the loading height. ISO and offshore variants have different lifting and gross-weight ratings."
+      },
+      "photo_note": "20 ft half-height photograph illustrating the family; this specification describes the 40 ft model."
+    },
+    {
+      "id": "ct-liner",
+      "type": "bulk-liner",
+      "category": "containers",
+      "name": "Dry bulk liner in a 20′ dry box",
+      "brand": "CMA CGM",
+      "country": "",
+      "specs": {},
+      "source": "https://www.cma-cgm.com/products-services/containers",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": false,
+      "photo": "/assets/knowledge/containers/dry.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:20 tons dry container leased from Beacon.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:20_tons_dry_container_leased_from_Beacon.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "External dimensions (L × W × H)",
+        "Internal dimensions (L × W × H)",
+        "Door opening (W × H)",
+        "Volume",
+        "Tare weight",
+        "Maximum gross weight",
+        "Payload"
+      ],
+      "guide": {
+        "Applications": "Suitable dry powders or granules carried inside a standard dry container.",
+        "Construction & loading": "A fitted liner is an accessory, not a separate ISO container type. The liner, bulkhead and cargo density determine the usable load together with the host container rating."
+      },
+      "photo_note": "Photograph of the empty container shell; hanger or liner fittings are not shown."
+    },
+    {
+      "id": "type-tank",
+      "type": "tank",
+      "category": "containers",
+      "name": "20′ Liquid tank — 21,000 L",
+      "brand": "EXSIF",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,591 mm",
+        "Tare weight": "3,520 kg",
+        "Payload": "32,480 kg",
+        "Tank capacity": "21,000 L",
+        "Gross weight (tare + payload)": "36,000 kg",
+        "Working pressure": "4 bar",
+        "Test pressure": "6 bar",
+        "Tank design temperature": "−40 … +140 °C",
+        "Manway diameter": "500 mm"
+      },
+      "source": "https://www.exsif.com/wp-content/uploads/2023/05/Standard-Tank-Container.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/tank.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:CIMC tank container 26CBM T11.jpg",
+        "author": "TCC1",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:CIMC_tank_container_26CBM_T11.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Compatible liquid chemicals and food-grade liquids in a dedicated tank.",
+        "Construction & loading": "Tank vessel inside an intermodal frame, with filling, discharge and pressure protection fittings. Food and chemical service require appropriate approvals and cleaning."
+      }
+    },
+    {
+      "id": "ex-tank26",
+      "type": "tank",
+      "category": "containers",
+      "name": "20′ Liquid tank — 26,000 L",
+      "brand": "EXSIF",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,591 mm",
+        "Tare weight": "3,700 kg",
+        "Payload": "32,300 kg",
+        "Tank capacity": "26,000 L",
+        "Gross weight (tare + payload)": "36,000 kg",
+        "Working pressure": "4 bar",
+        "Test pressure": "6 bar",
+        "Tank design temperature": "−40 … +140 °C",
+        "Manway diameter": "500 mm"
+      },
+      "source": "https://www.exsif.com/wp-content/uploads/2023/05/Standard-Tank-Container.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/tank.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:CIMC tank container 26CBM T11.jpg",
+        "author": "TCC1",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:CIMC_tank_container_26CBM_T11.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Compatible liquid chemicals and food-grade liquids in a dedicated tank.",
+        "Construction & loading": "Tank vessel inside an intermodal frame, with filling, discharge and pressure protection fittings. Food and chemical service require appropriate approvals and cleaning."
+      }
+    },
+    {
+      "id": "ex-t22",
+      "type": "hazardous-tank",
+      "category": "containers",
+      "name": "20′ T22 specialised liquid tank",
+      "brand": "EXSIF",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,591 mm",
+        "Tare weight": "5,935 kg",
+        "Payload": "30,065 kg",
+        "Tank capacity": "22,500 L",
+        "Gross weight (tare + payload)": "36,000 kg",
+        "Working pressure": "6.67 bar",
+        "Test pressure": "10 bar",
+        "Tank design temperature": "−40 … +140 °C"
+      },
+      "source": "https://www.exsif.com/wp-content/uploads/2023/05/T22-Hazardous-Liquid-Tank-Container.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/tank.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:CIMC tank container 26CBM T11.jpg",
+        "author": "TCC1",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:CIMC_tank_container_26CBM_T11.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Approved hazardous liquid cargo requiring a specialised portable tank.",
+        "Construction & loading": "Thicker shell, baffles, insulation and specified fittings. T-codes are tank instructions, not interchangeable cargo permissions; use the cargo-specific approval."
+      }
+    },
+    {
+      "id": "ex-t50",
+      "type": "gas-tank",
+      "category": "containers",
+      "name": "20′ T50 gas tank",
+      "brand": "EXSIF",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,591 mm",
+        "Tare weight": "7,480 kg",
+        "Payload": "28,520 kg",
+        "Tank capacity": "24,600 L",
+        "Gross weight (tare + payload)": "36,000 kg",
+        "UN working pressure": "27.5 bar",
+        "Tank reference temperature": "−40 … +55 °C"
+      },
+      "source": "https://www.exsif.com/wp-content/uploads/2022/12/T50_24600.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/gas.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:CIMC LPG tank container.jpg",
+        "author": "TCC1",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:CIMC_LPG_tank_container.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Approved non-refrigerated liquefied gases such as LPG.",
+        "Construction & loading": "Pressure vessel with protected gas/liquid valves and relief devices. Pressure, material and permitted product are specific to each tank."
+      }
+    },
+    {
+      "id": "ex-t75",
+      "type": "cryogenic-tank",
+      "category": "containers",
+      "name": "40′ T75 cryogenic tank",
+      "brand": "EXSIF",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "12,192 × 2,438 × 2,591 mm",
+        "Tare weight": "11,900 kg",
+        "Payload": "22,100 kg",
+        "Tank capacity": "45,500 L",
+        "Gross weight (tare + payload)": "34,000 kg",
+        "Maximum allowable working pressure": "7.58 barg",
+        "Inner vessel design temperature": "−196 … +50 °C"
+      },
+      "source": "https://www.exsif.com/wp-content/uploads/2023/05/T75-Cryogenic-Tank-Container.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/cryogenic.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:JRF-Container UT26C-38109.jpg",
+        "author": "Chatama",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:JRF-Container_UT26C-38109.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Liquefied gases at cryogenic temperatures, including approved LNG and air-gas applications.",
+        "Construction & loading": "Insulated double-wall pressure vessel; vacuum insulation limits heat input. Design temperature is not a reefer thermostat setting."
+      }
+    },
+    {
+      "id": "ex-swap31000",
+      "type": "swap-tank",
+      "category": "containers",
+      "name": "Swap-body tank — 31,000 L",
+      "brand": "EXSIF",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "7,150 × 2,550 × 2,670 mm",
+        "Tare weight": "3,770 kg",
+        "Payload": "35,230 kg",
+        "Tank capacity": "31,000 L",
+        "Gross weight (tare + payload)": "39,000 kg",
+        "Working pressure": "4 bar",
+        "Test pressure": "6 bar"
+      },
+      "source": "https://www.exsif.com/wp-content/uploads/2023/05/Swap-Body-Tank-Container.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/tank.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:CIMC tank container 26CBM T11.jpg",
+        "author": "TCC1",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:CIMC_tank_container_26CBM_T11.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Higher-volume liquid transport on compatible regional road, rail and short-sea routes.",
+        "Construction & loading": "Wider or longer than a standard 20 ft ISO tank. Larger volume does not make it suitable for every ocean container slot or chassis."
+      },
+      "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
+    },
+    {
+      "id": "ex-swap35000",
+      "type": "swap-tank",
+      "category": "containers",
+      "name": "Swap-body tank — 35,000 L",
+      "brand": "EXSIF",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "7,820 × 2,550 × 2,670 mm",
+        "Tare weight": "3,890 kg",
+        "Payload": "35,110 kg",
+        "Tank capacity": "35,000 L",
+        "Gross weight (tare + payload)": "39,000 kg",
+        "Working pressure": "4 bar",
+        "Test pressure": "6 bar"
+      },
+      "source": "https://www.exsif.com/wp-content/uploads/2023/05/Swap-Body-Tank-Container.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/tank.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:CIMC tank container 26CBM T11.jpg",
+        "author": "TCC1",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:CIMC_tank_container_26CBM_T11.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [],
+      "guide": {
+        "Applications": "Higher-volume liquid transport on compatible regional road, rail and short-sea routes.",
+        "Construction & loading": "Wider or longer than a standard 20 ft ISO tank. Larger volume does not make it suitable for every ocean container slot or chassis."
+      },
+      "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
+    },
+    {
+      "id": "ct-flexi",
+      "type": "flexitank",
+      "category": "containers",
+      "name": "Flexitank — up to 24,000 L",
+      "brand": "Hillebrand Gori",
+      "country": "",
+      "specs": {
+        "Liner capacity": "≤ 24,000 L",
+        "Host container nominal size": "20 ft"
+      },
+      "source": "https://www.dhl.com/content/dam/dhl/local/global/dhl-global-forwarding/documents/pdf/newsletters/glo-loc-dgf-g0-gori-fleximax-flyer-dec18.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/flexi.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Büscherhoff.jpg",
+        "author": "Kefa01",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:B%C3%BCscherhoff.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "External dimensions (L × W × H)",
+        "Internal dimensions (L × W × H)",
+        "Door opening (W × H)",
+        "Volume",
+        "Tare weight",
+        "Maximum gross weight",
+        "Payload"
+      ],
+      "guide": {
+        "Applications": "Approved non-hazardous bulk liquids such as wine and edible oils.",
+        "Construction & loading": "Flexible bladder installed inside a suitable dry container. It is a liner system, not a rigid ISO tank. Rated litres are not a payload in kilograms."
+      }
+    },
+    {
+      "id": "oeg-offshore10",
+      "type": "offshore-container",
+      "category": "containers",
+      "name": "10′ Offshore closed cargo",
+      "brand": "OEG Norway",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "2,991 × 2,438 × 2,706 mm",
+        "Maximum gross weight": "10,000 kg",
+        "Tare weight": "3,040 kg",
+        "Payload": "6,960 kg",
+        "Certification family": "DNV 2.7-1"
+      },
+      "source": "https://www.oegnorway.no/en/offshore-containers/closed-containers",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "https://cms.oegnorway.no/api/images/file/closed_containers.png",
+      "photo_type_example": true,
+      "photo_credit": {
+        "author": "OEG Norway",
+        "source": "https://www.oegnorway.no/en/offshore-containers/closed-containers",
+        "external": true
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Internal dimensions (L × W × H)",
+        "Door opening (W × H)",
+        "Volume"
+      ],
+      "guide": {
+        "Applications": "Equipment and supplies moved between supply vessels and offshore installations.",
+        "Construction & loading": "Dedicated offshore structure, lifting points and certification. Ordinary CSC sea containers are not automatically approved for offshore lifting."
+      }
+    },
+    {
+      "id": "oeg-offshore20",
+      "type": "offshore-container",
+      "category": "containers",
+      "name": "20′ Offshore closed cargo",
+      "brand": "OEG Norway",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,436 × 2,996 mm",
+        "Maximum gross weight": "14,300 kg",
+        "Tare weight": "5,150 kg",
+        "Payload": "9,150 kg",
+        "Certification family": "DNV 2.7-1"
+      },
+      "source": "https://www.oegnorway.no/en/offshore-containers/closed-containers",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "https://cms.oegnorway.no/api/images/file/closed_containers.png",
+      "photo_type_example": true,
+      "photo_credit": {
+        "author": "OEG Norway",
+        "source": "https://www.oegnorway.no/en/offshore-containers/closed-containers",
+        "external": true
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Internal dimensions (L × W × H)",
+        "Door opening (W × H)",
+        "Volume"
+      ],
+      "guide": {
+        "Applications": "Equipment and supplies moved between supply vessels and offshore installations.",
+        "Construction & loading": "Dedicated offshore structure, lifting points and certification. Ordinary CSC sea containers are not automatically approved for offshore lifting."
+      }
+    },
+    {
+      "id": "seaco-swap",
+      "type": "swap-body",
+      "category": "containers",
+      "name": "7.45 m Swap body — KP2T",
+      "brand": "Seaco",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "7,450 × 2,550 × 2,950 mm",
+        "Door opening height": "2,530 mm"
+      },
+      "source": "https://seacoglobal.com/wp-content/uploads/2023/03/17931-Seaco-Corporate-A4-Brochure-2022-6.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/swap.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Dornbirn-Swap body-01ASD.jpg",
+        "author": "Asurnipal",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Dornbirn-Swap_body-01ASD.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Internal dimensions (L × W × H)",
+        "Door opening (W × H)",
+        "Volume",
+        "Tare weight",
+        "Maximum gross weight",
+        "Payload"
+      ],
+      "guide": {
+        "Applications": "European road/rail distribution, parcels and palletised cargo.",
+        "Construction & loading": "Demountable body, often with support legs. Stacking, corner fittings and lifting approval depend on the exact model."
+      }
+    },
+    {
+      "id": "cimc-53",
+      "type": "domestic-container",
+      "category": "containers",
+      "name": "53′ Domestic container",
+      "brand": "CIMC Taicang",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "16,154 × 2,591 × 2,908 mm",
+        "Internal dimensions (L × W × H)": "15,994 × 2,505 × 2,792 mm",
+        "Maximum gross weight": "30,480 kg"
+      },
+      "source": "https://www.cimctaicang.com/products/53-domestic-container.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/domestic.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:APL 53 foot container.jpg",
+        "author": "Wikideas1",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "https://commons.wikimedia.org/wiki/File:APL_53_foot_container.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Door opening (W × H)",
+        "Volume",
+        "Tare weight",
+        "Payload"
+      ],
+      "guide": {
+        "Applications": "High-volume rail and road cargo in North America.",
+        "Construction & loading": "53 ft designs are wider and longer than common ocean boxes. Domestic and ocean-rated versions exist; approval must be checked for the allocated unit."
+      }
+    },
+    {
+      "id": "jr-19d",
+      "type": "japan-rail-container",
+      "category": "containers",
+      "name": "12′ Japanese rail — JR 19D",
+      "brand": "JR Freight",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "3,715 × 2,450 × 2,500 mm",
+        "Internal dimensions (L × W × H)": "3,647 × 2,275 × 2,252 mm",
+        "Volume": "18.7 m³",
+        "Payload": "5,000 kg",
+        "Side opening (W × H)": "3,635 × 2,187 mm"
+      },
+      "source": "https://www.t-renmei.or.jp/contena/introduction/container.html",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/japan.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:19D-3 【JR貨物】Containers of Japan Rail Freight.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:19D-3_%E3%80%90JR%E8%B2%A8%E7%89%A9%E3%80%91Containers_of_Japan_Rail_Freight.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Door opening (W × H)",
+        "Tare weight",
+        "Maximum gross weight"
+      ],
+      "guide": {
+        "Applications": "Japanese domestic rail distribution with compact container units.",
+        "Construction & loading": "12 ft family with side-opening variants. JR 19D and 20D have different heights; they are not standard 20 ft ocean containers."
+      }
+    },
+    {
+      "id": "oocl-goh20",
+      "type": "garmentainer",
+      "category": "containers",
+      "name": "20′ Garment-on-hanger",
+      "brand": "OOCL",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "6,058 × 2,438 × 2,591 mm",
+        "Internal dimensions (L × W × H)": "5,900 × 2,352 × 2,353 mm",
+        "Door opening (W × H)": "2,340 × 2,280 mm",
+        "Volume": "33.2 m³",
+        "Maximum gross weight": "24,000 kg",
+        "Tare weight": "2,300 kg"
+      },
+      "source": "https://www.oocl.com/eng/ourservices/containers/containerspecifications/Pages/garmentainers.aspx",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/dry.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:20 tons dry container leased from Beacon.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:20_tons_dry_container_leased_from_Beacon.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Payload"
+      ],
+      "guide": {
+        "Applications": "Garments transported on hangers instead of folded cartons.",
+        "Construction & loading": "A dry box fitted with bars, strings or both. Internal fittings affect space and tare; confirm the fitted unit, not an empty dry-box specification."
+      },
+      "data_note": "The source lists inconsistent payload and tare figures. Payload is intentionally omitted; obtain a unit-specific confirmation.",
+      "photo_note": "Photograph of the empty container shell; hanger or liner fittings are not shown."
+    },
+    {
+      "id": "ctx-10",
+      "type": "storage-container",
+      "category": "containers",
+      "name": "10′ Storage container — wooden floor",
+      "brand": "CONTAINEX",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "2,991 × 2,438 × 2,591 mm",
+        "Internal dimensions (L × W × H)": "2,831 × 2,344 × 2,376 mm",
+        "Door opening (W × H)": "2,310 × 2,280 mm",
+        "Volume": "15.76 m³",
+        "Tare weight": "825 kg",
+        "Static storage payload": "10,000 kg",
+        "Maximum lifting weight": "6,500 kg",
+        "Floor loading": "1,500 kg/m²"
+      },
+      "source": "https://www.containex.com/-/m/containex/offers/documents/30/53/en_technical-description-lc-02-2023.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/dry.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:20 tons dry container leased from Beacon.jpg",
+        "author": "Gazouya-japan",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:20_tons_dry_container_leased_from_Beacon.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Maximum gross weight",
+        "Payload"
+      ],
+      "guide": {
+        "Applications": "Site storage of tools and materials in smaller footprints.",
+        "Construction & loading": "Storage variants have separate floor, lifting and stacking limits. A static floor payload must not be treated as a transport or lifting rating."
+      },
+      "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
+    },
+    {
+      "id": "satco-ake",
+      "type": "air-uld",
+      "category": "containers",
+      "name": "AKE / LD3 — Satco APEX-58",
+      "brand": "Satco",
+      "country": "",
+      "specs": {
+        "Volume": "4.3 m³",
+        "Maximum gross weight": "1,588 kg",
+        "Tare weight": "58 kg",
+        "Base dimensions (L × W)": "1,534 × 1,562 mm",
+        "Height": "1,626 mm",
+        "Payload (gross minus tare)": "1,530 kg",
+        "ULD code": "AKE"
+      },
+      "source": "https://www.satco-inc.com/product-container/?part_number=38245-501",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/uld.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Ake unit load devices melbourne airport.jpg",
+        "author": "Sgroey",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ake_unit_load_devices_melbourne_airport.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "External dimensions (L × W × H)",
+        "Internal dimensions (L × W × H)",
+        "Door opening (W × H)"
+      ],
+      "guide": {
+        "Applications": "Airline baggage, mail and general cargo in approved aircraft positions.",
+        "Construction & loading": "Lightweight, contoured aircraft containers. Base size and height do not describe the full sloping envelope; aircraft compatibility and contour drawings govern use."
+      },
+      "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
+    },
+    {
+      "id": "jet-akh",
+      "type": "air-uld",
+      "category": "containers",
+      "name": "AKH / LD3-45 — low-profile ULD",
+      "brand": "Jettainer",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "2,440 × 1,530 × 1,150 mm",
+        "Maximum gross weight": "1,134 kg",
+        "ULD code": "AKH"
+      },
+      "source": "https://www.jettainer.com/fileadmin/user_upload/Misc/Show_flyer_Final_englisch_01.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/akh.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:CTN AKH.jpg",
+        "author": "Dtom",
+        "license": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:CTN_AKH.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Internal dimensions (L × W × H)",
+        "Door opening (W × H)",
+        "Volume",
+        "Tare weight",
+        "Payload"
+      ],
+      "guide": {
+        "Applications": "Airline baggage, mail and general cargo in approved aircraft positions.",
+        "Construction & loading": "Lightweight, contoured aircraft containers. Base size and height do not describe the full sloping envelope; aircraft compatibility and contour drawings govern use."
+      },
+      "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
+    },
+    {
+      "id": "jet-amj",
+      "type": "air-uld",
+      "category": "containers",
+      "name": "AMJ — main-deck ULD",
+      "brand": "Jettainer",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "3,180 × 2,440 × 2,440 mm",
+        "Maximum gross weight": "6,804 kg",
+        "ULD code": "AMJ"
+      },
+      "source": "https://www.jettainer.com/fileadmin/user_upload/Misc/Show_flyer_Final_englisch_01.pdf",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/uld.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Ake unit load devices melbourne airport.jpg",
+        "author": "Sgroey",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ake_unit_load_devices_melbourne_airport.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Internal dimensions (L × W × H)",
+        "Door opening (W × H)",
+        "Volume",
+        "Tare weight",
+        "Payload"
+      ],
+      "guide": {
+        "Applications": "Airline baggage, mail and general cargo in approved aircraft positions.",
+        "Construction & loading": "Lightweight, contoured aircraft containers. Base size and height do not describe the full sloping envelope; aircraft compatibility and contour drawings govern use."
+      },
+      "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
+    },
+    {
+      "id": "ct-rkn",
+      "type": "air-reefer",
+      "category": "containers",
+      "name": "RKN e1 — active temperature control",
+      "brand": "Envirotainer",
+      "country": "",
+      "specs": {
+        "External dimensions (L × W × H)": "2,000 × 1,530 × 1,620 mm",
+        "Volume": "2.3 m³",
+        "Tare weight": "635 kg",
+        "Payload": "953 kg",
+        "Gross weight (tare + payload)": "1,588 kg",
+        "ULD code": "RKN"
+      },
+      "source": "https://www.bringeraircargo.com/uld/rkn-e1/",
+      "variant": "Source-specific example; confirm dimensions and ratings on the allocated unit.",
+      "verified": true,
+      "photo": "/assets/knowledge/containers/uld.webp",
+      "photo_type_example": true,
+      "photo_credit": {
+        "title": "File:Ake unit load devices melbourne airport.jpg",
+        "author": "Sgroey",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Ake_unit_load_devices_melbourne_airport.jpg",
+        "changes": "Resized and converted to WebP; no content changes."
+      },
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": [
+        "Internal dimensions (L × W × H)",
+        "Door opening (W × H)"
+      ],
+      "guide": {
+        "Applications": "Pharmaceutical and other temperature-sensitive air cargo.",
+        "Construction & loading": "Insulated ULD with an active cooling/heating system. Batteries and equipment increase tare; autonomy and aircraft acceptance are model-specific."
+      },
+      "photo_note": "Related container family photograph; dimensions and internal fittings may differ from this record."
     }
   ],
   "brands": {
@@ -3384,6 +5445,28 @@
       "FLSmidth",
       "NEUERO",
       "Liebherr"
+    ],
+    "containers": [
+      "Atlantic Coast Container",
+      "CIMC Taicang",
+      "CMA CGM",
+      "CONTAINEX",
+      "Dewetra",
+      "EXSIF",
+      "Envirotainer",
+      "Hapag-Lloyd",
+      "Hillebrand Gori",
+      "JR Freight",
+      "Jettainer",
+      "Maersk Container Industry",
+      "OEG / Cargoweld",
+      "OEG Norway",
+      "OOCL",
+      "SCF",
+      "Satco",
+      "Seaco",
+      "Tasbulk",
+      "Thermo King"
     ]
   },
   "seaGroups": [
@@ -3422,6 +5505,40 @@
     {
       "id": "other",
       "name": "Leisure & naval vessels"
+    }
+  ],
+  "containerGroups": [
+    {
+      "id": "dry",
+      "name": "Dry cargo & volume"
+    },
+    {
+      "id": "thermal",
+      "name": "Temperature & atmosphere"
+    },
+    {
+      "id": "access",
+      "name": "Special loading access"
+    },
+    {
+      "id": "heavy",
+      "name": "Heavy & oversized cargo"
+    },
+    {
+      "id": "bulk",
+      "name": "Dry bulk & liners"
+    },
+    {
+      "id": "liquids",
+      "name": "Liquids & gas tanks"
+    },
+    {
+      "id": "regional",
+      "name": "Regional, offshore & storage"
+    },
+    {
+      "id": "air",
+      "name": "Air cargo ULD containers"
     }
   ]
 }
