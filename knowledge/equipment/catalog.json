@@ -1,0 +1,1768 @@
+{
+  "version": 1,
+  "updated": "2026-10-22",
+  "categories": [
+    {
+      "id": "sea",
+      "name": "Ships & marine equipment",
+      "icon": "01"
+    },
+    {
+      "id": "containers",
+      "name": "Container types",
+      "icon": "02"
+    },
+    {
+      "id": "road",
+      "name": "Road transport equipment",
+      "icon": "03"
+    },
+    {
+      "id": "rail",
+      "name": "Railway wagons",
+      "icon": "04"
+    },
+    {
+      "id": "cranes",
+      "name": "Cranes & gantries",
+      "icon": "05"
+    },
+    {
+      "id": "unloading",
+      "name": "Ship unloading systems",
+      "icon": "06"
+    },
+    {
+      "id": "machinery",
+      "name": "Construction machinery",
+      "icon": "07"
+    },
+    {
+      "id": "cars",
+      "name": "Cars & light vehicles",
+      "icon": "08"
+    }
+  ],
+  "types": [
+    {
+      "id": "bulk",
+      "category": "sea",
+      "name": "Bulk carrier",
+      "drawing": "sea"
+    },
+    {
+      "id": "container-ship",
+      "category": "sea",
+      "name": "Container ship",
+      "drawing": "sea"
+    },
+    {
+      "id": "roro",
+      "category": "sea",
+      "name": "Ro-Ro vessel",
+      "drawing": "sea"
+    },
+    {
+      "id": "tanker-ship",
+      "category": "sea",
+      "name": "Tanker vessel",
+      "drawing": "sea"
+    },
+    {
+      "id": "general",
+      "category": "sea",
+      "name": "General cargo vessel",
+      "drawing": "sea"
+    },
+    {
+      "id": "heavy",
+      "category": "sea",
+      "name": "Heavy-lift vessel",
+      "drawing": "sea"
+    },
+    {
+      "id": "barge",
+      "category": "sea",
+      "name": "Barge & pontoon",
+      "drawing": "sea"
+    },
+    {
+      "id": "dry",
+      "category": "containers",
+      "name": "Dry containers",
+      "drawing": "containers"
+    },
+    {
+      "id": "hc",
+      "category": "containers",
+      "name": "High Cube containers",
+      "drawing": "containers"
+    },
+    {
+      "id": "reefer",
+      "category": "containers",
+      "name": "Reefer containers",
+      "drawing": "containers"
+    },
+    {
+      "id": "opentop",
+      "category": "containers",
+      "name": "Open Top containers",
+      "drawing": "containers"
+    },
+    {
+      "id": "flat",
+      "category": "containers",
+      "name": "Flat Rack & platform",
+      "drawing": "containers"
+    },
+    {
+      "id": "tank",
+      "category": "containers",
+      "name": "Tank containers",
+      "drawing": "containers"
+    },
+    {
+      "id": "curtain",
+      "category": "road",
+      "name": "Curtainsiders & box trailers",
+      "drawing": "road"
+    },
+    {
+      "id": "lowbed",
+      "category": "road",
+      "name": "Lowbed trailers",
+      "drawing": "road"
+    },
+    {
+      "id": "extend",
+      "category": "road",
+      "name": "Extendable & modular trailers",
+      "drawing": "road"
+    },
+    {
+      "id": "carcarrier",
+      "category": "road",
+      "name": "Car transporters",
+      "drawing": "road"
+    },
+    {
+      "id": "tractor",
+      "category": "road",
+      "name": "Tractor configurations",
+      "drawing": "road"
+    },
+    {
+      "id": "fuel",
+      "category": "road",
+      "name": "Fuel tankers",
+      "drawing": "road"
+    },
+    {
+      "id": "food",
+      "category": "road",
+      "name": "Food & chemical tankers",
+      "drawing": "road"
+    },
+    {
+      "id": "gas",
+      "category": "road",
+      "name": "LPG & pressure tankers",
+      "drawing": "road"
+    },
+    {
+      "id": "silo",
+      "category": "road",
+      "name": "Silo & powder tankers",
+      "drawing": "road"
+    },
+    {
+      "id": "tipper",
+      "category": "road",
+      "name": "Tippers & refrigerated trailers",
+      "drawing": "road"
+    },
+    {
+      "id": "rail-flat",
+      "category": "rail",
+      "name": "Flat & container wagons",
+      "drawing": "rail"
+    },
+    {
+      "id": "rail-open",
+      "category": "rail",
+      "name": "Open gondola wagons",
+      "drawing": "rail"
+    },
+    {
+      "id": "rail-box",
+      "category": "rail",
+      "name": "Covered wagons",
+      "drawing": "rail"
+    },
+    {
+      "id": "rail-hopper",
+      "category": "rail",
+      "name": "Hopper wagons",
+      "drawing": "rail"
+    },
+    {
+      "id": "rail-tank",
+      "category": "rail",
+      "name": "Tank wagons",
+      "drawing": "rail"
+    },
+    {
+      "id": "rail-auto",
+      "category": "rail",
+      "name": "Vehicle carrier wagons",
+      "drawing": "rail"
+    },
+    {
+      "id": "harbour",
+      "category": "cranes",
+      "name": "Mobile harbour cranes",
+      "drawing": "cranes"
+    },
+    {
+      "id": "sts",
+      "category": "cranes",
+      "name": "Ship-to-shore gantry cranes",
+      "drawing": "cranes"
+    },
+    {
+      "id": "rtg",
+      "category": "cranes",
+      "name": "RTG & RMG gantry cranes",
+      "drawing": "cranes"
+    },
+    {
+      "id": "mobile",
+      "category": "cranes",
+      "name": "Mobile telescopic cranes",
+      "drawing": "cranes"
+    },
+    {
+      "id": "crawler",
+      "category": "cranes",
+      "name": "Crawler cranes",
+      "drawing": "cranes"
+    },
+    {
+      "id": "tower",
+      "category": "cranes",
+      "name": "Tower & overhead cranes",
+      "drawing": "cranes"
+    },
+    {
+      "id": "deck",
+      "category": "cranes",
+      "name": "Deck & offshore cranes",
+      "drawing": "cranes"
+    },
+    {
+      "id": "pneumatic",
+      "category": "unloading",
+      "name": "Pneumatic unloaders",
+      "drawing": "unloading"
+    },
+    {
+      "id": "grab",
+      "category": "unloading",
+      "name": "Grab & hopper systems",
+      "drawing": "unloading"
+    },
+    {
+      "id": "mechanical",
+      "category": "unloading",
+      "name": "Mechanical continuous unloaders",
+      "drawing": "unloading"
+    },
+    {
+      "id": "conveyor",
+      "category": "unloading",
+      "name": "Conveyors & shiploaders",
+      "drawing": "unloading"
+    },
+    {
+      "id": "loader",
+      "category": "machinery",
+      "name": "Wheel loaders",
+      "drawing": "machinery"
+    },
+    {
+      "id": "excavator",
+      "category": "machinery",
+      "name": "Excavators",
+      "drawing": "machinery"
+    },
+    {
+      "id": "backhoe",
+      "category": "machinery",
+      "name": "Backhoe loaders",
+      "drawing": "machinery"
+    },
+    {
+      "id": "dozer",
+      "category": "machinery",
+      "name": "Dozers",
+      "drawing": "machinery"
+    },
+    {
+      "id": "grader",
+      "category": "machinery",
+      "name": "Motor graders",
+      "drawing": "machinery"
+    },
+    {
+      "id": "roller",
+      "category": "machinery",
+      "name": "Rollers & compactors",
+      "drawing": "machinery"
+    },
+    {
+      "id": "handler",
+      "category": "machinery",
+      "name": "Telehandlers & forklifts",
+      "drawing": "machinery"
+    },
+    {
+      "id": "dumper",
+      "category": "machinery",
+      "name": "Dump trucks",
+      "drawing": "machinery"
+    },
+    {
+      "id": "sedan",
+      "category": "cars",
+      "name": "Sedans",
+      "drawing": "cars"
+    },
+    {
+      "id": "hatch",
+      "category": "cars",
+      "name": "Hatchbacks",
+      "drawing": "cars"
+    },
+    {
+      "id": "suv",
+      "category": "cars",
+      "name": "SUV & crossovers",
+      "drawing": "cars"
+    },
+    {
+      "id": "pickup",
+      "category": "cars",
+      "name": "Pickups & vans",
+      "drawing": "cars"
+    }
+  ],
+  "records": [
+    {
+      "id": "hl-20",
+      "type": "dry",
+      "category": "containers",
+      "name": "20′ Standard",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "Internal length": "5,900 mm",
+        "Internal width": "2,352 mm",
+        "Internal height": "2,395 mm",
+        "Door opening": "2,340 × 2,292 mm",
+        "Volume": "33.2 m³",
+        "Maximum gross weight": "32,500 kg",
+        "Tare weight": "2,370 kg",
+        "Payload": "30,130 kg"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/20-standard.html",
+      "variant": "Carrier fleet example; confirm the allocated unit.",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": []
+    },
+    {
+      "id": "hl-40hc",
+      "type": "hc",
+      "category": "containers",
+      "name": "40′ High Cube",
+      "brand": "Hapag-Lloyd",
+      "country": "",
+      "specs": {
+        "Internal length": "12,032 mm",
+        "Internal width": "2,350 mm",
+        "Internal height": "2,700 mm",
+        "Door opening": "2,340 × 2,597 mm",
+        "Volume": "76.3 m³"
+      },
+      "source": "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/container/40-standard-high-cube.html",
+      "variant": "Carrier fleet example; confirm the allocated unit.",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "containers",
+      "missing": []
+    },
+    {
+      "id": "tr-rgns",
+      "type": "rail-flat",
+      "category": "rail",
+      "name": "Rgns 60′",
+      "brand": "TÜRASAŞ",
+      "country": "TR",
+      "specs": {
+        "Overall length": "19,640 mm",
+        "Overall width": "2,930 mm",
+        "Overall height": "2,525 mm",
+        "Platform length": "18,400 mm",
+        "Platform height": "1,230 mm",
+        "Tare weight": "19,900 kg",
+        "Payload": "70,100 kg",
+        "Maximum gross weight": "90,000 kg",
+        "Track gauge": "1,435 mm"
+      },
+      "source": "https://www.turasas.gov.tr/detay/60-rgns-konteyner-platform-vagonu",
+      "variant": "Rgns 60 ft · TSI WAG / TSI NOI",
+      "verified": true,
+      "photo": "https://www.turasas.gov.tr/images/urunler/b253ba85-d131-4d5d-98bf-f087cc26b4fe.png",
+      "checked": "2026-10-22",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "rm-121293",
+      "type": "rail-open",
+      "category": "rail",
+      "name": "12-1293",
+      "brand": "RM Rail",
+      "country": "RU",
+      "specs": {
+        "Payload": "69,500 kg",
+        "Tare weight": "23,500–24,500 kg",
+        "Volume": "86 m³",
+        "Axle load": "23.5 tf"
+      },
+      "source": "https://en.rmrail.ru/upload/iblock/950/07b8jnw1i8ggb22wxo1b21gc7gx5f9gp/katalog-2023_en_.pdf",
+      "variant": "Manufacturer catalogue 2023 · model 12-1293",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "rail",
+      "missing": [
+        "Overall length",
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "volvo-l120h",
+      "type": "loader",
+      "category": "machinery",
+      "name": "L120H",
+      "brand": "Volvo CE",
+      "country": "",
+      "specs": {
+        "Operating weight": "19,000–21,600 kg",
+        "Bucket capacity": "2.6–9.5 m³",
+        "Static tipping load": "12,500 kg",
+        "Overall width": "2,670 mm",
+        "Cab height": "3,380 mm"
+      },
+      "source": "https://www.volvoce.com/asia/products/wheel-loaders/l120h/",
+      "variant": "Asia · Stage II / Tier 3",
+      "verified": true,
+      "photo": "https://www.volvoce.com/-/media/aprimo/images/large-wheel-loaders/missing-data-f/volvo-show-wheel-loader-l120h-t4f-2324x1200.jpg?mh=620&mw=1205&v=fGp8Pw&c=1&cw=1200&ch=620&jq=80&hash=EF397E194548C20F9B193D6443C2C6F6",
+      "checked": "2026-10-22",
+      "drawing": "machinery",
+      "missing": [
+        "Overall length",
+        "Overall height"
+      ],
+      "additional_source": "https://www.volvoce.com/-/media/aprimo/pdf/large-wheel-loaders/l120h/product-guide-l120h-t3-en-30-20062977-d.pdf?v=7oB_Pw"
+    },
+    {
+      "id": "volvo-ec220",
+      "type": "excavator",
+      "category": "machinery",
+      "name": "EC220 L",
+      "brand": "Volvo CE",
+      "country": "",
+      "specs": {
+        "Operating weight": "21,000 kg",
+        "Overall width": "2,800 mm",
+        "Track shoe width": "600 mm",
+        "Boom length": "5.7 m",
+        "Arm length": "2.9 m"
+      },
+      "source": "https://www.volvoce.com/-/media/aprimo/pdf/crawler-excavators/ec220/product-guide-ec220-d5-t3-en-lam-20064852-b.pdf?v=-w19Pw",
+      "variant": "EC220 L · HD boom/arm · 1,000 kg bucket · 3,800 kg counterweight",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "machinery",
+      "missing": [
+        "Overall length",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "komatsu-pc210",
+      "type": "excavator",
+      "category": "machinery",
+      "name": "PC210LC-11",
+      "brand": "Komatsu",
+      "country": "",
+      "specs": {
+        "Operating weight": "22,450 kg",
+        "Track shoe width": "600 mm",
+        "Arm length": "2.9 m"
+      },
+      "source": "https://www.komatsu.eu/Assets/GetBrochureByProductName.aspx?id=PC210%2FLC%2FNLC-11&langID=en",
+      "variant": "Mono boom · 600 mm shoes · 650 kg bucket",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "machinery",
+      "missing": [
+        "Overall length",
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "lohr300",
+      "type": "carcarrier",
+      "category": "road",
+      "name": "EUROLOHR 300",
+      "brand": "Lohr",
+      "country": "",
+      "specs": {
+        "Trailer length": "≤ 12 m",
+        "Tractor wheelbase": "3,700–3,900 mm"
+      },
+      "source": "https://www.lohr.fr/blog/catalogue/eurolohr-300/",
+      "variant": "Manufacturer product family; equipment-dependent dimensions.",
+      "verified": true,
+      "photo": "https://www.lohr.fr/uploads/2022/10/akki-36-neu-4-ret-scaled.jpg",
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "missing": [
+        "Overall length",
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "fay-mega",
+      "type": "lowbed",
+      "category": "road",
+      "name": "MegaMAX",
+      "brand": "Faymonville",
+      "country": "",
+      "specs": {
+        "Axles": "1–5",
+        "Dolly axles": "1–2"
+      },
+      "source": "https://www.faymonville.com/produkte/tieflader/megamax/",
+      "variant": "Detachable gooseneck · family, not one configuration",
+      "verified": true,
+      "photo": "https://www.faymonville.com/thumbnails/120590-1200-1200-Max.jpg",
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "missing": [
+        "Overall length",
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "liebherr550",
+      "type": "harbour",
+      "category": "cranes",
+      "name": "LHM 550",
+      "brand": "Liebherr",
+      "country": "",
+      "specs": {
+        "Lifting capacity": "144 t",
+        "Working radius": "54 m",
+        "Handling rate": "≤ 1,800 t/h"
+      },
+      "source": "https://www.liebherr.com/shared/media/maritime-cranes/downloads-und-brosch%C3%BCren-neu/job-reports/port-equipment/jobreport_bulk_handling_lhm550_port_of_marin_2022_02.pdf",
+      "variant": "Port of Marín case study · Pactronic configuration · 2022",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "cranes",
+      "missing": [
+        "Overall length",
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "vigan-200",
+      "type": "pneumatic",
+      "category": "unloading",
+      "name": "NIV 200",
+      "brand": "VIGAN",
+      "country": "",
+      "specs": {
+        "Handling rate": "200 t/h",
+        "Installed power": "160 kW"
+      },
+      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
+      "variant": "Published installation example; material and installation affect throughput.",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "unloading",
+      "missing": [
+        "Overall length",
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "vigan-300",
+      "type": "pneumatic",
+      "category": "unloading",
+      "name": "NIV 300",
+      "brand": "VIGAN",
+      "country": "",
+      "specs": {
+        "Handling rate": "300 t/h",
+        "Installed power": "250 kW"
+      },
+      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
+      "variant": "Published installation example; material and installation affect throughput.",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "unloading",
+      "missing": [
+        "Overall length",
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "vigan-500",
+      "type": "pneumatic",
+      "category": "unloading",
+      "name": "NIV 500",
+      "brand": "VIGAN",
+      "country": "",
+      "specs": {
+        "Handling rate": "500 t/h",
+        "Installed power": "400 kW"
+      },
+      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
+      "variant": "Published installation example; material and installation affect throughput.",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "unloading",
+      "missing": [
+        "Overall length",
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "vigan-600",
+      "type": "pneumatic",
+      "category": "unloading",
+      "name": "NIV 600",
+      "brand": "VIGAN",
+      "country": "",
+      "specs": {
+        "Handling rate": "600 t/h",
+        "Installed power": "500 kW"
+      },
+      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
+      "variant": "Published installation example; material and installation affect throughput.",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "unloading",
+      "missing": [
+        "Overall length",
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "vigan-800",
+      "type": "pneumatic",
+      "category": "unloading",
+      "name": "NIV 800",
+      "brand": "VIGAN",
+      "country": "",
+      "specs": {
+        "Handling rate": "800 t/h",
+        "Installed power": "750 kW"
+      },
+      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
+      "variant": "Published installation example; material and installation affect throughput.",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "unloading",
+      "missing": [
+        "Overall length",
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "toyota-corolla",
+      "type": "sedan",
+      "category": "cars",
+      "name": "Corolla LE · 2025",
+      "brand": "Toyota",
+      "country": "US",
+      "specs": {
+        "Overall length": "4,635.5 mm",
+        "Overall width": "1,780.5 mm",
+        "Overall height": "1,435.1 mm",
+        "Wheelbase": "2,700 mm",
+        "Curb weight": "1,340.4 kg"
+      },
+      "source": "https://www.toyota.com/corolla/2025/compare/",
+      "variant": "US · gasoline LE · converted from in/lb; rounded",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "cars",
+      "missing": []
+    },
+    {
+      "id": "toyota-hatch",
+      "type": "hatch",
+      "category": "cars",
+      "name": "Corolla Hatchback SE · 2025",
+      "brand": "Toyota",
+      "country": "US",
+      "specs": {
+        "Overall length": "4,368.8 mm",
+        "Overall width": "1,790.7 mm",
+        "Overall height": "1,450.3 mm",
+        "Wheelbase": "2,639.1 mm",
+        "Curb weight": "1,388 kg"
+      },
+      "source": "https://www.toyota.com/content/dam/toyota/brochures/pdf/2025/corolla-hb-ebro.pdf",
+      "variant": "US · SE · converted from in/lb; rounded",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "cars",
+      "missing": []
+    },
+    {
+      "id": "type-bulk",
+      "type": "bulk",
+      "category": "sea",
+      "name": "Bulk carrier",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "sea",
+      "missing": []
+    },
+    {
+      "id": "type-container-ship",
+      "type": "container-ship",
+      "category": "sea",
+      "name": "Container ship",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "sea",
+      "missing": []
+    },
+    {
+      "id": "type-roro",
+      "type": "roro",
+      "category": "sea",
+      "name": "Ro-Ro vessel",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "sea",
+      "missing": []
+    },
+    {
+      "id": "type-tanker-ship",
+      "type": "tanker-ship",
+      "category": "sea",
+      "name": "Tanker vessel",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "sea",
+      "missing": []
+    },
+    {
+      "id": "type-heavy",
+      "type": "heavy",
+      "category": "sea",
+      "name": "Heavy-lift vessel",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "sea",
+      "missing": []
+    },
+    {
+      "id": "type-barge",
+      "type": "barge",
+      "category": "sea",
+      "name": "Barge & pontoon",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "sea",
+      "missing": []
+    },
+    {
+      "id": "type-reefer",
+      "type": "reefer",
+      "category": "containers",
+      "name": "Reefer containers",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "containers",
+      "missing": []
+    },
+    {
+      "id": "type-opentop",
+      "type": "opentop",
+      "category": "containers",
+      "name": "Open Top containers",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "containers",
+      "missing": []
+    },
+    {
+      "id": "type-flat",
+      "type": "flat",
+      "category": "containers",
+      "name": "Flat Rack & platform",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "containers",
+      "missing": []
+    },
+    {
+      "id": "type-tank",
+      "type": "tank",
+      "category": "containers",
+      "name": "Tank containers",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "containers",
+      "missing": []
+    },
+    {
+      "id": "type-curtain",
+      "type": "curtain",
+      "category": "road",
+      "name": "Curtainsiders & box trailers",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "road",
+      "missing": []
+    },
+    {
+      "id": "type-extend",
+      "type": "extend",
+      "category": "road",
+      "name": "Extendable & modular trailers",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "road",
+      "missing": []
+    },
+    {
+      "id": "type-tractor",
+      "type": "tractor",
+      "category": "road",
+      "name": "Tractor configurations",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "road",
+      "missing": []
+    },
+    {
+      "id": "type-food",
+      "type": "food",
+      "category": "road",
+      "name": "Food & chemical tankers",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "road",
+      "missing": []
+    },
+    {
+      "id": "type-gas",
+      "type": "gas",
+      "category": "road",
+      "name": "LPG & pressure tankers",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "road",
+      "missing": []
+    },
+    {
+      "id": "type-silo",
+      "type": "silo",
+      "category": "road",
+      "name": "Silo & powder tankers",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "road",
+      "missing": []
+    },
+    {
+      "id": "type-tipper",
+      "type": "tipper",
+      "category": "road",
+      "name": "Tippers & refrigerated trailers",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "road",
+      "missing": []
+    },
+    {
+      "id": "type-sts",
+      "type": "sts",
+      "category": "cranes",
+      "name": "Ship-to-shore gantry cranes",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "cranes",
+      "missing": []
+    },
+    {
+      "id": "type-mobile",
+      "type": "mobile",
+      "category": "cranes",
+      "name": "Mobile telescopic cranes",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "cranes",
+      "missing": []
+    },
+    {
+      "id": "type-crawler",
+      "type": "crawler",
+      "category": "cranes",
+      "name": "Crawler cranes",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "cranes",
+      "missing": []
+    },
+    {
+      "id": "type-tower",
+      "type": "tower",
+      "category": "cranes",
+      "name": "Tower & overhead cranes",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "cranes",
+      "missing": []
+    },
+    {
+      "id": "type-deck",
+      "type": "deck",
+      "category": "cranes",
+      "name": "Deck & offshore cranes",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "cranes",
+      "missing": []
+    },
+    {
+      "id": "type-grab",
+      "type": "grab",
+      "category": "unloading",
+      "name": "Grab & hopper systems",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "unloading",
+      "missing": []
+    },
+    {
+      "id": "type-mechanical",
+      "type": "mechanical",
+      "category": "unloading",
+      "name": "Mechanical continuous unloaders",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "unloading",
+      "missing": []
+    },
+    {
+      "id": "type-conveyor",
+      "type": "conveyor",
+      "category": "unloading",
+      "name": "Conveyors & shiploaders",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "unloading",
+      "missing": []
+    },
+    {
+      "id": "type-backhoe",
+      "type": "backhoe",
+      "category": "machinery",
+      "name": "Backhoe loaders",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "machinery",
+      "missing": []
+    },
+    {
+      "id": "type-dozer",
+      "type": "dozer",
+      "category": "machinery",
+      "name": "Dozers",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "machinery",
+      "missing": []
+    },
+    {
+      "id": "type-grader",
+      "type": "grader",
+      "category": "machinery",
+      "name": "Motor graders",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "machinery",
+      "missing": []
+    },
+    {
+      "id": "type-roller",
+      "type": "roller",
+      "category": "machinery",
+      "name": "Rollers & compactors",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "machinery",
+      "missing": []
+    },
+    {
+      "id": "type-handler",
+      "type": "handler",
+      "category": "machinery",
+      "name": "Telehandlers & forklifts",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "machinery",
+      "missing": []
+    },
+    {
+      "id": "type-dumper",
+      "type": "dumper",
+      "category": "machinery",
+      "name": "Dump trucks",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "machinery",
+      "missing": []
+    },
+    {
+      "id": "type-pickup",
+      "type": "pickup",
+      "category": "cars",
+      "name": "Pickups & vans",
+      "brand": "",
+      "country": "",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "cars",
+      "missing": []
+    },
+    {
+      "id": "tr-rail-open",
+      "type": "rail-open",
+      "category": "rail",
+      "name": "Open gondola wagons",
+      "brand": "",
+      "country": "TR",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "tr-rail-box",
+      "type": "rail-box",
+      "category": "rail",
+      "name": "Covered wagons",
+      "brand": "",
+      "country": "TR",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "tr-rail-hopper",
+      "type": "rail-hopper",
+      "category": "rail",
+      "name": "Hopper wagons",
+      "brand": "",
+      "country": "TR",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "tr-rail-tank",
+      "type": "rail-tank",
+      "category": "rail",
+      "name": "Tank wagons",
+      "brand": "",
+      "country": "TR",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "tr-rail-auto",
+      "type": "rail-auto",
+      "category": "rail",
+      "name": "Vehicle carrier wagons",
+      "brand": "",
+      "country": "TR",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "ir-rail-open",
+      "type": "rail-open",
+      "category": "rail",
+      "name": "Open gondola wagons",
+      "brand": "",
+      "country": "IR",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "ir-rail-box",
+      "type": "rail-box",
+      "category": "rail",
+      "name": "Covered wagons",
+      "brand": "",
+      "country": "IR",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "ir-rail-hopper",
+      "type": "rail-hopper",
+      "category": "rail",
+      "name": "Hopper wagons",
+      "brand": "",
+      "country": "IR",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "ir-rail-tank",
+      "type": "rail-tank",
+      "category": "rail",
+      "name": "Tank wagons",
+      "brand": "",
+      "country": "IR",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "ir-rail-auto",
+      "type": "rail-auto",
+      "category": "rail",
+      "name": "Vehicle carrier wagons",
+      "brand": "",
+      "country": "IR",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "ru-rail-flat",
+      "type": "rail-flat",
+      "category": "rail",
+      "name": "Flat & container wagons",
+      "brand": "",
+      "country": "RU",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "ru-rail-box",
+      "type": "rail-box",
+      "category": "rail",
+      "name": "Covered wagons",
+      "brand": "",
+      "country": "RU",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "ru-rail-hopper",
+      "type": "rail-hopper",
+      "category": "rail",
+      "name": "Hopper wagons",
+      "brand": "",
+      "country": "RU",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "ru-rail-tank",
+      "type": "rail-tank",
+      "category": "rail",
+      "name": "Tank wagons",
+      "brand": "",
+      "country": "RU",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "ru-rail-auto",
+      "type": "rail-auto",
+      "category": "rail",
+      "name": "Vehicle carrier wagons",
+      "brand": "",
+      "country": "RU",
+      "specs": {},
+      "source": "",
+      "variant": "",
+      "verified": false,
+      "photo": "",
+      "checked": "",
+      "drawing": "rail",
+      "missing": []
+    },
+    {
+      "id": "mapna-flat",
+      "type": "rail-flat",
+      "category": "rail",
+      "name": "Two-axle flat wagon",
+      "brand": "MAPNA",
+      "country": "IR",
+      "specs": {
+        "Overall length": "13,840 mm",
+        "Overall width": "2,570 mm",
+        "Platform height": "1,255 mm",
+        "Tare weight": "11,600 kg ±3%",
+        "Payload": "33,400 kg",
+        "Track gauge": "1,435 mm",
+        "Axles": "2",
+        "Axle load": "22.5 t",
+        "Wheelbase": "9,000 mm"
+      },
+      "source": "https://www.irex2world.com/files/701/company_catalog/3g9Y520iJDCe8BXc4Ysn.pdf#page=17",
+      "variant": "MAPNA Locomotive catalogue · printed page 15 / PDF page 17",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "rail",
+      "missing": [
+        "Overall height"
+      ]
+    },
+    {
+      "id": "damen-cf3850",
+      "type": "general",
+      "category": "sea",
+      "name": "Combi Freighter 3850",
+      "brand": "Damen",
+      "country": "",
+      "specs": {
+        "Overall length": "89.75 m",
+        "Overall width": "12.50 m",
+        "Draught": "5.48 m",
+        "Deadweight": "3,800 t",
+        "Hold volume": "5,250 m³",
+        "Hold dimensions": "62.5 × 10.1 × 8.4 m"
+      },
+      "source": "https://www.damen.com/vessels/cargo/multi-purpose-cargo-vessels/combi-freighter-3850",
+      "variant": "Manufacturer current product page; vessel versions differ.",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "sea",
+      "missing": [
+        "Overall height"
+      ]
+    },
+    {
+      "id": "kaess-fuel",
+      "type": "fuel",
+      "category": "road",
+      "name": "K.STB E 39 / 5 - 11 / 24",
+      "brand": "Kässbohrer",
+      "country": "",
+      "specs": {
+        "Overall length": "11,250 mm",
+        "Tank diameter": "2,350 mm",
+        "Gross tank volume": "39 m³",
+        "Net tank volume": "36 m³",
+        "Tare weight": "5,650 kg ±3%",
+        "Wheelbase": "6,700 mm",
+        "Compartments": "5"
+      },
+      "source": "https://kaessbohrer.com/static/media/product/519/attachments/auto_pdf/brochure_519_en.pdf?v=200719045635",
+      "variant": "Published configuration · 5 compartments · ADR Class 3",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "road",
+      "missing": [
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "rikon-rtg",
+      "type": "rtg",
+      "category": "cranes",
+      "name": "RTG / A-RTG",
+      "brand": "RIKON",
+      "country": "",
+      "specs": {
+        "Lifting capacity (single)": "41 / 45 / 50 t",
+        "Lifting capacity (twin)": "50 / 60 / 65 t",
+        "Gantry span": "≤ 10 container rows",
+        "Stacking height": "≤ 1 over 7"
+      },
+      "source": "https://rikoncranes.com/en/port-cranes/rtg-a-rtg/",
+      "variant": "Product family · capacities depend on spreader configuration",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "cranes",
+      "missing": [
+        "Overall length",
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "cat-m320",
+      "type": "excavator",
+      "category": "machinery",
+      "name": "M320",
+      "brand": "Caterpillar",
+      "country": "",
+      "specs": {
+        "Operating weight": "19,000–19,500 kg",
+        "Overall length": "8,960 mm"
+      },
+      "source": "https://www.cat.com/en_MX/products/new/equipment/excavators/wheel-excavators/123060.html",
+      "variant": "Wheeled excavator · medium stick · 4,000 kg counterweight · specified coupler/bucket",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "machinery",
+      "missing": [
+        "Overall width",
+        "Overall height"
+      ]
+    },
+    {
+      "id": "hyundai-tucson",
+      "type": "suv",
+      "category": "cars",
+      "name": "TUCSON · MY24",
+      "brand": "Hyundai",
+      "country": "",
+      "specs": {
+        "Overall length": "4,510 mm",
+        "Overall width": "1,865 mm",
+        "Overall height": "1,650 mm",
+        "Wheelbase": "2,680 mm"
+      },
+      "source": "https://dmassets.hyundai.com/is/content/hyundaiautoever/Hyundai_TUCSON_Brochure_MY24pdf",
+      "variant": "Short-wheelbase MY24 · 19-inch wheels · including roof rail · N Line length differs",
+      "verified": true,
+      "photo": "",
+      "checked": "2026-10-22",
+      "drawing": "cars",
+      "missing": []
+    }
+  ],
+  "brands": {
+    "machinery": [
+      "Volvo CE",
+      "Caterpillar",
+      "Komatsu",
+      "Liebherr",
+      "JCB",
+      "Hitachi",
+      "Hyundai",
+      "Develon",
+      "SANY",
+      "XCMG",
+      "LiuGong",
+      "SDLG",
+      "CASE",
+      "New Holland",
+      "John Deere",
+      "Bobcat",
+      "Kubota",
+      "Manitou",
+      "JLG",
+      "Wacker Neuson"
+    ],
+    "cars": [
+      "Toyota",
+      "Mercedes-Benz",
+      "BMW",
+      "Audi",
+      "Volkswagen",
+      "Ford",
+      "Renault",
+      "Fiat",
+      "Hyundai",
+      "Kia",
+      "Peugeot",
+      "Citroën",
+      "Opel",
+      "Nissan",
+      "Honda",
+      "Škoda",
+      "SEAT",
+      "Dacia",
+      "Volvo",
+      "Tesla",
+      "BYD",
+      "Chery",
+      "MG",
+      "Togg",
+      "Isuzu",
+      "Mitsubishi",
+      "Suzuki",
+      "Land Rover",
+      "Porsche",
+      "Lexus"
+    ],
+    "road": [
+      "Faymonville",
+      "Lohr",
+      "Tırsan",
+      "Kässbohrer",
+      "Krone",
+      "Schmitz Cargobull",
+      "Kögel",
+      "Nooteboom",
+      "Goldhofer",
+      "Feldbinder",
+      "Kässbohrer",
+      "Fliegl",
+      "Mercedes-Benz",
+      "Volvo Trucks",
+      "Scania",
+      "MAN",
+      "DAF",
+      "IVECO"
+    ],
+    "rail": [
+      "TÜRASAŞ",
+      "RM Rail",
+      "Wagon Pars",
+      "MAPNA",
+      "Uralvagonzavod",
+      "Greenbrier"
+    ],
+    "cranes": [
+      "Liebherr",
+      "Konecranes",
+      "Kalmar",
+      "Tadano",
+      "Grove",
+      "SANY",
+      "XCMG",
+      "ZPMC",
+      "Terex",
+      "RIKON"
+    ],
+    "unloading": [
+      "VIGAN",
+      "Bühler",
+      "Siwertell",
+      "FLSmidth",
+      "NEUERO",
+      "Liebherr"
+    ]
+  }
+}
