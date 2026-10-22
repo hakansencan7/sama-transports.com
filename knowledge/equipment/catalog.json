@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "categories": [
     {
       "id": "sea",
@@ -393,48 +393,6 @@
       "name": "Naval surface ship",
       "drawing": "sea",
       "group": "other"
-    },
-    {
-      "id": "harbour",
-      "category": "cranes",
-      "name": "Mobile harbour cranes",
-      "drawing": "cranes"
-    },
-    {
-      "id": "sts",
-      "category": "cranes",
-      "name": "Ship-to-shore gantry cranes",
-      "drawing": "cranes"
-    },
-    {
-      "id": "rtg",
-      "category": "cranes",
-      "name": "RTG & RMG gantry cranes",
-      "drawing": "cranes"
-    },
-    {
-      "id": "mobile",
-      "category": "cranes",
-      "name": "Mobile telescopic cranes",
-      "drawing": "cranes"
-    },
-    {
-      "id": "crawler",
-      "category": "cranes",
-      "name": "Crawler cranes",
-      "drawing": "cranes"
-    },
-    {
-      "id": "tower",
-      "category": "cranes",
-      "name": "Tower & overhead cranes",
-      "drawing": "cranes"
-    },
-    {
-      "id": "deck",
-      "category": "cranes",
-      "name": "Deck & offshore cranes",
-      "drawing": "cranes"
     },
     {
       "id": "pneumatic",
@@ -1214,6 +1172,228 @@
       "category": "rail",
       "group": "rail-special",
       "name": "Heavy-haul & depressed-centre wagons"
+    },
+    {
+      "id": "harbour",
+      "category": "cranes",
+      "group": "crane-port",
+      "name": "Mobile harbour cranes"
+    },
+    {
+      "id": "crane-portal",
+      "category": "cranes",
+      "group": "crane-port",
+      "name": "Rail portal harbour cranes"
+    },
+    {
+      "id": "crane-fixed",
+      "category": "cranes",
+      "group": "crane-port",
+      "name": "Fixed pedestal port cranes"
+    },
+    {
+      "id": "sts",
+      "category": "cranes",
+      "group": "crane-container",
+      "name": "Ship-to-shore container cranes (STS)"
+    },
+    {
+      "id": "rtg",
+      "category": "cranes",
+      "group": "crane-container",
+      "name": "Rubber-tyred gantry cranes (RTG)"
+    },
+    {
+      "id": "crane-rmg",
+      "category": "cranes",
+      "group": "crane-container",
+      "name": "Rail-mounted gantry cranes (RMG)"
+    },
+    {
+      "id": "mobile",
+      "category": "cranes",
+      "group": "crane-mobile",
+      "name": "All-terrain telescopic cranes"
+    },
+    {
+      "id": "crane-truck",
+      "category": "cranes",
+      "group": "crane-mobile",
+      "name": "Truck-mounted telescopic cranes"
+    },
+    {
+      "id": "crane-city",
+      "category": "cranes",
+      "group": "crane-mobile",
+      "name": "Compact city cranes"
+    },
+    {
+      "id": "crane-rough",
+      "category": "cranes",
+      "group": "crane-mobile",
+      "name": "Rough-terrain cranes"
+    },
+    {
+      "id": "crane-pickcarry",
+      "category": "cranes",
+      "group": "crane-mobile",
+      "name": "Articulated pick-and-carry cranes"
+    },
+    {
+      "id": "crane-carrydeck",
+      "category": "cranes",
+      "group": "crane-mobile",
+      "name": "Industrial carry-deck cranes"
+    },
+    {
+      "id": "crawler",
+      "category": "cranes",
+      "group": "crane-crawler",
+      "name": "Lattice-boom crawler cranes"
+    },
+    {
+      "id": "crane-telcrawler",
+      "category": "cranes",
+      "group": "crane-crawler",
+      "name": "Telescopic crawler cranes"
+    },
+    {
+      "id": "tower",
+      "category": "cranes",
+      "group": "crane-tower",
+      "name": "Flat-top tower cranes"
+    },
+    {
+      "id": "crane-luffing",
+      "category": "cranes",
+      "group": "crane-tower",
+      "name": "Luffing-jib tower cranes"
+    },
+    {
+      "id": "crane-selferect",
+      "category": "cranes",
+      "group": "crane-tower",
+      "name": "Self-erecting tower cranes"
+    },
+    {
+      "id": "crane-derrick",
+      "category": "cranes",
+      "group": "crane-tower",
+      "name": "Derrick dismantling cranes"
+    },
+    {
+      "id": "crane-spider",
+      "category": "cranes",
+      "group": "crane-compact",
+      "name": "Mini spider cranes"
+    },
+    {
+      "id": "crane-loader",
+      "category": "cranes",
+      "group": "crane-compact",
+      "name": "Knuckle-boom truck-loader cranes"
+    },
+    {
+      "id": "crane-trailer",
+      "category": "cranes",
+      "group": "crane-compact",
+      "name": "Trailer-mounted cranes"
+    },
+    {
+      "id": "crane-single",
+      "category": "cranes",
+      "group": "crane-industrial",
+      "name": "Single-girder bridge cranes"
+    },
+    {
+      "id": "crane-double",
+      "category": "cranes",
+      "group": "crane-industrial",
+      "name": "Double-girder bridge cranes"
+    },
+    {
+      "id": "crane-underslung",
+      "category": "cranes",
+      "group": "crane-industrial",
+      "name": "Underslung bridge cranes"
+    },
+    {
+      "id": "crane-walltravel",
+      "category": "cranes",
+      "group": "crane-industrial",
+      "name": "Wall-travelling cranes"
+    },
+    {
+      "id": "crane-semigantry",
+      "category": "cranes",
+      "group": "crane-industrial",
+      "name": "Semi-gantry cranes"
+    },
+    {
+      "id": "crane-gantry",
+      "category": "cranes",
+      "group": "crane-industrial",
+      "name": "Full gantry cranes"
+    },
+    {
+      "id": "crane-workstation",
+      "category": "cranes",
+      "group": "crane-industrial",
+      "name": "Light workstation bridge cranes"
+    },
+    {
+      "id": "crane-pillarjib",
+      "category": "cranes",
+      "group": "crane-industrial",
+      "name": "Pillar-mounted jib cranes"
+    },
+    {
+      "id": "crane-walljib",
+      "category": "cranes",
+      "group": "crane-industrial",
+      "name": "Wall-mounted jib cranes"
+    },
+    {
+      "id": "crane-process",
+      "category": "cranes",
+      "group": "crane-industrial",
+      "name": "Heavy process bridge cranes"
+    },
+    {
+      "id": "deck",
+      "category": "cranes",
+      "group": "crane-special",
+      "name": "Shipboard cargo & transshipment cranes"
+    },
+    {
+      "id": "crane-floating",
+      "category": "cranes",
+      "group": "crane-special",
+      "name": "Floating heavy-lift cranes"
+    },
+    {
+      "id": "crane-offshore",
+      "category": "cranes",
+      "group": "crane-special",
+      "name": "Offshore heavy-lift cranes"
+    },
+    {
+      "id": "crane-shipyard",
+      "category": "cranes",
+      "group": "crane-special",
+      "name": "Shipyard Goliath cranes"
+    },
+    {
+      "id": "crane-boathoist",
+      "category": "cranes",
+      "group": "crane-special",
+      "name": "Mobile boat hoists"
+    },
+    {
+      "id": "crane-railway",
+      "category": "cranes",
+      "group": "crane-special",
+      "name": "Railway recovery & track cranes"
     }
   ],
   "records": [
@@ -2727,30 +2907,6 @@
       ]
     },
     {
-      "id": "liebherr550",
-      "type": "harbour",
-      "category": "cranes",
-      "name": "LHM 550",
-      "brand": "Liebherr",
-      "country": "",
-      "specs": {
-        "Lifting capacity": "144 t",
-        "Working radius": "54 m",
-        "Handling rate": "≤ 1,800 t/h"
-      },
-      "source": "https://www.liebherr.com/shared/media/maritime-cranes/downloads-und-brosch%C3%BCren-neu/job-reports/port-equipment/jobreport_bulk_handling_lhm550_port_of_marin_2022_02.pdf",
-      "variant": "Port of Marín case study · Pactronic configuration · 2022",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "cranes",
-      "missing": [
-        "Overall length",
-        "Overall width",
-        "Overall height"
-      ]
-    },
-    {
       "id": "vigan-200",
       "type": "pneumatic",
       "category": "unloading",
@@ -2907,86 +3063,6 @@
       "photo": "",
       "checked": "2026-10-22",
       "drawing": "cars",
-      "missing": []
-    },
-    {
-      "id": "type-sts",
-      "type": "sts",
-      "category": "cranes",
-      "name": "Ship-to-shore gantry cranes",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "cranes",
-      "missing": []
-    },
-    {
-      "id": "type-mobile",
-      "type": "mobile",
-      "category": "cranes",
-      "name": "Mobile telescopic cranes",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "cranes",
-      "missing": []
-    },
-    {
-      "id": "type-crawler",
-      "type": "crawler",
-      "category": "cranes",
-      "name": "Crawler cranes",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "cranes",
-      "missing": []
-    },
-    {
-      "id": "type-tower",
-      "type": "tower",
-      "category": "cranes",
-      "name": "Tower & overhead cranes",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "cranes",
-      "missing": []
-    },
-    {
-      "id": "type-deck",
-      "type": "deck",
-      "category": "cranes",
-      "name": "Deck & offshore cranes",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "cranes",
       "missing": []
     },
     {
@@ -3148,31 +3224,6 @@
       "checked": "",
       "drawing": "cars",
       "missing": []
-    },
-    {
-      "id": "rikon-rtg",
-      "type": "rtg",
-      "category": "cranes",
-      "name": "RTG / A-RTG",
-      "brand": "RIKON",
-      "country": "",
-      "specs": {
-        "Lifting capacity (single)": "41 / 45 / 50 t",
-        "Lifting capacity (twin)": "50 / 60 / 65 t",
-        "Gantry span": "≤ 10 container rows",
-        "Stacking height": "≤ 1 over 7"
-      },
-      "source": "https://rikoncranes.com/en/port-cranes/rtg-a-rtg/",
-      "variant": "Product family · capacities depend on spreader configuration",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "cranes",
-      "missing": [
-        "Overall length",
-        "Overall width",
-        "Overall height"
-      ]
     },
     {
       "id": "cat-m320",
@@ -10222,6 +10273,1635 @@
         "source": "https://commons.wikimedia.org/wiki/File:An_Indian_Railway_wagon_capable_of_carrying_a_load_of_130_tons.jpg",
         "changes": "Resized and converted to WebP; content unchanged."
       }
+    },
+    {
+      "id": "liebherr550",
+      "category": "cranes",
+      "type": "harbour",
+      "brand": "Liebherr",
+      "name": "LHM 550 · Port of Marín · Mobile harbour cranes",
+      "variant": "LHM 550 · Pactronic · Port of Marín · 2022",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "144 t",
+        "Maximum working radius": "54 m",
+        "Bulk handling rate (case study)": "≤ 1800 t/h"
+      },
+      "source": "https://www.liebherr.com/shared/media/maritime-cranes/downloads-und-brosch%C3%BCren-neu/job-reports/port-equipment/jobreport_bulk_handling_lhm550_port_of_marin_2022_02.pdf",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Quayside bulk, containers and general cargo.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/harbour.webp",
+      "photo_credit": {
+        "title": "File:Liebherr LHM 550 Mobile Harbour Crane with floating dock Yargan in the background, Henderson, Western Australia, January 2023.jpg",
+        "author": "Calistemon",
+        "source": "https://commons.wikimedia.org/wiki/File:Liebherr_LHM_550_Mobile_Harbour_Crane_with_floating_dock_Yargan_in_the_background,_Henderson,_Western_Australia,_January_2023.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-lhm600",
+      "category": "cranes",
+      "type": "harbour",
+      "brand": "Liebherr",
+      "name": "LHM 600 · Mobile harbour cranes",
+      "variant": "LHM 600",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "208 t",
+        "Boom / jib length": "61 m",
+        "Maximum working radius": "61 m",
+        "Published machine weight": "540 t",
+        "Maximum hoisting speed": "120 m/min"
+      },
+      "source": "https://www.liebherr.com/en-pt/p/lhm600-5990337",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Quayside bulk, containers and general cargo.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/harbour.webp",
+      "photo_credit": {
+        "title": "File:Liebherr LHM 550 Mobile Harbour Crane with floating dock Yargan in the background, Henderson, Western Australia, January 2023.jpg",
+        "author": "Calistemon",
+        "source": "https://commons.wikimedia.org/wiki/File:Liebherr_LHM_550_Mobile_Harbour_Crane_with_floating_dock_Yargan_in_the_background,_Henderson,_Western_Australia,_January_2023.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-lhm800",
+      "category": "cranes",
+      "type": "harbour",
+      "brand": "Liebherr",
+      "name": "LHM 800 · Mobile harbour cranes",
+      "variant": "LHM 800",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "308 t",
+        "Boom / jib length": "64 m",
+        "Published machine weight": "742 t",
+        "Maximum hoisting speed": "120 m/min"
+      },
+      "source": "https://www.liebherr.com/en-gb/p/lhm800-4311235",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Quayside bulk, containers and general cargo.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/harbour.webp",
+      "photo_credit": {
+        "title": "File:Liebherr LHM 550 Mobile Harbour Crane with floating dock Yargan in the background, Henderson, Western Australia, January 2023.jpg",
+        "author": "Calistemon",
+        "source": "https://commons.wikimedia.org/wiki/File:Liebherr_LHM_550_Mobile_Harbour_Crane_with_floating_dock_Yargan_in_the_background,_Henderson,_Western_Australia,_January_2023.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-lps420e",
+      "category": "cranes",
+      "type": "crane-portal",
+      "brand": "Liebherr",
+      "name": "LPS 420 E · Rail portal harbour cranes",
+      "variant": "LPS 420 E · 124 t load-chart configuration",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "124 t",
+        "Radius at maximum capacity": "10.5–12 m",
+        "Maximum working radius": "48 m",
+        "Hook capacity at maximum radius": "27.3 t @ 48 m",
+        "Hoist height above quay": "≤ 43 m",
+        "Hoist depth below quay": "10 m",
+        "Portal rail span": "Project-specific",
+        "Bulk handling rate": "≤ 1200 t/h"
+      },
+      "source": "https://assets-cdn.liebherr.com/assets/api/c24d32f0-cf2b-4ea7-90ea-1b6726d778c8/Original/",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Rail portal base leaves space for vehicles below.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/portal.webp",
+      "photo_credit": {
+        "title": "File:Cityvarvet January 2022 10.jpg",
+        "author": "ArildV",
+        "source": "https://commons.wikimedia.org/wiki/File:Cityvarvet_January_2022_10.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-fcc-310",
+      "category": "cranes",
+      "type": "crane-fixed",
+      "brand": "Liebherr",
+      "name": "FCC 310 · Fixed pedestal port cranes",
+      "variant": "FCC 310",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "45 t",
+        "Boom / jib length": "32 m"
+      },
+      "source": "https://www.liebherr.com/en-int/maritime-cranes/products/port-equipment/fixed-port-solutions/fixed-cargo-cranes-5391569",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Fixed foundation for confined quays and bulk terminals.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "https://assets-cdn.liebherr.com/versions/eb0314e9-e85b-420a-8d4f-8a7f6df88fe1/w-1280_h-1280_f-webp/liebherr-sc-fcc-300-fixed-cargo-bulk-handling-indonesia-3.webp",
+      "photo_credit": {
+        "external": true,
+        "author": "Liebherr",
+        "source": "https://www.liebherr.com/en-int/maritime-cranes/products/port-equipment/fixed-port-solutions/fixed-cargo-cranes-5391569"
+      }
+    },
+    {
+      "id": "crane-fcc-360",
+      "category": "cranes",
+      "type": "crane-fixed",
+      "brand": "Liebherr",
+      "name": "FCC 360 · Fixed pedestal port cranes",
+      "variant": "FCC 360",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "45 t",
+        "Boom / jib length": "36 m"
+      },
+      "source": "https://www.liebherr.com/en-int/maritime-cranes/products/port-equipment/fixed-port-solutions/fixed-cargo-cranes-5391569",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Fixed foundation for confined quays and bulk terminals.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "https://assets-cdn.liebherr.com/versions/eb0314e9-e85b-420a-8d4f-8a7f6df88fe1/w-1280_h-1280_f-webp/liebherr-sc-fcc-300-fixed-cargo-bulk-handling-indonesia-3.webp",
+      "photo_credit": {
+        "external": true,
+        "author": "Liebherr",
+        "source": "https://www.liebherr.com/en-int/maritime-cranes/products/port-equipment/fixed-port-solutions/fixed-cargo-cranes-5391569"
+      }
+    },
+    {
+      "id": "type-sts",
+      "category": "cranes",
+      "type": "sts",
+      "brand": "SANY",
+      "name": "STS6501S · Ship-to-shore container cranes (STS)",
+      "variant": "STS6501S",
+      "verified": true,
+      "specs": {
+        "Spreader lifting capacity": "65 t",
+        "Hook-beam lifting capacity": "75 t",
+        "Waterside outreach": "65 m",
+        "Landside backreach": "18 m",
+        "Rail span": "30.48 m",
+        "Hoist height above rail": "45 m",
+        "Hoist depth below rail": "20 m",
+        "Clear width between legs": "≥ 18.3 m",
+        "Clear portal height": "≥ 13 m",
+        "Overall width": "≤ 27 m",
+        "Hoisting speed (loaded)": "90 m/min",
+        "Hoisting speed (empty)": "180 m/min",
+        "Trolley travel speed": "240 m/min",
+        "Crane travel speed": "45 m/min",
+        "Gantry wheel count": "4 × 8",
+        "Boom raising time": "6 min"
+      },
+      "source": "https://www.sanyglobal.com/product/port_machinery/customized_container_cranes/71/487",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Container transfer between ship and quay.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/sts.webp",
+      "photo_credit": {
+        "title": "File:Container-Terminal Bremerhaven 02.jpg",
+        "author": "H. Zell",
+        "source": "https://commons.wikimedia.org/wiki/File:Container-Terminal_Bremerhaven_02.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "rikon-rtg",
+      "category": "cranes",
+      "type": "rtg",
+      "brand": "RIKON",
+      "name": "RTG / A-RTG · Rubber-tyred gantry cranes (RTG)",
+      "variant": "RTG / A-RTG",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Spreader capacity — single": "41 / 45 / 50 t",
+        "Spreader capacity — twin": "50 / 60 / 65 t",
+        "Container row span": "≤ 10",
+        "Stacking configuration": "Up to 1 over 7 containers",
+        "Crane wheelbase": "6.4 / 6.9 / 9.6 m",
+        "Trolley travel speed": "70 m/min",
+        "Crane travel speed": "130 m/min",
+        "Hoisting speed (loaded)": "20 / 26 / 30 m/min",
+        "Hoisting speed (empty)": "58 / 52 / 60 m/min"
+      },
+      "source": "https://rikoncranes.com/en/port-cranes/rtg-a-rtg/",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Container stacking in yards without fixed crane rails.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/rtg.webp",
+      "photo_credit": {
+        "title": "File:RTG at Bintulu International Container Terminal (BICT).jpg",
+        "author": "Richard W Sinyem from Malaysia",
+        "source": "https://commons.wikimedia.org/wiki/File:RTG_at_Bintulu_International_Container_Terminal_(BICT).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-rikon-rmg",
+      "category": "cranes",
+      "type": "crane-rmg",
+      "brand": "RIKON",
+      "name": "RMG / A-RMG · 25 m · Rail-mounted gantry cranes (RMG)",
+      "variant": "RMG / A-RMG · 43 t spreader · 25 m rail span",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Spreader lifting capacity": "43 t",
+        "Pulley-frame lifting capacity": "50 t",
+        "Rail span": "25 m",
+        "Trolley gauge": "15.6 m",
+        "Trolley wheelbase": "2.52 m",
+        "Clear width between legs": "15.5 m",
+        "Cantilever reach (each side)": "6 m",
+        "Maximum wheel load": "22.5 t",
+        "Spreader rotation": "360°",
+        "Hoisting speed (loaded)": "30 m/min",
+        "Hoisting speed (empty)": "60 m/min",
+        "Trolley travel speed": "100 m/min",
+        "Crane travel speed": "120 m/min"
+      },
+      "source": "https://rikoncranes.com/en/port-cranes/rmg-a-rmg/",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Container yards and rail intermodal terminals.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Uses the 25 m technical-table example. Optional larger spans and capacities mentioned elsewhere on the page are not mixed into this configuration.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/rmg.webp",
+      "photo_credit": {
+        "title": "File:Seattle - Sodo rail yard 01.jpg",
+        "author": "Joe Mabel",
+        "source": "https://commons.wikimedia.org/wiki/File:Seattle_-_Sodo_rail_yard_01.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "type-mobile",
+      "category": "cranes",
+      "type": "mobile",
+      "brand": "Liebherr",
+      "name": "LTM 1120-4.1 · All-terrain telescopic cranes",
+      "variant": "LTM 1120-4.1",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "120 t",
+        "Radius at maximum capacity": "3 m",
+        "Telescopic boom length": "12.3–66 m",
+        "Jib extension length": "2.9–26 m",
+        "Maximum hoist height": "91 m",
+        "Maximum working radius": "64 m",
+        "Axle count": "4",
+        "Engine power": "330 kW",
+        "Drive / steering": "8 × 6 × 8",
+        "Maximum travel speed": "85 km/h",
+        "Total ballast": "31 t"
+      },
+      "source": "https://assets-cdn.liebherr.com/assets/api/4e77c433-1cd9-44ea-ac48-1b575c8a1382/Original/",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Road travel between sites; lifting on outriggers.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/mobile.webp",
+      "photo_credit": {
+        "title": "File:Liebherr LTM 1500-8.1 Crane.jpg",
+        "author": "Gogerr",
+        "source": "https://commons.wikimedia.org/wiki/File:Liebherr_LTM_1500-8.1_Crane.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-ltm1650",
+      "category": "cranes",
+      "type": "mobile",
+      "brand": "Liebherr",
+      "name": "LTM 1650-8.1 · All-terrain telescopic cranes",
+      "variant": "LTM 1650-8.1 · current 700 t product specification",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "700 t",
+        "Radius at maximum capacity": "3 m",
+        "Telescopic boom length": "16.7–80 m",
+        "Jib extension length": "6–91 m",
+        "Maximum hoist height": "152 m",
+        "Maximum working radius": "112 m",
+        "Axle count": "8",
+        "Engine power": "505 kW",
+        "Drive / steering": "16 × 8 × 16",
+        "Maximum travel speed": "85 km/h",
+        "Total ballast": "175 t"
+      },
+      "source": "https://www.liebherr.com/en-sg/mobile-and-crawler-cranes/mobile-cranes/ltm-mobile-cranes/ltm-1650-8-1-6077323",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Road travel between sites; lifting on outriggers.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/large-mobile.webp",
+      "photo_credit": {
+        "title": "File:Liebherr LTM 1650-8.1 (53226971350).jpg",
+        "author": "Alexandre Prevot from Nancy, France",
+        "source": "https://commons.wikimedia.org/wiki/File:Liebherr_LTM_1650-8.1_(53226971350).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-ltf1060",
+      "category": "cranes",
+      "type": "crane-truck",
+      "brand": "Liebherr",
+      "name": "LTF 1060-4.1 · Truck-mounted telescopic cranes",
+      "variant": "LTF 1060-4.1",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "60 t",
+        "Radius at maximum capacity": "2.5 m",
+        "Telescopic boom length": "10.2–40 m",
+        "Jib extension length": "2.5–16 m",
+        "Maximum hoist height": "56 m",
+        "Maximum working radius": "48 m",
+        "Axle count": "4",
+        "Crane engine power": "129 kW",
+        "Total ballast": "10.2 t"
+      },
+      "source": "https://www.liebherr.com/en-ca/mobile-and-crawler-cranes/mobile-cranes/ltf-truck-mounted-cranes/ltf-1060-4-1-4678850",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Telescopic superstructure mounted on a commercial truck chassis.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/truck.webp",
+      "photo_credit": {
+        "title": "File:Telescopic Truck Mounted Crane.jpg",
+        "author": "Oleg Yunakov",
+        "source": "https://commons.wikimedia.org/wiki/File:Telescopic_Truck_Mounted_Crane.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-ltc1050",
+      "category": "cranes",
+      "type": "crane-city",
+      "brand": "Liebherr",
+      "name": "LTC 1050-3.1 · Compact city cranes",
+      "variant": "LTC 1050-3.1 · TELEMATIK 36 m",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "50 t",
+        "Radius at maximum capacity": "3 m",
+        "Telescopic boom length": "8.1–36 m",
+        "Jib extension length": "1.5–13 m",
+        "Maximum hoist height": "48 m",
+        "Maximum working radius": "39 m",
+        "Overall width": "2.55 m",
+        "Axle count": "3",
+        "Engine power": "243 kW",
+        "Drive / steering": "6 × 6 × 6",
+        "Maximum travel speed": "85 km/h",
+        "Total ballast": "6.5 t"
+      },
+      "source": "https://www.liebherr.com/en-ie/mobile-and-crawler-cranes/mobile-cranes/ltc-compact-cranes/ltc-1050-3-1-5332117",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Restricted urban sites and industrial buildings.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/city.webp",
+      "photo_credit": {
+        "title": "File:Liebherr LTC 1045-3.1 - 54769541985.jpg",
+        "author": "Alexandre Prevot",
+        "source": "https://commons.wikimedia.org/wiki/File:Liebherr_LTC_1045-3.1_-_54769541985.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-grt8100",
+      "category": "cranes",
+      "type": "crane-rough",
+      "brand": "Grove",
+      "name": "GRT8100 · Rough-terrain cranes",
+      "variant": "GRT8100 · metric product specification",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "100 t",
+        "Telescopic boom length": "12–47 m",
+        "Maximum tip height": "73 m",
+        "Published gross vehicle weight": "54075 kg"
+      },
+      "source": "https://www.manitowoc.com/grove/rough-terrain-cranes/grt8100",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Large tyres and a short chassis for site access.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Metric product rating. Maximum tip height is not hook height; hook block and rigging reduce usable height. US-market ratings use US tons and must not be substituted.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/rough.webp",
+      "photo_credit": {
+        "title": "File:Grove RT600E Rough Terrain Crane p5.JPG",
+        "author": "Alf van Beem",
+        "source": "https://commons.wikimedia.org/wiki/File:Grove_RT600E_Rough_Terrain_Crane_p5.JPG",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-franna-at40",
+      "category": "cranes",
+      "type": "crane-pickcarry",
+      "brand": "Franna",
+      "name": "AT40-2 · Articulated pick-and-carry cranes",
+      "variant": "AT40-2",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity on lug": "40 t",
+        "Hook-block capacity (8 parts)": "35 t",
+        "Rhino-hook capacity": "20 t",
+        "Boom / jib length": "≤ 19.8 m",
+        "Maximum hook height": "19 m",
+        "Axle count": "3",
+        "Engine power": "230 kW",
+        "Maximum travel speed": "80 km/h"
+      },
+      "source": "https://www.terex.com/franna/en/product/pick-and-carry-cranes/at40-2",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Short-distance movement with a suspended load within the load chart.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "https://www.terex.com/images/librariesprovider22/default-album/general-at-40.tmb-400x.jpg?sfvrsn=7e8dab48_10",
+      "photo_credit": {
+        "external": true,
+        "author": "Franna / Terex",
+        "source": "https://www.terex.com/franna/en/product/pick-and-carry-cranes/at40-2"
+      }
+    },
+    {
+      "id": "crane-shuttlelift",
+      "category": "cranes",
+      "type": "crane-carrydeck",
+      "brand": "Shuttlelift",
+      "name": "CD5520 · Industrial carry-deck cranes",
+      "variant": "CD5520",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "18.1437 t (20 US t)",
+        "Boom / jib length": "16.6116 m",
+        "Jib extension length": "7.62 m",
+        "Published gross vehicle weight": "16494.4 kg",
+        "Boom sections": "4"
+      },
+      "source": "https://www.manitowoc.com/shuttlelift/shuttlelift-carrydeck-cranes/cd5520",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Compact telescopic crane with a deck for material transport.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Archived, non-current product. 20 US short tons equals approximately 18.14 metric tonnes. The deck load and pick-and-carry charts have separate limits.",
+      "photo_type_example": true,
+      "missing": [],
+      "additional_source": "https://www.manitowoc.com/media/13956/download",
+      "photo": "https://www.manitowoc.com/sites/default/files/styles/product_1st_image/public/media/divers/images/2020-01/CD5520-working.jpg?itok=z7R4DJY8",
+      "photo_credit": {
+        "external": true,
+        "author": "Manitowoc / Shuttlelift",
+        "source": "https://www.manitowoc.com/shuttlelift/shuttlelift-carrydeck-cranes/cd5520"
+      }
+    },
+    {
+      "id": "type-crawler",
+      "category": "cranes",
+      "type": "crawler",
+      "brand": "Liebherr",
+      "name": "LR 1300.1 SX · Lattice-boom crawler cranes",
+      "variant": "LR 1300.1 SX",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "300 t",
+        "Radius at maximum capacity": "4.3 m",
+        "Main lattice boom length": "≤ 92 m",
+        "Luffing jib length": "≤ 113 m",
+        "Maximum hoist height": "169 m",
+        "Maximum working radius": "143 m",
+        "Engine power": "390 kW"
+      },
+      "source": "https://www.liebherr.com/en-us/p/lr1300-4407440",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Heavy construction and long-boom lifting.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "additional_source": "https://assets-cdn.liebherr.com/versions/6efcf09e-6570-4ddb-a8f9-76cf7cc13241/original/",
+      "photo": "/assets/knowledge/cranes/crawler.webp",
+      "photo_credit": {
+        "title": "File:Liebherr crane LR 1700-1.0 2024 04 i.jpg",
+        "author": "Thuringius",
+        "source": "https://commons.wikimedia.org/wiki/File:Liebherr_crane_LR_1700-1.0_2024_04_i.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-ltr1100",
+      "category": "cranes",
+      "type": "crane-telcrawler",
+      "brand": "Liebherr",
+      "name": "LTR 1100 · Telescopic crawler cranes",
+      "variant": "LTR 1100",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "100 t",
+        "Radius at maximum capacity": "2.5 m",
+        "Telescopic boom length": "11.5–52 m",
+        "Jib extension length": "2.9–33 m",
+        "Maximum hoist height": "83 m",
+        "Maximum working radius": "60 m",
+        "Maximum load moment": "342 tm",
+        "Engine power": "129 kW",
+        "Maximum travel speed": "2.8 km/h",
+        "Total ballast": "32 t"
+      },
+      "source": "https://www.liebherr.com/en-ca/mobile-and-crawler-cranes/crawler-cranes/ltr-telescopic-crawler-cranes/ltr-1100-4678936",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Telescopic boom with crawler mobility.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/telcrawler.webp",
+      "photo_credit": {
+        "title": "File:Liebherr LTR 1100 (51955172735).jpg",
+        "author": "Alexandre Prevot from Nancy, France",
+        "source": "https://commons.wikimedia.org/wiki/File:Liebherr_LTR_1100_(51955172735).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "type-tower",
+      "category": "cranes",
+      "type": "tower",
+      "brand": "Liebherr",
+      "name": "370 EC-B 12 Fibre · Flat-top tower cranes",
+      "variant": "370 EC-B 12 Fibre · EC-B brochure 10/2022",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "12 t",
+        "Maximum working radius": "78 m",
+        "Capacity at maximum radius": "2.8 t",
+        "Standard configuration hook height": "84.7 m"
+      },
+      "source": "https://assets-cdn.liebherr.com/assets/api/31e608a3-6e68-44d8-8008-11989c1ab8e9/Original/",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Trolley travels along a horizontal jib.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "The brochure gives standard tower configurations. Hook height depends on tower system, base and ties. Radius is horizontal reach, not the physical length of every jib component.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/flattop.webp",
+      "photo_credit": {
+        "title": "File:Liebherr 125 EC-B 6 (54050230513).jpg",
+        "author": "Alexandre Prevot from Nancy, France",
+        "source": "https://commons.wikimedia.org/wiki/File:Liebherr_125_EC-B_6_(54050230513).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-125ecb",
+      "category": "cranes",
+      "type": "tower",
+      "brand": "Liebherr",
+      "name": "125 EC-B 6 · Flat-top tower cranes",
+      "variant": "125 EC-B 6 · EC-B brochure 10/2022",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "6 t",
+        "Maximum working radius": "58 m",
+        "Capacity at maximum radius": "1.6 t",
+        "Standard configuration hook height": "59 m"
+      },
+      "source": "https://assets-cdn.liebherr.com/assets/api/31e608a3-6e68-44d8-8008-11989c1ab8e9/Original/",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Trolley travels along a horizontal jib.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "The brochure gives standard tower configurations. Hook height depends on tower system, base and ties. Radius is horizontal reach, not the physical length of every jib component.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/flattop.webp",
+      "photo_credit": {
+        "title": "File:Liebherr 125 EC-B 6 (54050230513).jpg",
+        "author": "Alexandre Prevot from Nancy, France",
+        "source": "https://commons.wikimedia.org/wiki/File:Liebherr_125_EC-B_6_(54050230513).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-470ecb",
+      "category": "cranes",
+      "type": "tower",
+      "brand": "Liebherr",
+      "name": "470 EC-B 20 · Flat-top tower cranes",
+      "variant": "470 EC-B 20 · EC-B brochure 10/2022",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "20 t",
+        "Maximum working radius": "83 m",
+        "Capacity at maximum radius": "2.2 t",
+        "Standard configuration hook height": "96 m"
+      },
+      "source": "https://assets-cdn.liebherr.com/assets/api/31e608a3-6e68-44d8-8008-11989c1ab8e9/Original/",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Trolley travels along a horizontal jib.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "The brochure gives standard tower configurations. Hook height depends on tower system, base and ties. Radius is horizontal reach, not the physical length of every jib component.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/flattop.webp",
+      "photo_credit": {
+        "title": "File:Liebherr 125 EC-B 6 (54050230513).jpg",
+        "author": "Alexandre Prevot from Nancy, France",
+        "source": "https://commons.wikimedia.org/wiki/File:Liebherr_125_EC-B_6_(54050230513).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-280hcl",
+      "category": "cranes",
+      "type": "crane-luffing",
+      "brand": "Liebherr",
+      "name": "280 HC-L 16/28 · Luffing-jib tower cranes",
+      "variant": "280 HC-L 16/28",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "28 t",
+        "Maximum working radius": "60 m",
+        "Capacity at maximum radius": "3 t",
+        "Standard configuration hook height": "59.1 m",
+        "Hoist power": "110 kW",
+        "Slewing power": "2 × 7.5 kW",
+        "Reeving": "1 / 2",
+        "Design standard": "EN 14439"
+      },
+      "source": "https://www.liebherr.com/en-ie/p/72138-8470664",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Changes working radius by raising the jib.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "The brochure gives standard tower configurations. Hook height depends on tower system, base and ties. Radius is horizontal reach, not the physical length of every jib component.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/luffing.webp",
+      "photo_credit": {
+        "title": "File:Luffing jib crane on Bruton Street London - geograph.org.uk - 1180283.jpg",
+        "author": "Steve  F",
+        "source": "https://commons.wikimedia.org/wiki/File:Luffing_jib_crane_on_Bruton_Street_London_-_geograph.org.uk_-_1180283.jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-81k",
+      "category": "cranes",
+      "type": "crane-selferect",
+      "brand": "Liebherr",
+      "name": "81 K.1 · Self-erecting tower cranes",
+      "variant": "81 K.1",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "6 t",
+        "Maximum working radius": "48 m",
+        "Capacity at maximum radius": "1.35 t",
+        "Hook height — horizontal jib": "40.4 m",
+        "Hook height — raised jib": "57.4 m"
+      },
+      "source": "https://www.liebherr.com/shared/media/construction-machinery/tower-cranes/brochures/tower-cranes/tower-cranes-ru.pdf",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Folding tower and jib for repeated site setup.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "The brochure gives standard tower configurations. Hook height depends on tower system, base and ties. Radius is horizontal reach, not the physical length of every jib component.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/selferect.webp",
+      "photo_credit": {
+        "title": "File:Liebherr Schnelleinsatzkran 81 K.1 - 03.jpg",
+        "author": "Asurnipal",
+        "source": "https://commons.wikimedia.org/wiki/File:Liebherr_Schnelleinsatzkran_81_K.1_-_03.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-200dr",
+      "category": "cranes",
+      "type": "crane-derrick",
+      "brand": "Liebherr",
+      "name": "200 DR 5/10 · Derrick dismantling cranes",
+      "variant": "200 DR 5/10",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "10.6 t",
+        "Maximum working radius": "24.8 m",
+        "Capacity at maximum radius": "8.1 t",
+        "Hoist power": "37 / 45 kW",
+        "Slewing power": "5 kW",
+        "Reeving": "1 / 2",
+        "Design standard": "EN 14439"
+      },
+      "source": "https://www.liebherr.com/en-us/p/71977-4355713",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Rooftop assembly and dismantling of large cranes.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "https://assets-cdn.liebherr.com/versions/af616eb1-3ade-4075-9492-79cace5a5ef8/w-1280_h-1280_f-webp/liebherr-200dr-5-10-litronic-derrick-crane.webp",
+      "photo_credit": {
+        "external": true,
+        "author": "Liebherr",
+        "source": "https://www.liebherr.com/en-us/p/71977-4355713"
+      }
+    },
+    {
+      "id": "crane-maeda285",
+      "category": "cranes",
+      "type": "crane-spider",
+      "brand": "Maeda",
+      "name": "MC285CWM-3 · Mini spider cranes",
+      "variant": "MC285CWM-3 · metric CE diesel configuration",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "2.82 t",
+        "Radius at maximum capacity": "1.4 m",
+        "Maximum working radius": "8.205 m",
+        "Capacity at maximum radius": "0.15 t",
+        "Maximum hoist height": "8.7 m",
+        "Hoist depth below ground (4 falls)": "10.1 m",
+        "Transport dimensions (L × W × H)": "2800 × 750 × 1470 mm",
+        "Published machine weight": "1990 kg",
+        "Outrigger width — lateral": "4782 mm",
+        "Outrigger width — front": "4718 mm",
+        "Outrigger width — rear": "3990 mm",
+        "Engine power": "7.4 kW",
+        "Maximum travel speed": "2.2 km/h",
+        "Travel ground pressure": "50 kPa",
+        "Telescopic boom length": "2.535–8.575 m",
+        "Boom sections": "5"
+      },
+      "source": "https://www.maeda-minicranes.com/products/spider-cranes/mc285c-3/",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Narrow access with folding outriggers and crawler travel.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/spider.webp",
+      "photo_credit": {
+        "title": "File:Bau, Erzsébetplatz, Maeda Kran, 2025 Lipótváros.jpg",
+        "author": "Globetrotter19",
+        "source": "https://commons.wikimedia.org/wiki/File:Bau,_Erzs%C3%A9betplatz,_Maeda_Kran,_2025_Lip%C3%B3tv%C3%A1ros.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      },
+      "additional_source": "https://www.maeda-minicranes.com/download/files/MC285C-3.pdf"
+    },
+    {
+      "id": "crane-pk165",
+      "category": "cranes",
+      "type": "crane-loader",
+      "brand": "Palfinger",
+      "name": "PK 165.002 TEC 7 · Knuckle-boom truck-loader cranes",
+      "variant": "PK 165.002 TEC 7 · HYA C R4X mass reference",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "32000 kg",
+        "Maximum load moment": "124.8 tm / 1224.3 kNm",
+        "Hydraulic horizontal outreach": "21 m",
+        "Horizontal outreach with fly jib": "36.1 m",
+        "Stabiliser spread": "10 m",
+        "Folded width": "2.55 m",
+        "Maximum operating pressure": "385 bar",
+        "Recommended pump flow": "2 × 120 L/min",
+        "Dead weight — HYA C R4X": "11610 kg"
+      },
+      "source": "https://www.palfinger.co.za/PalfingerImages/HeavyCranes/PK165002/PK165002TEC7.pdf",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Loads and unloads the carrier truck.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/loader.webp",
+      "photo_credit": {
+        "title": "File:Scania G Nextgen crane truck in Sweden.jpg",
+        "author": "DKjellby",
+        "source": "https://commons.wikimedia.org/wiki/File:Scania_G_Nextgen_crane_truck_in_Sweden.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-ahk36",
+      "category": "cranes",
+      "type": "crane-trailer",
+      "brand": "Böcker",
+      "name": "AHK 36 · Trailer-mounted cranes",
+      "variant": "AHK 36 · standard winch configuration",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "1500 kg; optional 2400 kg",
+        "Boom extension height": "34 m; optional 36 m",
+        "Jib extension length": "4.86 / 7.96 / 11.06 m; optional 13.06 m",
+        "Transport dimensions (L × W × H)": "9.20 × 2.30 × 2.90 m",
+        "Radius at 250 kg": "23.10 m",
+        "Radius at 500 kg": "16.60 m",
+        "Radius at 1000 kg": "10 m",
+        "Radius at 1500 kg": "7.50 m",
+        "Main boom angle": "85°",
+        "Jib angle range": "0–162°"
+      },
+      "source": "https://boecker.de/uk/products/trailer-cranes/details/ahk-36-ahk-36e",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Towable crane for roofing and building materials.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "https://boecker.de/fileadmin/_processed_/9/8/csm_Boecker_AHK_36e_Einsatz_Dach_web_5098394b40.webp",
+      "photo_credit": {
+        "external": true,
+        "author": "Böcker",
+        "source": "https://boecker.de/uk/products/trailer-cranes/details/ahk-36-ahk-36e"
+      }
+    },
+    {
+      "id": "crane-elk16",
+      "category": "cranes",
+      "type": "crane-single",
+      "brand": "ABUS",
+      "name": "ELK · 16 t / 22 m · Single-girder bridge cranes",
+      "variant": "ELK · 16 t / 22 m",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Rated lifting capacity": "16 t",
+        "Bridge span": "22 m",
+        "Hook height": "Project-specific"
+      },
+      "source": "https://www.abuscranes.com/cranes/overhead-travelling-cranes/single-girder-overhead-travelling-crane",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Overhead material handling across a factory bay.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/single.webp",
+      "photo_credit": {
+        "title": "File:LD onerhead crane.jpg",
+        "author": "Overhead crane",
+        "source": "https://commons.wikimedia.org/wiki/File:LD_onerhead_crane.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-els5",
+      "category": "cranes",
+      "type": "crane-single",
+      "brand": "ABUS",
+      "name": "ELS · 5 t / 38.5 m · Single-girder bridge cranes",
+      "variant": "ELS · 5 t / 38.5 m",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Rated lifting capacity": "5 t",
+        "Bridge span": "38.5 m",
+        "Hook height": "Project-specific"
+      },
+      "source": "https://www.abuscranes.com/cranes/overhead-travelling-cranes/single-girder-overhead-travelling-crane",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Overhead material handling across a factory bay.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/single.webp",
+      "photo_credit": {
+        "title": "File:LD onerhead crane.jpg",
+        "author": "Overhead crane",
+        "source": "https://commons.wikimedia.org/wiki/File:LD_onerhead_crane.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-zlk",
+      "category": "cranes",
+      "type": "crane-double",
+      "brand": "ABUS",
+      "name": "ZLK · Double-girder bridge cranes",
+      "variant": "ZLK",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Family maximum lifting capacity": "≤ 120 t",
+        "Family maximum span": "≤ 42 m",
+        "Hook height": "Project-specific"
+      },
+      "source": "https://www.abuscranes.com/cranes/overhead-travelling-cranes",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Twin bridge girders support the lifting trolley.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/double.webp",
+      "photo_credit": {
+        "title": "File:Double Girder Overhead Crane Indoors -- ORITCRANES.jpg",
+        "author": "Alex.huang",
+        "source": "https://commons.wikimedia.org/wiki/File:Double_Girder_Overhead_Crane_Indoors_--_ORITCRANES.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-edl",
+      "category": "cranes",
+      "type": "crane-underslung",
+      "brand": "ABUS",
+      "name": "EDL / EDK · Underslung bridge cranes",
+      "variant": "EDL / EDK",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Family maximum lifting capacity": "≤ 8 t",
+        "Family maximum span": "≤ 25 m",
+        "Hook height": "Project-specific"
+      },
+      "source": "https://www.abuscranes.com/cranes/overhead-travelling-cranes/underslung-overhead-travelling-crane",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Runway beams are suspended from the building.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "https://www.abuscranes.com/Special%20images/Header/Laufkrane/5097/image-thumb__5097__productCategory/EDL_hp_optimiert_640x430.a5513e33.png",
+      "photo_credit": {
+        "external": true,
+        "author": "ABUS",
+        "source": "https://www.abuscranes.com/cranes/overhead-travelling-cranes"
+      }
+    },
+    {
+      "id": "crane-ewl",
+      "category": "cranes",
+      "type": "crane-walltravel",
+      "brand": "ABUS",
+      "name": "EWL · Wall-travelling cranes",
+      "variant": "EWL",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Family maximum lifting capacity": "≤ 5 t",
+        "Family maximum span": "≤ 12 m",
+        "Hook height": "Project-specific"
+      },
+      "source": "https://www.abuscranes.com/cranes/overhead-travelling-cranes",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Services workstations along a building wall.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "https://www.abuscranes.com/Special%20images/Header/Laufkrane/5099/image-thumb__5099__productCategory/EWL_hp_optimiert_640x430.dd47336b.png",
+      "photo_credit": {
+        "external": true,
+        "author": "ABUS",
+        "source": "https://www.abuscranes.com/cranes/overhead-travelling-cranes"
+      }
+    },
+    {
+      "id": "crane-ehpk",
+      "category": "cranes",
+      "type": "crane-semigantry",
+      "brand": "ABUS",
+      "name": "EHPK · Semi-gantry cranes",
+      "variant": "EHPK",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Family maximum lifting capacity": "≤ 10 t",
+        "Family maximum span": "≤ 15 m",
+        "Hook height": "Project-specific"
+      },
+      "source": "https://www.abuscranes.com/cranes/overhead-travelling-cranes",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "One side runs on the floor, the other on an elevated rail.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/semigantry.webp",
+      "photo_credit": {
+        "title": "File:Halbportalkran und Zweiträgerlaufkran in Industrieunternehmen.jpg",
+        "author": "Abus Bilddatenbank",
+        "source": "https://commons.wikimedia.org/wiki/File:Halbportalkran_und_Zweitr%C3%A4gerlaufkran_in_Industrieunternehmen.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-ehb",
+      "category": "cranes",
+      "type": "crane-workstation",
+      "brand": "ABUS",
+      "name": "EHB · Light workstation bridge cranes",
+      "variant": "EHB",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Family maximum lifting capacity": "≤ 1.25 t",
+        "Family maximum span": "≤ 10 m",
+        "Hook height": "Project-specific"
+      },
+      "source": "https://www.abuscranes.com/cranes/hb-systems",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Modular suspended handling for assembly lines.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "https://www.abuscranes.com/Special%20images/Header/HB-Systeme/4937/image-thumb__4937__productCategory/EHB_hp_optimiert_640x430.e059bb6c.png",
+      "photo_credit": {
+        "external": true,
+        "author": "ABUS",
+        "source": "https://www.abuscranes.com/cranes/hb-systems"
+      }
+    },
+    {
+      "id": "crane-zhb",
+      "category": "cranes",
+      "type": "crane-workstation",
+      "brand": "ABUS",
+      "name": "ZHB · Light workstation bridge cranes",
+      "variant": "ZHB",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Family maximum lifting capacity": "≤ 2 t",
+        "Family maximum span": "≤ 12 m",
+        "Hook height": "Project-specific"
+      },
+      "source": "https://www.abuscranes.com/cranes/hb-systems",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Modular suspended handling for assembly lines.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "https://www.abuscranes.com/Special%20images/Header/HB-Systeme/4941/image-thumb__4941__productCategory/ZHB_hp_optimiert_640x430.bfe469b5.png",
+      "photo_credit": {
+        "external": true,
+        "author": "ABUS",
+        "source": "https://www.abuscranes.com/cranes/hb-systems"
+      }
+    },
+    {
+      "id": "crane-kone-gantry",
+      "category": "cranes",
+      "type": "crane-gantry",
+      "brand": "Konecranes",
+      "name": "CXT / S-series full gantry · Full gantry cranes",
+      "variant": "CXT / S-series full gantry",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Family maximum lifting capacity": "≤ 12.5 t",
+        "Family maximum span": "≤ 20 m",
+        "Maximum hoist height": "≤ 10 m",
+        "Maximum runway length": "≤ 120 m"
+      },
+      "source": "https://www.konecranes.com/sites/default/files/2024-08/brochure_gantry_crane_2024.pdf",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Both supporting legs travel on ground-level runways.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/gantry.webp",
+      "photo_credit": {
+        "title": "File:Goliath crane at (Jack) Tighe's factory - geograph.org.uk - 699326.jpg",
+        "author": "Steve  F",
+        "source": "https://commons.wikimedia.org/wiki/File:Goliath_crane_at_(Jack)_Tighe%27s_factory_-_geograph.org.uk_-_699326.jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-demag-pillar",
+      "category": "cranes",
+      "type": "crane-pillarjib",
+      "brand": "Demag",
+      "name": "Pillar jib family · Pillar-mounted jib cranes",
+      "variant": "Pillar jib family",
+      "verified": true,
+      "specs": {
+        "Family maximum lifting capacity": "≤ 10000 kg",
+        "Boom / jib length": "≤ 12 m",
+        "Slewing range": "270°–360°",
+        "Hook height": "Project-specific"
+      },
+      "source": "https://demag.nl/wp-content/uploads/2023/05/Product-Range-EN.pdf",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Local lifting around a floor-mounted pillar.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/jib.webp",
+      "photo_credit": {
+        "title": "File:Schwenkkran hebt eine Last an.jpg",
+        "author": "Abus Bilddatenbank",
+        "source": "https://commons.wikimedia.org/wiki/File:Schwenkkran_hebt_eine_Last_an.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-abus-walljib",
+      "category": "cranes",
+      "type": "crane-walljib",
+      "brand": "ABUS",
+      "name": "LW · Wall-mounted jib cranes",
+      "variant": "LW",
+      "verified": true,
+      "specs": {
+        "Family maximum lifting capacity": "≤ 1000 kg",
+        "Boom / jib length": "≤ 7 m",
+        "Slewing range": "180°",
+        "Hook height": "Project-specific"
+      },
+      "source": "https://www.abuscranes.co.uk/cranes/jib-cranes/wall-jib-crane-lw",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Slewing jib attached to a wall or building column.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/walljib.webp",
+      "photo_credit": {
+        "title": "File:Kelheim 2014 Mattes (44).JPG",
+        "author": "User:Mattes",
+        "source": "https://commons.wikimedia.org/wiki/File:Kelheim_2014_Mattes_(44).JPG",
+        "license": "CC BY 2.0 de",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/de/deed.en",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-smarton",
+      "category": "cranes",
+      "type": "crane-process",
+      "brand": "Konecranes",
+      "name": "SMARTON · Heavy process bridge cranes",
+      "variant": "SMARTON",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Single-trolley capacity range": "6.3–250 t",
+        "Two-trolley maximum capacity": "500 t",
+        "Bridge span": "Project-specific",
+        "Hook height": "Project-specific"
+      },
+      "source": "https://www.konecranes.com/index.php/en-gb/equipment/overhead-cranes/open-winch-cranes",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Repeated heavy lifting in production and maintenance.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/double.webp",
+      "photo_credit": {
+        "title": "File:Double Girder Overhead Crane Indoors -- ORITCRANES.jpg",
+        "author": "Alex.huang",
+        "source": "https://commons.wikimedia.org/wiki/File:Double_Girder_Overhead_Crane_Indoors_--_ORITCRANES.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "type-deck",
+      "category": "cranes",
+      "type": "deck",
+      "brand": "Liebherr",
+      "name": "CBG 360 · Shipboard cargo & transshipment cranes",
+      "variant": "CBG 360 · 50 t hook / 45 t grab brochure",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity (hook)": "50 t",
+        "Maximum lifting capacity (grab)": "45 t",
+        "Boom / jib length": "32 / 36 m",
+        "Maximum working radius": "36 m",
+        "Hoisting speed at 50 t": "42 m/min",
+        "Hoisting speed at 45 t": "47 m/min",
+        "Maximum slewing speed": "1.4 rpm",
+        "Electric motor power": "295 kW (50 Hz) / 345 kW (60 Hz)"
+      },
+      "source": "https://assets-cdn.liebherr.com/assets/api/6c70e1ed-a9fe-4320-b5d3-06c5d676e78e/Original/",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Cargo or bulk transfer using a crane mounted on a vessel.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "The linked brochure configuration is used. Open-water and sheltered-water load curves differ. Grab, rotator, hook and rigging weights must be accounted for in the permitted load.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/deck.webp",
+      "photo_credit": {
+        "title": "File:Cargo-ship-1381020740tOi.jpg",
+        "author": "Charles Rondeau",
+        "source": "https://commons.wikimedia.org/wiki/File:Cargo-ship-1381020740tOi.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-rambiz",
+      "category": "cranes",
+      "type": "crane-floating",
+      "brand": "Scaldis / Huisman",
+      "name": "RAMBIZ · Floating heavy-lift cranes",
+      "variant": "RAMBIZ",
+      "verified": true,
+      "specs": {
+        "Maximum tandem lifting capacity": "3300 t",
+        "Port crane capacity": "1700 t",
+        "Starboard crane capacity": "1600 t",
+        "Lift height above deck": "78 m",
+        "Distance between crane booms": "34.10 m",
+        "Vessel dimensions (L × B × D)": "85 × 44 × 5.6 m",
+        "Sailing draught": "2.8 m",
+        "Minimum operating draught": "3.2 m"
+      },
+      "source": "https://www.scaldis-smc.com/media/1299/technical-leaflet-rambiz.pdf",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Heavy lifting from a floating crane vessel or pontoon.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "3300 t is the combined tandem capacity of two cranes, not the capacity of either individual crane. Vessel dimensions are not boom dimensions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/floating.webp",
+      "photo_credit": {
+        "title": "File:Condock V and Enak.jpg",
+        "author": "Tvabutzku1234",
+        "source": "https://commons.wikimedia.org/wiki/File:Condock_V_and_Enak.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-hlc295000",
+      "category": "cranes",
+      "type": "crane-offshore",
+      "brand": "Liebherr",
+      "name": "HLC 295000 · Offshore heavy-lift cranes",
+      "variant": "HLC 295000",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "5000 t",
+        "Maximum working radius": "151 m",
+        "Lift height above deck": "175 m",
+        "Slewing column diameter": "16.8 m",
+        "Boom / jib length": "151 m",
+        "Fly-jib maximum capacity": "1500 t"
+      },
+      "source": "https://www.liebherr.com/en-ca/maritime-cranes/products/offshore-cranes/heavy-lift-cranes-4674165",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Offshore installation, wind structures and dismantling.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "additional_source": "https://www.liebherr.com/shared/media/maritime-cranes/downloads-und-brosch%C3%BCren-neu/job-reports/offshore-cranes/job-report-hlc-295000-monopiles-arcadis-ost.pdf",
+      "photo": "https://www-assets.liebherr.com/media/bu-media/lhbu-mcc/images/offshore-cranes/heavy-lift-cranes/hlc-295000-deme_w800.webp",
+      "photo_credit": {
+        "external": true,
+        "author": "Liebherr",
+        "source": "https://www.liebherr.com/en-ca/maritime-cranes/products/offshore-cranes/heavy-lift-cranes-4674165"
+      }
+    },
+    {
+      "id": "crane-hlc150000",
+      "category": "cranes",
+      "type": "crane-offshore",
+      "brand": "Liebherr",
+      "name": "HLC 150000 · Offshore heavy-lift cranes",
+      "variant": "HLC 150000",
+      "verified": true,
+      "specs": {
+        "Maximum lifting capacity": "3000 t",
+        "Maximum working radius": "84 m",
+        "Lift height above deck": "121 m",
+        "Slewing column diameter": "14 m"
+      },
+      "source": "https://www.liebherr.com/en-ca/maritime-cranes/products/offshore-cranes/heavy-lift-cranes-4674165",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Offshore installation, wind structures and dismantling.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "https://www-assets.liebherr.com/media/bu-media/lhbu-mcc/images/offshore-cranes/heavy-lift-cranes/hlc-295000-deme_w800.webp",
+      "photo_credit": {
+        "external": true,
+        "author": "Liebherr",
+        "source": "https://www.liebherr.com/en-ca/maritime-cranes/products/offshore-cranes/heavy-lift-cranes-4674165"
+      }
+    },
+    {
+      "id": "crane-goliath",
+      "category": "cranes",
+      "type": "crane-shipyard",
+      "brand": "Konecranes",
+      "name": "Goliath · 2000 t / 210 m · Shipyard Goliath cranes",
+      "variant": "Goliath · 2000 t / 210 m project example",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Rated lifting capacity": "2000 t",
+        "Rail span": "210 m",
+        "Published machine weight": "6506 t"
+      },
+      "source": "https://www.konecranes.com/resources/worlds-largest-goliath-gantry-crane-by-konecranes",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Large hull blocks lifted across a building dock.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Maximum capacity, boom length, radius and height are separate limits and are not necessarily available together. Use the configuration-specific load chart, ballast and support conditions.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/shipyard.webp",
+      "photo_credit": {
+        "title": "File:Shipyard cranes, Belfast - geograph.org.uk - 327696.jpg",
+        "author": "Albert Bridge",
+        "source": "https://commons.wikimedia.org/wiki/File:Shipyard_cranes,_Belfast_-_geograph.org.uk_-_327696.jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-travelift200",
+      "category": "cranes",
+      "type": "crane-boathoist",
+      "brand": "Marine Travelift",
+      "name": "200 CII · Mobile boat hoists",
+      "variant": "200 CII · C-Series brochure 2019",
+      "verified": true,
+      "specs": {
+        "Boom / jib length": "Not applicable — bridge / gantry structure",
+        "Rated lifting capacity": "200000 kg",
+        "Overall width": "Project-specific",
+        "Overall height": "Project-specific"
+      },
+      "source": "https://www.marinetravelift.com/wp-content/uploads/2021/05/MTI-Mobile-Boat-Hoist-Brochure-2019-WEB.pdf",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Slings lift boats for yard transport and launching.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/boathoist.webp",
+      "photo_credit": {
+        "title": "File:Marina di Capitana-Travel lift.jpg",
+        "author": "Gioele Serra",
+        "source": "https://commons.wikimedia.org/wiki/File:Marina_di_Capitana-Travel_lift.jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-multi-tasker-1200",
+      "category": "cranes",
+      "type": "crane-railway",
+      "brand": "Kirow",
+      "name": "Multi Tasker 1200 · Railway recovery & track cranes",
+      "variant": "Multi Tasker 1200",
+      "verified": true,
+      "specs": {
+        "Family maximum lifting capacity": "150–160 t",
+        "Maximum load moment": "1200–1400 tm",
+        "Axle count": "8"
+      },
+      "source": "https://www.kirow.de/fileadmin/template-2021/downloads/Multi_Tasker/MultiTasker_FR_020718.pdf",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Rail-mounted lifting for track, bridges and recovery.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/railway.webp",
+      "photo_credit": {
+        "title": "File:Kirow 918 forward Israel Railways.jpg",
+        "author": "McKaby",
+        "source": "https://commons.wikimedia.org/wiki/File:Kirow_918_forward_Israel_Railways.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
+    },
+    {
+      "id": "crane-multi-tasker-1600",
+      "category": "cranes",
+      "type": "crane-railway",
+      "brand": "Kirow",
+      "name": "Multi Tasker 1600 · Railway recovery & track cranes",
+      "variant": "Multi Tasker 1600",
+      "verified": true,
+      "specs": {
+        "Family maximum lifting capacity": "160 t",
+        "Maximum load moment": "1600–1680 tm",
+        "Axle count": "8"
+      },
+      "source": "https://www.kirow.de/fileadmin/template-2021/downloads/Multi_Tasker/MultiTasker_FR_020718.pdf",
+      "checked": "2026-10-23",
+      "guide": {
+        "Typical use": "Rail-mounted lifting for track, bridges and recovery.",
+        "Reference scope": "Manufacturer specifications for the named model and configuration."
+      },
+      "data_note": "Product-family limits, not a promise that maximum capacity and maximum span or reach occur together. Height, dimensions and installation are engineered per order.",
+      "photo_type_example": true,
+      "missing": [],
+      "photo": "/assets/knowledge/cranes/railway.webp",
+      "photo_credit": {
+        "title": "File:Kirow 918 forward Israel Railways.jpg",
+        "author": "McKaby",
+        "source": "https://commons.wikimedia.org/wiki/File:Kirow_918_forward_Israel_Railways.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; content unchanged."
+      }
     }
   ],
   "brands": {
@@ -10314,16 +11994,21 @@
       "Iraqi Republic Railways"
     ],
     "cranes": [
-      "Liebherr",
-      "Konecranes",
-      "Kalmar",
-      "Tadano",
+      "ABUS",
+      "Böcker",
+      "Demag",
+      "Franna",
       "Grove",
+      "Kirow",
+      "Konecranes",
+      "Liebherr",
+      "Maeda",
+      "Marine Travelift",
+      "Palfinger",
+      "RIKON",
       "SANY",
-      "XCMG",
-      "ZPMC",
-      "Terex",
-      "RIKON"
+      "Scaldis / Huisman",
+      "Shuttlelift"
     ],
     "unloading": [
       "VIGAN",
@@ -10486,6 +12171,40 @@
     {
       "id": "rail-special",
       "name": "Vehicle & railway service wagons"
+    }
+  ],
+  "craneGroups": [
+    {
+      "id": "crane-port",
+      "name": "Port & bulk-handling cranes"
+    },
+    {
+      "id": "crane-container",
+      "name": "Container terminal cranes"
+    },
+    {
+      "id": "crane-mobile",
+      "name": "Mobile ground cranes"
+    },
+    {
+      "id": "crane-crawler",
+      "name": "Crawler cranes"
+    },
+    {
+      "id": "crane-tower",
+      "name": "Tower & derrick cranes"
+    },
+    {
+      "id": "crane-compact",
+      "name": "Compact & truck-loader cranes"
+    },
+    {
+      "id": "crane-industrial",
+      "name": "Factory & workshop cranes"
+    },
+    {
+      "id": "crane-special",
+      "name": "Marine, shipyard & railway cranes"
     }
   ]
 }

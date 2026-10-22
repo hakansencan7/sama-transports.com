@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 const base=new URL('./',import.meta.url),data=JSON.parse(fs.readFileSync(new URL('catalog.json',base),'utf8'));
 const dict=JSON.parse(fs.readFileSync(new URL('equipment-i18n.js',base),'utf8').match(/register\((.*)\);/s)[1]);
 for(const collection of [data.categories,data.types,data.records])assert.equal(new Set(collection.map(x=>x.id)).size,collection.length,'Duplicate ID');
-for(const item of [...data.categories,...data.types,...(data.seaGroups||[]),...(data.containerGroups||[]),...(data.roadGroups||[]),...(data.railGroups||[])])for(const lang of ['en','tr','ar'])assert.ok(dict[item.name]?.[lang],`Missing ${lang}: ${item.name}`);
+for(const item of [...data.categories,...data.types,...(data.seaGroups||[]),...(data.containerGroups||[]),...(data.roadGroups||[]),...(data.railGroups||[]),...(data.craneGroups||[])])for(const lang of ['en','tr','ar'])assert.ok(dict[item.name]?.[lang],`Missing ${lang}: ${item.name}`);
 for(const row of data.records){
  const type=data.types.find(x=>x.id===row.type);assert.equal(type?.category,row.category);
  if(row.category==='rail')assert.ok(row.country,'Rail record must identify country');
@@ -12,13 +12,21 @@ for(const row of data.records){
  for(const key of Object.keys(row.specs))for(const lang of ['en','tr','ar'])assert.ok(dict[key]?.[lang],`Missing ${lang}: ${key}`);
  if(row.photo){
   if(row.photo.startsWith('/assets/knowledge/')){
-   assert.match(row.photo,/^\/assets\/knowledge\/(vessels|containers|road|rail)\/[a-z0-9-]+\.webp$/);
+   assert.match(row.photo,/^\/assets\/knowledge\/(vessels|containers|road|rail|cranes)\/[a-z0-9-]+\.webp$/);
    const image=new URL('../..'+row.photo,base);assert.ok(fs.existsSync(image),`Missing photo: ${row.photo}`);
    assert.ok(fs.statSync(image).size>1000,'Empty photograph');
    for(const key of ['title','author','license','license_url','source','changes'])assert.ok(row.photo_credit?.[key],`Missing photo ${key}: ${row.id}`);
    assert.match(row.photo_credit.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/);
    assert.match(row.photo_credit.license,/^(CC BY|CC0|Public domain)/);
   }else assert.match(row.photo,/^https:\/\//);
+ }
+ if(row.category==='cranes'){
+  assert.ok(data.craneGroups.some(g=>g.id===type.group),'Missing crane family');
+  assert.ok(row.photo,'Every crane needs a real photograph');
+  assert.equal(row.photo_type_example,true,'Identify representative crane photographs');
+  assert.equal(row.verified,true);assert.ok(Object.keys(row.guide||{}).length>=2);
+  if(row.photo_credit?.external){assert.ok(row.photo_credit.author);assert.match(row.photo_credit.source,/^https:\/\//);}
+  for(const key of [row.name,row.variant,row.data_note,row.photo_note,...Object.entries(row.guide).flat()].filter(Boolean))for(const lang of ['en','tr','ar'])assert.ok(dict[key]?.[lang],`Missing ${lang}: ${key}`);
  }
  if(row.category==='rail'){
   assert.ok(data.railGroups.some(g=>g.id===type.group),'Missing rail family');
@@ -73,4 +81,13 @@ assert.equal(data.records.filter(r=>r.category==='rail').length,74);
 for(const country of ['TR','IR','RU','EU'])assert.ok(data.records.some(x=>x.category==='rail'&&x.country===country&&x.verified),'Missing sourced rail country: '+country);
 assert.equal(data.records.filter(x=>x.category==='rail'&&x.country==='IQ').length,5);
 assert.equal(data.records.filter(x=>x.brand==='TCDD Taşımacılık').length,7);
+assert.equal(data.craneGroups.length,8);
+assert.equal(data.types.filter(x=>x.category==='cranes').length,37);
+assert.equal(data.records.filter(x=>x.category==='cranes').length,47);
+const crane=id=>data.records.find(r=>r.id===id);
+assert.equal(crane('crane-shuttlelift').specs['Maximum lifting capacity'],'18.1437 t (20 US t)','Short tons must not be presented as metric tonnes');
+assert.equal(crane('crane-rambiz').specs['Maximum tandem lifting capacity'],'3300 t','Combined crane rating must be identified');
+assert.equal(crane('crane-grt8100').specs['Maximum tip height'],'73 m','Tip height is not hook height');
+assert.equal(crane('crane-rikon-rmg').specs['Rail span'],'25 m','Do not mix base RMG configuration with optional spans');
+assert.equal(crane('crane-zlk').specs['Boom / jib length'],'Not applicable — bridge / gantry structure');
 console.log(`PASS: ${data.categories.length} categories, ${data.types.length} types, ${data.records.length} records, ${data.records.filter(x=>x.verified).length} source-backed records; translated labels and country separation validated.`);
