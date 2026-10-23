@@ -11811,7 +11811,8 @@
         "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "BD"
     },
     {
       "id": "vigan-300",
@@ -11842,7 +11843,8 @@
         "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "BR"
     },
     {
       "id": "vigan-500",
@@ -11873,7 +11875,8 @@
         "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "TW"
     },
     {
       "id": "vigan-600",
@@ -11904,7 +11907,8 @@
         "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "SD"
     },
     {
       "id": "vigan-800",
@@ -11935,7 +11939,8 @@
         "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "MA"
     },
     {
       "id": "neuero-multiport",
@@ -12220,7 +12225,8 @@
         "Capacity basis": "Limestone unloading reference. The separate 500 t/h gypsum figure is a loading rate, not an unloading rate."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "US"
     },
     {
       "id": "portalink-300",
@@ -12741,7 +12747,8 @@
         "Capacity basis": "Coal free-digging rate for the named Paiton project; not a full-vessel average."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "ID"
     },
     {
       "id": "tadano-cul",
@@ -12862,7 +12869,8 @@
         "Capacity basis": "Published coal-handling rate for the combined HF18/TR35 shore system at HES Gdynia; not an independent rating for each component."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "PL"
     },
     {
       "id": "vigan-pump-100",
@@ -12892,7 +12900,8 @@
         "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "CN"
     },
     {
       "id": "vigan-pump-120d",
@@ -12922,7 +12931,8 @@
         "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "DZ"
     },
     {
       "id": "vigan-barge-250",
@@ -12953,7 +12963,8 @@
         "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "PH"
     },
     {
       "id": "vigan-barge-400",
@@ -12984,7 +12995,8 @@
         "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "FR"
     },
     {
       "id": "simporter-800",
@@ -13014,7 +13026,8 @@
         "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
-      "missing": []
+      "missing": [],
+      "country": "KR"
     },
     {
       "id": "simporter-1000",
@@ -13044,7 +13057,2115 @@
         "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
       },
       "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "PK"
+    },
+    {
+      "id": "world-siw-yemen",
+      "name": "ST 490-F · Salif",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Capacity — wheat": "600 t/h",
+        "Capacity — rice": "500 t/h",
+        "Capacity — refined sugar": "400 t/h"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-yemen",
+      "checked": "2026-10-23",
+      "variant": "ST 490-F · Salif",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_Yemen_Grain_Shipunloader1.jpg.webp?itok=HgPqMpSJ",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-yemen"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "YE"
+    },
+    {
+      "id": "world-siw-china",
+      "name": "ST 790-C · Meizhou Wan",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Free-digging capacity": "1,400 t/h",
+        "Peak design capacity": "1,500 t/h",
+        "Maximum ship size": "8,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-china",
+      "checked": "2026-10-23",
+      "variant": "ST 790-C · Meizhou Wan",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_MeizhouWan_Coal_Shipunloader1.jpg.webp?itok=f0yVz-4i",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-china"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Coal",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "CN"
+    },
+    {
+      "id": "world-siw-indonesia",
+      "name": "ST 640-D · Gresik",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,000 t/h",
+        "Maximum ship size": "60,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-indonesia",
+      "checked": "2026-10-23",
+      "variant": "ST 640-D · Gresik",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_Petrokimia_Sulphur_Shipunloader1.jpg.webp?itok=sE12v2jm",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-indonesia"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Sulfur",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "ID"
+    },
+    {
+      "id": "world-siw-indonesia-1",
+      "name": "ST 940-D · Cilacap",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,000–2,300 t/h",
+        "Maximum ship size": "10,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-indonesia-1",
+      "checked": "2026-10-23",
+      "variant": "ST 940-D · Cilacap",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_KoreaHeavy_MultiCargo_Shipunloader1.jpg.webp?itok=08mkIvVG",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-indonesia-1"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "ID"
+    },
+    {
+      "id": "world-siw-brazil",
+      "name": "ST 940-D · Pecém",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "2,400 t/h",
+        "Maximum ship size": "80,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-brazil",
+      "checked": "2026-10-23",
+      "variant": "ST 940-D · Pecém",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_SEINFRA_Coal_Shipunloader1.jpg.webp?itok=nQx2YedR",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-brazil"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Coal",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "BR"
+    },
+    {
+      "id": "world-siw-bulgaria",
+      "name": "ST 790-D · Bourgas",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "2,000 t/h",
+        "Maximum ship size": "100,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-bulgaria",
+      "checked": "2026-10-23",
+      "variant": "ST 790-D · Bourgas",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_PortOfBougas_Coal_Shipunloader1.jpg.webp?itok=w_f-1Dh2",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-bulgaria"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Coal",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "BG"
+    },
+    {
+      "id": "world-siw-india",
+      "name": "ST 490-F · Visakhapatnam",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "400 t/h",
+        "Maximum ship size": "40,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-india",
+      "checked": "2026-10-23",
+      "variant": "ST 490-F · Visakhapatnam",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_CoromandelFertilisers_Fertiliser_Shipunloader1.jpg.webp?itok=AhlaumTJ",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-india"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Fertilizer",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "IN"
+    },
+    {
+      "id": "world-siw-kuwait",
+      "name": "ST 490-F · Shuwaikh",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "800 t/h",
+        "Maximum ship size": "35,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-kuwait",
+      "checked": "2026-10-23",
+      "variant": "ST 490-F · Shuwaikh",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_KPC_Cement_Shipunloader1.jpg.webp?itok=Jj0A9MdS",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-kuwait"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "KW"
+    },
+    {
+      "id": "world-siw-singapore",
+      "name": "ST 490-F · Pulau Seraya",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "400 t/h",
+        "Maximum ship size": "8,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-singapore",
+      "checked": "2026-10-23",
+      "variant": "ST 490-F · Pulau Seraya",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_IHI_Limestone_Shipunloader1.jpg.webp?itok=dCJidHue",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-singapore"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Limestone",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "SG"
+    },
+    {
+      "id": "world-siw-germany",
+      "name": "ST 490-F · Germany",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Capacity — fishmeal": "400 t/h",
+        "Capacity — grain": "550 t/h",
+        "Maximum ship size": "30,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-germany",
+      "checked": "2026-10-23",
+      "variant": "ST 490-F · Germany",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_JM%C3%BCller_Grain_Shipunloader1.jpg.webp?itok=FwS72Rql",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-germany"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "DE"
+    },
+    {
+      "id": "world-siw-thailand",
+      "name": "ST 640-M · Wat Bandai",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "800 t/h",
+        "Maximum ship size": "2,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-thailand",
+      "checked": "2026-10-23",
+      "variant": "ST 640-M · Wat Bandai",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2021-06/Siwertell_shipunloader_Thailand.jpg.webp?itok=W9Bu6Isy",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-thailand"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Coal",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "TH"
+    },
+    {
+      "id": "world-siw-taiwan",
+      "name": "ST 790-D · Taiwan",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "2,000 t/h",
+        "Maximum ship size": "180,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-taiwan",
+      "checked": "2026-10-23",
+      "variant": "ST 790-D · Taiwan",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_MaiLiao_Coal_Shipunloader1_1.jpg.webp?itok=W7Ia4ZVJ",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-taiwan"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Coal",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "TW"
+    },
+    {
+      "id": "world-siw-usa",
+      "name": "ST 490-F · USA",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "800 t/h",
+        "Maximum ship size": "35,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-usa",
+      "checked": "2026-10-23",
+      "variant": "ST 490-F · USA",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_PCC_Cement_Shipunloader1.jpg.webp?itok=En0b5q7t",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-usa"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "US"
+    },
+    {
+      "id": "world-siw-vietnam",
+      "name": "ST 940-DOB · Vietnam",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "2,400 t/h",
+        "Maximum ship size": "205,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-vietnam",
+      "checked": "2026-10-23",
+      "variant": "ST 940-DOB · Vietnam",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_Formosa_SteamCoal_CokingCoal_Shipunloader1.jpg.webp?itok=OnZ3uPS4",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-vietnam"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Coal",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "VN"
+    },
+    {
+      "id": "world-siw-philippines",
+      "name": "ST 790-D · Toledo, Cebu",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,500 t/h",
+        "Maximum ship size": "92,500 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-philippines",
+      "checked": "2026-10-23",
+      "variant": "ST 790-D · Toledo, Cebu",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_HEC_Coal_Unloading2_.jpg.webp?itok=rI8i0E68",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-philippines"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Coal",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "PH"
+    },
+    {
+      "id": "world-siw-spain",
+      "name": "ST 640-F · Spain",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "800 t/h",
+        "Maximum ship size": "35,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-spain",
+      "checked": "2026-10-23",
+      "variant": "ST 640-F · Spain",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_CiaCanaria_Cement_Shipunloader1.jpg.webp?itok=L6QcbD4G",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-spain"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Cement and grain",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "ES"
+    },
+    {
+      "id": "world-siw-uk",
+      "name": "ST 790-D · United Kingdom",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,200 t/h"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-uk",
+      "checked": "2026-10-23",
+      "variant": "ST 790-D · United Kingdom",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2020-11/Ligna_PeelPorts_UK_Biomass_Unloaders%20%282%29.jpg.webp?itok=jT6xVtK0",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-uk"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Wood pellets / biomass",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "GB"
+    },
+    {
+      "id": "world-neuero-agrana",
+      "name": "Combiport 300/300 · Agrana",
+      "brand": "NEUERO",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "300 t/h",
+        "Boom length": "22.5 m",
+        "Auxiliary winch capacity": "2.5 t"
+      },
+      "source": "https://neuero.de/en/projekte",
+      "checked": "2026-10-23",
+      "variant": "Combiport 300/300 · Agrana",
+      "photo": "https://neuero.de/fileadmin/_processed_/4/a/csm_2025_neuero_website_projekte_agrana_oestereich_f421abefd0.avif",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "NEUERO",
+        "source": "https://neuero.de/en/projekte"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "AT"
+    },
+    {
+      "id": "world-neuero-salalah",
+      "name": "Multiport 600 · Salalah",
+      "brand": "NEUERO",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "600 t/h",
+        "Boom length": "30 m",
+        "Auxiliary winch capacity": "15 t"
+      },
+      "source": "https://neuero.de/en/projekte",
+      "checked": "2026-10-23",
+      "variant": "Multiport 600 · Salalah",
+      "photo": "https://neuero.de/fileadmin/_processed_/a/d/csm_2025_neuero_webseite_projekte_Salalah-MultiportM600_0580c4d300.avif",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "NEUERO",
+        "source": "https://neuero.de/en/projekte"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "OM"
+    },
+    {
+      "id": "world-neuero-united-feed",
+      "name": "Multiport M600 · United Feed",
+      "brand": "NEUERO",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "600 t/h",
+        "Boom length": "30 m",
+        "Auxiliary winch capacity": "15 t"
+      },
+      "source": "https://neuero.de/en/projekte",
+      "checked": "2026-10-23",
+      "variant": "Multiport M600 · United Feed",
+      "photo": "https://neuero.de/fileadmin/_processed_/4/e/csm_2025_neuero_webseite_projekte_M600_Saudi_Arabien_b8772fa33f.avif",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "NEUERO",
+        "source": "https://neuero.de/en/projekte"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "SA"
+    },
+    {
+      "id": "world-neuero-port-said",
+      "name": "Multiport M600 · Port Said",
+      "brand": "NEUERO",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "600 t/h",
+        "Boom length": "30 m",
+        "Auxiliary winch capacity": "15 t"
+      },
+      "source": "https://neuero.de/en/projekte",
+      "checked": "2026-10-23",
+      "variant": "Multiport M600 · Port Said",
+      "photo": "https://neuero.de/fileadmin/_processed_/6/6/csm_2025_neuero_webseite_projekte_M600_Aegypten_24139073f6.avif",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "NEUERO",
+        "source": "https://neuero.de/en/projekte"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "EG"
+    },
+    {
+      "id": "world-neuero-port-sudan",
+      "name": "Multiport M600 · Port Sudan",
+      "brand": "NEUERO",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "600 t/h",
+        "Boom length": "30 m",
+        "Auxiliary winch capacity": "12 t"
+      },
+      "source": "https://neuero.de/en/projekte",
+      "checked": "2026-10-23",
+      "variant": "Multiport M600 · Port Sudan",
+      "photo": "https://neuero.de/fileadmin/_processed_/2/9/csm_2025_neuero_webseite_projekte_ABS_sudan_e869148d0d.avif",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "NEUERO",
+        "source": "https://neuero.de/en/projekte"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "SD"
+    },
+    {
+      "id": "world-neuero-plange",
+      "name": "Combiport C400 · Plange",
+      "brand": "NEUERO",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "400 t/h"
+      },
+      "source": "https://neuero.de/en/projekte",
+      "checked": "2026-10-23",
+      "variant": "Combiport C400 · Plange",
+      "photo": "https://neuero.de/fileadmin/_processed_/c/6/csm_2025_neuero_webseite_projekte_plange_deutschland_de32fd24f2.avif",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "NEUERO",
+        "source": "https://neuero.de/en/projekte"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "DE"
+    },
+    {
+      "id": "world-neuero-san-miguel",
+      "name": "Multiport M800 · San Miguel",
+      "brand": "NEUERO",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "800 t/h",
+        "Boom length": "35 m",
+        "Auxiliary winch capacity": "10 t"
+      },
+      "source": "https://neuero.de/en/projekte",
+      "checked": "2026-10-23",
+      "variant": "Multiport M800 · San Miguel",
+      "photo": "https://neuero.de/fileadmin/_processed_/4/2/csm_2025_neuero_webseite_projekte_san_miguel_philippinen_e4a45f917a.avif",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "NEUERO",
+        "source": "https://neuero.de/en/projekte"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "PH"
+    },
+    {
+      "id": "world-neuero-f500",
+      "name": "Flexiport F500 · fishmeal",
+      "brand": "NEUERO",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "300 t/h",
+        "Volumetric throughput": "500 m³/h",
+        "Maximum ship size": "7,000 DWT"
+      },
+      "source": "https://neuero.de/en/projekte",
+      "checked": "2026-10-23",
+      "variant": "Flexiport F500 · fishmeal",
+      "photo": "https://neuero.de/fileadmin/_processed_/e/d/csm_2025_neuero_website_produkte_entlader_flexiport_a735bebe7a.avif",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "NEUERO",
+        "source": "https://neuero.de/en/projekte"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Fishmeal reference at 600 kg/m³. The F500 name is not a 500 t/h mass-flow rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
       "missing": []
+    },
+    {
+      "id": "world-neuero-f1000",
+      "name": "Flexiport F1000 · wood pellets",
+      "brand": "NEUERO",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Nominal unloading capacity": "600 t/h",
+        "Volumetric throughput": "1,000 m³/h",
+        "Maximum ship size": "10,000 DWT"
+      },
+      "source": "https://neuero.de/en/projekte",
+      "checked": "2026-10-23",
+      "variant": "Flexiport F1000 · wood pellets",
+      "photo": "https://neuero.de/fileadmin/_processed_/e/d/csm_2025_neuero_website_produkte_entlader_flexiport_a735bebe7a.avif",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "NEUERO",
+        "source": "https://neuero.de/en/projekte"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Wood pellets / biomass",
+        "Capacity basis": "Manufacturer publishes 1000 m³/h and nominal 600 t/h for wood pellets at 600 kg/m³. A separately stated 650 t/h maximum is not substituted for nominal output."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-va-road-mobile-ship-unloader-for-crh-uk",
+      "name": "Road-mobile · CRH",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "225 t/h"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/road-mobile-ship-unloader-for-crh-uk/",
+      "checked": "2026-10-23",
+      "variant": "Road-mobile · CRH",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1550614002.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/road-mobile-ship-unloader-for-crh-uk/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "GB"
+    },
+    {
+      "id": "world-va-road-mobile-ship-unloader-for-ozinga-usa",
+      "name": "VASS/1.500/210/E · Ozinga",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "210 t/h",
+        "Maximum ship size": "1,500 DWT",
+        "Conveying distance": "150 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/road-mobile-ship-unloader-for-ozinga-usa/",
+      "checked": "2026-10-23",
+      "variant": "VASS/1.500/210/E · Ozinga",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1595243317.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/road-mobile-ship-unloader-for-ozinga-usa/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "US"
+    },
+    {
+      "id": "world-va-road-mobile-ship-unloader-in-russia",
+      "name": "Road-mobile · Russia",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "225 t/h"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/road-mobile-ship-unloader-in-russia/",
+      "checked": "2026-10-23",
+      "variant": "Road-mobile · Russia",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1550615392.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/road-mobile-ship-unloader-in-russia/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "RU"
+    },
+    {
+      "id": "world-va-road-mobile-ship-unloader-the-netherlands-2",
+      "name": "VASS/1.500/200/D · Netherlands",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "200 t/h",
+        "Maximum ship size": "5,000 DWT",
+        "Conveying distance": "150 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/road-mobile-ship-unloader-the-netherlands-2/",
+      "checked": "2026-10-23",
+      "variant": "VASS/1.500/200/D · Netherlands",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/771ce28d-83f0-4541-a5c8-3a843461092c.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/road-mobile-ship-unloader-the-netherlands-2/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "NL"
+    },
+    {
+      "id": "world-va-ship-unloader-and-convey-unit-for-mi-cement-bangladesh",
+      "name": "VASS/1.200/100/E · MI Cement",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "100 t/h",
+        "Maximum ship size": "1,200 DWT",
+        "Conveying distance": "100 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-and-convey-unit-for-mi-cement-bangladesh/",
+      "checked": "2026-10-23",
+      "variant": "VASS/1.200/100/E · MI Cement",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1594912782.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-and-convey-unit-for-mi-cement-bangladesh/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Fly ash",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "BD"
+    },
+    {
+      "id": "world-va-ship-unloader-and-convey-unit-for-shah-cement-bangladesh",
+      "name": "VASS/1.200/230/E · Shah Cement",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "230 t/h",
+        "Maximum ship size": "1,200 DWT",
+        "Conveying distance": "100 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-and-convey-unit-for-shah-cement-bangladesh/",
+      "checked": "2026-10-23",
+      "variant": "VASS/1.200/230/E · Shah Cement",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1594911882.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-and-convey-unit-for-shah-cement-bangladesh/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Fly ash",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "BD"
+    },
+    {
+      "id": "world-va-ship-unloader-for-alumina-germany",
+      "name": "Barge-mounted · Imperial Logistics",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "275 t/h",
+        "Maximum ship size": "3,500 DWT",
+        "Conveying distance": "150 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-alumina-germany/",
+      "checked": "2026-10-23",
+      "variant": "Barge-mounted · Imperial Logistics",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/Ship-unloader-for-alumina-Germany-Featured.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-alumina-germany/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Alumina",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "DE"
+    },
+    {
+      "id": "world-va-ship-unloader-for-bashundara-bangladesh",
+      "name": "VASS/1.200/80/E · Bashundara",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "80 t/h",
+        "Maximum ship size": "1,200 DWT",
+        "Conveying distance": "380 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-bashundara-bangladesh/",
+      "checked": "2026-10-23",
+      "variant": "VASS/1.200/80/E · Bashundara",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1595252348.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-bashundara-bangladesh/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Fly ash",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "BD"
+    },
+    {
+      "id": "world-va-ship-unloader-for-beton-provincial-canada",
+      "name": "VASS/55.000/600E · Béton Provincial",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "600 t/h",
+        "Maximum ship size": "55,000 DWT",
+        "Conveying distance": "260 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-beton-provincial-canada/",
+      "checked": "2026-10-23",
+      "variant": "VASS/55.000/600E · Béton Provincial",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1594929071.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-beton-provincial-canada/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "CA"
+    },
+    {
+      "id": "world-va-ship-unloader-for-dangote-sierra-leone",
+      "name": "Pneumatic unloader · Dangote Freetown",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "340 t/h",
+        "Conveying distance": "175 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-dangote-sierra-leone/",
+      "checked": "2026-10-23",
+      "variant": "Pneumatic unloader · Dangote Freetown",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1550615342.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-dangote-sierra-leone/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "SL"
+    },
+    {
+      "id": "world-va-ship-unloader-for-fresh-cement-bangladesh",
+      "name": "VASS/1.200/230/E · Fresh Cement",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "230 t/h",
+        "Maximum ship size": "1,200 DWT",
+        "Conveying distance": "100 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-fresh-cement-bangladesh/",
+      "checked": "2026-10-23",
+      "variant": "VASS/1.200/230/E · Fresh Cement",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1594926505.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-fresh-cement-bangladesh/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Fly ash",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "BD"
+    },
+    {
+      "id": "world-va-ship-unloader-for-heidelbergcement-bangladesh",
+      "name": "VASS/1.200/180/E · HeidelbergCement",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "180 t/h",
+        "Maximum ship size": "1,200 DWT",
+        "Conveying distance": "400 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-heidelbergcement-bangladesh/",
+      "checked": "2026-10-23",
+      "variant": "VASS/1.200/180/E · HeidelbergCement",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1594971804.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-heidelbergcement-bangladesh/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Fly ash",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "BD"
+    },
+    {
+      "id": "world-va-ship-unloader-for-lafargeholcim-mauritius",
+      "name": "Dock-mobile · Port Louis",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "450 t/h",
+        "Maximum ship size": "60,000 DWT",
+        "Conveying distance": "300 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-lafargeholcim-mauritius/",
+      "checked": "2026-10-23",
+      "variant": "Dock-mobile · Port Louis",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1550615117.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-lafargeholcim-mauritius/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "MU"
+    },
+    {
+      "id": "world-va-ship-unloader-for-mcinnis-usa",
+      "name": "Barge-mounted · McInnis",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Peak design capacity": "750 t/h",
+        "Maximum ship size": "35,000 DWT"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-mcinnis-usa/",
+      "checked": "2026-10-23",
+      "variant": "Barge-mounted · McInnis",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1550614077.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-mcinnis-usa/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "US"
+    },
+    {
+      "id": "world-va-ship-unloader-for-titan-greece-denmark",
+      "name": "VASS/20.000/300/D · Titan Denmark",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "300 t/h",
+        "Maximum ship size": "20,000 DWT",
+        "Conveying distance": "220 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-titan-greece-denmark/",
+      "checked": "2026-10-23",
+      "variant": "VASS/20.000/300/D · Titan Denmark",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1594970857.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-for-titan-greece-denmark/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "DK"
+    },
+    {
+      "id": "world-va-ship-unloader-italy",
+      "name": "VASS/15.000/300/D · Italy",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "300 t/h",
+        "Maximum ship size": "15,000 DWT",
+        "Conveying distance": "160 m"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-italy/",
+      "checked": "2026-10-23",
+      "variant": "VASS/15.000/300/D · Italy",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1595238364.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/ship-unloader-italy/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "IT"
+    },
+    {
+      "id": "world-va-bettendorf",
+      "name": "LafargeHolcim · Bettendorf",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "225 t/h",
+        "Maximum ship size": "1,500 DWT"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/two-more-ship-unloaders-for-lafargeholcim-usa/",
+      "checked": "2026-10-23",
+      "variant": "LafargeHolcim · Bettendorf",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1550614411.jpg",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/two-more-ship-unloaders-for-lafargeholcim-usa/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "US"
+    },
+    {
+      "id": "world-va-houston",
+      "name": "LafargeHolcim · Houston",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "350 t/h",
+        "Maximum ship size": "1,500 DWT"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/two-more-ship-unloaders-for-lafargeholcim-usa/",
+      "checked": "2026-10-23",
+      "variant": "LafargeHolcim · Houston",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1550614411.jpg",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/two-more-ship-unloaders-for-lafargeholcim-usa/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "US"
+    },
+    {
+      "id": "world-va-summit-memphis",
+      "name": "LafargeHolcim · Summit / Memphis",
+      "brand": "Van Aalst Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Design unloading capacity": "350 t/h",
+        "Maximum ship size": "1,500 DWT"
+      },
+      "source": "https://www.vanaalstbulkhandling.com/projects/two-ship-unloaders-for-lafargeholcim-usa/",
+      "checked": "2026-10-23",
+      "variant": "LafargeHolcim · Summit / Memphis",
+      "photo": "https://www.vanaalstbulkhandling.com/wp-content/uploads/2023/10/1550614961.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Van Aalst Bulk Handling",
+        "source": "https://www.vanaalstbulkhandling.com/projects/two-ship-unloaders-for-lafargeholcim-usa/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published design capacity for this powder-transfer installation. The downstream convey unit has a separate rating."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "US"
+    },
+    {
+      "id": "world-lion-psu-x",
+      "name": "PSU-X",
+      "brand": "KINTEC / Lion Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Normal unloading capacity": "≤ 150 t/h",
+        "Maximum ship size": "≈ 8,000 DWT"
+      },
+      "source": "https://lionbulkhandling.com/applications/ship-to-silo-unloaders/",
+      "checked": "2026-10-23",
+      "variant": "PSU-X",
+      "photo": "https://lionbulkhandling.com/wp-content/uploads/2026/07/PSU-X-2.webp",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "KINTEC / Lion Bulk Handling",
+        "source": "https://lionbulkhandling.com/applications/ship-to-silo-unloaders/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published family range or upper limit. Individual machines are configured for the cargo and terminal; maxima are not guaranteed together."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-lion-psu-1",
+      "name": "PSU-1",
+      "brand": "KINTEC / Lion Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "≤ 200 t/h",
+        "Maximum ship size": "≈ 7,600 DWT"
+      },
+      "source": "https://lionbulkhandling.com/applications/ship-to-silo-unloaders/",
+      "checked": "2026-10-23",
+      "variant": "PSU-1",
+      "photo": "https://lionbulkhandling.com/wp-content/uploads/2026/07/ship-to-silo-unloader-type-1.webp",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "KINTEC / Lion Bulk Handling",
+        "source": "https://lionbulkhandling.com/applications/ship-to-silo-unloaders/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published family range or upper limit. Individual machines are configured for the cargo and terminal; maxima are not guaranteed together."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-lion-psu-2",
+      "name": "PSU-2",
+      "brand": "KINTEC / Lion Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "≤ 300 t/h",
+        "Maximum ship size": "≈ 20,000 DWT"
+      },
+      "source": "https://lionbulkhandling.com/applications/ship-to-silo-unloaders/",
+      "checked": "2026-10-23",
+      "variant": "PSU-2",
+      "photo": "https://lionbulkhandling.com/wp-content/uploads/2026/07/Ship-to-Silo-Unloader-Type-2-scaled.webp",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "KINTEC / Lion Bulk Handling",
+        "source": "https://lionbulkhandling.com/applications/ship-to-silo-unloaders/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published family range or upper limit. Individual machines are configured for the cargo and terminal; maxima are not guaranteed together."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-lion-psu-3",
+      "name": "PSU-3",
+      "brand": "KINTEC / Lion Bulk Handling",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "≤ 400 t/h",
+        "Maximum ship size": "≈ 45,000 DWT"
+      },
+      "source": "https://lionbulkhandling.com/applications/ship-to-silo-unloaders/",
+      "checked": "2026-10-23",
+      "variant": "PSU-3",
+      "photo": "https://lionbulkhandling.com/wp-content/uploads/2026/07/Ship-to-silo-Unloader-type-3.webp",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "KINTEC / Lion Bulk Handling",
+        "source": "https://lionbulkhandling.com/applications/ship-to-silo-unloaders/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Published family range or upper limit. Individual machines are configured for the cargo and terminal; maxima are not guaranteed together."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-fam-datteln",
+      "name": "CSU1100.14S · Datteln",
+      "brand": "FAM / BEUMER Group",
+      "category": "unloading",
+      "type": "un-bucket-chain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,100 t/h"
+      },
+      "source": "https://www.beumergroup.com/products-systems/port-technology/continuous-ship-unloaders/",
+      "checked": "2026-10-23",
+      "variant": "CSU1100.14S · Datteln",
+      "photo": "https://www.beumergroup.com/app/uploads/dynamic/2023/01/fam-ship-unloader-germany-400x0-c-default.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "FAM / BEUMER Group",
+        "source": "https://www.beumergroup.com/products-systems/port-technology/continuous-ship-unloaders/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Continuous bucket-chain extraction",
+        "Cargo": "Coal",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "DE"
+    },
+    {
+      "id": "world-fam-walsum",
+      "name": "CSU1300.21S · Walsum",
+      "brand": "FAM / BEUMER Group",
+      "category": "unloading",
+      "type": "un-bucket-chain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,300 t/h"
+      },
+      "source": "https://www.beumergroup.com/products-systems/port-technology/continuous-ship-unloaders/",
+      "checked": "2026-10-23",
+      "variant": "CSU1300.21S · Walsum",
+      "photo": "https://www.beumergroup.com/app/uploads/dynamic/2023/01/conti-ship-unloader-porthandling-walsum-400x0-c-default.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "FAM / BEUMER Group",
+        "source": "https://www.beumergroup.com/products-systems/port-technology/continuous-ship-unloaders/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Continuous bucket-chain extraction",
+        "Cargo": "Coal",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "DE"
+    },
+    {
+      "id": "world-fam-hamm",
+      "name": "GUL1000.13KG · Hamm",
+      "brand": "FAM / BEUMER Group",
+      "category": "unloading",
+      "type": "grab",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,000 t/h"
+      },
+      "source": "https://www.beumergroup.com/products-systems/port-technology/ship-unloaders/",
+      "checked": "2026-10-23",
+      "variant": "GUL1000.13KG · Hamm",
+      "photo": "https://www.beumergroup.com/app/uploads/dynamic/2023/01/power-plant-ship-unloader-400x0-c-default.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "FAM / BEUMER Group",
+        "source": "https://www.beumergroup.com/products-systems/port-technology/ship-unloaders/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Cyclic grab unloading",
+        "Cargo": "Coal",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "DE"
+    },
+    {
+      "id": "world-fam-cam-pha",
+      "name": "GUL250.18YH · Cam Pha",
+      "brand": "FAM / BEUMER Group",
+      "category": "unloading",
+      "type": "grab",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "250 t/h"
+      },
+      "source": "https://www.beumergroup.com/products-systems/port-technology/ship-unloaders/",
+      "checked": "2026-10-23",
+      "variant": "GUL250.18YH · Cam Pha",
+      "photo": "https://www.beumergroup.com/app/uploads/dynamic/2023/01/famserviceschiffsentladerhafentechnik-400x0-c-default.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "FAM / BEUMER Group",
+        "source": "https://www.beumergroup.com/products-systems/port-technology/ship-unloaders/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Cyclic grab unloading",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "VN"
+    },
+    {
+      "id": "world-fam-lorient",
+      "name": "GUL400.42DW · Lorient",
+      "brand": "FAM / BEUMER Group",
+      "category": "unloading",
+      "type": "grab",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "400 t/h"
+      },
+      "source": "https://www.beumergroup.com/products-systems/port-technology/ship-unloaders/",
+      "checked": "2026-10-23",
+      "variant": "GUL400.42DW · Lorient",
+      "photo": "https://www.beumergroup.com/app/uploads/dynamic/2023/01/ship-unloader-france-400x0-c-default.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "FAM / BEUMER Group",
+        "source": "https://www.beumergroup.com/products-systems/port-technology/ship-unloaders/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Cyclic grab unloading",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "FR"
+    },
+    {
+      "id": "world-tenova-csu",
+      "name": "CSU · bucket-chain family",
+      "brand": "Tenova",
+      "category": "unloading",
+      "type": "un-bucket-chain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "500–7,200 t/h",
+        "Maximum ship size": "400,000 DWT"
+      },
+      "source": "https://tenova.com/technologies/csu-bucket-chain-type",
+      "checked": "2026-10-23",
+      "variant": "CSU · bucket-chain family",
+      "photo": "https://tenova.com/sites/default/files/styles/original/public/images/solutions/headers/CSU%204%2C000%20tph%20Iron%20Ore%20AcciaierieDItalia%20%28ex%20ILVA%29Taranto%20-%20Italy.jpg.webp?itok=SzQP41wd",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Tenova",
+        "source": "https://tenova.com/technologies/csu-bucket-chain-type"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Continuous bucket-chain extraction",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Published family range or upper limit. Individual machines are configured for the cargo and terminal; maxima are not guaranteed together."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-tenova-gsu",
+      "name": "GSU · trolley configurations",
+      "brand": "Tenova",
+      "category": "unloading",
+      "type": "grab",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "350–3,100 t/h",
+        "Maximum ship size": "400,000 DWT",
+        "Maximum lifting capacity": "12.5–85 t"
+      },
+      "source": "https://tenova.com/technologies/gsu-shuttle-trolley-single-trolley-and-trolley-self-travelling",
+      "checked": "2026-10-23",
+      "variant": "GSU · trolley configurations",
+      "photo": "https://tenova.com/sites/default/files/styles/original/public/images/solutions/headers/GSU%20Double%20Trolley%20Tanjung%20Jati%20In1500%20tph.jpg.webp?itok=47U50H-D",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Tenova",
+        "source": "https://tenova.com/technologies/gsu-shuttle-trolley-single-trolley-and-trolley-self-travelling"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Cyclic grab unloading",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Published family range or upper limit. Individual machines are configured for the cargo and terminal; maxima are not guaranteed together."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-mitsui-bucket",
+      "name": "Continuous bucket-elevator unloader",
+      "brand": "Mitsui Miike Machinery",
+      "category": "unloading",
+      "type": "un-bucket-chain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "≤ 2,800 t/h"
+      },
+      "source": "https://www.mitsuimiike.co.jp/english/products/transport/harbor/continuation.html",
+      "checked": "2026-10-23",
+      "variant": "Continuous bucket-elevator unloader",
+      "photo": "https://www.mitsuimiike.co.jp/english/products/transport/harbor/img/bg-continuation-hdg-01-pc.jpg",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Mitsui Miike Machinery",
+        "source": "https://www.mitsuimiike.co.jp/english/products/transport/harbor/continuation.html"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Continuous bucket-chain extraction",
+        "Cargo": "Coal",
+        "Capacity basis": "Published family range or upper limit. Individual machines are configured for the cargo and terminal; maxima are not guaranteed together."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-bedeschi-800",
+      "name": "Mechanical CSU · 800 t/h reference",
+      "brand": "Bedeschi",
+      "category": "unloading",
+      "type": "un-chain-grain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "800 t/h",
+        "Maximum ship size": "80,000 DWT"
+      },
+      "source": "https://www.bedeschi.com/2026/06/bedeschi-expertise-in-ship-unloading-technology/",
+      "checked": "2026-10-23",
+      "variant": "Mechanical CSU · 800 t/h reference",
+      "photo": "https://www.bedeschi.com/wp-content/uploads/2026/06/35-1024x768.jpeg",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Bedeschi",
+        "source": "https://www.bedeschi.com/2026/06/bedeschi-expertise-in-ship-unloading-technology/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Mechanical chain marine leg",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-bedeschi-cutter1200",
+      "name": "Mechanical CSU with cutter · 1200 t/h",
+      "brand": "Bedeschi",
+      "category": "unloading",
+      "type": "un-chain-grain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,200 t/h",
+        "Maximum ship size": "100,000 DWT"
+      },
+      "source": "https://www.bedeschi.com/2026/06/bedeschi-expertise-in-ship-unloading-technology/",
+      "checked": "2026-10-23",
+      "variant": "Mechanical CSU with cutter · 1200 t/h",
+      "photo": "https://www.bedeschi.com/wp-content/uploads/2026/06/DSC_8485_ok-copia-scaled-e1781606548735-1024x913.jpg",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Bedeschi",
+        "source": "https://www.bedeschi.com/2026/06/bedeschi-expertise-in-ship-unloading-technology/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Mechanical chain marine leg",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-bedeschi-csu80030",
+      "name": "CSU 800/30 · 2024 construction reference",
+      "brand": "Bedeschi",
+      "category": "unloading",
+      "type": "un-chain-grain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "≈ 1,000 t/h"
+      },
+      "source": "https://www.bedeschi.com/2024/08/continuous-ship-unloader-under-construction/",
+      "checked": "2026-10-23",
+      "variant": "CSU 800/30 · 2024 construction reference",
+      "photo": "https://www.bedeschi.com/wp-content/uploads/2024/08/4-1024x461.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bedeschi",
+        "source": "https://www.bedeschi.com/2024/08/continuous-ship-unloader-under-construction/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Mechanical chain marine leg",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Documented construction-stage reference from August 2024; no claim of current commissioning status. The 800/30 model name is not the published capacity.",
+      "missing": []
+    },
+    {
+      "id": "world-gbm-hp30",
+      "name": "Eco Hopper HP30",
+      "brand": "GBM",
+      "category": "unloading",
+      "type": "un-eco-hopper",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "600 t/h",
+        "Hopper volume": "30 m³"
+      },
+      "source": "https://www.gbm-industry.com/eco-hopper/",
+      "checked": "2026-10-23",
+      "variant": "Eco Hopper HP30",
+      "photo": "https://www.gbm-industry.com/wp-content/uploads/2024/08/2d31c9be56a42e1be830e74381fb503.jpg",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "GBM",
+        "source": "https://www.gbm-industry.com/eco-hopper/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Grab-fed receiving hopper",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Receiving-hopper specification. Throughput depends on the feeding grab cycle and downstream discharge; storage volume in m³ is not t/h."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-gbm-hp50",
+      "name": "Eco Hopper HP50",
+      "brand": "GBM",
+      "category": "unloading",
+      "type": "un-eco-hopper",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "600 t/h",
+        "Hopper volume": "50 m³"
+      },
+      "source": "https://www.gbm-industry.com/eco-hopper/",
+      "checked": "2026-10-23",
+      "variant": "Eco Hopper HP50",
+      "photo": "https://www.gbm-industry.com/wp-content/uploads/2024/08/2d31c9be56a42e1be830e74381fb503.jpg",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "GBM",
+        "source": "https://www.gbm-industry.com/eco-hopper/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Grab-fed receiving hopper",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Receiving-hopper specification. Throughput depends on the feeding grab cycle and downstream discharge; storage volume in m³ is not t/h."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-gbm-hp70",
+      "name": "Eco Hopper HP70",
+      "brand": "GBM",
+      "category": "unloading",
+      "type": "un-eco-hopper",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "800 t/h",
+        "Hopper volume": "70 m³"
+      },
+      "source": "https://www.gbm-industry.com/eco-hopper/",
+      "checked": "2026-10-23",
+      "variant": "Eco Hopper HP70",
+      "photo": "https://www.gbm-industry.com/wp-content/uploads/2024/08/2d31c9be56a42e1be830e74381fb503.jpg",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "GBM",
+        "source": "https://www.gbm-industry.com/eco-hopper/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Grab-fed receiving hopper",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Receiving-hopper specification. Throughput depends on the feeding grab cycle and downstream discharge; storage volume in m³ is not t/h."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-gbm-hp90",
+      "name": "Eco Hopper HP90",
+      "brand": "GBM",
+      "category": "unloading",
+      "type": "un-eco-hopper",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "800 t/h",
+        "Hopper volume": "90 m³"
+      },
+      "source": "https://www.gbm-industry.com/eco-hopper/",
+      "checked": "2026-10-23",
+      "variant": "Eco Hopper HP90",
+      "photo": "https://www.gbm-industry.com/wp-content/uploads/2024/08/2d31c9be56a42e1be830e74381fb503.jpg",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "GBM",
+        "source": "https://www.gbm-industry.com/eco-hopper/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Grab-fed receiving hopper",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Receiving-hopper specification. Throughput depends on the feeding grab cycle and downstream discharge; storage volume in m³ is not t/h."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-gbm-hp110",
+      "name": "Eco Hopper HP110",
+      "brand": "GBM",
+      "category": "unloading",
+      "type": "un-eco-hopper",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,000 t/h",
+        "Hopper volume": "110 m³"
+      },
+      "source": "https://www.gbm-industry.com/eco-hopper/",
+      "checked": "2026-10-23",
+      "variant": "Eco Hopper HP110",
+      "photo": "https://www.gbm-industry.com/wp-content/uploads/2024/08/2d31c9be56a42e1be830e74381fb503.jpg",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "GBM",
+        "source": "https://www.gbm-industry.com/eco-hopper/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Grab-fed receiving hopper",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Receiving-hopper specification. Throughput depends on the feeding grab cycle and downstream discharge; storage volume in m³ is not t/h."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "world-siw-australia",
+      "name": "ST 640-D · Kwinana",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,300 t/h"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-unloader-australia",
+      "checked": "2026-10-23",
+      "variant": "ST 640-D · Kwinana",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_Fermantle_Sulphur_Fertiliser_Shipunloader1.jpg.webp?itok=TUm6aXic",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-unloader-australia"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Sulfur",
+        "Capacity basis": "Published capacity for the named installation and cargo, per machine unless a combined line total is explicitly shown."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "country": "AU"
     }
   ],
   "brands": {
@@ -13154,15 +15275,22 @@
       "Shuttlelift"
     ],
     "unloading": [
+      "Bedeschi",
       "Bruks Siwertell",
       "Bühler",
+      "FAM / BEUMER Group",
       "Fuller Technologies",
+      "GBM",
+      "KINTEC / Lion Bulk Handling",
+      "Mitsui Miike Machinery",
       "NEUERO",
       "SAMSON / AUMUND",
       "TAKRAF",
       "Tadano Infrastructure Solutions",
       "Telestack",
-      "VIGAN"
+      "Tenova",
+      "VIGAN",
+      "Van Aalst Bulk Handling"
     ],
     "containers": [
       "Atlantic Coast Container",
@@ -13356,7 +15484,7 @@
   "unloadingGroups": [
     {
       "id": "un-pneumatic",
-      "name": "Pneumatic grain unloaders"
+      "name": "Pneumatic dry-bulk unloaders"
     },
     {
       "id": "un-cement",

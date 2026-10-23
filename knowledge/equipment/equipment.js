@@ -5,7 +5,7 @@ const $=id=>document.getElementById(id),esc=v=>String(v??'').replace(/[&<>"']/g,
 const t=s=>window.SamaLanguage?.t(s)||s,raw=s=>'<span translate="no">'+esc(s)+'</span>';
 const specValue=value=>String(value).replace(/\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+\.\d+/g,number=>new Intl.NumberFormat(document.documentElement.lang||'en',{numberingSystem:'latn',maximumFractionDigits:6}).format(Number(number.replaceAll(',',''))));
 let catalog,state={category:'containers',group:'',type:'',brand:'',country:'',q:'',item:''};
-const countries={TR:'Türkiye',IR:'Iran',RU:'Russia',US:'United States',DE:'Germany',BE:'Belgium',NL:'Netherlands',FR:'France',GB:'United Kingdom',AU:'Australia',NZ:'New Zealand',ZA:'South Africa',BR:'Brazil',CN:'China',IQ:'Iraq',EU:'Europe'};
+const countries={MA:"Morocco",DZ:"Algeria",KR:"South Korea",PK:"Pakistan",PL:"Poland",YE:"Yemen",ID:"Indonesia",BG:"Bulgaria",IN:"India",KW:"Kuwait",SG:"Singapore",TH:"Thailand",TW:"Taiwan",VN:"Vietnam",PH:"Philippines",ES:"Spain",AT:"Austria",OM:"Oman",SA:"Saudi Arabia",EG:"Egypt",SD:"Sudan",BD:"Bangladesh",CA:"Canada",SL:"Sierra Leone",MU:"Mauritius",DK:"Denmark",IT:"Italy",TR:'Türkiye',IR:'Iran',RU:'Russia',US:'United States',DE:'Germany',BE:'Belgium',NL:'Netherlands',FR:'France',GB:'United Kingdom',AU:'Australia',NZ:'New Zealand',ZA:'South Africa',BR:'Brazil',CN:'China',IQ:'Iraq',EU:'Europe'};
 const clean=v=>String(v||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').replace(/ı/g,'i').toLocaleLowerCase();
 const opt=(v,s)=>'<option value="'+esc(v)+'">'+esc(t(s))+'</option>';
 const badge=s=>'<span class="eq-badge">'+esc(t(s))+'</span>';
@@ -21,7 +21,7 @@ function options(){
  const rows=catalog.records.filter(r=>r.category===state.category),brands=[...new Set([...(catalog.brands[state.category]||[]),...rows.map(r=>r.brand).filter(Boolean)])].sort();
  $('eq-brand').innerHTML=opt('','All brands')+brands.map(b=>opt(b,b)).join('');$('eq-brand').value=state.brand;
  const codes=[...new Set(rows.map(r=>r.country).filter(Boolean))];$('eq-country').innerHTML=opt('','All countries')+codes.map(c=>opt(c,countries[c]||c)).join('');$('eq-country').value=state.country;$('eq-country-label').hidden=!codes.length;
- $('eq-country-title').textContent=t(state.category==='rail'?'Reference country / region':state.category==='road'?'Example country / market':'Country / market');
+ $('eq-country-title').textContent=t(state.category==='unloading'?'Reference country / installation':state.category==='rail'?'Reference country / region':state.category==='road'?'Example country / market':'Country / market');
  $('eq-search').value=state.q;
 }
 function illustration(row){
@@ -90,7 +90,7 @@ function render(push=false){
 }
 function fromURL(){const u=new URL(location.href);for(const k of Object.keys(state))state[k]=u.searchParams.get('eq_'+k)||'';if(!catalog.categories.some(c=>c.id===state.category))state.category='containers';if(!groups().some(g=>g.id===state.group))state.group='';if(state.type&&!catalog.types.some(t=>t.category===state.category&&t.id===state.type&&(!state.group||t.group===state.group)))state.type='';}
 async function init(){try{
- const response=await fetch('/knowledge/equipment/catalog.json?v=20261023-unloading-1');if(!response.ok)throw Error('catalog');catalog=await response.json();fromURL();options();render();
+ const response=await fetch('/knowledge/equipment/catalog.json?v=20261023-world-unloading-2');if(!response.ok)throw Error('catalog');catalog=await response.json();fromURL();options();render();
  $('eq-categories').onclick=e=>{const b=e.target.closest('[data-category]');if(!b)return;state={category:b.dataset.category,group:'',type:'',brand:'',country:'',q:'',item:''};options();render(true);};
  const setGroup=value=>{state.group=value;state.type='';state.item='';options();render(true);};
  $('eq-group').onchange=()=>setGroup($('eq-group').value);
