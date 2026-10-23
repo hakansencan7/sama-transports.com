@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 const base=new URL('./',import.meta.url),data=JSON.parse(fs.readFileSync(new URL('catalog.json',base),'utf8'));
 const dict=JSON.parse(fs.readFileSync(new URL('equipment-i18n.js',base),'utf8').match(/register\((.*)\);/s)[1]);
 for(const collection of [data.categories,data.types,data.records])assert.equal(new Set(collection.map(x=>x.id)).size,collection.length,'Duplicate ID');
-for(const item of [...data.categories,...data.types,...(data.seaGroups||[]),...(data.containerGroups||[]),...(data.roadGroups||[]),...(data.railGroups||[]),...(data.craneGroups||[])])for(const lang of ['en','tr','ar'])assert.ok(dict[item.name]?.[lang],`Missing ${lang}: ${item.name}`);
+for(const item of [...data.categories,...data.types,...(data.seaGroups||[]),...(data.containerGroups||[]),...(data.roadGroups||[]),...(data.railGroups||[]),...(data.craneGroups||[]),...(data.unloadingGroups||[])])for(const lang of ['en','tr','ar'])assert.ok(dict[item.name]?.[lang],`Missing ${lang}: ${item.name}`);
 for(const row of data.records){
  const type=data.types.find(x=>x.id===row.type);assert.equal(type?.category,row.category);
  if(row.category==='rail')assert.ok(row.country,'Rail record must identify country');
@@ -19,6 +19,15 @@ for(const row of data.records){
    assert.match(row.photo_credit.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/);
    assert.match(row.photo_credit.license,/^(CC BY|CC0|Public domain)/);
   }else assert.match(row.photo,/^https:\/\//);
+ }
+ if(row.category==='unloading'){
+  assert.ok(data.unloadingGroups.some(g=>g.id===type.group),'Missing unloading technology group');
+  assert.ok(row.photo,'Every unloading record needs a real photograph');
+  assert.equal(row.verified,true);
+  assert.ok(row.photo_exact || row.photo_type_example,'Identify photo scope');
+  assert.ok(Object.keys(row.specs).some(k=>/capacity|throughput/i.test(k)),'Missing published capacity');
+  for(const key of [row.name,row.variant,row.data_note,row.photo_note,...Object.entries(row.guide||{}).flat()].filter(Boolean))for(const lang of ['en','tr','ar'])assert.ok(dict[key]?.[lang],`Missing ${lang}: ${key}`);
+  assert.ok(row.guide?.['Capacity basis'],'Missing capacity conditions');
  }
  if(row.category==='cranes'){
   assert.ok(data.craneGroups.some(g=>g.id===type.group),'Missing crane family');

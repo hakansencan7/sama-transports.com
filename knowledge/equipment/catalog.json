@@ -395,30 +395,6 @@
       "group": "other"
     },
     {
-      "id": "pneumatic",
-      "category": "unloading",
-      "name": "Pneumatic unloaders",
-      "drawing": "unloading"
-    },
-    {
-      "id": "grab",
-      "category": "unloading",
-      "name": "Grab & hopper systems",
-      "drawing": "unloading"
-    },
-    {
-      "id": "mechanical",
-      "category": "unloading",
-      "name": "Mechanical continuous unloaders",
-      "drawing": "unloading"
-    },
-    {
-      "id": "conveyor",
-      "category": "unloading",
-      "name": "Conveyors & shiploaders",
-      "drawing": "unloading"
-    },
-    {
       "id": "loader",
       "category": "machinery",
       "name": "Wheel loaders",
@@ -1394,6 +1370,72 @@
       "category": "cranes",
       "group": "crane-special",
       "name": "Railway recovery & track cranes"
+    },
+    {
+      "id": "pneumatic",
+      "category": "unloading",
+      "group": "un-pneumatic",
+      "name": "Pneumatic ship unloaders"
+    },
+    {
+      "id": "un-cement-vacuum",
+      "category": "unloading",
+      "group": "un-cement",
+      "name": "Vacuum and pressure cement systems"
+    },
+    {
+      "id": "un-screw-port",
+      "category": "unloading",
+      "group": "un-screw",
+      "name": "Port-mobile screw unloaders"
+    },
+    {
+      "id": "un-screw-road",
+      "category": "unloading",
+      "group": "un-screw",
+      "name": "Road-mobile screw unloaders"
+    },
+    {
+      "id": "un-screw-fixed",
+      "category": "unloading",
+      "group": "un-screw",
+      "name": "Fixed and rail-mounted screw unloaders"
+    },
+    {
+      "id": "un-chain-grain",
+      "category": "unloading",
+      "group": "un-chain",
+      "name": "Chain marine-leg unloaders"
+    },
+    {
+      "id": "un-twin-belt",
+      "category": "unloading",
+      "group": "un-chain",
+      "name": "Twin-belt mechanical unloaders"
+    },
+    {
+      "id": "un-bucket-chain",
+      "category": "unloading",
+      "group": "un-bucket",
+      "name": "Bucket-chain unloaders for ore and coal"
+    },
+    {
+      "id": "grab",
+      "category": "unloading",
+      "group": "un-grab",
+      "name": "Rail-mounted grab unloaders"
+    },
+    {
+      "id": "un-eco-hopper",
+      "category": "unloading",
+      "group": "un-hopper",
+      "name": "Dust-controlled receiving hoppers"
+    },
+    {
+      "id": "un-shore-conveyors",
+      "category": "unloading",
+      "group": "un-hopper",
+      "name": "Shore receiving and conveyor systems"
     }
   ],
   "records": [
@@ -2907,121 +2949,6 @@
       ]
     },
     {
-      "id": "vigan-200",
-      "type": "pneumatic",
-      "category": "unloading",
-      "name": "NIV 200",
-      "brand": "VIGAN",
-      "country": "",
-      "specs": {
-        "Handling rate": "200 t/h",
-        "Installed power": "160 kW"
-      },
-      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
-      "variant": "Published installation example; material and installation affect throughput.",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "unloading",
-      "missing": [
-        "Overall length",
-        "Overall width",
-        "Overall height"
-      ]
-    },
-    {
-      "id": "vigan-300",
-      "type": "pneumatic",
-      "category": "unloading",
-      "name": "NIV 300",
-      "brand": "VIGAN",
-      "country": "",
-      "specs": {
-        "Handling rate": "300 t/h",
-        "Installed power": "250 kW"
-      },
-      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
-      "variant": "Published installation example; material and installation affect throughput.",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "unloading",
-      "missing": [
-        "Overall length",
-        "Overall width",
-        "Overall height"
-      ]
-    },
-    {
-      "id": "vigan-500",
-      "type": "pneumatic",
-      "category": "unloading",
-      "name": "NIV 500",
-      "brand": "VIGAN",
-      "country": "",
-      "specs": {
-        "Handling rate": "500 t/h",
-        "Installed power": "400 kW"
-      },
-      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
-      "variant": "Published installation example; material and installation affect throughput.",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "unloading",
-      "missing": [
-        "Overall length",
-        "Overall width",
-        "Overall height"
-      ]
-    },
-    {
-      "id": "vigan-600",
-      "type": "pneumatic",
-      "category": "unloading",
-      "name": "NIV 600",
-      "brand": "VIGAN",
-      "country": "",
-      "specs": {
-        "Handling rate": "600 t/h",
-        "Installed power": "500 kW"
-      },
-      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
-      "variant": "Published installation example; material and installation affect throughput.",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "unloading",
-      "missing": [
-        "Overall length",
-        "Overall width",
-        "Overall height"
-      ]
-    },
-    {
-      "id": "vigan-800",
-      "type": "pneumatic",
-      "category": "unloading",
-      "name": "NIV 800",
-      "brand": "VIGAN",
-      "country": "",
-      "specs": {
-        "Handling rate": "800 t/h",
-        "Installed power": "750 kW"
-      },
-      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
-      "variant": "Published installation example; material and installation affect throughput.",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "unloading",
-      "missing": [
-        "Overall length",
-        "Overall width",
-        "Overall height"
-      ]
-    },
-    {
       "id": "toyota-corolla",
       "type": "sedan",
       "category": "cars",
@@ -3063,54 +2990,6 @@
       "photo": "",
       "checked": "2026-10-22",
       "drawing": "cars",
-      "missing": []
-    },
-    {
-      "id": "type-grab",
-      "type": "grab",
-      "category": "unloading",
-      "name": "Grab & hopper systems",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "unloading",
-      "missing": []
-    },
-    {
-      "id": "type-mechanical",
-      "type": "mechanical",
-      "category": "unloading",
-      "name": "Mechanical continuous unloaders",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "unloading",
-      "missing": []
-    },
-    {
-      "id": "type-conveyor",
-      "type": "conveyor",
-      "category": "unloading",
-      "name": "Conveyors & shiploaders",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "unloading",
       "missing": []
     },
     {
@@ -11902,6 +11781,1270 @@
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
         "changes": "Resized and converted to WebP; content unchanged."
       }
+    },
+    {
+      "id": "vigan-200",
+      "name": "NIV 200 · Chattogram 2021",
+      "brand": "VIGAN",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "200 t/h",
+        "Installed power": "160 kW"
+      },
+      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
+      "checked": "2026-10-23",
+      "variant": "NIV 200 · Chattogram 2021",
+      "photo": "https://www.vigan.com/images/ref/niv_unloader_chattogram_bangladesh_2021.webp",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "VIGAN",
+        "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "vigan-300",
+      "name": "NIV 300 · Rio de Janeiro 2018",
+      "brand": "VIGAN",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "300 t/h",
+        "Installed power": "250 kW"
+      },
+      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
+      "checked": "2026-10-23",
+      "variant": "NIV 300 · Rio de Janeiro 2018",
+      "photo": "https://www.vigan.com/images/ref/niv_unloader_riodejaneiro_brazil_2018.webp",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "VIGAN",
+        "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "vigan-500",
+      "name": "NIV 500 · Taichung 2020",
+      "brand": "VIGAN",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "500 t/h",
+        "Installed power": "400 kW"
+      },
+      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
+      "checked": "2026-10-23",
+      "variant": "NIV 500 · Taichung 2020",
+      "photo": "https://www.vigan.com/images/ref/niv_unloader_taichung_taiwan_2020.webp",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "VIGAN",
+        "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "vigan-600",
+      "name": "NIV 600 · Port Sudan 2015",
+      "brand": "VIGAN",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "600 t/h",
+        "Installed power": "500 kW"
+      },
+      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
+      "checked": "2026-10-23",
+      "variant": "NIV 600 · Port Sudan 2015",
+      "photo": "https://www.vigan.com/images/ref/niv_unloader_sudan_sudan_2015.webp",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "VIGAN",
+        "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "vigan-800",
+      "name": "NIV 800 · Casablanca 2017",
+      "brand": "VIGAN",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "800 t/h",
+        "Installed power": "750 kW"
+      },
+      "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php",
+      "checked": "2026-10-23",
+      "variant": "NIV 800 · Casablanca 2017",
+      "photo": "https://www.vigan.com/images/ref/niv_unloader_casablanca_morocco_2017.webp",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "VIGAN",
+        "source": "https://www.vigan.com/en/pneumatic-ship-unloaders.php"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "neuero-multiport",
+      "name": "MULTIPORT",
+      "brand": "NEUERO",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Capacity — wheat": "≤ 1,000 t/h",
+        "Number of conveying lines": "1",
+        "Auxiliary winch capacity": "≤ 15 t"
+      },
+      "source": "https://neuero.de/en/produkte/schiffsentlader",
+      "checked": "2026-10-23",
+      "variant": "MULTIPORT",
+      "photo": "https://neuero.de/fileadmin/_processed_/d/9/csm_2025_neuero_website_produkte_entlader_multiport_04b7761abf.avif",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "NEUERO",
+        "source": "https://neuero.de/en/produkte/schiffsentlader"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Wheat reference. Tower total combines two independent lines; each line is rated up to 1000 t/h."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "neuero-flexiport",
+      "name": "FLEXIPORT",
+      "brand": "NEUERO",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Capacity — wheat": "≤ 1,000 t/h",
+        "Number of conveying lines": "1",
+        "Auxiliary winch capacity": "≤ 15 t"
+      },
+      "source": "https://neuero.de/en/produkte/schiffsentlader",
+      "checked": "2026-10-23",
+      "variant": "FLEXIPORT",
+      "photo": "https://neuero.de/fileadmin/_processed_/e/d/csm_2025_neuero_website_produkte_entlader_flexiport_a735bebe7a.avif",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "NEUERO",
+        "source": "https://neuero.de/en/produkte/schiffsentlader"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Wheat reference. Tower total combines two independent lines; each line is rated up to 1000 t/h."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "neuero-tower",
+      "name": "TOWER",
+      "brand": "NEUERO",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Combined line capacity": "≤ 2,000 t/h",
+        "Number of conveying lines": "2",
+        "Auxiliary winch capacity": "≤ 15 t"
+      },
+      "source": "https://neuero.de/en/produkte/schiffsentlader",
+      "checked": "2026-10-23",
+      "variant": "TOWER",
+      "photo": "https://neuero.de/fileadmin/_processed_/2/f/csm_2025_neuero_website_produkte_entlader_tower_c8ede33fba.avif",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "NEUERO",
+        "source": "https://neuero.de/en/produkte/schiffsentlader"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Wheat reference. Tower total combines two independent lines; each line is rated up to 1000 t/h."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "siwertell-pmu-400",
+      "name": "PMU 400-2",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-port",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "150–400 t/h",
+        "Maximum ship size": "60,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/ship-unloading/port-mobile-unloader",
+      "checked": "2026-10-23",
+      "variant": "PMU 400-2",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2019-03/2.1_Siwertell_PMU_portmobile_unloader_1_72RGB.jpg.webp?itok=s38pkP1H",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/ship-unloading/port-mobile-unloader"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "siwertell-pmu-600",
+      "name": "PMU 600-2/3",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-port",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "200–600 t/h",
+        "Maximum ship size": "60,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/ship-unloading/port-mobile-unloader",
+      "checked": "2026-10-23",
+      "variant": "PMU 600-2/3",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2019-03/2.1_Siwertell_PMU_portmobile_unloader_1_72RGB.jpg.webp?itok=s38pkP1H",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/ship-unloading/port-mobile-unloader"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "siwertell-5000",
+      "name": "Siwertell 5,000 S",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-road",
+      "verified": true,
+      "specs": {
+        "Capacity — cement": "300 t/h",
+        "Capacity — grain": "240 t/h",
+        "Maximum ship size": "5,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/ship-unloading/road-mobile-unloaders/siwertell-road-mobile-5-000-s",
+      "checked": "2026-10-23",
+      "variant": "Siwertell 5,000 S",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2021-02/5000S_0.jpg.webp?itok=XJF6OR9c",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/ship-unloading/road-mobile-unloaders/siwertell-road-mobile-5-000-s"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "siwertell-10000",
+      "name": "Siwertell 10,000 S",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-road",
+      "verified": true,
+      "specs": {
+        "Capacity — cement": "300 t/h",
+        "Capacity — grain": "240 t/h",
+        "Maximum ship size": "12,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/ship-unloading/road-mobile-unloaders/road-mobile-10-000-s-0",
+      "checked": "2026-10-23",
+      "variant": "Siwertell 10,000 S",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2021-02/Roadmobile10000S.jpg.webp?itok=IhkzxqOV",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/ship-unloading/road-mobile-unloaders/road-mobile-10-000-s-0"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Manufacturer table specifies 12000 DWT; the narrative describes vessels around 10000 DWT. Suitability depends on vessel geometry.",
+      "missing": []
+    },
+    {
+      "id": "siwertell-15000",
+      "name": "Siwertell 15,000 S",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-road",
+      "verified": true,
+      "specs": {
+        "Capacity — cement": "500 t/h",
+        "Capacity — grain": "400 t/h",
+        "Maximum ship size": "15,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/ship-unloading/road-mobile-unloaders/road-mobile-15-000-s-0",
+      "checked": "2026-10-23",
+      "variant": "Siwertell 15,000 S",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2021-02/Siwertell_road_mobile_unloader_15000S.jpg.webp?itok=3NUH_qtI",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/ship-unloading/road-mobile-unloaders/road-mobile-15-000-s-0"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "siwertell-st640f",
+      "name": "ST 640-F · Milwaukee",
+      "brand": "Bruks Siwertell",
+      "category": "unloading",
+      "type": "un-screw-fixed",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,000 t/h",
+        "Maximum ship size": "2,000 DWT"
+      },
+      "source": "https://bruks-siwertell.com/cases/ship-loader-usa",
+      "checked": "2026-10-23",
+      "variant": "ST 640-F · Milwaukee",
+      "photo": "https://bruks-siwertell.com/sites/default/files/styles/scale_large/public/2018-07/Siwertell_BechtelPowerCorporation_Limestone_Gypsum_Ship_Loader1.jpg.webp?itok=ATqYFzIU",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Bruks Siwertell",
+        "source": "https://bruks-siwertell.com/cases/ship-loader-usa"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Enclosed screw conveying",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Limestone unloading reference. The separate 500 t/h gypsum figure is a loading rate, not an unloading rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "portalink-300",
+      "name": "Portalink 300",
+      "brand": "Bühler",
+      "category": "unloading",
+      "type": "un-chain-grain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "300 t/h",
+        "Boom length": "20 m",
+        "Auxiliary winch capacity": "7 t",
+        "Typical ship size (up to)": "30,000 DWT"
+      },
+      "source": "https://dam.buhlergroup.com/asset/20fca387c03743a8a1b235da9223fe13/GQ_RB_Loader_Unloader_EN_14298_02_WEB.pdf",
+      "checked": "2026-10-23",
+      "variant": "Portalink 300",
+      "photo": "https://dam.buhlergroup.com/image/bf24ab0652764ae7823f15a666fd94fa/-FJPG-C2880x2160%2C0%2C0-S600x450-S1024x768",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Bühler",
+        "source": "https://www.buhlergroup.com/global/en/products/mechanical_ship_unloader.html"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Mechanical chain marine leg",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "portalink-400",
+      "name": "Portalink 400",
+      "brand": "Bühler",
+      "category": "unloading",
+      "type": "un-chain-grain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "400 t/h",
+        "Boom length": "25 m",
+        "Auxiliary winch capacity": "7 t",
+        "Typical ship size (up to)": "60,000 DWT"
+      },
+      "source": "https://dam.buhlergroup.com/asset/20fca387c03743a8a1b235da9223fe13/GQ_RB_Loader_Unloader_EN_14298_02_WEB.pdf",
+      "checked": "2026-10-23",
+      "variant": "Portalink 400",
+      "photo": "https://dam.buhlergroup.com/image/bf24ab0652764ae7823f15a666fd94fa/-FJPG-C2880x2160%2C0%2C0-S600x450-S1024x768",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Bühler",
+        "source": "https://www.buhlergroup.com/global/en/products/mechanical_ship_unloader.html"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Mechanical chain marine leg",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "portalink-600",
+      "name": "Portalink 600",
+      "brand": "Bühler",
+      "category": "unloading",
+      "type": "un-chain-grain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "600 t/h",
+        "Boom length": "25 / 27 / 32 m",
+        "Auxiliary winch capacity": "10 t",
+        "Typical ship size (up to)": "120,000 DWT"
+      },
+      "source": "https://dam.buhlergroup.com/asset/20fca387c03743a8a1b235da9223fe13/GQ_RB_Loader_Unloader_EN_14298_02_WEB.pdf",
+      "checked": "2026-10-23",
+      "variant": "Portalink 600",
+      "photo": "https://dam.buhlergroup.com/image/bf24ab0652764ae7823f15a666fd94fa/-FJPG-C2880x2160%2C0%2C0-S600x450-S1024x768",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Bühler",
+        "source": "https://www.buhlergroup.com/global/en/products/mechanical_ship_unloader.html"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Mechanical chain marine leg",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "portalink-800",
+      "name": "Portalink 800",
+      "brand": "Bühler",
+      "category": "unloading",
+      "type": "un-chain-grain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "800 t/h",
+        "Boom length": "27 / 32 m",
+        "Auxiliary winch capacity": "10–15 t",
+        "Typical ship size (up to)": "120,000 DWT"
+      },
+      "source": "https://dam.buhlergroup.com/asset/20fca387c03743a8a1b235da9223fe13/GQ_RB_Loader_Unloader_EN_14298_02_WEB.pdf",
+      "checked": "2026-10-23",
+      "variant": "Portalink 800",
+      "photo": "https://dam.buhlergroup.com/image/bf24ab0652764ae7823f15a666fd94fa/-FJPG-C2880x2160%2C0%2C0-S600x450-S1024x768",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Bühler",
+        "source": "https://www.buhlergroup.com/global/en/products/mechanical_ship_unloader.html"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Mechanical chain marine leg",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "portalink-1100",
+      "name": "Portalink 1100",
+      "brand": "Bühler",
+      "category": "unloading",
+      "type": "un-chain-grain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,100 t/h",
+        "Boom length": "27 / 29.5 m",
+        "Auxiliary winch capacity": "15 t",
+        "Typical ship size (up to)": "120,000 DWT"
+      },
+      "source": "https://dam.buhlergroup.com/asset/20fca387c03743a8a1b235da9223fe13/GQ_RB_Loader_Unloader_EN_14298_02_WEB.pdf",
+      "checked": "2026-10-23",
+      "variant": "Portalink 1100",
+      "photo": "https://dam.buhlergroup.com/image/bf24ab0652764ae7823f15a666fd94fa/-FJPG-C2880x2160%2C0%2C0-S600x450-S1024x768",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Bühler",
+        "source": "https://www.buhlergroup.com/global/en/products/mechanical_ship_unloader.html"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Mechanical chain marine leg",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "portalink-1300",
+      "name": "Portalink 1300",
+      "brand": "Bühler",
+      "category": "unloading",
+      "type": "un-chain-grain",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,300 t/h",
+        "Boom length": "27 / 29.5 / 32 m",
+        "Auxiliary winch capacity": "15 t",
+        "Typical ship size (up to)": "120,000 DWT"
+      },
+      "source": "https://dam.buhlergroup.com/asset/20fca387c03743a8a1b235da9223fe13/GQ_RB_Loader_Unloader_EN_14298_02_WEB.pdf",
+      "checked": "2026-10-23",
+      "variant": "Portalink 1300",
+      "photo": "https://dam.buhlergroup.com/image/bf24ab0652764ae7823f15a666fd94fa/-FJPG-C2880x2160%2C0%2C0-S600x450-S1024x768",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Bühler",
+        "source": "https://www.buhlergroup.com/global/en/products/mechanical_ship_unloader.html"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Mechanical chain marine leg",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "kovako-k01",
+      "name": "KOVAKO K01",
+      "brand": "Fuller Technologies",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Normal unloading capacity": "200 t/h",
+        "Maximum ship size": "8,000 DWT",
+        "Boom length": "20 / 23 m"
+      },
+      "source": "https://www.flsmidth-cement.com/files/b667c57973597c508b7dd147ae1431ebd5d6e546.pdf/Kovako_Shipunloaders_brochure.pdf?dl=Kovako_Shipunloader+brochure.pdf",
+      "checked": "2026-10-23",
+      "variant": "KOVAKO K01",
+      "photo": "https://www.fuller-technologies.com/images/41eebc12404b4b35b21fc6af4cb055c05edd073c/1920x1080.jpg/Kovako_shipunloader.jpg?w=2048&q=80&auto=format",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Fuller Technologies",
+        "source": "https://www.fuller-technologies.com/products/kovako-ship-and-barge-unloaders"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Normal capacity for Portland cement I/II, shortest arm, 100 m horizontal and 25 m vertical conveying with six equivalent 90-degree bends."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "additional_source": "https://www.fuller-technologies.com/products/kovako-ship-and-barge-unloaders"
+    },
+    {
+      "id": "kovako-k02",
+      "name": "KOVAKO K02",
+      "brand": "Fuller Technologies",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Normal unloading capacity": "200 t/h",
+        "Maximum ship size": "20,000 DWT",
+        "Boom length": "24 / 26 / 28 / 31 m"
+      },
+      "source": "https://www.flsmidth-cement.com/files/b667c57973597c508b7dd147ae1431ebd5d6e546.pdf/Kovako_Shipunloaders_brochure.pdf?dl=Kovako_Shipunloader+brochure.pdf",
+      "checked": "2026-10-23",
+      "variant": "KOVAKO K02",
+      "photo": "https://www.fuller-technologies.com/images/41eebc12404b4b35b21fc6af4cb055c05edd073c/1920x1080.jpg/Kovako_shipunloader.jpg?w=2048&q=80&auto=format",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Fuller Technologies",
+        "source": "https://www.fuller-technologies.com/products/kovako-ship-and-barge-unloaders"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Normal capacity for Portland cement I/II, shortest arm, 100 m horizontal and 25 m vertical conveying with six equivalent 90-degree bends."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "additional_source": "https://www.fuller-technologies.com/products/kovako-ship-and-barge-unloaders"
+    },
+    {
+      "id": "kovako-k03",
+      "name": "KOVAKO K03",
+      "brand": "Fuller Technologies",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Normal unloading capacity": "400 t/h",
+        "Maximum ship size": "45,000 DWT",
+        "Boom length": "32 / 34 / 36 m"
+      },
+      "source": "https://www.flsmidth-cement.com/files/b667c57973597c508b7dd147ae1431ebd5d6e546.pdf/Kovako_Shipunloaders_brochure.pdf?dl=Kovako_Shipunloader+brochure.pdf",
+      "checked": "2026-10-23",
+      "variant": "KOVAKO K03",
+      "photo": "https://www.fuller-technologies.com/images/41eebc12404b4b35b21fc6af4cb055c05edd073c/1920x1080.jpg/Kovako_shipunloader.jpg?w=2048&q=80&auto=format",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Fuller Technologies",
+        "source": "https://www.fuller-technologies.com/products/kovako-ship-and-barge-unloaders"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Normal capacity for Portland cement I/II, shortest arm, 100 m horizontal and 25 m vertical conveying with six equivalent 90-degree bends."
+      },
+      "data_note": "The linked standalone KOVAKO brochure lists K03 at 400 t/h normal capacity. The older combined DOCKSIDER/KOVAKO brochure lists 320 t/h; these editions are not interchangeable.",
+      "missing": [],
+      "additional_source": "https://www.fuller-technologies.com/products/kovako-ship-and-barge-unloaders"
+    },
+    {
+      "id": "docksider-ds1",
+      "name": "DOCKSIDER DS1",
+      "brand": "Fuller Technologies",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Peak design capacity": "400 t/h",
+        "Maximum ship size": "8,000 DWT",
+        "Boom length": "18 m"
+      },
+      "source": "https://www.flsmidth-cement.com/files/9bc410d9464713aa210529d84b54cb5b6d4af452.pdf/Offline---Ship-unloader-brochure.pdf",
+      "checked": "2026-10-23",
+      "variant": "DOCKSIDER DS1",
+      "photo": "https://www.fuller-technologies.com/images/6adcb6ace397870bdb929d6806c4868157bbb271/997x1080.jpg/Lafarge%20New%20Orleans%20Docksider%20shipunloader.jpg?w=2048&q=80&auto=format",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Fuller Technologies",
+        "source": "https://www.fuller-technologies.com/products/docksider-ship-unloaders"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Peak design capacity for Portland cement I/II with the shortest listed arm; not normal or average output."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "additional_source": "https://www.fuller-technologies.com/products/docksider-ship-unloaders"
+    },
+    {
+      "id": "docksider-ds2",
+      "name": "DOCKSIDER DS2",
+      "brand": "Fuller Technologies",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Peak design capacity": "550 t/h",
+        "Maximum ship size": "45,000 DWT",
+        "Boom length": "37 / 41 m"
+      },
+      "source": "https://www.flsmidth-cement.com/files/9bc410d9464713aa210529d84b54cb5b6d4af452.pdf/Offline---Ship-unloader-brochure.pdf",
+      "checked": "2026-10-23",
+      "variant": "DOCKSIDER DS2",
+      "photo": "https://www.fuller-technologies.com/images/6adcb6ace397870bdb929d6806c4868157bbb271/997x1080.jpg/Lafarge%20New%20Orleans%20Docksider%20shipunloader.jpg?w=2048&q=80&auto=format",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Fuller Technologies",
+        "source": "https://www.fuller-technologies.com/products/docksider-ship-unloaders"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Peak design capacity for Portland cement I/II with the shortest listed arm; not normal or average output."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "additional_source": "https://www.fuller-technologies.com/products/docksider-ship-unloaders"
+    },
+    {
+      "id": "docksider-ds3",
+      "name": "DOCKSIDER DS3",
+      "brand": "Fuller Technologies",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Peak design capacity": "725 t/h",
+        "Maximum ship size": "55,000 DWT",
+        "Boom length": "42 m"
+      },
+      "source": "https://www.flsmidth-cement.com/files/9bc410d9464713aa210529d84b54cb5b6d4af452.pdf/Offline---Ship-unloader-brochure.pdf",
+      "checked": "2026-10-23",
+      "variant": "DOCKSIDER DS3",
+      "photo": "https://www.fuller-technologies.com/images/9e2cf8589ab773d64ad10a6836c776fc47e602c8/1920x1080.jpg/Ozinga%20Chicago%20Docksider%20barge%20unloader.jpg?w=2048&q=80&auto=format",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Fuller Technologies",
+        "source": "https://www.fuller-technologies.com/products/docksider-ship-unloaders"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Peak design capacity for Portland cement I/II with the shortest listed arm; not normal or average output."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "additional_source": "https://www.fuller-technologies.com/products/docksider-ship-unloaders"
+    },
+    {
+      "id": "docksider-ds4",
+      "name": "DOCKSIDER DS4",
+      "brand": "Fuller Technologies",
+      "category": "unloading",
+      "type": "un-cement-vacuum",
+      "verified": true,
+      "specs": {
+        "Peak design capacity": "1,200 t/h",
+        "Maximum ship size": "65,000 DWT",
+        "Boom length": "45 / 47 m"
+      },
+      "source": "https://www.flsmidth-cement.com/files/9bc410d9464713aa210529d84b54cb5b6d4af452.pdf/Offline---Ship-unloader-brochure.pdf",
+      "checked": "2026-10-23",
+      "variant": "DOCKSIDER DS4",
+      "photo": "https://www.fuller-technologies.com/images/9e2cf8589ab773d64ad10a6836c776fc47e602c8/1920x1080.jpg/Ozinga%20Chicago%20Docksider%20barge%20unloader.jpg?w=2048&q=80&auto=format",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "Fuller Technologies",
+        "source": "https://www.fuller-technologies.com/products/docksider-ship-unloaders"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Pneumatic vacuum-pressure transfer",
+        "Cargo": "Portland cement",
+        "Capacity basis": "Peak design capacity for Portland cement I/II with the shortest listed arm; not normal or average output."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": [],
+      "additional_source": "https://www.fuller-technologies.com/products/docksider-ship-unloaders"
+    },
+    {
+      "id": "takraf-gsu",
+      "name": "GSU · grab unloader",
+      "brand": "TAKRAF",
+      "category": "unloading",
+      "type": "grab",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "400–2,500 t/h",
+        "Maximum ship size": "10,000–350,000 DWT"
+      },
+      "source": "https://www.takraf.com/portfolio/detail/ship-unloader/",
+      "checked": "2026-10-23",
+      "variant": "GSU · grab unloader",
+      "photo": "https://www.takraf.com/fileadmin/_processed_/c/d/csm_Ship-unloading-in-operation-in-Mexico_-capacity-each-2.000tph-min_299a53fe46.webp",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "TAKRAF",
+        "source": "https://www.takraf.com/portfolio/detail/ship-unloader/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Cyclic grab unloading",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "takraf-gvb",
+      "name": "GVB · grab unloader",
+      "brand": "TAKRAF",
+      "category": "unloading",
+      "type": "grab",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "400–2,500 t/h",
+        "Maximum ship size": "10,000–350,000 DWT"
+      },
+      "source": "https://www.takraf.com/portfolio/detail/ship-unloader/",
+      "checked": "2026-10-23",
+      "variant": "GVB · grab unloader",
+      "photo": "https://www.takraf.com/fileadmin/_processed_/c/d/csm_Ship-unloading-in-operation-in-Mexico_-capacity-each-2.000tph-min_299a53fe46.webp",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "TAKRAF",
+        "source": "https://www.takraf.com/portfolio/detail/ship-unloader/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Cyclic grab unloading",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "takraf-paiton",
+      "name": "Paiton · grab unloader",
+      "brand": "TAKRAF",
+      "category": "unloading",
+      "type": "grab",
+      "verified": true,
+      "specs": {
+        "Free-digging capacity": "1,500 t/h"
+      },
+      "source": "https://www.takraf.com/expertise/references/detail/grab-type-ship-unloader-for-siemens-in-indonesia/",
+      "checked": "2026-10-23",
+      "variant": "Paiton · grab unloader",
+      "photo": "https://www.takraf.com/fileadmin/_processed_/1/7/csm_Paiton_Luft_Siemens_7aa105887d.webp",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "TAKRAF",
+        "source": "https://www.takraf.com/expertise/references/detail/grab-type-ship-unloader-for-siemens-in-indonesia/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Cyclic grab unloading",
+        "Cargo": "Coal",
+        "Capacity basis": "Coal free-digging rate for the named Paiton project; not a full-vessel average."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "tadano-cul",
+      "name": "CUL · continuous unloader",
+      "brand": "Tadano Infrastructure Solutions",
+      "category": "unloading",
+      "type": "un-bucket-chain",
+      "verified": true,
+      "specs": {
+        "Capacity — iron ore": "4,000 t/h",
+        "Capacity — coal": "2,700 t/h"
+      },
+      "source": "https://www.tadano-infra.com/en/products/CUL.html",
+      "checked": "2026-10-23",
+      "variant": "CUL · continuous unloader",
+      "photo": "https://www.tadano-infra.com/images/products/CUL_top.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Tadano Infrastructure Solutions",
+        "source": "https://www.tadano-infra.com/en/products/CUL.html"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Continuous bucket-chain extraction",
+        "Cargo": "Iron ore and coal",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "tadano-gul",
+      "name": "GUL · bridge unloader",
+      "brand": "Tadano Infrastructure Solutions",
+      "category": "unloading",
+      "type": "grab",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "≤ 2,500 t/h"
+      },
+      "source": "https://www.tadano-infra.com/en/products/CUL.html",
+      "checked": "2026-10-23",
+      "variant": "GUL · bridge unloader",
+      "photo": "https://www.tadano-infra.com/images/products/CUL_intro_01.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Tadano Infrastructure Solutions",
+        "source": "https://www.tadano-infra.com/en/products/CUL.html"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Cyclic grab unloading",
+        "Cargo": "Iron ore and coal",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "samson-eco-hopper",
+      "name": "SAMSON Eco Hopper",
+      "brand": "SAMSON / AUMUND",
+      "category": "unloading",
+      "type": "un-eco-hopper",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "≤ 5,000 t/h"
+      },
+      "source": "https://aumund.com/en/products-and-systems/eco-hopper/",
+      "checked": "2026-10-23",
+      "variant": "SAMSON Eco Hopper",
+      "photo": "https://www.mhea.co.uk/wp-content/uploads/2022/07/Index-16-1-scaled.jpg",
+      "photo_exact": false,
+      "photo_type_example": true,
+      "photo_credit": {
+        "external": true,
+        "author": "SAMSON / MHEA",
+        "source": "https://www.mhea.co.uk/samson-aumund-group/"
+      },
+      "photo_note": "Real manufacturer photograph of this equipment family; the pictured installation may have a different capacity.",
+      "guide": {
+        "Operating principle": "Grab-fed receiving hopper",
+        "Cargo": "Dry bulk; capacity varies with the selected material",
+        "Capacity basis": "Receiving-hopper family maximum; depends on grab crane cycle and downstream discharge equipment. The hopper does not excavate the ship hold."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "telestack-hf18-tr35",
+      "name": "HF18 + TR35 · Gdynia",
+      "brand": "Telestack",
+      "category": "unloading",
+      "type": "un-shore-conveyors",
+      "verified": true,
+      "specs": {
+        "System throughput": "1,000 t/h"
+      },
+      "source": "https://www.telestack.com/news/hf18-tr35-shipunloading/",
+      "checked": "2026-10-23",
+      "variant": "HF18 + TR35 · Gdynia",
+      "photo": "https://www.telestack.com/globalassets/news/hf18-tr35-ship-unloading-poland/tr-35-and-hf-18-ship-unloading26.jpg",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "Telestack",
+        "source": "https://www.telestack.com/news/hf18-tr35-shipunloading/"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Hopper and shore conveyor transfer",
+        "Cargo": "Coal",
+        "Capacity basis": "Published coal-handling rate for the combined HF18/TR35 shore system at HES Gdynia; not an independent rating for each component."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "vigan-pump-100",
+      "name": "Grain pump 100 · Shanghai 2004",
+      "brand": "VIGAN",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "140 t/h"
+      },
+      "source": "https://www.vigan.com/en/grain-ship-unloader.php",
+      "checked": "2026-10-23",
+      "variant": "Grain pump 100 · Shanghai 2004",
+      "photo": "https://www.vigan.com/images/ref/grain_pump_shanghai_china_2004.webp",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "VIGAN",
+        "source": "https://www.vigan.com/en/grain-ship-unloader.php"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "vigan-pump-120d",
+      "name": "Grain pump 120D · Algeria 2013",
+      "brand": "VIGAN",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "150 t/h"
+      },
+      "source": "https://www.vigan.com/en/grain-ship-unloader.php",
+      "checked": "2026-10-23",
+      "variant": "Grain pump 120D · Algeria 2013",
+      "photo": "https://www.vigan.com/images/ref/grain_pump_algeria_2013.webp",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "VIGAN",
+        "source": "https://www.vigan.com/en/grain-ship-unloader.php"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "vigan-barge-250",
+      "name": "Barge unloader · Batangas 2014",
+      "brand": "VIGAN",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "250 t/h",
+        "Installed power": "160 kW"
+      },
+      "source": "https://www.vigan.com/en/barge-unloader.php",
+      "checked": "2026-10-23",
+      "variant": "Barge unloader · Batangas 2014",
+      "photo": "https://www.vigan.com/images/ref/barge_unloader_batangas_philippines_2014.webp",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "VIGAN",
+        "source": "https://www.vigan.com/en/barge-unloader.php"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "vigan-barge-400",
+      "name": "Barge unloader · Dieppedalle 2014",
+      "brand": "VIGAN",
+      "category": "unloading",
+      "type": "pneumatic",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "400 t/h",
+        "Installed power": "320 kW"
+      },
+      "source": "https://www.vigan.com/en/barge-unloader.php",
+      "checked": "2026-10-23",
+      "variant": "Barge unloader · Dieppedalle 2014",
+      "photo": "https://www.vigan.com/images/ref/barge_unloader_dieppedalle_france_2014.webp",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "VIGAN",
+        "source": "https://www.vigan.com/en/barge-unloader.php"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Pneumatic suction",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "simporter-800",
+      "name": "SIMPORTER 800 · Gunsan 2012",
+      "brand": "VIGAN",
+      "category": "unloading",
+      "type": "un-twin-belt",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "800 t/h"
+      },
+      "source": "https://www.vigan.com/en/continuous-ship-unloader.php",
+      "checked": "2026-10-23",
+      "variant": "SIMPORTER 800 · Gunsan 2012",
+      "photo": "https://www.vigan.com/images/ref/simporter_gunsan_southkorea_2012.webp",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "VIGAN",
+        "source": "https://www.vigan.com/en/continuous-ship-unloader.php"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Mechanical twin-belt conveying",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
+    },
+    {
+      "id": "simporter-1000",
+      "name": "SIMPORTER 1000 · Port Qasim 2010",
+      "brand": "VIGAN",
+      "category": "unloading",
+      "type": "un-twin-belt",
+      "verified": true,
+      "specs": {
+        "Published unloading capacity": "1,000 t/h"
+      },
+      "source": "https://www.vigan.com/en/continuous-ship-unloader.php",
+      "checked": "2026-10-23",
+      "variant": "SIMPORTER 1000 · Port Qasim 2010",
+      "photo": "https://www.vigan.com/images/ref/simporter_qasim_pakistan_2010.webp",
+      "photo_exact": true,
+      "photo_type_example": false,
+      "photo_credit": {
+        "external": true,
+        "author": "VIGAN",
+        "source": "https://www.vigan.com/en/continuous-ship-unloader.php"
+      },
+      "photo_note": "Manufacturer photograph of the referenced installation or product.",
+      "guide": {
+        "Operating principle": "Mechanical twin-belt conveying",
+        "Cargo": "Grain and free-flowing agricultural bulk",
+        "Capacity basis": "Manufacturer-rated or published reference; not an average vessel discharge rate."
+      },
+      "data_note": "Published reference; actual throughput depends on cargo, hold access and the complete receiving line.",
+      "missing": []
     }
   ],
   "brands": {
@@ -12011,12 +13154,15 @@
       "Shuttlelift"
     ],
     "unloading": [
-      "VIGAN",
+      "Bruks Siwertell",
       "Bühler",
-      "Siwertell",
-      "FLSmidth",
+      "Fuller Technologies",
       "NEUERO",
-      "Liebherr"
+      "SAMSON / AUMUND",
+      "TAKRAF",
+      "Tadano Infrastructure Solutions",
+      "Telestack",
+      "VIGAN"
     ],
     "containers": [
       "Atlantic Coast Container",
@@ -12205,6 +13351,36 @@
     {
       "id": "crane-special",
       "name": "Marine, shipyard & railway cranes"
+    }
+  ],
+  "unloadingGroups": [
+    {
+      "id": "un-pneumatic",
+      "name": "Pneumatic grain unloaders"
+    },
+    {
+      "id": "un-cement",
+      "name": "Pneumatic cement unloaders"
+    },
+    {
+      "id": "un-screw",
+      "name": "Screw unloaders"
+    },
+    {
+      "id": "un-chain",
+      "name": "Chain and twin-belt unloaders"
+    },
+    {
+      "id": "un-bucket",
+      "name": "Bucket-chain continuous unloaders"
+    },
+    {
+      "id": "un-grab",
+      "name": "Grab ship unloaders"
+    },
+    {
+      "id": "un-hopper",
+      "name": "Receiving hoppers and shore transfer"
     }
   ]
 }
