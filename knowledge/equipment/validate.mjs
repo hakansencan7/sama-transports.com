@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 const base=new URL('./',import.meta.url),data=JSON.parse(fs.readFileSync(new URL('catalog.json',base),'utf8'));
 const dict=JSON.parse(fs.readFileSync(new URL('equipment-i18n.js',base),'utf8').match(/register\((.*)\);/s)[1]);
 for(const collection of [data.categories,data.types,data.records])assert.equal(new Set(collection.map(x=>x.id)).size,collection.length,'Duplicate ID');
-for(const item of [...data.categories,...data.types,...(data.seaGroups||[]),...(data.containerGroups||[]),...(data.roadGroups||[]),...(data.railGroups||[]),...(data.craneGroups||[]),...(data.unloadingGroups||[])])for(const lang of ['en','tr','ar'])assert.ok(dict[item.name]?.[lang],`Missing ${lang}: ${item.name}`);
+for(const item of [...data.categories,...data.types,...(data.seaGroups||[]),...(data.containerGroups||[]),...(data.roadGroups||[]),...(data.railGroups||[]),...(data.craneGroups||[]),...(data.unloadingGroups||[]),...(data.machineryGroups||[])])for(const lang of ['en','tr','ar'])assert.ok(dict[item.name]?.[lang],`Missing ${lang}: ${item.name}`);
 for(const row of data.records){
  const type=data.types.find(x=>x.id===row.type);assert.equal(type?.category,row.category);
  if(row.category==='rail')assert.ok(row.country,'Rail record must identify country');
@@ -12,13 +12,22 @@ for(const row of data.records){
  for(const key of Object.keys(row.specs))for(const lang of ['en','tr','ar'])assert.ok(dict[key]?.[lang],`Missing ${lang}: ${key}`);
  if(row.photo){
   if(row.photo.startsWith('/assets/knowledge/')){
-   assert.match(row.photo,/^\/assets\/knowledge\/(vessels|containers|road|rail|cranes)\/[a-z0-9-]+\.webp$/);
+   assert.match(row.photo,/^\/assets\/knowledge\/(vessels|containers|road|rail|cranes|machinery)\/[a-z0-9-]+\.webp$/);
    const image=new URL('../..'+row.photo,base);assert.ok(fs.existsSync(image),`Missing photo: ${row.photo}`);
    assert.ok(fs.statSync(image).size>1000,'Empty photograph');
    for(const key of ['title','author','license','license_url','source','changes'])assert.ok(row.photo_credit?.[key],`Missing photo ${key}: ${row.id}`);
    assert.match(row.photo_credit.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/);
    assert.match(row.photo_credit.license,/^(CC BY|CC0|Public domain)/);
   }else assert.match(row.photo,/^https:\/\//);
+ }
+ if(row.category==='machinery'){
+  assert.ok(data.machineryGroups.some(g=>g.id===type.group),'Missing machinery family');
+  assert.equal(row.verified,true);
+  assert.ok(row.photo,'Every machinery card needs a real photograph');
+  assert.equal(row.photo_type_example,true,'Identify machinery reference photographs');
+  assert.ok(row.guide?.['Typical use']);assert.ok(row.guide?.['Reference configuration']);
+  for(const key of [row.name,row.variant,row.data_note,row.photo_note,...Object.entries(row.guide).flat()])for(const lang of ['en','tr','ar'])assert.ok(dict[key]?.[lang],`Missing ${lang}: ${key}`);
+  for(const [key,value] of Object.entries(row.specs)){assert.ok(/\d/.test(value),`Machinery figure has no number: ${row.id} ${key}`);assert.ok(!/[\uFFFD]/.test(key+value),'Corrupt machinery text');}
  }
  if(row.category==='unloading'){
   assert.ok(data.unloadingGroups.some(g=>g.id===type.group),'Missing unloading technology group');
