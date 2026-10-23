@@ -1,0 +1,27 @@
+Options -Indexes
+DirectoryIndex disabled
+LimitRequestBody 6291456
+RewriteEngine On
+
+# This directory must never be an alternate entry point on the main site.
+RewriteCond %{HTTP_HOST} !^forms\.sama-transports\.com(?::(?:80|443))?$ [NC]
+RewriteRule ^ - [R=404,L]
+
+# Hetzner's certificate manager handles ACME challenges locally.
+RewriteRule ^\.well-known/acme-challenge/ - [L]
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://forms.sama-transports.com%{REQUEST_URI} [R=308,L]
+
+RewriteRule ^healthz/?$ - [R=404,L]
+RewriteRule ^(?:\.|.*\.(?:py|json|sqlite3|db|log|zip)) - [R=404,L,NC]
+
+# mod_proxy appends the actual client IP. Discard client-supplied proxy headers.
+RequestHeader unset X-Forwarded-For
+RequestHeader unset X-Forwarded-Host
+RequestHeader unset Forwarded
+RequestHeader unset X-Forwarded-Ssl
+RequestHeader unset X-Forwarded-Protocol
+RequestHeader set X-Forwarded-Proto "https"
+
+RewriteRule ^$ http://127.0.0.1:18091/ [P,L]
+RewriteRule ^(.+)$ http://127.0.0.1:18091/$1 [P,L]
