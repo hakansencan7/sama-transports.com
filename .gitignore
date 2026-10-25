@@ -1,0 +1,13 @@
+# Contact service secrets and local runtime files
+.env
+.env.*
+!.env.example
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+**/node_modules/
+contact-api/state/
+contact-api/*.sqlite*
+contact-api/*.log
+contact-api/settings.json
+contact-api/smtp-password.txt
