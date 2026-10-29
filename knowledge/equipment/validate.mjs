@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 const base=new URL('./',import.meta.url),data=JSON.parse(fs.readFileSync(new URL('catalog.json',base),'utf8'));
 const dict=JSON.parse(fs.readFileSync(new URL('equipment-i18n.js',base),'utf8').match(/register\((.*)\);/s)[1]);
 for(const collection of [data.categories,data.types,data.records])assert.equal(new Set(collection.map(x=>x.id)).size,collection.length,'Duplicate ID');
-for(const item of [...data.categories,...data.types,...(data.seaGroups||[]),...(data.containerGroups||[]),...(data.roadGroups||[]),...(data.railGroups||[]),...(data.craneGroups||[]),...(data.unloadingGroups||[]),...(data.machineryGroups||[])])for(const lang of ['en','tr','ar'])assert.ok(dict[item.name]?.[lang],`Missing ${lang}: ${item.name}`);
+for(const item of [...data.categories,...data.types,...(data.seaGroups||[]),...(data.containerGroups||[]),...(data.roadGroups||[]),...(data.railGroups||[]),...(data.craneGroups||[]),...(data.unloadingGroups||[]),...(data.machineryGroups||[]),...(data.carGroups||[])])for(const lang of ['en','tr','ar'])assert.ok(dict[item.name]?.[lang],`Missing ${lang}: ${item.name}`);
 for(const row of data.records){
  const type=data.types.find(x=>x.id===row.type);assert.equal(type?.category,row.category);
  if(row.category==='rail')assert.ok(row.country,'Rail record must identify country');
@@ -12,13 +12,24 @@ for(const row of data.records){
  for(const key of Object.keys(row.specs))for(const lang of ['en','tr','ar'])assert.ok(dict[key]?.[lang],`Missing ${lang}: ${key}`);
  if(row.photo){
   if(row.photo.startsWith('/assets/knowledge/')){
-   assert.match(row.photo,/^\/assets\/knowledge\/(vessels|containers|road|rail|cranes|machinery)\/[a-z0-9-]+\.webp$/);
+   assert.match(row.photo,/^\/assets\/knowledge\/(vessels|containers|road|rail|cranes|machinery|cars)\/[a-z0-9-]+\.webp$/);
    const image=new URL('../..'+row.photo,base);assert.ok(fs.existsSync(image),`Missing photo: ${row.photo}`);
    assert.ok(fs.statSync(image).size>1000,'Empty photograph');
    for(const key of ['title','author','license','license_url','source','changes'])assert.ok(row.photo_credit?.[key],`Missing photo ${key}: ${row.id}`);
    assert.match(row.photo_credit.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/);
    assert.match(row.photo_credit.license,/^(CC BY|CC0|Public domain)/);
   }else assert.match(row.photo,/^https:\/\//);
+ }
+ if(row.category==='cars'){
+  assert.equal(row.verified,true);
+  assert.ok(data.carGroups.some(g=>g.id===type.group),'Missing car family');
+  assert.ok(row.country&&row.photo&&row.variant&&row.data_note&&row.photo_note,'Car scope and photograph required');
+  assert.equal(row.photo_type_example,true,'Identify model photographs separately from the reference configuration');
+  assert.ok(row.specs['Overall length']&&row.specs['Overall height']);
+  assert.ok(Object.keys(row.specs).some(k=>/width/i.test(k)),'Published width required');
+  assert.ok(Object.keys(row.specs).some(k=>/weight|mass/i.test(k)&&!/gross/i.test(k)),'Published unladen or running-order mass required');
+  for(const key of [row.name,row.variant,row.data_note,row.photo_note,...Object.entries(row.guide).flat()])for(const lang of ['en','tr','ar'])assert.ok(dict[key]?.[lang],`Missing ${lang}: ${key}`);
+  for(const value of Object.values(row.specs))assert.match(value,/^\d+(?:\.\d+)?(?:–\d+(?:\.\d+)?)? (?:mm|kg)$/,'Car dimensions and weights must retain explicit units');
  }
  if(row.category==='machinery'){
   assert.ok(data.machineryGroups.some(g=>g.id===type.group),'Missing machinery family');
@@ -108,4 +119,15 @@ assert.equal(crane('crane-rambiz').specs['Maximum tandem lifting capacity'],'330
 assert.equal(crane('crane-grt8100').specs['Maximum tip height'],'73 m','Tip height is not hook height');
 assert.equal(crane('crane-rikon-rmg').specs['Rail span'],'25 m','Do not mix base RMG configuration with optional spans');
 assert.equal(crane('crane-zlk').specs['Boom / jib length'],'Not applicable — bridge / gantry structure');
+const cars=data.records.filter(r=>r.category==='cars');
+assert.equal(cars.length,76);assert.equal(data.brands.cars.length,25);assert.equal(data.carGroups.length,3);
+assert.deepEqual([...new Set(cars.map(r=>r.brand))].sort(),data.brands.cars);
+const car=id=>cars.find(r=>r.id===id);
+assert.equal(car('toyota-corolla').specs['Kerb weight'],'1345 kg');
+assert.equal(car('bmw-1-series').specs['EC unladen weight including driver'],'1500 kg');
+assert.equal(car('audi-a3').specs['Mass excluding driver'],'1315 kg');
+assert.equal(car('audi-a3').specs['Mass including driver'],'1390 kg');
+assert.equal(car('renault-clio').specs['Body width (mirrors excluded)'],undefined);
+assert.equal(car('chery-tiggo7').specs['Tare mass'],'1489 kg');
+assert.notEqual(car('toyota-corolla-touring').photo,car('toyota-hatch').photo,'Estate and hatchback photographs must differ');
 console.log(`PASS: ${data.categories.length} categories, ${data.types.length} types, ${data.records.length} records, ${data.records.filter(x=>x.verified).length} source-backed records; translated labels and country separation validated.`);

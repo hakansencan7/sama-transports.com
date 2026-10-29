@@ -395,30 +395,6 @@
       "group": "other"
     },
     {
-      "id": "sedan",
-      "category": "cars",
-      "name": "Sedans",
-      "drawing": "cars"
-    },
-    {
-      "id": "hatch",
-      "category": "cars",
-      "name": "Hatchbacks",
-      "drawing": "cars"
-    },
-    {
-      "id": "suv",
-      "category": "cars",
-      "name": "SUV & crossovers",
-      "drawing": "cars"
-    },
-    {
-      "id": "pickup",
-      "category": "cars",
-      "name": "Pickups & vans",
-      "drawing": "cars"
-    },
-    {
       "id": "dry",
       "category": "containers",
       "name": "Dry containers",
@@ -1586,6 +1562,48 @@
       "category": "machinery",
       "group": "mc-forestry",
       "name": "Forest harvesters"
+    },
+    {
+      "id": "sedan",
+      "category": "cars",
+      "name": "Sedans & liftbacks",
+      "group": "car-passenger",
+      "drawing": "cars"
+    },
+    {
+      "id": "hatch",
+      "category": "cars",
+      "name": "Hatchbacks",
+      "group": "car-passenger",
+      "drawing": "cars"
+    },
+    {
+      "id": "estate",
+      "category": "cars",
+      "name": "Estate cars",
+      "group": "car-passenger",
+      "drawing": "cars"
+    },
+    {
+      "id": "suv",
+      "category": "cars",
+      "name": "SUVs & crossovers",
+      "group": "car-suv",
+      "drawing": "cars"
+    },
+    {
+      "id": "pickup",
+      "category": "cars",
+      "name": "Pickup trucks",
+      "group": "car-utility",
+      "drawing": "cars"
+    },
+    {
+      "id": "mpv",
+      "category": "cars",
+      "name": "Passenger MPVs",
+      "group": "car-utility",
+      "drawing": "cars"
     }
   ],
   "records": [
@@ -3022,87 +3040,6 @@
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       "photo_type_example": true
-    },
-    {
-      "id": "toyota-corolla",
-      "type": "sedan",
-      "category": "cars",
-      "name": "Corolla LE · 2025",
-      "brand": "Toyota",
-      "country": "US",
-      "specs": {
-        "Overall length": "4,635.5 mm",
-        "Overall width": "1,780.5 mm",
-        "Overall height": "1,435.1 mm",
-        "Wheelbase": "2,700 mm",
-        "Curb weight": "1,340.4 kg"
-      },
-      "source": "https://www.toyota.com/corolla/2025/compare/",
-      "variant": "US · gasoline LE · converted from in/lb; rounded",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "cars",
-      "missing": []
-    },
-    {
-      "id": "toyota-hatch",
-      "type": "hatch",
-      "category": "cars",
-      "name": "Corolla Hatchback SE · 2025",
-      "brand": "Toyota",
-      "country": "US",
-      "specs": {
-        "Overall length": "4,368.8 mm",
-        "Overall width": "1,790.7 mm",
-        "Overall height": "1,450.3 mm",
-        "Wheelbase": "2,639.1 mm",
-        "Curb weight": "1,388 kg"
-      },
-      "source": "https://www.toyota.com/content/dam/toyota/brochures/pdf/2025/corolla-hb-ebro.pdf",
-      "variant": "US · SE · converted from in/lb; rounded",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "cars",
-      "missing": []
-    },
-    {
-      "id": "type-pickup",
-      "type": "pickup",
-      "category": "cars",
-      "name": "Pickups & vans",
-      "brand": "",
-      "country": "",
-      "specs": {},
-      "source": "",
-      "variant": "",
-      "verified": false,
-      "photo": "",
-      "checked": "",
-      "drawing": "cars",
-      "missing": []
-    },
-    {
-      "id": "hyundai-tucson",
-      "type": "suv",
-      "category": "cars",
-      "name": "TUCSON · MY24",
-      "brand": "Hyundai",
-      "country": "",
-      "specs": {
-        "Overall length": "4,510 mm",
-        "Overall width": "1,865 mm",
-        "Overall height": "1,650 mm",
-        "Wheelbase": "2,680 mm"
-      },
-      "source": "https://dmassets.hyundai.com/is/content/hyundaiautoever/Hyundai_TUCSON_Brochure_MY24pdf",
-      "variant": "Short-wheelbase MY24 · 19-inch wheels · including roof rail · N Line length differs",
-      "verified": true,
-      "photo": "",
-      "checked": "2026-10-22",
-      "drawing": "cars",
-      "missing": []
     },
     {
       "id": "hl-20",
@@ -23965,6 +23902,2734 @@
       },
       "data_note": "Use the linked market and configuration. Attachments, counterweight, tyres/tracks, boom and emission version change dimensions and weight. Published options need not achieve all maxima together. Unpublished values are not estimated.",
       "missing": []
+    },
+    {
+      "id": "audi-a3",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "Audi",
+      "name": "Audi A3 Sportback",
+      "country": "DE",
+      "variant": "TFSI 85 kW MHEV · 7-speed S tronic · FWD · Germany · February 2026",
+      "source": "https://uploads.audi-mediacenter.com/system/production/car_motorizations/1128/file_en/275183fe3c59ed5ce3ddda6dd2ea8154ad752f8b/eTD-Audi-A3-Sportback-TFSI-S_tronic-85kW-MHEV_260203.pdf?1770638287=&disposition=attachment",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4352–4354 mm",
+        "Body width (mirrors excluded)": "1816 mm",
+        "Overall height": "1415–1466 mm",
+        "Mass excluding driver": "1315 kg",
+        "Maximum gross vehicle weight": "1865 kg",
+        "Wheelbase at full load": "2618–2630 mm",
+        "Mass including driver": "1390 kg",
+        "Width including mirrors": "1984 mm"
+      },
+      "photo": "/assets/knowledge/cars/audi-a3.webp",
+      "photo_credit": {
+        "title": "Audi A3 Sportback 35 TFSI (2023) (53548084931).jpg",
+        "author": "Charles from Port Chester, New York",
+        "source": "https://commons.wikimedia.org/wiki/File:Audi_A3_Sportback_35_TFSI_(2023)_(53548084931).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "The manufacturer gives dimensional ranges for different chassis and equipment lines of this powertrain. Driver-excluded mass is 1315 kg; mass with driver is 1390 kg. Wheelbase is specified at full load.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "Germany"
+      }
+    },
+    {
+      "id": "bmw-1-series",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "BMW",
+      "name": "BMW 1 Series",
+      "country": "GB",
+      "variant": "120 Sport · F70 · 48V Mild Hybrid · 7AT · FWD · UK current specification",
+      "source": "https://www.bmw.co.uk/en/all-models/1-series/1-series-5doors/bmw-1-series-technical-data.html/bmw-120-sport.bmw",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4361 mm",
+        "Body width (mirrors excluded)": "1800 mm",
+        "Overall height": "1459 mm",
+        "Wheelbase": "2670 mm",
+        "EC unladen weight including driver": "1500 kg",
+        "Maximum gross vehicle weight": "1990 kg"
+      },
+      "photo": "/assets/knowledge/cars/bmw-1-series.webp",
+      "photo_credit": {
+        "title": "BMW 120 (F70) IMG 1166.jpg",
+        "author": "Alexander-93",
+        "source": "https://commons.wikimedia.org/wiki/File:BMW_120_(F70)_IMG_1166.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "BMW defines this EC unladen weight with standard equipment, a 90% full fuel tank and a 75 kg driver. It is not driver-excluded kerb mass.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "byd-atto3",
+      "category": "cars",
+      "type": "suv",
+      "brand": "BYD",
+      "name": "BYD ATTO 3",
+      "country": "AU",
+      "variant": "Essential · FWD · Australia MY2026",
+      "source": "https://bydautomotive.com.au/brochures/BYD-ATTO-3-2026.pdf?v=3",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4455 mm",
+        "Body width (mirrors excluded)": "1875 mm",
+        "Overall height": "1615 mm",
+        "Wheelbase": "2720 mm",
+        "Kerb weight": "1680 kg",
+        "Maximum gross vehicle weight": "2090 kg"
+      },
+      "photo": "/assets/knowledge/cars/byd-atto3.webp",
+      "photo_credit": {
+        "title": "BYD Atto 3 1X7A6495.jpg",
+        "author": "Alexander Migl",
+        "source": "https://commons.wikimedia.org/wiki/File:BYD_Atto_3_1X7A6495.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "Australia"
+      }
+    },
+    {
+      "id": "chery-tiggo7",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Chery",
+      "name": "Chery Tiggo 7",
+      "country": "AU",
+      "variant": "1.5 turbo petrol · 6DCT · FWD · Australia MY2026",
+      "source": "https://cherymotor.com.au/sites/default/files/2025-09/139_24_Tiggo_7_ICE_Spec_Sheet_MY26_ver_108.pdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4540 mm",
+        "Body width (mirrors excluded)": "1870 mm",
+        "Overall height": "1710 mm",
+        "Wheelbase": "2661 mm",
+        "Tare mass": "1489 kg",
+        "Maximum gross vehicle weight": "2000 kg"
+      },
+      "photo": "/assets/knowledge/cars/chery-tiggo7.webp",
+      "photo_credit": {
+        "title": "2024 Chery Tiggo7 Pro Max white front.jpg",
+        "author": "Throwawayacc222",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Chery_Tiggo7_Pro_Max_white_front.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "Australia"
+      }
+    },
+    {
+      "id": "fiat-grande-panda",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "Fiat",
+      "name": "Fiat Grande Panda",
+      "country": "EU",
+      "variant": "RED Electric · 44 kWh · FWD · Europe manufacturer specification",
+      "source": "https://www.media.stellantis.com/uploads/gr/attachment/fiatgrandepanda_technicalsheet-679884043146c.pdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "3999 mm",
+        "Body width (mirrors excluded)": "1763 mm",
+        "Overall height": "1570 mm",
+        "Wheelbase": "2540 mm",
+        "Kerb weight": "1532 kg",
+        "Weight Standard A": "1457 kg"
+      },
+      "photo": "/assets/knowledge/cars/fiat-grande-panda.webp",
+      "photo_credit": {
+        "title": "Fiat Grande Panda Electric Auto Zuerich 2024 DSC 6729.jpg",
+        "author": "Alexander-93",
+        "source": "https://commons.wikimedia.org/wiki/File:Fiat_Grande_Panda_Electric_Auto_Zuerich_2024_DSC_6729.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "The sheet separately lists Kerb Weight (1532 kg) and Weight Standard A (1457 kg). These definitions are retained without treating them as interchangeable. Height excludes the antenna base; the fixed-base height is 1581 mm.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "Europe"
+      }
+    },
+    {
+      "id": "gwm-jolion",
+      "category": "cars",
+      "type": "suv",
+      "brand": "GWM",
+      "name": "GWM Haval Jolion",
+      "country": "AU",
+      "variant": "Premium Petrol · 1.5T · Australia · April 2026 brochure",
+      "source": "https://assets.gwmanz.com/f/256395/x/a54f7f25d0/gwma0307-jolion-brochure-au-16-04-26.pdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4472 mm",
+        "Body width (mirrors excluded)": "1874 mm",
+        "Overall height": "1581 mm",
+        "Wheelbase": "2700 mm",
+        "Kerb weight": "1410 kg",
+        "Maximum gross vehicle weight": "1845 kg"
+      },
+      "photo": "/assets/knowledge/cars/gwm-jolion.webp",
+      "photo_credit": {
+        "title": "2020 Great Wall Haval Jolion (front).jpg",
+        "author": "User3204",
+        "source": "https://commons.wikimedia.org/wiki/File:2020_Great_Wall_Haval_Jolion_(front).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "Australia"
+      }
+    },
+    {
+      "id": "honda-accord",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Honda",
+      "name": "Honda Accord",
+      "country": "US",
+      "variant": "LX · 1.5 turbo · CVT · FWD · US MY2026",
+      "source": "https://www.hondainfocenter.com/2026/Accord/Feature-Guide/Specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4970.8 mm",
+        "Body width (mirrors excluded)": "1861.8 mm",
+        "Overall height": "1450.3 mm",
+        "Wheelbase": "2829.6 mm",
+        "Kerb weight": "1469.2 kg"
+      },
+      "photo": "/assets/knowledge/cars/honda-accord.webp",
+      "photo_credit": {
+        "title": "2023 Honda Accord LX, front left.jpg",
+        "author": "MercurySable99",
+        "source": "https://commons.wikimedia.org/wiki/File:2023_Honda_Accord_LX,_front_left.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "US manufacturer dimensions in inches and curb mass in pounds are converted to mm and kg (1 in = 25.4 mm; 1 lb = 0.45359237 kg). The specified base trim and drivetrain are used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "United States"
+      }
+    },
+    {
+      "id": "honda-crv",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Honda",
+      "name": "Honda CR-V",
+      "country": "US",
+      "variant": "LX · 1.5 turbo · CVT · 2WD · US MY2026",
+      "source": "https://www.hondainfocenter.com/2026/CR-V/Feature-Guide/Specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4693.9 mm",
+        "Body width (mirrors excluded)": "1866.9 mm",
+        "Overall height": "1681.5 mm",
+        "Wheelbase": "2700.0 mm",
+        "Kerb weight": "1574.9 kg"
+      },
+      "photo": "/assets/knowledge/cars/honda-crv.webp",
+      "photo_credit": {
+        "title": "2024 Honda CR-V 2.0 RS e-HEV in Meteoroid Gray Metallic, front right, 06-09-2024.jpg",
+        "author": "Ethan Llamas",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Honda_CR-V_2.0_RS_e-HEV_in_Meteoroid_Gray_Metallic,_front_right,_06-09-2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "US manufacturer dimensions in inches and curb mass in pounds are converted to mm and kg (1 in = 25.4 mm; 1 lb = 0.45359237 kg). The specified base trim and drivetrain are used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United States"
+      }
+    },
+    {
+      "id": "honda-civic",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Honda",
+      "name": "Honda Civic Sedan",
+      "country": "US",
+      "variant": "LX · 2.0 petrol · CVT · FWD · US MY2026",
+      "source": "https://www.hondainfocenter.com/2026/Civic-Sedan/Feature-Guide/Civic-Sedan-Specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4693.9 mm",
+        "Body width (mirrors excluded)": "1800.9 mm",
+        "Overall height": "1414.8 mm",
+        "Wheelbase": "2735.6 mm",
+        "Kerb weight": "1304.1 kg"
+      },
+      "photo": "/assets/knowledge/cars/honda-civic.webp",
+      "photo_credit": {
+        "title": "2025 Honda Civic Sport Touring Hybrid in Blue Lagoon, front left, 2024-09-24.jpg",
+        "author": "Elise240SX",
+        "source": "https://commons.wikimedia.org/wiki/File:2025_Honda_Civic_Sport_Touring_Hybrid_in_Blue_Lagoon,_front_left,_2024-09-24.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "US manufacturer dimensions in inches and curb mass in pounds are converted to mm and kg (1 in = 25.4 mm; 1 lb = 0.45359237 kg). The specified base trim and drivetrain are used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "United States"
+      }
+    },
+    {
+      "id": "honda-odyssey",
+      "category": "cars",
+      "type": "mpv",
+      "brand": "Honda",
+      "name": "Honda Odyssey",
+      "country": "US",
+      "variant": "EX-L · 3.5 V6 · 10AT · FWD · US MY2026",
+      "source": "https://www.hondainfocenter.com/2026/Odyssey/Feature-Guide/Specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "5212.1 mm",
+        "Body width (mirrors excluded)": "1993.9 mm",
+        "Overall height": "1767.8 mm",
+        "Wheelbase": "2999.7 mm",
+        "Kerb weight": "2053.0 kg"
+      },
+      "photo": "/assets/knowledge/cars/honda-odyssey.webp",
+      "photo_credit": {
+        "title": "2025 Honda Odyssey front view (cropped).jpg",
+        "author": "Deathpallie325",
+        "source": "https://commons.wikimedia.org/wiki/File:2025_Honda_Odyssey_front_view_(cropped).jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "US manufacturer dimensions in inches and curb mass in pounds are converted to mm and kg (1 in = 25.4 mm; 1 lb = 0.45359237 kg). The specified base trim and drivetrain are used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Passenger MPVs",
+        "Reference market": "United States"
+      }
+    },
+    {
+      "id": "honda-passport",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Honda",
+      "name": "Honda Passport",
+      "country": "US",
+      "variant": "RTL · 3.5 V6 · 10AT · AWD · US MY2026",
+      "source": "https://www.hondainfocenter.com/2026/Passport/Feature-Guide/Specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4864.1 mm",
+        "Body width (mirrors excluded)": "2016.8 mm",
+        "Overall height": "1856.7 mm",
+        "Wheelbase": "2885.4 mm",
+        "Kerb weight": "2031.2 kg"
+      },
+      "photo": "/assets/knowledge/cars/honda-passport.webp",
+      "photo_credit": {
+        "title": "2026 Honda Passport RTL, front right, 06-07-2025.jpg",
+        "author": "MercurySable99",
+        "source": "https://commons.wikimedia.org/wiki/File:2026_Honda_Passport_RTL,_front_right,_06-07-2025.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "US manufacturer dimensions in inches and curb mass in pounds are converted to mm and kg (1 in = 25.4 mm; 1 lb = 0.45359237 kg). The specified base trim and drivetrain are used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United States"
+      }
+    },
+    {
+      "id": "honda-pilot",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Honda",
+      "name": "Honda Pilot",
+      "country": "US",
+      "variant": "Sport · 3.5 V6 · 10AT · 2WD · US MY2026",
+      "source": "https://www.hondainfocenter.com/2026/Pilot/Feature-Guide/Specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "5082.5 mm",
+        "Body width (mirrors excluded)": "1993.9 mm",
+        "Overall height": "1803.4 mm",
+        "Wheelbase": "2890.5 mm",
+        "Kerb weight": "1966.8 kg"
+      },
+      "photo": "/assets/knowledge/cars/honda-pilot.webp",
+      "photo_credit": {
+        "title": "2023 Honda Pilot front view.jpg",
+        "author": "deathpallie325",
+        "source": "https://commons.wikimedia.org/wiki/File:2023_Honda_Pilot_front_view.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "US manufacturer dimensions in inches and curb mass in pounds are converted to mm and kg (1 in = 25.4 mm; 1 lb = 0.45359237 kg). The specified base trim and drivetrain are used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United States"
+      }
+    },
+    {
+      "id": "honda-ridgeline",
+      "category": "cars",
+      "type": "pickup",
+      "brand": "Honda",
+      "name": "Honda Ridgeline",
+      "country": "US",
+      "variant": "Sport · 3.5 V6 · 9AT · AWD · US MY2026",
+      "source": "https://www.hondainfocenter.com/2026/Ridgeline/Feature-Guide/Specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "5339.1 mm",
+        "Body width (mirrors excluded)": "1996.4 mm",
+        "Overall height": "1798.3 mm",
+        "Wheelbase": "3180.1 mm",
+        "Kerb weight": "2004.9 kg"
+      },
+      "photo": "/assets/knowledge/cars/honda-ridgeline.webp",
+      "photo_credit": {
+        "title": "2024 Honda Ridgeline front view.jpg",
+        "author": "Deathpallie325",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Honda_Ridgeline_front_view.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "US manufacturer dimensions in inches and curb mass in pounds are converted to mm and kg (1 in = 25.4 mm; 1 lb = 0.45359237 kg). The specified base trim and drivetrain are used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Pickup trucks",
+        "Reference market": "United States"
+      }
+    },
+    {
+      "id": "hyundai-bayon",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Hyundai",
+      "name": "Hyundai BAYON",
+      "country": "GB",
+      "variant": "1.0T 90 PS · 6MT · UK current specification",
+      "source": "https://dmassets.hyundai.com/is/content/hyundaiautoever/BAYON_Tech_Specpdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4180 mm",
+        "Body width (mirrors excluded)": "1775 mm",
+        "Overall height": "1500 mm",
+        "Wheelbase": "2580 mm",
+        "Kerb weight": "1100–1210 kg",
+        "Maximum gross vehicle weight": "1635 kg"
+      },
+      "photo": "/assets/knowledge/cars/hyundai-bayon.webp",
+      "photo_credit": {
+        "title": "Hyundai Bayon 1.0 T-GDI Prime (Facelift) – f 07072024.jpg",
+        "author": "© M 93",
+        "source": "https://commons.wikimedia.org/wiki/File:Hyundai_Bayon_1.0_T-GDI_Prime_(Facelift)_%E2%80%93_f_07072024.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "hyundai-inster",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Hyundai",
+      "name": "Hyundai INSTER",
+      "country": "GB",
+      "variant": "01 · 42 kWh · FWD · UK MY2027",
+      "source": "https://dmassets.hyundai.com/is/content/hyundaiautoever/INSTER_Tech_and_Spec_Guidepdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "3825 mm",
+        "Body width (mirrors excluded)": "1610 mm",
+        "Overall height": "1575 mm",
+        "Wheelbase": "2580 mm",
+        "Kerb weight": "1305–1393 kg",
+        "Maximum gross vehicle weight": "1730 kg"
+      },
+      "photo": "/assets/knowledge/cars/hyundai-inster.webp",
+      "photo_credit": {
+        "title": "Hyundai Inster 185426.jpg",
+        "author": "Trop86",
+        "source": "https://commons.wikimedia.org/wiki/File:Hyundai_Inster_185426.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "hyundai-ioniq5n",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Hyundai",
+      "name": "Hyundai IONIQ 5 N",
+      "country": "GB",
+      "variant": "N · AWD · UK MY2027",
+      "source": "https://dmassets.hyundai.com/is/content/hyundaiautoever/IONIQ_5_N_Tech_and_Specpdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4715 mm",
+        "Body width (mirrors excluded)": "1940 mm",
+        "Overall height": "1585 mm",
+        "Wheelbase": "3000 mm",
+        "Kerb weight": "2200–2230 kg",
+        "Maximum gross vehicle weight": "2660 kg"
+      },
+      "photo": "/assets/knowledge/cars/hyundai-ioniq5n.webp",
+      "photo_credit": {
+        "title": "2024 Hyundai Ioniq 5 N AWD in Performance Blue, front right, 06-16-2024.jpg",
+        "author": "Ethan Llamas",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Hyundai_Ioniq_5_N_AWD_in_Performance_Blue,_front_right,_06-16-2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "hyundai-ioniq6n",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Hyundai",
+      "name": "Hyundai IONIQ 6 N",
+      "country": "GB",
+      "variant": "N · AWD · UK MY2026",
+      "source": "https://dmassets.hyundai.com/is/content/hyundaiautoever/IONIQ_6_N_Tech_and_Spec_Guidepdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4935 mm",
+        "Body width (mirrors excluded)": "1940 mm",
+        "Overall height": "1495 mm",
+        "Wheelbase": "2965 mm",
+        "Kerb weight": "2166–2201 kg",
+        "Maximum gross vehicle weight": "2635 kg"
+      },
+      "photo": "/assets/knowledge/cars/hyundai-ioniq6n.webp",
+      "photo_credit": {
+        "title": "Hyundai Ioniq 6 N.jpg",
+        "author": "Calreyn88",
+        "source": "https://commons.wikimedia.org/wiki/File:Hyundai_Ioniq_6_N.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "hyundai-kona",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Hyundai",
+      "name": "Hyundai KONA",
+      "country": "GB",
+      "variant": "1.0T 115 PS · 6MT · non-N Line · UK MY2027",
+      "source": "https://dmassets.hyundai.com/is/content/hyundaiautoever/KONA_Tech_and_Specpdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4350 mm",
+        "Body width (mirrors excluded)": "1825 mm",
+        "Overall height": "1585 mm",
+        "Wheelbase": "2660 mm",
+        "Kerb weight": "1295–1435 kg",
+        "Maximum gross vehicle weight": "1860 kg"
+      },
+      "photo": "/assets/knowledge/cars/hyundai-kona.webp",
+      "photo_credit": {
+        "title": "2024 Hyundai Kona SEL, front right, 05-18-2024.jpg",
+        "author": "MercurySable99",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Hyundai_Kona_SEL,_front_right,_05-18-2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "hyundai-tucson",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Hyundai",
+      "name": "Hyundai TUCSON",
+      "country": "AU",
+      "variant": "2.0 MPi · FWD · 6AT · AU MY2026",
+      "source": "https://www.hyundai.com/content/dam/hyundai/au/en/models/my26-tucson/MY26-TUCSON_Specification-Sheet_26.pdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4640 mm",
+        "Body width (mirrors excluded)": "1865 mm",
+        "Overall height": "1665 mm",
+        "Wheelbase": "2755 mm",
+        "Kerb weight": "1495–1616 kg",
+        "Maximum gross vehicle weight": "2105 kg"
+      },
+      "photo": "/assets/knowledge/cars/hyundai-tucson.webp",
+      "photo_credit": {
+        "title": "2025 Hyundai Tucson XRT (United States) front view.jpg",
+        "author": "Charles",
+        "source": "https://commons.wikimedia.org/wiki/File:2025_Hyundai_Tucson_XRT_(United_States)_front_view.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "Australia"
+      }
+    },
+    {
+      "id": "hyundai-i10",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "Hyundai",
+      "name": "Hyundai i10",
+      "country": "GB",
+      "variant": "1.0 63 PS · 5MT · UK MY2025; current April 2026 price guide",
+      "source": "https://dmassets.hyundai.com/is/content/hyundaiautoever/i10_Tech_Specpdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "3670 mm",
+        "Body width (mirrors excluded)": "1680 mm",
+        "Overall height": "1480 mm",
+        "Wheelbase": "2425 mm",
+        "Kerb weight": "921–993 kg",
+        "Maximum gross vehicle weight": "1410 kg"
+      },
+      "photo": "/assets/knowledge/cars/hyundai-i10.webp",
+      "photo_credit": {
+        "title": "Hyundai i10 (AC3; 2019).jpg",
+        "author": "Jakub CA",
+        "source": "https://commons.wikimedia.org/wiki/File:Hyundai_i10_(AC3;_2019).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "hyundai-i20",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "Hyundai",
+      "name": "Hyundai i20",
+      "country": "GB",
+      "variant": "1.0T 90 PS · 6MT · UK MY2027",
+      "source": "https://dmassets.hyundai.com/is/content/hyundaiautoever/i20_Tech_and_Specpdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4065 mm",
+        "Body width (mirrors excluded)": "1775 mm",
+        "Overall height": "1450 mm",
+        "Wheelbase": "2580 mm",
+        "Kerb weight": "1070–1185 kg",
+        "Maximum gross vehicle weight": "1610 kg"
+      },
+      "photo": "/assets/knowledge/cars/hyundai-i20.webp",
+      "photo_credit": {
+        "title": "Hyundai i20 (BC3) Facelift IMG 8591.jpg",
+        "author": "Alexander-93",
+        "source": "https://commons.wikimedia.org/wiki/File:Hyundai_i20_(BC3)_Facelift_IMG_8591.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "isuzu-dmax",
+      "category": "cars",
+      "type": "pickup",
+      "brand": "Isuzu",
+      "name": "Isuzu D-MAX",
+      "country": "AU",
+      "variant": "BLADE · Crew Cab Ute · 3.0 diesel · 6AT · 4x4 · Australia MY25.5",
+      "source": "https://www.isuzuute.com.au/-/media/d-max/documents/25-5my-isuzu-d-max-vehicle-specifications.pdf?rev=afeb92eea9554d8786f042068dec890a",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "5308 mm",
+        "Body width (mirrors excluded)": "1910 mm",
+        "Overall height": "1810 mm",
+        "Wheelbase": "3125 mm",
+        "Kerb weight": "2199 kg",
+        "Maximum gross vehicle weight": "3100 kg"
+      },
+      "photo": "/assets/knowledge/cars/isuzu-dmax.webp",
+      "photo_credit": {
+        "title": "2025 Isuzu D-Max 3.0 LS-A in Splash White, 07-19-2024.jpg",
+        "author": "Ethan Llamas",
+        "source": "https://commons.wikimedia.org/wiki/File:2025_Isuzu_D-Max_3.0_LS-A_in_Splash_White,_07-19-2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Pickup trucks",
+        "Reference market": "Australia"
+      }
+    },
+    {
+      "id": "kia-ev2",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Kia",
+      "name": "Kia EV2",
+      "country": "GB",
+      "variant": "First Edition · 42.2 kWh · FWD · UK current specification",
+      "source": "https://eu-www.kia.com/uk/new-cars/ev2/specification/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4060 mm",
+        "Body width (mirrors excluded)": "1800 mm",
+        "Overall height": "1575 mm",
+        "Wheelbase": "2565 mm",
+        "Kerb weight": "1620 kg",
+        "Maximum gross vehicle weight": "2090 kg"
+      },
+      "photo": "https://eu-www.kia.com/content/dam/kwcms/kme/uk/en/assets/images/new-cars/ev2/2026/EV2_Header_1920x748.png",
+      "photo_credit": {
+        "external": true,
+        "author": "Kia",
+        "source": "https://eu-www.kia.com/uk/new-cars/ev2/specification/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "kia-ev3",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Kia",
+      "name": "Kia EV3",
+      "country": "GB",
+      "variant": "Air · 58.3 kWh · FWD · UK current specification",
+      "source": "https://eu-www.kia.com/uk/new-cars/ev3/specification/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4300 mm",
+        "Body width (mirrors excluded)": "1850 mm",
+        "Overall height": "1560 mm",
+        "Kerb weight": "1800 kg",
+        "Maximum gross vehicle weight": "2270 kg"
+      },
+      "photo": "https://eu-www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/EV3/specification/EV3-headerImage-1920x364.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Kia",
+        "source": "https://eu-www.kia.com/uk/new-cars/ev3/specification/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "kia-ev4",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "Kia",
+      "name": "Kia EV4",
+      "country": "GB",
+      "variant": "Air · 58.3 kWh · FWD · hatchback · UK current specification",
+      "source": "https://eu-www.kia.com/uk/new-cars/ev4/specification/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4430 mm",
+        "Body width (mirrors excluded)": "1860 mm",
+        "Overall height": "1485 mm",
+        "Kerb weight": "1811 kg",
+        "Maximum gross vehicle weight": "2270 kg"
+      },
+      "photo": "https://eu-www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/EV9/Specification/ev4-specifications-header-1920x748.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Kia",
+        "source": "https://eu-www.kia.com/uk/new-cars/ev4/specification/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "kia-ev5",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Kia",
+      "name": "Kia EV5",
+      "country": "GB",
+      "variant": "Air · 81.4 kWh · 214 bhp · FWD · UK current specification",
+      "source": "https://eu-www.kia.com/uk/new-cars/ev5/specification/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4610 mm",
+        "Body width (mirrors excluded)": "1875 mm",
+        "Overall height": "1675 mm",
+        "Wheelbase": "2750 mm",
+        "Kerb weight": "2069 kg",
+        "Maximum gross vehicle weight": "2580 kg"
+      },
+      "photo": "https://eu-www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/ev5/ev5-specification-1920x748.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Kia",
+        "source": "https://eu-www.kia.com/uk/new-cars/ev5/specification/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "kia-sorento",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Kia",
+      "name": "Kia Sorento",
+      "country": "GB",
+      "variant": "1.6 Hybrid 235 bhp · AWD · UK current specification",
+      "source": "https://eu-www.kia.com/uk/new-cars/sorento/specification/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4815 mm",
+        "Body width (mirrors excluded)": "1900 mm",
+        "Overall height": "1700 mm",
+        "Wheelbase": "2815 mm",
+        "Kerb weight": "1955 kg",
+        "Maximum gross vehicle weight": "2640 kg"
+      },
+      "photo": "https://eu-www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/sorento_2020/specification/Sorento_Header_Image_Desktop_1920x364.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Kia",
+        "source": "https://eu-www.kia.com/uk/new-cars/sorento/specification/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "kia-stonic",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Kia",
+      "name": "Kia Stonic",
+      "country": "GB",
+      "variant": "Pure · 1.0 T-GDi 98 bhp · MT · 2WD · UK current specification",
+      "source": "https://eu-www.kia.com/uk/new-cars/stonic/specification/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4165 mm",
+        "Body width (mirrors excluded)": "1760 mm",
+        "Overall height": "1485 mm",
+        "Wheelbase": "2580 mm",
+        "Kerb weight": "1205 kg",
+        "Maximum gross vehicle weight": "1650 kg"
+      },
+      "photo": "https://eu-www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/stonic/specification/RHD_Stonic_ICE_BL_MY26_BS_34%20Front_CMYK-1920x748.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Kia",
+        "source": "https://eu-www.kia.com/uk/new-cars/stonic/specification/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "kia-xceed",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Kia",
+      "name": "Kia Xceed",
+      "country": "GB",
+      "variant": "1.0 T-GDi 48V · 113 bhp · MT · 2WD · UK current specification",
+      "source": "https://eu-www.kia.com/uk/new-cars/xceed/specification/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4395 mm",
+        "Body width (mirrors excluded)": "1826 mm",
+        "Overall height": "1495 mm",
+        "Wheelbase": "2650 mm",
+        "Kerb weight": "1381 kg",
+        "Maximum gross vehicle weight": "1860 kg"
+      },
+      "photo": "https://eu-www.kia.com/content/dam/kwcms/kme/uk/en/assets/vehicles/xceed/MY26/Two_XCeed_Header-Image(1920x364).jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Kia",
+        "source": "https://eu-www.kia.com/uk/new-cars/xceed/specification/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "lexus-es",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Lexus",
+      "name": "Lexus ES",
+      "country": "GB",
+      "variant": "Electric · ES 350e · UK · 2026 specification",
+      "source": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/ES-Technical-Specifications.pdf",
+      "additional_source": "https://media.lexus.co.uk/vehicles/all-new-es-2026/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "5145 mm",
+        "Body width (mirrors excluded)": "1920 mm",
+        "Overall height": "1560 mm",
+        "Wheelbase": "2950 mm",
+        "Kerb weight": "2245 kg",
+        "Maximum gross vehicle weight": "2695 kg"
+      },
+      "photo": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2025/04/ESP1503.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Lexus",
+        "source": "https://media.lexus.co.uk/vehicles/all-new-es-2026/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "lexus-lbx",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Lexus",
+      "name": "Lexus LBX",
+      "country": "GB",
+      "variant": "1.5 Hybrid · FWD · UK current specification",
+      "source": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/250918-LBX-Tech-Spec.pdf",
+      "additional_source": "https://media.lexus.co.uk/vehicles/lbx-2024-current/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4190 mm",
+        "Body width (mirrors excluded)": "1825 mm",
+        "Overall height": "1560 mm",
+        "Wheelbase": "2580 mm",
+        "Kerb weight": "1280–1350 kg",
+        "Maximum gross vehicle weight": "1755 kg"
+      },
+      "photo": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2024/05/2024_LBX_004-scaled-1.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Lexus",
+        "source": "https://media.lexus.co.uk/vehicles/lbx-2024-current/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "lexus-rz",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Lexus",
+      "name": "Lexus RZ 350e",
+      "country": "GB",
+      "variant": "350e · FWD · UK current specification",
+      "source": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/251017-RZ-tech-specs.pdf",
+      "additional_source": "https://media.lexus.co.uk/vehicles/rz/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4805 mm",
+        "Body width (mirrors excluded)": "1895 mm",
+        "Overall height": "1635 mm",
+        "Wheelbase": "2850 mm",
+        "Kerb weight": "1995–2050 kg",
+        "Maximum gross vehicle weight": "2520 kg"
+      },
+      "photo": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2022/04/Press-Pack-Lexus-RZ-550e-46-scaled-1.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Lexus",
+        "source": "https://media.lexus.co.uk/vehicles/rz/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "lexus-ux",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Lexus",
+      "name": "Lexus UX 300h",
+      "country": "GB",
+      "variant": "300h Hybrid · 17-inch wheels · UK · 2026 specification",
+      "source": "https://media.lexus.co.uk/wp-content/uploads/sites/3/pdf/260217-UX-300h-Tech-Specs.pdf",
+      "additional_source": "https://media.lexus.co.uk/vehicles/ux-2019-current/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4495 mm",
+        "Body width (mirrors excluded)": "1840 mm",
+        "Overall height": "1520 mm",
+        "Wheelbase": "2640 mm",
+        "Kerb weight": "1540–1620 kg",
+        "Maximum gross vehicle weight": "2110 kg"
+      },
+      "photo": "https://media.lexus.co.uk/wp-content/uploads/sites/3/2024/05/LexusUX300h-11-scaled.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Lexus",
+        "source": "https://media.lexus.co.uk/vehicles/ux-2019-current/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "mg3",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "MG",
+      "name": "MG3 Hybrid+",
+      "country": "EU",
+      "variant": "Standard · Hybrid+ · Europe manufacturer brochure",
+      "source": "https://cdn.mgmotor.eu/images/model/brochure/MG3_Hybrid_Brochure_Digital.pdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4113 mm",
+        "Body width (mirrors excluded)": "1797 mm",
+        "Overall height": "1502 mm",
+        "Wheelbase": "2570 mm",
+        "Unladen mass": "1285 kg",
+        "Maximum gross vehicle weight": "1733 kg"
+      },
+      "photo": "/assets/knowledge/cars/mg3.webp",
+      "photo_credit": {
+        "title": "2024 MG3 1.5 Hybrid+.jpg",
+        "author": "Rutger van der Maar",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_MG3_1.5_Hybrid%2B.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "Europe"
+      }
+    },
+    {
+      "id": "mazda-cx5",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Mazda",
+      "name": "Mazda CX-5",
+      "country": "CA",
+      "variant": "GX · SKYACTIV-G 2.5 · AWD · Canada MY2026",
+      "source": "https://filecache.mediaroom.com/mr5mr_mazdaca/224597/download/2026%20Mazda%20CX-5%20Specifications%20and%20Features.pdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4690 mm",
+        "Body width (mirrors excluded)": "1860 mm",
+        "Overall height": "1695 mm",
+        "Wheelbase": "2815 mm",
+        "Kerb weight": "1747 kg"
+      },
+      "photo": "/assets/knowledge/cars/mazda-cx5.webp",
+      "photo_credit": {
+        "title": "Mazda CX-5 (KM) (front three-quarter view) at Mazda Museum(2).jpg",
+        "author": "Aos.1905",
+        "source": "https://commons.wikimedia.org/wiki/File:Mazda_CX-5_(KM)_(front_three-quarter_view)_at_Mazda_Museum(2).jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "Canada"
+      }
+    },
+    {
+      "id": "mercedes-a-class",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "Mercedes-Benz",
+      "name": "Mercedes-Benz A-Class",
+      "country": "GB",
+      "variant": "A 180 · 7G-DCT · UK current specification",
+      "source": "https://www.mercedes-benz.co.uk/passengercars/models/hatchback/a-class/overview.html",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4428 mm",
+        "Body width (mirrors excluded)": "1796 mm",
+        "Overall height": "1423 mm",
+        "Kerb weight": "1464 kg",
+        "Maximum gross vehicle weight": "1920 kg",
+        "Width including mirrors": "1992 mm"
+      },
+      "photo": "/assets/knowledge/cars/mercedes-a-class.webp",
+      "photo_credit": {
+        "title": "Mercedes-Benz A 180 (W177) front.jpg",
+        "author": "Tokumeigakarinoaoshima",
+        "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_A_180_(W177)_front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Mass is the value labelled Kerb Weight on the current UK manufacturer page. Optional equipment and the individual vehicle approval can change it; no payload is calculated from it.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "mercedes-c-class",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Mercedes-Benz",
+      "name": "Mercedes-Benz C-Class",
+      "country": "GB",
+      "variant": "C 250 · 9G-TRONIC · UK current specification",
+      "source": "https://www.mercedes-benz.co.uk/passengercars/models/saloon/c-class/overview.html",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4766 mm",
+        "Body width (mirrors excluded)": "1820 mm",
+        "Overall height": "1438 mm",
+        "Kerb weight": "1747 kg",
+        "Maximum gross vehicle weight": "2265 kg",
+        "Width including mirrors": "2047 mm"
+      },
+      "photo": "/assets/knowledge/cars/mercedes-c-class.webp",
+      "photo_credit": {
+        "title": "Mercedes-Benz C200 AVANTGARDE (W206) front.jpg",
+        "author": "Tokumeigakarinoaoshima",
+        "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_C200_AVANTGARDE_(W206)_front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Mass is the value labelled Kerb Weight on the current UK manufacturer page. Optional equipment and the individual vehicle approval can change it; no payload is calculated from it.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "mercedes-e-class",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Mercedes-Benz",
+      "name": "Mercedes-Benz E-Class",
+      "country": "GB",
+      "variant": "E 200 · 9G-TRONIC · UK current specification",
+      "source": "https://www.mercedes-benz.co.uk/passengercars/models/saloon/e-class/overview.html",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4949 mm",
+        "Body width (mirrors excluded)": "1904 mm",
+        "Overall height": "1468 mm",
+        "Kerb weight": "1873 kg",
+        "Maximum gross vehicle weight": "2450 kg",
+        "Width including mirrors": "2065 mm"
+      },
+      "photo": "/assets/knowledge/cars/mercedes-e-class.webp",
+      "photo_credit": {
+        "title": "Mercedes-Benz E 200 Edition Exclusive (W214) front.jpg",
+        "author": "Tokumeigakarinoaoshima",
+        "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_E_200_Edition_Exclusive_(W214)_front.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Mass is the value labelled Kerb Weight on the current UK manufacturer page. Optional equipment and the individual vehicle approval can change it; no payload is calculated from it.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "mercedes-eqe-suv",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Mercedes-Benz",
+      "name": "Mercedes-Benz EQE SUV",
+      "country": "GB",
+      "variant": "EQE 350+ · Electric · UK current specification",
+      "source": "https://www.mercedes-benz.co.uk/passengercars/models/suv/eqe/overview.html",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4863 mm",
+        "Body width (mirrors excluded)": "1940 mm",
+        "Overall height": "1707 mm",
+        "Kerb weight": "2592 kg",
+        "Maximum gross vehicle weight": "3055 kg",
+        "Width including mirrors": "2141 mm"
+      },
+      "photo": "/assets/knowledge/cars/mercedes-eqe-suv.webp",
+      "photo_credit": {
+        "title": "EQE-300-SUV-Front.jpg",
+        "author": "Jan Sommer",
+        "source": "https://commons.wikimedia.org/wiki/File:EQE-300-SUV-Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Mass is the value labelled Kerb Weight on the current UK manufacturer page. Optional equipment and the individual vehicle approval can change it; no payload is calculated from it.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "mercedes-glb",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Mercedes-Benz",
+      "name": "Mercedes-Benz GLB",
+      "country": "GB",
+      "variant": "GLB 180 · 8G-eDCT dual clutch transmission, 8-speed automatic · UK current specification",
+      "source": "https://www.mercedes-benz.co.uk/passengercars/models/suv/glb/overview.html",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4732 mm",
+        "Body width (mirrors excluded)": "1861 mm",
+        "Overall height": "1681 mm",
+        "Kerb weight": "1911 kg",
+        "Maximum gross vehicle weight": "2325 kg",
+        "Width including mirrors": "2029 mm"
+      },
+      "photo": "/assets/knowledge/cars/mercedes-glb.webp",
+      "photo_credit": {
+        "title": "Mercedes-Benz X244 IMG 6214.jpg",
+        "author": "Alexander Migl",
+        "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_X244_IMG_6214.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Mass is the value labelled Kerb Weight on the current UK manufacturer page. Optional equipment and the individual vehicle approval can change it; no payload is calculated from it.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "mercedes-glc",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Mercedes-Benz",
+      "name": "Mercedes-Benz GLC",
+      "country": "GB",
+      "variant": "GLC 220 d 4MATIC · 9G-TRONIC · UK current specification",
+      "source": "https://www.mercedes-benz.co.uk/passengercars/models/suv/glc/overview.html",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4716 mm",
+        "Body width (mirrors excluded)": "1890 mm",
+        "Overall height": "1640 mm",
+        "Kerb weight": "2040 kg",
+        "Maximum gross vehicle weight": "2550 kg",
+        "Width including mirrors": "2075 mm"
+      },
+      "photo": "/assets/knowledge/cars/mercedes-glc.webp",
+      "photo_credit": {
+        "title": "Mercedes-Benz GLC 220 d 4MATIC (X254) front.jpg",
+        "author": "Tokumeigakarinoaoshima",
+        "source": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_GLC_220_d_4MATIC_(X254)_front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Mass is the value labelled Kerb Weight on the current UK manufacturer page. Optional equipment and the individual vehicle approval can change it; no payload is calculated from it.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "mercedes-s-class",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Mercedes-Benz",
+      "name": "Mercedes-Benz S-Class",
+      "country": "GB",
+      "variant": "S 350 d 4MATIC L · 9G-TRONIC · UK current specification",
+      "source": "https://www.mercedes-benz.co.uk/passengercars/models/saloon/s-class/overview.html",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "5304 mm",
+        "Body width (mirrors excluded)": "1921 mm",
+        "Overall height": "1503 mm",
+        "Kerb weight": "2306 kg",
+        "Maximum gross vehicle weight": "2910 kg",
+        "Width including mirrors": "2123 mm"
+      },
+      "photo": "/assets/knowledge/cars/mercedes-s-class.webp",
+      "photo_credit": {
+        "title": "W223 Front.jpg",
+        "author": "MrWalkr",
+        "source": "https://commons.wikimedia.org/wiki/File:W223_Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Mass is the value labelled Kerb Weight on the current UK manufacturer page. Optional equipment and the individual vehicle approval can change it; no payload is calculated from it.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "mitsubishi-triton",
+      "category": "cars",
+      "type": "pickup",
+      "brand": "Mitsubishi",
+      "name": "Mitsubishi Triton",
+      "country": "AU",
+      "variant": "GLX · Double Cab Pick Up · 2WD · 6AT · Australia MY2026",
+      "source": "https://www.mitsubishi-motors.com.au/content/dam/mmal/pdfs/vehicle-brochures/26MY%20Triton%20Brochure.pdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "5320 mm",
+        "Body width (mirrors excluded)": "1865 mm",
+        "Overall height": "1795 mm",
+        "Wheelbase": "3130 mm",
+        "Kerb weight": "2015 kg",
+        "Maximum gross vehicle weight": "3070 kg"
+      },
+      "photo": "/assets/knowledge/cars/mitsubishi-triton.webp",
+      "photo_credit": {
+        "title": "2024 Mitsubishi Triton 2.4 Athlete 4x4 in Yamabuki Orange Metallic, front right, 06-21-2024.jpg",
+        "author": "Ethan Llamas",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Mitsubishi_Triton_2.4_Athlete_4x4_in_Yamabuki_Orange_Metallic,_front_right,_06-21-2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Pickup trucks",
+        "Reference market": "Australia"
+      }
+    },
+    {
+      "id": "nissan-qashqai",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Nissan",
+      "name": "Nissan Qashqai",
+      "country": "GB",
+      "variant": "1.3 Mild Hybrid 158 PS · 6MT · FWD · UK current specification",
+      "source": "https://uk.nissannews.com/en-GB/releases/nissan-qashqai-press-kit",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4425 mm",
+        "Body width (mirrors excluded)": "1835 mm",
+        "Overall height": "1625 mm",
+        "Wheelbase": "2665 mm",
+        "Kerb weight": "1345–1433 kg",
+        "Maximum gross vehicle weight": "1905 kg"
+      },
+      "photo": "https://wieck-nissanao-production.s3.amazonaws.com/photos/f18773f5764015162a75b9b15647754da9253855/thumbnail-720x404.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Nissan",
+        "source": "https://uk.nissannews.com/en-GB/releases/nissan-qashqai-press-kit"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "peugeot-5008",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Peugeot",
+      "name": "Peugeot E-5008",
+      "country": "EU",
+      "variant": "Electric 210 · 73 kWh · FWD · Europe · May 2025 technical sheet",
+      "source": "https://www.media.stellantis.com/uploads/pt/attachment/peugeot5008_technicalcaracteristics_may2025-683435d19b808.pdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4790 mm",
+        "Body width (mirrors excluded)": "1890 mm",
+        "Overall height": "1690 mm",
+        "Wheelbase": "2900 mm",
+        "Kerb weight": "2185 kg",
+        "Maximum gross vehicle weight": "2900 kg",
+        "Mass in running order": "2260 kg"
+      },
+      "photo": "/assets/knowledge/cars/peugeot-5008.webp",
+      "photo_credit": {
+        "title": "Peugeot 5008 C Leonberg 2024 IMG 0827.jpg",
+        "author": "Alexander-93",
+        "source": "https://commons.wikimedia.org/wiki/File:Peugeot_5008_C_Leonberg_2024_IMG_0827.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Dimensions are converted from the metres rounded in the May 2025 manufacturer technical sheet. Kerb mass (2185 kg) and running-order mass (2260 kg) are separate manufacturer values.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "Europe"
+      }
+    },
+    {
+      "id": "porsche-macan",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Porsche",
+      "name": "Porsche Macan",
+      "country": "US",
+      "variant": "2.0 turbo petrol · 7-speed PDK · AWD · US MY2026",
+      "source": "https://newsroom.porsche.com/dam/jcr%3A1d75f76f-bf06-4840-931b-06cfc25c1be7/20260106_Macan_TechSpecs.pdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4726.9 mm",
+        "Body width (mirrors excluded)": "1922.8 mm",
+        "Overall height": "1620.5 mm",
+        "Wheelbase": "2806.7 mm",
+        "Kerb weight": "1882.0 kg",
+        "Maximum gross vehicle weight": "2510.2 kg"
+      },
+      "photo": "/assets/knowledge/cars/porsche-macan.webp",
+      "photo_credit": {
+        "title": "2023 Porsche Macan (1).jpg",
+        "author": "Ethan Llamas",
+        "source": "https://commons.wikimedia.org/wiki/File:2023_Porsche_Macan_(1).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "This is the petrol Macan, not the electric Macan. US manufacturer inches and pounds are converted to mm and kg; 1 in = 25.4 mm and 1 lb = 0.45359237 kg.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United States"
+      }
+    },
+    {
+      "id": "renault-clio",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "Renault",
+      "name": "Renault Clio",
+      "country": "GB",
+      "variant": "Generation · E-Tech full hybrid 145 · automatic · FWD · UK current stock specification",
+      "source": "https://www.renault.co.uk/hybrid-cars/clio/specifications.html",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4053 mm",
+        "Overall height": "1440 mm",
+        "Wheelbase": "2583 mm",
+        "Mass excluding driver": "1323 kg",
+        "Maximum gross vehicle weight": "1758 kg",
+        "Width with mirrors folded": "1798 mm",
+        "Width including mirrors": "1988 mm"
+      },
+      "photo": "/assets/knowledge/cars/renault-clio.webp",
+      "photo_credit": {
+        "title": "2024 Renault Clio 1.6 E-Tech Hybrid espirit Alpine in Iron Blue at Renault Manchester 02.jpg",
+        "author": "MoCars",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Renault_Clio_1.6_E-Tech_Hybrid_espirit_Alpine_in_Iron_Blue_at_Renault_Manchester_02.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "The UK page identifies this as the Generation full hybrid E-Tech 145. Width is explicitly measured with mirrors folded or extended; body-only width is not supplied. The unladen height is used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "tesla-model3",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Tesla",
+      "name": "Tesla Model 3",
+      "country": "US",
+      "variant": "Premium · Dual Motor AWD · US current specification",
+      "source": "https://www.tesla.com/model3?redirect=no",
+      "additional_source": "https://www.tesla.com/ownersmanual/model3/en_us/GUID-56562137-FC31-4110-A13C-9A9FC6657BF0.html",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4720 mm",
+        "Body width (mirrors excluded)": "1850 mm",
+        "Overall height": "1440 mm",
+        "Wheelbase": "2875 mm",
+        "Kerb weight": "1828.0 kg"
+      },
+      "photo": "/assets/knowledge/cars/tesla-model3.webp",
+      "photo_credit": {
+        "title": "Tesla Model 3 (Highland, facelift) (front three-quarter view) at Tesla Osaka Ibaraki.jpg",
+        "author": "Aos.1905",
+        "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3_(Highland,_facelift)_(front_three-quarter_view)_at_Tesla_Osaka_Ibaraki.jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "US Model 3 Premium AWD curb mass is published as 4030 lb and converted to kg. Dimensions use the current US owner manual. The manual describes these dimensions as approximate; wheel options can change them.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "United States"
+      }
+    },
+    {
+      "id": "togg-t10f",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Togg",
+      "name": "Togg T10F",
+      "country": "TR",
+      "variant": "V1 · RWD · Standard Range · Türkiye · current manufacturer brochure",
+      "source": "https://trumore-cdn.togg.cloud/ToggT10FKatalog.pdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4830 mm",
+        "Body width (mirrors excluded)": "1881 mm",
+        "Overall height": "1556 mm",
+        "Mass excluding driver": "1923 kg"
+      },
+      "photo": "/assets/knowledge/cars/togg-t10f.webp",
+      "photo_credit": {
+        "title": "Togg, Koenigsplatz, IAA 2025, Munich (20250909-P1050648).jpg",
+        "author": "Matti Blume",
+        "source": "https://commons.wikimedia.org/wiki/File:Togg,_Koenigsplatz,_IAA_2025,_Munich_(20250909-P1050648).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "Türkiye"
+      }
+    },
+    {
+      "id": "togg-t10x",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Togg",
+      "name": "Togg T10X",
+      "country": "TR",
+      "variant": "V1 · RWD · Standard Range · Türkiye · current manufacturer brochure",
+      "source": "https://trumore-cdn.togg.cloud/EU/TOGG_T10X_0825_CTG_TR.pdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4599 mm",
+        "Body width (mirrors excluded)": "1886 mm",
+        "Overall height": "1676 mm",
+        "Wheelbase": "2890 mm",
+        "Mass excluding driver": "1949–1972 kg"
+      },
+      "photo": "/assets/knowledge/cars/togg-t10x.webp",
+      "photo_credit": {
+        "title": "Togg T10X, Istanbul (P1180131).jpg",
+        "author": "Matti Blume",
+        "source": "https://commons.wikimedia.org/wiki/File:Togg_T10X,_Istanbul_(P1180131).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "Türkiye"
+      }
+    },
+    {
+      "id": "toyota-aygo-x",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "Toyota",
+      "name": "Toyota Aygo X Hybrid",
+      "country": "GB",
+      "variant": "1.5 Hybrid e-CVT · UK · 2026 specification",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Aygo-X-Tech-Specs.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/aygo-x-hybrid-2025-current/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "3776 mm",
+        "Body width (mirrors excluded)": "1740 mm",
+        "Overall height": "1525 mm",
+        "Wheelbase": "2430 mm",
+        "Kerb weight": "1095–1175 kg",
+        "Maximum gross vehicle weight": "1510 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2025/06/TO44DF1-scaled-1.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/aygo-x-hybrid-2025-current/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-chr",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Toyota",
+      "name": "Toyota C-HR",
+      "country": "GB",
+      "variant": "1.8 Hybrid · FWD · UK · August 2026 specification",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260805-C-HR-Tech-Spec.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/toyota-c-hr-2024-current/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4362 mm",
+        "Body width (mirrors excluded)": "1832 mm",
+        "Overall height": "1564 mm",
+        "Wheelbase": "2640 mm",
+        "Kerb weight": "1430–1490 kg",
+        "Maximum gross vehicle weight": "1930 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2023/11/2024_C-HR_Plug-In_017-scaled-1.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/toyota-c-hr-2024-current/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-chr-plus",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Toyota",
+      "name": "Toyota C-HR+",
+      "country": "GB",
+      "variant": "57.7 kWh · FWD · UK · 2026 specification",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260316-C-HR-Tech-Specs.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/toyota-c-hr-plus-2025/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4530 mm",
+        "Body width (mirrors excluded)": "1870 mm",
+        "Overall height": "1595 mm",
+        "Wheelbase": "2750 mm",
+        "Kerb weight": "1810–1845 kg",
+        "Maximum gross vehicle weight": "2465 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2025/03/2025_Toyota_C-HR_AWD_002-scaled.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/toyota-c-hr-plus-2025/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-corolla",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Toyota",
+      "name": "Toyota Corolla",
+      "country": "CA",
+      "variant": "LE · 2.0 petrol · CVT · FWD · Canada MY2026",
+      "source": "https://www.toyota.ca/content/toyota/en/build-price.generate.summaries.series-COR.year-2026.province-ON.pdf",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4631 mm",
+        "Body width (mirrors excluded)": "1780 mm",
+        "Overall height": "1435 mm",
+        "Wheelbase": "2700 mm",
+        "Kerb weight": "1345 kg",
+        "Maximum gross vehicle weight": "1780 kg"
+      },
+      "photo": "/assets/knowledge/cars/toyota-corolla.webp",
+      "photo_credit": {
+        "title": "2024 Toyota Corolla LE in Classic Silver Metallic, front right.jpg",
+        "author": "Mr.choppers",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Toyota_Corolla_LE_in_Classic_Silver_Metallic,_front_right.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "Canada"
+      }
+    },
+    {
+      "id": "toyota-hatch",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "Toyota",
+      "name": "Toyota Corolla Hatchback",
+      "country": "GB",
+      "variant": "1.8 Hybrid · e-CVT · UK · August 2026 specification",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/corolla-2019-current/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4370 mm",
+        "Body width (mirrors excluded)": "1790 mm",
+        "Overall height": "1460 mm",
+        "Wheelbase": "2640 mm",
+        "Kerb weight": "1345–1410 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2018/09/2024_Toyota_Corolla_003-scaled-1.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/corolla-2019-current/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-corolla-touring",
+      "category": "cars",
+      "type": "estate",
+      "brand": "Toyota",
+      "name": "Toyota Corolla Touring Sports",
+      "country": "GB",
+      "variant": "1.8 Hybrid · e-CVT · UK · August 2026 specification",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Corolla-Tech-Spec.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/corolla-2019-current/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4650 mm",
+        "Body width (mirrors excluded)": "1790 mm",
+        "Overall height": "1460 mm",
+        "Wheelbase": "2700 mm",
+        "Kerb weight": "1400–1480 kg"
+      },
+      "photo": "/assets/knowledge/cars/toyota-corolla-touring.webp",
+      "photo_credit": {
+        "title": "2023 Toyota Corolla Touring Sports Hybrid (E210) IMG 7679.jpg",
+        "author": "Alexander-93",
+        "source": "https://commons.wikimedia.org/wiki/File:2023_Toyota_Corolla_Touring_Sports_Hybrid_(E210)_IMG_7679.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Estate cars",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-gr-yaris",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "Toyota",
+      "name": "Toyota GR Yaris",
+      "country": "GB",
+      "variant": "1.6 turbo · 6MT · GR-FOUR · UK · 2026 specification",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260130-GR-Yaris-Tech-Specs.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/gr-yaris/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "3995 mm",
+        "Body width (mirrors excluded)": "1805 mm",
+        "Overall height": "1455 mm",
+        "Wheelbase": "2560 mm",
+        "Kerb weight": "1280–1305 kg",
+        "Maximum gross vehicle weight": "1645 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2024/07/2024-gryaris-specialedition-dpl-combo-001-scaled.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/gr-yaris/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-hilux",
+      "category": "cars",
+      "type": "pickup",
+      "brand": "Toyota",
+      "name": "Toyota Hilux",
+      "country": "GB",
+      "variant": "2.8 diesel 48V · double cab · UK · 2026 specification",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260531-Hilux-Tech-Spec.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/all-new-hilux-2026/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "5320 mm",
+        "Body width (mirrors excluded)": "1855 mm",
+        "Overall height": "1865 mm",
+        "Wheelbase": "3085 mm",
+        "Kerb weight": "2175–2375 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2025/11/2026-TOYOTA-Hilux-BEV-HERO-1-scaled.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/all-new-hilux-2026/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Pickup trucks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-land-cruiser",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Toyota",
+      "name": "Toyota Land Cruiser",
+      "country": "GB",
+      "variant": "2.8 diesel · 8AT · 4WD · UK current specification",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260216-Land-Cruiser-Tech-Specs.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/land-cruiser-2024-current/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4925 mm",
+        "Body width (mirrors excluded)": "1980 mm",
+        "Overall height": "1935 mm",
+        "Wheelbase": "2850 mm",
+        "Kerb weight": "2415–2565 kg",
+        "Maximum gross vehicle weight": "3100 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2024/04/Image-253-scaled-1.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/land-cruiser-2024-current/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-prius",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Toyota",
+      "name": "Toyota Prius",
+      "country": "GB",
+      "variant": "2.0 Plug-in Hybrid · 17-inch wheels · UK current specification",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/241209-Prius-Plug-in-Tech-Specs.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/prius-2024-current/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4599 mm",
+        "Body width (mirrors excluded)": "1782 mm",
+        "Overall height": "1420 mm",
+        "Wheelbase": "2750 mm",
+        "Kerb weight": "1545–1610 kg",
+        "Maximum gross vehicle weight": "1995 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2024/09/DSC_4284-1-scaled.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/prius-2024-current/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-rav4",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Toyota",
+      "name": "Toyota RAV4",
+      "country": "GB",
+      "variant": "2.5 Plug-in Hybrid · FWD · UK · 2026 press specification",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260805-RAV4-Tech-Spec.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/all-new-rav4-2026/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4600 mm",
+        "Body width (mirrors excluded)": "1855 mm",
+        "Overall height": "1700 mm",
+        "Wheelbase": "2690 mm",
+        "Kerb weight": "1920–1990 kg",
+        "Maximum gross vehicle weight": "2530 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2025/05/2026_ALL-NEW-RAV4_static_003-scaled.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/all-new-rav4-2026/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-urban-cruiser",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Toyota",
+      "name": "Toyota Urban Cruiser",
+      "country": "GB",
+      "variant": "49 kWh · FWD · current specification · UK",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Urban-Cruiser-Tech-Spec.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/urban-cruiser-2025-current/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4285 mm",
+        "Body width (mirrors excluded)": "1800 mm",
+        "Overall height": "1635 mm",
+        "Wheelbase": "2700 mm",
+        "Kerb weight": "1700–1742 kg",
+        "Maximum gross vehicle weight": "2180 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2025/03/2025toyotaurbancruiser03-scaled.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/urban-cruiser-2025-current/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-yaris",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "Toyota",
+      "name": "Toyota Yaris",
+      "country": "GB",
+      "variant": "1.5 Hybrid 116 · e-CVT · UK · 2026 specification",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260810-Yaris-Tech-Specs.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/yaris-2020-current/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "3940 mm",
+        "Body width (mirrors excluded)": "1745 mm",
+        "Overall height": "1500 mm",
+        "Wheelbase": "2560 mm",
+        "Kerb weight": "1145–1190 kg",
+        "Maximum gross vehicle weight": "1615 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2024/03/2024_Yaris_PremiereEdition_001-scaled.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/yaris-2020-current/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-yaris-cross",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Toyota",
+      "name": "Toyota Yaris Cross",
+      "country": "GB",
+      "variant": "1.5 Hybrid 130 · FWD · August 2026 · UK",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260827-Yaris-Cross-Technical-Specifications.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/yaris-cross-2021/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4172 mm",
+        "Body width (mirrors excluded)": "1765 mm",
+        "Overall height": "1595 mm",
+        "Wheelbase": "2560 mm",
+        "Kerb weight": "1230–1260 kg",
+        "Maximum gross vehicle weight": "1690 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2026/08/Yaris-Cross_High-Grade_Precious-Bronze_Static-07-1-scaled.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/yaris-cross-2021/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-bz4x",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Toyota",
+      "name": "Toyota bZ4X",
+      "country": "GB",
+      "variant": "57.7 kWh · FWD · October 2026 · UK",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/261026-bZ4X-Tech-Spec.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/bz4x-2022/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4690 mm",
+        "Body width (mirrors excluded)": "1860 mm",
+        "Overall height": "1650 mm",
+        "Wheelbase": "2850 mm",
+        "Kerb weight": "1850–1890 kg",
+        "Maximum gross vehicle weight": "2465 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2025/12/2025_bZ4X-AWD_main_1-2-scaled.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/bz4x-2022/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "toyota-bz4x-touring",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Toyota",
+      "name": "Toyota bZ4X Touring",
+      "country": "GB",
+      "variant": "Electric · FWD · UK · 2026 specification",
+      "source": "https://media.toyota.co.uk/wp-content/uploads/sites/5/pdf/260513-bZ4X-Touring-Tech-Specs.pdf",
+      "additional_source": "https://media.toyota.co.uk/vehicles/bz4x-touring-2026/",
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4830 mm",
+        "Body width (mirrors excluded)": "1860 mm",
+        "Overall height": "1675 mm",
+        "Wheelbase": "2850 mm",
+        "Kerb weight": "1900–1965 kg",
+        "Maximum gross vehicle weight": "2465 kg"
+      },
+      "photo": "https://media.toyota.co.uk/wp-content/uploads/sites/5/2025/12/bZ4X-Touring-HERO-scaled.jpg",
+      "photo_credit": {
+        "external": true,
+        "author": "Toyota",
+        "source": "https://media.toyota.co.uk/vehicles/bz4x-touring-2026/"
+      },
+      "data_note": "Published figures describe the named powertrain and market. Equipment options can change dimensions and weight; ranges are retained as published.",
+      "photo_note": "Manufacturer model photograph. Colour, trim, wheels and market equipment may differ from the reference configuration.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "volkswagen-golf",
+      "category": "cars",
+      "type": "hatch",
+      "brand": "Volkswagen",
+      "name": "Volkswagen Golf",
+      "country": "DE",
+      "variant": "GTI EDITION 50 · 2.0 TFSI · 7DSG · FWD · Germany · January 2026",
+      "source": "https://www.volkswagen-newsroom.com/en/publications/more/golf-gti-edition-50-factsheet-3174/download",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4292 mm",
+        "Body width (mirrors excluded)": "1789 mm",
+        "Overall height": "1463 mm",
+        "Wheelbase": "2629 mm",
+        "Kerb weight": "1470 kg"
+      },
+      "photo": "/assets/knowledge/cars/volkswagen-golf.webp",
+      "photo_credit": {
+        "title": "Volkswagen Golf VIII GTI Edition 50 IAA 2025 DSC 2026.jpg",
+        "author": "Alexander-93",
+        "source": "https://commons.wikimedia.org/wiki/File:Volkswagen_Golf_VIII_GTI_Edition_50_IAA_2025_DSC_2026.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Figures are the manufacturer January 2026 GTI EDITION 50 factsheet values. The optional Performance Package changes weight and ride height; those optional values are not combined with the standard configuration.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Hatchbacks",
+        "Reference market": "Germany"
+      }
+    },
+    {
+      "id": "volvo-ec40",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Volvo",
+      "name": "Volvo EC40",
+      "country": "GB",
+      "variant": "Single Motor · RWD · UK current specification",
+      "source": "https://www.volvocars.com/uk/cars/ec40-electric/specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4440 mm",
+        "Body width (mirrors excluded)": "1873 mm",
+        "Overall height": "1591 mm",
+        "Wheelbase": "2702 mm",
+        "Mass in running order": "2065 kg",
+        "Maximum gross vehicle weight": "2460 kg",
+        "Width including mirrors": "2034 mm"
+      },
+      "photo": "/assets/knowledge/cars/volvo-ec40.webp",
+      "photo_credit": {
+        "title": "Volvo EC40 Crystal White Pearl - front.jpg",
+        "author": "Ethan Llamas",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_EC40_Crystal_White_Pearl_-_front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Volvo publishes running-order mass, not driver-excluded kerb mass. Height is measured at kerb weight with one person. The first named UK powertrain is used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "volvo-es90",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Volvo",
+      "name": "Volvo ES90",
+      "country": "GB",
+      "variant": "Single Motor Extended Range · RWD · UK current specification",
+      "source": "https://www.volvocars.com/uk/cars/es90-electric/specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "5000 mm",
+        "Body width (mirrors excluded)": "1942 mm",
+        "Overall height": "1549 mm",
+        "Wheelbase": "3102 mm",
+        "Mass in running order": "2410 kg",
+        "Maximum gross vehicle weight": "2900 kg",
+        "Width including mirrors": "2120 mm"
+      },
+      "photo": "/assets/knowledge/cars/volvo-es90.webp",
+      "photo_credit": {
+        "title": "Volvo ES90 IAA 2025 DSC 1357.jpg",
+        "author": "Alexander-93",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_ES90_IAA_2025_DSC_1357.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Volvo publishes running-order mass, not driver-excluded kerb mass. Height is measured at kerb weight with one person. The first named UK powertrain is used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "volvo-ex30",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Volvo",
+      "name": "Volvo EX30",
+      "country": "GB",
+      "variant": "P5 Electric · RWD · UK current specification",
+      "source": "https://www.volvocars.com/uk/cars/ex30-electric/specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4233 mm",
+        "Body width (mirrors excluded)": "1838 mm",
+        "Overall height": "1550 mm",
+        "Wheelbase": "2650 mm",
+        "Mass in running order": "1840 kg",
+        "Maximum gross vehicle weight": "2210 kg",
+        "Width including mirrors": "2032 mm"
+      },
+      "photo": "/assets/knowledge/cars/volvo-ex30.webp",
+      "photo_credit": {
+        "title": "2024 Volvo EX30 Front.jpg",
+        "author": "Vauxford",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Volvo_EX30_Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Volvo publishes running-order mass, not driver-excluded kerb mass. Height is measured at kerb weight with one person. The first named UK powertrain is used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "volvo-ex40",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Volvo",
+      "name": "Volvo EX40",
+      "country": "GB",
+      "variant": "Single Motor · RWD · UK current specification",
+      "source": "https://www.volvocars.com/uk/cars/ex40-electric/specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4440 mm",
+        "Body width (mirrors excluded)": "1873 mm",
+        "Overall height": "1647 mm",
+        "Wheelbase": "2702 mm",
+        "Mass in running order": "2040 kg",
+        "Maximum gross vehicle weight": "2470 kg",
+        "Width including mirrors": "2034 mm"
+      },
+      "photo": "/assets/knowledge/cars/volvo-ex40.webp",
+      "photo_credit": {
+        "title": "Volvo EX40, Auto 2024, Zurich (PANA0988).jpg",
+        "author": "Matti Blume",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_EX40,_Auto_2024,_Zurich_(PANA0988).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Volvo publishes running-order mass, not driver-excluded kerb mass. Height is measured at kerb weight with one person. The first named UK powertrain is used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "volvo-ex90",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Volvo",
+      "name": "Volvo EX90",
+      "country": "GB",
+      "variant": "Single Motor · RWD · UK current specification",
+      "source": "https://www.volvocars.com/uk/cars/ex90-electric/specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "5037 mm",
+        "Body width (mirrors excluded)": "1964 mm",
+        "Overall height": "1744 mm",
+        "Wheelbase": "2985 mm",
+        "Mass in running order": "2585 kg",
+        "Maximum gross vehicle weight": "3190 kg",
+        "Width including mirrors": "2113 mm"
+      },
+      "photo": "/assets/knowledge/cars/volvo-ex90.webp",
+      "photo_credit": {
+        "title": "Volvo EX90, Auto 2024, Zurich (PANA0993).jpg",
+        "author": "Matti Blume",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_EX90,_Auto_2024,_Zurich_(PANA0993).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Volvo publishes running-order mass, not driver-excluded kerb mass. Height is measured at kerb weight with one person. The first named UK powertrain is used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "volvo-xc40",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Volvo",
+      "name": "Volvo XC40",
+      "country": "GB",
+      "variant": "B3 Mild hybrid · FWD · UK current specification",
+      "source": "https://www.volvocars.com/uk/cars/xc40/specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4440 mm",
+        "Body width (mirrors excluded)": "1873 mm",
+        "Overall height": "1652 mm",
+        "Wheelbase": "2702 mm",
+        "Mass in running order": "1688 kg",
+        "Maximum gross vehicle weight": "2220 kg",
+        "Width including mirrors": "2034 mm"
+      },
+      "photo": "/assets/knowledge/cars/volvo-xc40.webp",
+      "photo_credit": {
+        "title": "2024 Volvo XC40 B4 facelift front.jpg",
+        "author": "LuvsMG481",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Volvo_XC40_B4_facelift_front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Volvo publishes running-order mass, not driver-excluded kerb mass. Height is measured at kerb weight with one person. The first named UK powertrain is used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "volvo-xc60",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Volvo",
+      "name": "Volvo XC60",
+      "country": "GB",
+      "variant": "B5 AWD Mild hybrid · AWD · UK current specification",
+      "source": "https://www.volvocars.com/uk/cars/xc60/specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4708 mm",
+        "Body width (mirrors excluded)": "1902 mm",
+        "Overall height": "1655 mm",
+        "Wheelbase": "2865 mm",
+        "Mass in running order": "1900 kg",
+        "Maximum gross vehicle weight": "2450 kg",
+        "Width including mirrors": "2117 mm"
+      },
+      "photo": "/assets/knowledge/cars/volvo-xc60.webp",
+      "photo_credit": {
+        "title": "Volvo XC60 T8 PHEV, Dassel (20260514-P1075277).jpg",
+        "author": "Matti Blume",
+        "source": "https://commons.wikimedia.org/wiki/File:Volvo_XC60_T8_PHEV,_Dassel_(20260514-P1075277).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Volvo publishes running-order mass, not driver-excluded kerb mass. Height is measured at kerb weight with one person. The first named UK powertrain is used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "volvo-xc90",
+      "category": "cars",
+      "type": "suv",
+      "brand": "Volvo",
+      "name": "Volvo XC90",
+      "country": "GB",
+      "variant": "B5 AWD Mild hybrid · AWD · UK current specification",
+      "source": "https://www.volvocars.com/uk/cars/xc90/specifications/",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4953 mm",
+        "Body width (mirrors excluded)": "1931 mm",
+        "Overall height": "1771 mm",
+        "Wheelbase": "2984 mm",
+        "Mass in running order": "2120 kg",
+        "Maximum gross vehicle weight": "2790 kg",
+        "Width including mirrors": "2140 mm"
+      },
+      "photo": "/assets/knowledge/cars/volvo-xc90.webp",
+      "photo_credit": {
+        "title": "2025 Volvo XC90 B5 Dark AWD front.jpg",
+        "author": "LuvsMG481",
+        "source": "https://commons.wikimedia.org/wiki/File:2025_Volvo_XC90_B5_Dark_AWD_front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "Volvo publishes running-order mass, not driver-excluded kerb mass. Height is measured at kerb weight with one person. The first named UK powertrain is used.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "SUVs & crossovers",
+        "Reference market": "United Kingdom"
+      }
+    },
+    {
+      "id": "skoda-octavia",
+      "category": "cars",
+      "type": "sedan",
+      "brand": "Škoda",
+      "name": "Škoda Octavia",
+      "country": "SK",
+      "variant": "Liftback · 1.5 TSI 85 kW · 6MT · FWD · Slovakia · 2025 technical sheet",
+      "source": "https://webapps.skoda-auto.sk/Cenniky-a-katalogy/techdata/Skoda_Octavia-FL_technickeudaje.pdf?202506041446=",
+      "additional_source": null,
+      "checked": "2026-10-30",
+      "verified": true,
+      "specs": {
+        "Overall length": "4698 mm",
+        "Body width (mirrors excluded)": "1829 mm",
+        "Overall height": "1471 mm",
+        "Wheelbase": "2686 mm",
+        "Mass including driver": "1357–1502 kg",
+        "Maximum gross vehicle weight": "1850–1890 kg"
+      },
+      "photo": "/assets/knowledge/cars/skoda-octavia.webp",
+      "photo_credit": {
+        "title": "2024 Skoda Octavia 110TSI Select front.jpg",
+        "author": "LuvsMG481",
+        "source": "https://commons.wikimedia.org/wiki/File:2024_Skoda_Octavia_110TSI_Select_front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": "Resized and converted to WebP; no vehicle features altered."
+      },
+      "data_note": "The manufacturer mass range includes a 75 kg driver. Equipment-dependent ranges are retained for the named engine and transmission; they are not values for every Octavia version.",
+      "photo_note": "Photograph of this model. Powertrain, trim, model year, wheels and market equipment may differ from the reference configuration; use the technical source for the figures.",
+      "photo_type_example": true,
+      "guide": {
+        "Body style": "Sedans & liftbacks",
+        "Reference market": "Slovakia"
+      }
     }
   ],
   "brands": {
@@ -24008,36 +26673,31 @@
       "Yanmar"
     ],
     "cars": [
-      "Toyota",
-      "Mercedes-Benz",
-      "BMW",
       "Audi",
-      "Volkswagen",
-      "Ford",
-      "Renault",
-      "Fiat",
-      "Hyundai",
-      "Kia",
-      "Peugeot",
-      "Citroën",
-      "Opel",
-      "Nissan",
-      "Honda",
-      "Škoda",
-      "SEAT",
-      "Dacia",
-      "Volvo",
-      "Tesla",
+      "BMW",
       "BYD",
       "Chery",
-      "MG",
-      "Togg",
+      "Fiat",
+      "GWM",
+      "Honda",
+      "Hyundai",
       "Isuzu",
+      "Kia",
+      "Lexus",
+      "MG",
+      "Mazda",
+      "Mercedes-Benz",
       "Mitsubishi",
-      "Suzuki",
-      "Land Rover",
+      "Nissan",
+      "Peugeot",
       "Porsche",
-      "Lexus"
+      "Renault",
+      "Tesla",
+      "Togg",
+      "Toyota",
+      "Volkswagen",
+      "Volvo",
+      "Škoda"
     ],
     "road": [
       "AFRIT",
@@ -24371,6 +27031,20 @@
     {
       "id": "mc-forestry",
       "name": "Forestry machinery"
+    }
+  ],
+  "carGroups": [
+    {
+      "id": "car-passenger",
+      "name": "Passenger cars"
+    },
+    {
+      "id": "car-suv",
+      "name": "SUVs & crossovers"
+    },
+    {
+      "id": "car-utility",
+      "name": "Pickups & passenger MPVs"
     }
   ]
 }
