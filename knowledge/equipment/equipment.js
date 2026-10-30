@@ -5,6 +5,7 @@ const $=id=>document.getElementById(id),esc=v=>String(v??'').replace(/[&<>"']/g,
 const t=s=>window.SamaLanguage?.t(s)||s,raw=s=>'<span translate="no">'+esc(s)+'</span>';
 const specValue=value=>String(value).replace(/\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+\.\d+/g,number=>new Intl.NumberFormat(document.documentElement.lang||'en',{numberingSystem:'latn',maximumFractionDigits:6}).format(Number(number.replaceAll(',',''))));
 let catalog,state={category:'containers',group:'',type:'',brand:'',country:'',q:'',item:''};
+let libraryQuery='',libraryIndex=[];
 const countries={SK:"Slovakia",MA:"Morocco",DZ:"Algeria",KR:"South Korea",PK:"Pakistan",PL:"Poland",YE:"Yemen",ID:"Indonesia",BG:"Bulgaria",IN:"India",KW:"Kuwait",SG:"Singapore",TH:"Thailand",TW:"Taiwan",VN:"Vietnam",PH:"Philippines",ES:"Spain",AT:"Austria",OM:"Oman",SA:"Saudi Arabia",EG:"Egypt",SD:"Sudan",BD:"Bangladesh",CA:"Canada",SL:"Sierra Leone",MU:"Mauritius",DK:"Denmark",IT:"Italy",TR:'Türkiye',IR:'Iran',RU:'Russia',US:'United States',DE:'Germany',BE:'Belgium',NL:'Netherlands',FR:'France',GB:'United Kingdom',AU:'Australia',NZ:'New Zealand',ZA:'South Africa',BR:'Brazil',CN:'China',IQ:'Iraq',EU:'Europe'};
 const clean=v=>String(v||'').normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().replace(/ı/g,'i');
 const opt=(v,s)=>'<option value="'+esc(v)+'">'+esc(t(s))+'</option>';
@@ -13,6 +14,41 @@ const family=row=>catalog.types.find(r=>r.id===row.type)?.group||'';
 const groups=()=>state.category==='cars'?(catalog.carGroups||[]):state.category==='containers'?(catalog.containerGroups||[]):state.category==='sea'?(catalog.seaGroups||[]):state.category==='road'?(catalog.roadGroups||[]):state.category==='rail'?(catalog.railGroups||[]):state.category==='cranes'?(catalog.craneGroups||[]):state.category==='unloading'?(catalog.unloadingGroups||[]):state.category==='machinery'?(catalog.machineryGroups||[]):[];
 const familyName=id=>groups().find(g=>g.id===id)?.name||'';
 const recordBadge=row=>row.category==='cars'?'Published car specifications':row.category==='machinery'?'Published machinery specifications':row.category==='unloading'?'Published unloading specifications':row.category==='cranes'?'Published crane specifications':row.category==='rail'?(row.verified?'Published wagon specifications':'Historical reference — specifications unavailable'):row.category==='road'?(row.verified?'Published road specifications':'Road equipment guide'):row.category==='containers'?(row.verified?'Published specifications':'Container type guide'):row.verified?'Verified model sheet':row.guide?'Vessel type guide':'Type reference';
+// The library search is independent of the selected category and its filters.
+const searchText=value=>clean(value).replace(/[أإآ]/g,'ا').replace(/ى/g,'ي').replace(/ـ/g,'').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
+function indexLibrary(){
+ const families=['seaGroups','containerGroups','roadGroups','railGroups','craneGroups','unloadingGroups','machineryGroups','carGroups'].flatMap(key=>catalog[key]||[]);
+ libraryIndex=catalog.records.map(row=>{
+  const type=catalog.types.find(item=>item.id===row.type),category=catalog.categories.find(item=>item.id===row.category);
+  const fields=[row.name,row.brand,row.variant,type?.name,category?.name,families.find(item=>item.id===type?.group)?.name,countries[row.country]].filter(Boolean);
+  const text=searchText(fields.flatMap(value=>[value,...['en','tr','ar'].map(lang=>window.SamaLanguage?.t(value,lang)||value)]).join(' '));
+  return {row,text,compact:text.replaceAll(' ','')};
+ });
+}
+function renderLibrarySearch(){
+ const input=$('eq-library-search');if(input.value!==libraryQuery)input.value=libraryQuery;
+ $('eq-library-clear').disabled=!libraryQuery;
+ const terms=searchText(libraryQuery).split(' ').filter(Boolean),results=$('eq-library-results'),summary=$('eq-library-summary');
+ results.hidden=!terms.length;
+ if(!terms.length){results.replaceChildren();summary.textContent='';return;}
+ const matches=libraryIndex.filter(entry=>terms.every(term=>entry.text.includes(term)||entry.compact.includes(term))).map(entry=>entry.row);
+ summary.textContent=t('Matching equipment')+': '+matches.length+' · '+t('All categories');
+ if(!matches.length){results.innerHTML='<p class="eq-library-empty">'+esc(t('No equipment found. Try another model, brand or equipment name.'))+'</p>';return;}
+ results.innerHTML=catalog.categories.map(category=>{
+  const rows=matches.filter(row=>row.category===category.id).sort((a,b)=>t(a.name).localeCompare(t(b.name),document.documentElement.lang||'en'));
+  if(!rows.length)return '';
+  return '<section class="eq-library-group" aria-labelledby="eq-search-category-'+esc(category.id)+'"><h3 id="eq-search-category-'+esc(category.id)+'">'+esc(t(category.name))+' <span>'+rows.length+'</span></h3><div class="eq-library-grid">'+rows.map(row=>'<button type="button" class="eq-library-result" data-library-item="'+esc(row.id)+'"'+(state.item===row.id?' aria-current="true"':'')+'><span><b>'+esc(t(row.name))+'</b><small>'+esc([row.brand,t(catalog.types.find(type=>type.id===row.type)?.name||''),t(countries[row.country]||'')].filter(Boolean).join(' · '))+'</small></span><span aria-hidden="true">↗</span></button>').join('')+'</div></section>';
+ }).join('');
+}
+function searchLibrary(){libraryQuery=$('eq-library-search').value.slice(0,120);renderLibrarySearch();syncURL();}
+function clearLibrarySearch(){libraryQuery='';renderLibrarySearch();syncURL();$('eq-library-search').focus();}
+function openLibraryResult(id){
+ const row=catalog.records.find(item=>item.id===id);if(!row)return;
+ state={category:row.category,group:'',type:'',brand:'',country:'',q:'',item:row.id};
+ options();render(true);
+ const heading=$('eq-detail').querySelector('h3');heading.setAttribute('tabindex','-1');heading.focus({preventScroll:true});
+ $('eq-detail').scrollIntoView({block:'start',behavior:'smooth'});
+}
 function options(){
  $('eq-group-label').hidden=!groups().length;
  $('eq-group-label').querySelector('span').textContent=t(state.category==='cars'?'Car family':state.category==='machinery'?'Machinery family':state.category==='unloading'?'Unloading family':state.category==='cranes'?'Crane family':state.category==='rail'?'Wagon family':state.category==='road'?'Road equipment family':state.category==='containers'?'Container family':'Vessel family');
@@ -76,6 +112,7 @@ function detail(row){
 }
 function syncURL(push=false){
  const url=new URL(location.href);for(const k of ['category','group','type','brand','country','q','item']){if(state[k])url.searchParams.set('eq_'+k,state[k]);else url.searchParams.delete('eq_'+k);}
+ if(libraryQuery)url.searchParams.set('eq_all',libraryQuery);else url.searchParams.delete('eq_all');
  try{history[push?'pushState':'replaceState']({},'',url);}catch(_){}
  const full=root.querySelector('.eq-full');if(full){const u=new URL('/knowledge/equipment/index.html',location.origin);for(const [k,v] of url.searchParams)u.searchParams.set(k,v);full.href=u.href;}
 }
@@ -95,11 +132,16 @@ function render(push=false){
  $('eq-count').innerHTML='<span>'+esc(t(label))+'</span><span translate="no">'+list.length+' / '+catalog.records.filter(r=>r.category===state.category).length+'</span>';
  $('eq-overview').innerHTML='<strong>'+catalog.categories.length+'</strong><span>'+esc(t('Equipment categories'))+'</span><strong>'+catalog.records.filter(r=>r.verified).length+'</strong><span>'+esc(t('Verified model sheet'))+'</span>';
  $('eq-list').innerHTML=list.map(r=>'<button type="button" class="eq-model '+(r.id===state.item?'is-selected':'')+'" data-item="'+esc(r.id)+'" aria-pressed="'+(r.id===state.item)+'">'+(['sea','containers','road','rail','cranes','unloading','machinery','cars'].includes(r.category)&&r.photo?'<span class="eq-thumb"><img src="'+esc(r.photo)+'" alt="" loading="lazy"></span>':'<span class="eq-model-icon" aria-hidden="true">'+esc(catalog.categories.find(c=>c.id===r.category).icon)+'</span>')+'<span><small>'+raw(r.brand||t(['sea','containers','road','rail','cranes','unloading','machinery','cars'].includes(r.category)?familyName(family(r)):catalog.types.find(x=>x.id===r.type).name))+'</small><b>'+raw(t(r.name))+'</b><small>'+esc(t(recordBadge(r)))+(r.country?' · '+esc(t(countries[r.country]||r.country)):'')+'</small></span><span aria-hidden="true">↗</span></button>').join('');
- detail(active);syncURL(push);window.SamaLanguage?.refresh();
+ detail(active);renderLibrarySearch();syncURL(push);window.SamaLanguage?.refresh();
 }
-function fromURL(){const u=new URL(location.href);for(const k of Object.keys(state))state[k]=u.searchParams.get('eq_'+k)||'';if(!catalog.categories.some(c=>c.id===state.category))state.category='containers';if(!groups().some(g=>g.id===state.group))state.group='';if(state.type&&!catalog.types.some(t=>t.category===state.category&&t.id===state.type&&(!state.group||t.group===state.group)))state.type='';}
+function fromURL(){const u=new URL(location.href);libraryQuery=(u.searchParams.get('eq_all')||'').slice(0,120);for(const k of Object.keys(state))state[k]=u.searchParams.get('eq_'+k)||'';if(!catalog.categories.some(c=>c.id===state.category))state.category='containers';if(!groups().some(g=>g.id===state.group))state.group='';if(state.type&&!catalog.types.some(t=>t.category===state.category&&t.id===state.type&&(!state.group||t.group===state.group)))state.type='';}
 async function init(){try{
- const response=await fetch('/knowledge/equipment/catalog.json?v=20261030-cars-1');if(!response.ok)throw Error('catalog');catalog=await response.json();fromURL();options();render();
+ const response=await fetch('/knowledge/equipment/catalog.json?v=20261030-cars-1');if(!response.ok)throw Error('catalog');catalog=await response.json();indexLibrary();fromURL();options();render();
+ $('eq-library-search').oninput=searchLibrary;
+ $('eq-library-form').onsubmit=e=>{e.preventDefault();searchLibrary();};
+ $('eq-library-clear').onclick=clearLibrarySearch;
+ $('eq-library-search').onkeydown=e=>{if(e.key==='Escape'){e.preventDefault();clearLibrarySearch();}};
+ $('eq-library-results').onclick=e=>{const button=e.target.closest('[data-library-item]');if(button)openLibraryResult(button.dataset.libraryItem);};
  $('eq-categories').onclick=e=>{const b=e.target.closest('[data-category]');if(!b)return;state={category:b.dataset.category,group:'',type:'',brand:'',country:'',q:'',item:''};options();render(true);};
  const setGroup=value=>{state.group=value;state.type='';state.item='';options();render(true);};
  $('eq-group').onchange=()=>setGroup($('eq-group').value);
@@ -111,7 +153,7 @@ async function init(){try{
  $('eq-detail').onclick=async e=>{const b=e.target.closest('[data-eq-action]');if(!b)return;if(b.dataset.eqAction==='photo'){const row=catalog.records.find(r=>r.id===state.item);if(row?.photo){$('eq-image-large').src=row.photo;$('eq-image-large').alt=t(row.name);$('eq-image-caption').innerHTML=photoCredit(row);$('eq-image-dialog').showModal();}return;}if(b.dataset.eqAction==='print'){root.dataset.printing='true';window.print();delete root.dataset.printing;}if(b.dataset.eqAction==='copy'){try{const url=new URL(root.querySelector('.eq-full').href);await navigator.clipboard.writeText(url.href);b.textContent=t('Link copied');}catch(_){prompt(t('Copy equipment link'),root.querySelector('.eq-full').href);}}};
  $('eq-image-close').onclick=()=>$('eq-image-dialog').close();$('eq-image-dialog').onclick=e=>{if(e.target===$('eq-image-dialog'))$('eq-image-dialog').close();};
  window.addEventListener('popstate',()=>{fromURL();options();render();});
- document.addEventListener('sama:languagechange',()=>{options();render();});
+ document.addEventListener('sama:languagechange',()=>{indexLibrary();options();render();});
 }catch(error){$('eq-detail').innerHTML='<p role="alert">'+esc(t('Equipment could not be loaded. Please reload.'))+'</p>';console.error(error);}}
 init();
 })();
